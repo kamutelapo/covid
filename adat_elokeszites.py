@@ -7,13 +7,21 @@ import os
 
 BASEDIR=os.path.dirname(__file__)
 
-csv1 = pd.read_csv(BASEDIR +"/covidadatok1.csv")
+csv1 = pd.read_csv(BASEDIR +"/covidadatok1.csv", )
 csv2 = pd.read_csv(BASEDIR +"/covidadatok2.csv")
 
 csvconcat = pd.concat([csv1, csv2], sort=True)
 csvconcat = csvconcat.replace(np.nan, '0', regex=True)
 
 csvout = csvconcat[["Dátum", "Aktív fertőzött", "Elhunyt", "Gyógyult", "Összesen", "Beoltottak", "Aktív fertőzöttek változása", "Napi új elhunyt", "Napi új gyógyult", "Napi új fertőzött", "Napi új beoltott"]]
+
+csvout['Aktív fertőzött'] = csvout['Aktív fertőzött'].str.replace(' ', '')
+csvout['Elhunyt'] = csvout['Elhunyt'].str.replace(' ', '')
+csvout['Gyógyult'] = csvout['Gyógyult'].str.replace(' ', '')
+csvout['Összesen'] = csvout['Összesen'].str.replace(' ', '')
+csvout['Beoltottak'] = csvout['Beoltottak'].str.replace(' ', '')
+csvout['Napi új beoltott'] = csvout['Napi új beoltott'].str.replace(' ', '')
+csvout['Napi új fertőzött'] = csvout['Napi új fertőzött'].str.replace(' ', '')
 
 csvout.to_csv(BASEDIR +"/covidadatok.csv", index = False)
 
@@ -26,7 +34,7 @@ last = 0
 
 for index, row in csvpart.iterrows():
     datum = row['Dátum']
-    elhunyt = int(row['Elhunyt'].replace(' ', ''))
+    elhunyt = row['Elhunyt']
     
     for i in range(last,elhunyt):
         elhunytnap.insert(0, datum)
