@@ -14,7 +14,6 @@ df['Hét kezdet'] = df.apply(lambda row: row['Dátum'] - dt.timedelta(days=row['
 dfheti = (df.groupby('Hét kezdet', as_index=False).mean())
 dfheti['Heti új elhunytak átlaga'] = dfheti['Napi új elhunyt']
 dfheti['Dátum'] = dfheti['Hét kezdet']
-print (dfheti)
 
 plot = dfheti.plot(x='Dátum', y='Heti új elhunytak átlaga')	
 
