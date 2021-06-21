@@ -17,3 +17,30 @@ csvout = csvconcat[["Dátum", "Aktív fertőzött", "Elhunyt", "Gyógyult", "Ös
 
 csvout.to_csv(BASEDIR +"/covidadatok.csv", index = False)
 
+csv = pd.read_csv(BASEDIR +"/covidadatok.csv")
+
+csvpart = csv[["Dátum", "Elhunyt"]]
+
+elhunytnap = []
+last = 0
+
+for index, row in csvpart.iterrows():
+    datum = row['Dátum']
+    elhunyt = int(row['Elhunyt'].replace(' ', ''))
+    
+    for i in range(last,elhunyt):
+        elhunytnap.insert(0, datum)
+
+    last = elhunyt
+
+
+elhunytak = pd.read_csv(BASEDIR +"/elhunytak.csv")
+
+maxlen=(elhunytak.shape[0])
+
+for i in range(last, maxlen):
+    elhunytnap.insert(0, datum)
+
+elhunytak['Dátum'] = elhunytnap
+
+elhunytak[["Sorszám","Dátum","Nem","Kor","Alapbetegségek"]].to_csv(BASEDIR +"/elhunytak_datummal.csv", index = False)
