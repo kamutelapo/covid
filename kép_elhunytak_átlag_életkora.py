@@ -23,7 +23,7 @@ dfkor['Átlag életkor'] = dfkor.apply(lambda row: row['Kor'] if int(row['Heti e
 
 dfkor = dfkor.rename(columns = {'Hét kezdet': 'Dátum'}, inplace = False)
 
-plot = dfkor.plot(x='Dátum', y='Átlag életkor')	
+plot = dfkor.plot(x='Dátum', y='Átlag életkor', title='A COVID-ban elhunytak átlag életkora')
 
 fig = plot.get_figure()
 fig.savefig(BASEDIR + "/képek/ElhunytakÁtlagÉletkora.png", bbox_inches = "tight")

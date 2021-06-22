@@ -16,7 +16,7 @@ dfheti = (df.groupby('Hét kezdet', as_index=False).mean())
 dfheti['Heti új beoltottak átlaga'] = dfheti['Napi új beoltott']
 dfheti['Dátum'] = dfheti['Hét kezdet']
 
-plot = dfheti.plot(x='Dátum', y='Heti új beoltottak átlaga')	
+plot = dfheti.plot(x='Dátum', y='Heti új beoltottak átlaga', title='A COVID ellen beoltottak számának heti átlaga')	
 
 
 fig = plot.get_figure()
