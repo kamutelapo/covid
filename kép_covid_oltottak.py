@@ -8,7 +8,7 @@ import os
 
 BASEDIR=os.path.dirname(__file__)
 
-df = pd.read_csv(BASEDIR +"/covidadatok.csv", parse_dates=['Dátum'])
+df = pd.read_csv(BASEDIR +"/adatok/covidadatok.csv", parse_dates=['Dátum'])
 df['Napi új beoltott'] = df['Napi új beoltott'].astype(float)
 df['Hét kezdet'] = df.apply(lambda row: row['Dátum'] - dt.timedelta(days=row['Dátum'].weekday()), axis=1)
 

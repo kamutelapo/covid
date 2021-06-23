@@ -12,7 +12,7 @@ def isHealthy(c):
     lower = c.lower()
     return ('nem' in lower) and ('ismert' in lower)
 
-df = pd.read_csv(BASEDIR +"/elhunytak_datummal.csv", parse_dates=['Dátum'])
+df = pd.read_csv(BASEDIR +"/adatok/elhunytak_datummal.csv", parse_dates=['Dátum'])
 
 df['Hét kezdet'] = df.apply(lambda row: row['Dátum'] - dt.timedelta(days=row['Dátum'].weekday()), axis=1)
 
@@ -26,7 +26,7 @@ dfheti = (df.groupby('Hét kezdet', as_index=False).agg(['mean', 'count'], as_in
 dfheti = dfheti['Heti összes'].reset_index().rename(columns = {'Hét kezdet': 'Dátum', 'mean': 'Heti halálozás / 10', 'count': 'Nem ismert alapbetegség'}, inplace = False)
 dfheti['Heti halálozás / 10'] = dfheti['Heti halálozás / 10'] / 10
 
-dfoltas = pd.read_csv(BASEDIR +"/covidadatok.csv", parse_dates=['Dátum'])
+dfoltas = pd.read_csv(BASEDIR +"/adatok/covidadatok.csv", parse_dates=['Dátum'])
 dfoltas['Hét kezdet'] = dfoltas.apply(lambda row: row['Dátum'] - dt.timedelta(days=row['Dátum'].weekday()), axis=1)
 dfoltasmind = dfoltas.groupby('Hét kezdet', as_index=False).sum().reset_index()
 dfoltasmind = dfoltasmind[['Hét kezdet', 'Napi új beoltott']].rename(columns = {'Hét kezdet': 'Dátum', 'Napi új beoltott': 'Heti új beoltott / 1500'}, inplace = False)

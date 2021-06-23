@@ -10,7 +10,7 @@ import re
 BASEDIR=os.path.dirname(__file__)
 
 
-df = pd.read_csv(BASEDIR +"/elhunytak_datummal.csv", parse_dates=['Dátum'])
+df = pd.read_csv(BASEDIR +"/adatok/elhunytak_datummal.csv", parse_dates=['Dátum'])
 
 betegsegek = {}
 

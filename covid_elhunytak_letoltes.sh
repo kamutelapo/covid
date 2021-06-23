@@ -12,7 +12,8 @@ for i in `seq 0 10000`; do
   fi
 done
 
-KESZ_TABLA=`dirname $0`
+FOKONYVTAR=`dirname $0`
+KESZ_TABLA="$FOKONYVTAR/adatok"
 echo "Tábla felépítése itt: $KESZ_TABLA..."
 
 FILES=`find $TEMP_DIR/ -iname '*elhunytak*' | sort`
@@ -22,7 +23,7 @@ rm $OUTPUT_FILE
 echo Sorszám,Nem,Kor,Alapbetegségek > $OUTPUT_FILE
 
 for FILE in $FILES; do
-  $KESZ_TABLA/html2csv.py $FILE >>$OUTPUT_FILE
+  $FOKONYVTAR/html2csv.py $FILE >>$OUTPUT_FILE
 done
 
 csvsort --columns 3,1 $OUTPUT_FILE >$KESZ_TABLA/elhunytak_eletkor.csv

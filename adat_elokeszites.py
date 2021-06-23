@@ -5,10 +5,10 @@ import pandas as pd
 import numpy as np
 import os
 
-BASEDIR=os.path.dirname(__file__)
+DATADIR=os.path.dirname(__file__) + "/adatok"
 
-csv1 = pd.read_csv(BASEDIR +"/covidadatok1.csv", )
-csv2 = pd.read_csv(BASEDIR +"/covidadatok2.csv")
+csv1 = pd.read_csv(DATADIR +"/covidadatok1.csv", )
+csv2 = pd.read_csv(DATADIR +"/covidadatok2.csv")
 
 csvconcat = pd.concat([csv1, csv2], sort=True)
 csvconcat = csvconcat.replace(np.nan, '0', regex=True)
@@ -23,9 +23,9 @@ csvout['Beoltottak'] = csvout['Beoltottak'].str.replace(' ', '')
 csvout['Napi új beoltott'] = csvout['Napi új beoltott'].str.replace(' ', '')
 csvout['Napi új fertőzött'] = csvout['Napi új fertőzött'].str.replace(' ', '')
 
-csvout.to_csv(BASEDIR +"/covidadatok.csv", index = False)
+csvout.to_csv(DATADIR +"/covidadatok.csv", index = False)
 
-csv = pd.read_csv(BASEDIR +"/covidadatok.csv")
+csv = pd.read_csv(DATADIR +"/covidadatok.csv")
 
 csvpart = csv[["Dátum", "Elhunyt"]]
 
@@ -42,7 +42,7 @@ for index, row in csvpart.iterrows():
     last = elhunyt
 
 
-elhunytak = pd.read_csv(BASEDIR +"/elhunytak.csv")
+elhunytak = pd.read_csv(DATADIR +"/elhunytak.csv")
 
 maxlen=(elhunytak.shape[0])
 
@@ -51,4 +51,4 @@ for i in range(last, maxlen):
 
 elhunytak['Dátum'] = elhunytnap
 
-elhunytak[["Sorszám","Dátum","Nem","Kor","Alapbetegségek"]].to_csv(BASEDIR +"/elhunytak_datummal.csv", index = False)
+elhunytak[["Sorszám","Dátum","Nem","Kor","Alapbetegségek"]].to_csv(DATADIR +"/elhunytak_datummal.csv", index = False)

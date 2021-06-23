@@ -16,7 +16,7 @@ def korcsoport(kor):
         return "-20"
     return str(kor) + "-" + str(kor+9)
 
-df = pd.read_csv(BASEDIR +"/elhunytak_datummal.csv", parse_dates=['Dátum'])
+df = pd.read_csv(BASEDIR +"/adatok/elhunytak_datummal.csv", parse_dates=['Dátum'])
 
 df['Korcsoport'] = df.apply(lambda row:  korcsoport(row['Kor']), axis=1)
 
