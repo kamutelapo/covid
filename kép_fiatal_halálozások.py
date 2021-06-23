@@ -23,15 +23,16 @@ atlag_elhunytak = dfatlag[['A hét sorszáma', 'Elhunytak']].rename(columns = {'
 
 dfkozos = pd.merge(covid_elhunytak, atlag_elhunytak, left_on = 'A hét sorszáma', right_on = 'A hét sorszáma')
 dfkozos = dfkozos.rename(columns = {'A hét kező napja': 'Dátum'}, inplace = False)
-
-diff = int((dfkozos['2020/21 elhunytak'] - dfkozos['KSH 5 éves átlag']).sum() + 0.5)
+dfkozos['Többlet']=dfkozos['2020/21 elhunytak'] - dfkozos['KSH 5 éves átlag']
+diff = int(dfkozos['Többlet'].sum() + 0.5)
 
 if (diff > 0):
     diff = "+" + str(diff)
 else:
     diff = str(diff)
 
-plot = dfkozos.plot(x='Dátum', y=['2020/21 elhunytak', 'KSH 5 éves átlag'], title='40 év alattiak elhalálozása a KSH alapján (' + diff + ' fő)')
+plot = dfkozos.plot(x='Dátum', y=['Többlet'], title='40 év alattiak COVID halálozási többlete KSH átlag alapján (' + diff + ' fő)')
+plot.axhline(0,color='magenta',ls='--')
 
 fig = plot.get_figure()
-fig.savefig(BASEDIR + "/képek/FiatalokCovidHalálozása.png", bbox_inches = "tight")
+fig.savefig(BASEDIR + "/képek/FiatalokCovidHalálozásiTöbblete.png", bbox_inches = "tight")
