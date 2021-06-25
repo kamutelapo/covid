@@ -9,6 +9,7 @@ DATADIR=os.path.dirname(__file__) + "/adatok"
 
 csv1 = pd.read_csv(DATADIR +"/covidadatok1.csv", )
 csv2 = pd.read_csv(DATADIR +"/covidadatok2.csv")
+csv1[['Napi új fertőzött']] = csv1[['Napi új fertőzött']].astype(str)
 
 csvconcat = pd.concat([csv1, csv2], sort=True)
 csvconcat = csvconcat.replace(np.nan, '0', regex=True)
