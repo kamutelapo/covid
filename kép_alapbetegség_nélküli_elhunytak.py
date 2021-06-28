@@ -38,4 +38,4 @@ dfheti = pd.merge(dfheti, dfoltasmind, left_on = 'Dátum', right_on = 'Dátum')
 plot = dfheti.plot(x='Dátum', y=['Heti halálozás / 10', 'Nem ismert alapbetegség', 'Heti új beoltott / 1500'])	
 
 fig = plot.get_figure()
-fig.savefig(BASEDIR + "/képek/NemIsmertAlapbetegség.png", bbox_inches = "tight", dpi = 300)
+fig.savefig(BASEDIR + "/képek/NemIsmertAlapbetegség.png", bbox_inches = "tight", dpi = 100)

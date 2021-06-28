@@ -9,11 +9,11 @@
          * [KSH alapján számolva](#ksh-alapján-számolva-1)
       * [Fiatalok többlet halálozása a KSH alapján](#fiatalok-többlet-halálozása-a-ksh-alapján)
       * [Főbb alapbetegségek](#főbb-alapbetegségek)
+      * [Az elhunytak átlag életkora a járvány alatt](#az-elhunytak-átlag-életkora-a-járvány-alatt)
       * [Az oltási kampány](#az-oltási-kampány)
          * [Oltások heti átlaga](#oltások-heti-átlaga)
          * [Oltások és halálozások KSH alapján](#oltások-és-halálozások-ksh-alapján)
          * [Nem ismert alapbetegség miatt elhunytak](#nem-ismert-alapbetegség-miatt-elhunytak)
-      * [Az elhunytak átlag életkora a járvány alatt](#az-elhunytak-átlag-életkora-a-járvány-alatt)
       * [TBD](#tbd)
    * [Szimulációk:](#szimulációk)
       * [Korlátozások](#korlátozások)
@@ -61,6 +61,10 @@ Az ábrán a hivatalos COVID halálozási adatokat vetjük össze a KSH adatokka
 
 ![Főbb alapbetegségek](https://github.com/kamutelapo/covid/blob/master/k%C3%A9pek/Alapbetegs%C3%A9gek.png?raw=true)
 
+### Az elhunytak átlag életkora a járvány alatt
+
+![Elhunytak átlag életkora](https://github.com/kamutelapo/covid/blob/master/k%C3%A9pek/Elhunytak%C3%81tlag%C3%89letkora.png?raw=true)
+
 ### Az oltási kampány
 
 #### Oltások heti átlaga 
@@ -69,15 +73,11 @@ Az ábrán a hivatalos COVID halálozási adatokat vetjük össze a KSH adatokka
 
 #### Oltások és halálozások KSH alapján
 
-![Oltások és halálozások](https://github.com/kamutelapo/covid/blob/master/k%C3%A9pek/Fert%C5%91z%C3%B6ttekVsElhunytak.png?raw=true)
+![Oltások és halálozások](https://github.com/kamutelapo/covid/blob/master/k%C3%A9pek/KshHal%C3%A1loz%C3%A1sVsOlt%C3%A1s.png?raw=true)
 
 #### Nem ismert alapbetegség miatt elhunytak
 
 ![Nem ismert alapbetegség](https://github.com/kamutelapo/covid/blob/master/k%C3%A9pek/NemIsmertAlapbetegs%C3%A9g.png?raw=true)
-
-### Az elhunytak átlag életkora a járvány alatt
-
-![Elhunytak átlag életkora](https://github.com/kamutelapo/covid/blob/master/k%C3%A9pek/Elhunytak%C3%81tlag%C3%89letkora.png?raw=true)
 
 ### TBD
 
