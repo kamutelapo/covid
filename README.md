@@ -4,6 +4,9 @@
       * [Elhunytak életkor szerint](#elhunytak-életkor-szerint)
          * [Hivatalos COVID adatok](#hivatalos-covid-adatok)
          * [KSH alapján számolva](#ksh-alapján-számolva)
+      * [Elhunytak nem szerint](#elhunytak-nem-szerint)
+         * [Hivatalos COVID adatok](#hivatalos-covid-adatok-1)
+         * [KSH alapján számolva](#ksh-alapján-számolva-1)
       * [TBD](#tbd)
    * [Szimulációk](#szimulációk)
       * [Korlátozások](#korlátozások)
@@ -32,6 +35,16 @@ Az ábrán a hivatalos COVID halálozási adatokat vetjük össze a KSH adatokka
 #### KSH alapján számolva
 
 ![Elhunytak életkor szerint](https://github.com/kamutelapo/covid/blob/master/k%C3%A9pek/KshElhunytakKorcsoportSzerint.png?raw=true)
+
+### Elhunytak nem szerint
+
+#### Hivatalos COVID adatok
+
+![Elhunytak nem szerint](https://github.com/kamutelapo/covid/blob/master/k%C3%A9pek/ElhunytakNemSzerint.png?raw=true)
+
+#### KSH alapján számolva
+
+![Elhunytak nem szerint](https://github.com/kamutelapo/covid/blob/master/k%C3%A9pek/KshElhunytakNemSzerint.png?raw=true)
 
 ### TBD
 
