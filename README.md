@@ -14,7 +14,10 @@
          * [Oltások heti átlaga](#oltások-heti-átlaga)
          * [Oltások és halálozások KSH alapján](#oltások-és-halálozások-ksh-alapján)
          * [Nem ismert alapbetegség miatt elhunytak](#nem-ismert-alapbetegség-miatt-elhunytak)
-      * [TBD](#tbd)
+      * [Fertőzés és halál](#fertőzés-és-halál)
+         * [Új fertőzöttek és halottak együtt](#új-fertőzöttek-és-halottak-együtt)
+         * [Korreláció a fertőzöttek és halottak között](#korreláció-a-fertőzöttek-és-halottak-között)
+         * [Halálozási ráta az új fertőzöttek és elhunytak alapján (12 nap eltolással)](#halálozási-ráta-az-új-fertőzöttek-és-elhunytak-alapján-12-nap-eltolással)
    * [Szimulációk:](#szimulációk)
       * [Korlátozások](#korlátozások)
       * [Oltások](#oltások)
@@ -79,7 +82,21 @@ Az ábrán a hivatalos COVID halálozási adatokat vetjük össze a KSH adatokka
 
 ![Nem ismert alapbetegség](https://github.com/kamutelapo/covid/blob/master/k%C3%A9pek/NemIsmertAlapbetegs%C3%A9g.png?raw=true)
 
-### TBD
+### Fertőzés és halál
+
+#### Új fertőzöttek és halottak együtt
+
+![Új fertőzöttek és halottak](https://github.com/kamutelapo/covid/blob/master/k%C3%A9pek/Fert%C5%91z%C3%B6ttekVsElhunytak.png?raw=true)
+
+#### Korreláció a fertőzöttek és halottak között
+
+A fertőzöttek és halottak közti korreláció a legmagasabb értéket 12 napnál mutatja.
+
+![Új fertőzöttek és halottak korreláció](https://github.com/kamutelapo/covid/blob/master/k%C3%A9pek/Fert%C5%91z%C3%A9sUt%C3%A1nV%C3%A1rhat%C3%B3Hal%C3%A1l.png?raw=true)
+
+#### Halálozási ráta az új fertőzöttek és elhunytak alapján (12 nap eltolással)
+
+![Új fertőzöttek és halottak korreláció](https://github.com/kamutelapo/covid/blob/master/k%C3%A9pek/Fert%C5%91z%C3%B6ttekHal%C3%A1loz%C3%A1siR%C3%A1t%C3%A1ja.png?raw=true)
 
 ## Szimulációk:
 
