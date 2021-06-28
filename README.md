@@ -1,10 +1,21 @@
+* [COVID járványelemzés a magyarországi adatok alapján](#covid-járványelemzés-a-magyarországi-adatok-alapján)
+   * [Járvány adatok](#járvány-adatok)
+      * [Halálozási adatok](#halálozási-adatok)
+      * [Elhunytak életkor szerint](#elhunytak-életkor-szerint)
+         * [Hivatalos COVID adatok](#hivatalos-covid-adatok)
+         * [KSH alapján számolva](#ksh-alapján-számolva)
+      * [TBD](#tbd)
+   * [Szimulációk](#szimulációk)
+      * [Korlátozások](#korlátozások)
+      * [Oltások](#oltások)
+      * [Következtetés](#következtetés)
 
 # COVID járványelemzés a magyarországi adatok alapján
 
 A projekt célja az, hogy a statisztikai adatok alapján összefogó képet kapjunk arról,
 hogy mi történt a 2020-2021-es COVID járvány alatt Magyarországon.
 
-## Járvány adatok:
+## Járvány adatok
 
 ### Halálozási adatok
 
@@ -24,7 +35,7 @@ Az ábrán a hivatalos COVID halálozási adatokat vetjük össze a KSH adatokka
 
 ### TBD
 
-## Szimulációk:
+## Szimulációk
 
 Ebben a fejezetben megvizsgálom, hogy a korlátozások, oltások milyen hatással vannak a járványgörbe alakjára.
 
