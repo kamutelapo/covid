@@ -6,7 +6,13 @@ hogy mi történt a 2020-2021-es COVID járvány alatt Magyarországon.
 
 ## Járvány adatok:
 
-TBD
+### Halálozási adatok
+
+Az ábrán a hivatalos COVID halálozási adatokat vetjük össze a KSH adatokkal.
+
+![Halálozási adatok](https://github.com/kamutelapo/covid/blob/master/k%C3%A9pek/KshVsHivatalosCovidHal%C3%A1loz%C3%A1s.png?raw=true)
+
+### TBD
 
 ## Szimulációk:
 
