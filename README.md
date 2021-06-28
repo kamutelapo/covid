@@ -22,6 +22,7 @@
       * [Korlátozások](#korlátozások)
       * [Oltások](#oltások)
       * [Következtetés](#következtetés)
+      * [Immunitás](#immunitás)
 
 # COVID járványelemzés a magyarországi adatok alapján
 
@@ -121,3 +122,10 @@ csak az R érték csökken.
 ### Következtetés
 
 Pusztán a járvány-görbe alakján lehetetlen megmondani, hogy hatásosak voltak-e a korlátozások és az oltási kampány.
+
+### Immunitás
+
+Amennyiben a lakosság oltások miatt immunissá válik a vírusra, az a járvány elhalásához vezet. Ha 1.6-os R értéket
+veszünk, abban az esetben 40%-os átoltottság az R 40%-os csökkenését eredményezi 0.96-ra. A járvány ebben az esetben elhal.
+
+![Immunitás-szimuláció](https://github.com/kamutelapo/covid/blob/master/k%C3%A9pek/Immunit%C3%A1s-szimul%C3%A1ci%C3%B3.png?raw=true)
