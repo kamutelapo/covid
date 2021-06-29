@@ -24,6 +24,7 @@
       * [Oltások](#oltások)
       * [Következtetés](#következtetés)
       * [Immunitás](#immunitás)
+      * [Mindenki elkapja a vírust?](#mindenki-elkapja-a-vírust)
 
 # COVID járványelemzés a magyarországi adatok alapján
 
@@ -134,3 +135,11 @@ Amennyiben a lakosság oltások miatt immunissá válik a vírusra, az a járvá
 veszünk, abban az esetben 40%-os átoltottság az R 40%-os csökkenését eredményezi 0.96-ra. A járvány ebben az esetben elhal.
 
 ![Immunitás-szimuláció](https://github.com/kamutelapo/covid/blob/master/k%C3%A9pek/Immunit%C3%A1s-szimul%C3%A1ci%C3%B3.png?raw=true)
+
+### Mindenki elkapja a vírust?
+
+A szimulációval azt teszeljük, hogy mielőtt elhal a járvány, hány embert sikerül megfertőznie. Csak nagyon agresszív és gyors járvány tud
+mindenkit elfertőzni. Ellenkező esetben egyre több ember lesz immunis a vírusra, folyamatosan csökken az R érték, végül leáll a járvány,
+lesznek emberek, akik nem fogják elkapni a vírust.
+
+![Mindenki elkapja a vírust](https://github.com/kamutelapo/covid/blob/master/k%C3%A9pek/J%C3%A1rv%C3%A1ny-szimul%C3%A1ci%C3%B3.png?raw=true)
