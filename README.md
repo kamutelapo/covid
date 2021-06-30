@@ -110,7 +110,7 @@ A fertőzöttek és halottak közti korreláció a legmagasabb értéket 12 napn
 
 Ahhoz, hogy meg tudjuk ítélni, hogy egy országban mennyire volt eredményes a járvány elleni küzdelem érdemes megnézni az elhalálozások számának időbeli alakulását a környező országokhoz képest. Érdekes módon nemcsak azt látjuk, hogy az elhunytak számában mutatkozik jelentős különbség, hanem a járványhullámok számában is. Ez azért érdekes, mert a közeli országokban, a szocioökönómiai különbségek ellenére, mégiscsak hasonló az éghajlat és a társadalmi szerkezet. Érdemes lenne megvizsgálni, hogy mivel  magyarázhatóak a megfigyelt különbségek pl. milyen járványellenes intézkedések történtek a járványgörbe adott szakaszaiban. Mindenesetre jól látható, hogy tulajdonképpen az összes környező országhoz képest nálunk volt a legmagasabb a százezer főre eső elhalálozás a remek oltási program ellenére is.
 
-![Elhalálozások alakulása a környező országokban](k%C3%A9pek/Napi_halalozas_kontextus.png?raw=true)
+![Elhalálozások alakulása a környező országokban](k%C3%A9pek/NapiHalalozasKontextus.png)
 
 ## Szimulációk:
 
