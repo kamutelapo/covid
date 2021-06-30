@@ -1,5 +1,6 @@
 import logging
-import os 
+import os
+import sys
 
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -152,14 +153,28 @@ def daily_death_plot(df: pd.DataFrame, plot_file_name: str) -> None:
 def main():
 
     # Get country population map:
+    logging.info(f'Countries of interest: {", ".join(COUNTRIES)}')
+    logging.info('Fetching population data for counties...')
     country_pop_map = get_country_pop_map()
+    logging.info('Population (millions):' + ', '.join(f'{k}:{int(v)/10}' for k, v in country_pop_map.items()))
 
     # Get processed COVID data:
+    logging.info('Fetching COVID19 data...')
     processed_death = get_process_covid_data(country_pop_map)
-
+    
     # Generate plot:
+    logging.info('Generating plots...')
     daily_death_plot(processed_death, f'{BASEDIR}/képek/NapiHalalozasKontextus.png')
 
 
 if __name__ == '__main__':
+
+    # Initialize logger:
+    logging.basicConfig(
+        level=logging.INFO,
+        format='%(asctime)s %(levelname)s %(module)s - %(funcName)s: %(message)s',
+        datefmt='%Y-%m-%d %H:%M:%S',
+        handlers=[logging.StreamHandler(sys.stdout)]
+    )
+
     main()
