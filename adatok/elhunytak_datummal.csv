@@ -1,4 +1,37 @@
 Sorszám,Dátum,Nem,Kor,Alapbetegségek
+29992,2021.06.30,Nő,77,magasvérnyomás-betegség
+29991,2021.06.29,Nő,85,"pitvarfibrilláció, magas-vérnyomás betegség"
+29990,2021.06.29,Férfi,70,"magas-vérnyomás betegség, cukorbetegség"
+29989,2021.06.28,Nõ,90,keringési zavar
+29988,2021.06.28,Nõ,73,"magasvérnyomás-betegség, cukorbetegség"
+29987,2021.06.28,Férfi,81,"magasvérnyomás-betegség, iszkémiás szívbetegség, köszvény, prosztata megnagyobbodás"
+29986,2021.06.28,Férfi,73,"magasvérnyomás-betegség, cukorbetegség"
+29985,2021.06.28,Férfi,75,magasvérnyomás-betegség
+29984,2021.06.28,Nõ,46,májbetegség
+29983,2021.06.28,Nõ,93,"emésztõrendszeri megbetegedés, vérszegénység, érelmeszesedés, csontritkulás"
+29982,2021.06.28,Nõ,93,magasvérnyomás-betegség
+29981,2021.06.28,Férfi,72,"húgyhólyag-gyulladás, szívelégtelenség, prosztata megnagyobbodás"
+29980,2021.06.25,Férfi,49,nem ismert alapbetegség
+29979,2021.06.25,Nõ,43,epilepszia
+29978,2021.06.25,Nõ,82,"magasvérnyomás-betegség, iszkémiás szívbetegség"
+29977,2021.06.25,Nõ,77,"iszkémiás szívbetegség, magasvérnyomás-betegség"
+29976,2021.06.25,Férfi,80,"iszkémiás szívbetegség, magasvérnyomás-betegség, refluxbetegség"
+29975,2021.06.25,Férfi,70,magasvérnyomás-betegség
+29974,2021.06.25,Férfi,64,"krónikus obstruktív tüdõbetegség, cukorbetegség, érszûkület, magasvérnyomás-betegség"
+29973,2021.06.25,Nõ,74,"pitvarfibrilláció, cukorbetegség"
+29972,2021.06.24,Férfi,79,"szívelégtelenség, paranoid személyiségzavar"
+29971,2021.06.23,férfi,64,daganatos megbetegedés
+29970,2021.06.23,férfi,62,"magasvérnyomás-betegség, súlyos elhízás, köszvény, keringési elégtelenség"
+29969,2021.06.23,nõ,80,"magasvérnyomás-betegség, általános érelmeszesedés"
+29968,2021.06.23,nõ,80,"magasvérnyomás-betegség, cukorbetegség"
+29967,2021.06.23,férfi,85,"magasvérnyomás-betegség, iszkémiás szívbetegség"
+29966,2021.06.23,férfi,52,"magasvérnyomás-betegség, szívritmuszavar, köszvény"
+29965,2021.06.23,férfi,31,nem ismert alapbetegség
+29964,2021.06.23,nõ,55,"vékonybél elhalás, veseelégtelenség"
+29963,2021.06.22,nõ,80,magasvérnyomás-betegség
+29962,2021.06.22,férfi,44,tüdõbetegség
+29961,2021.06.22,nõ,95,tüdõbetegség
+29960,2021.06.22,nõ,77,nem ismert alapbetegség
 29959,2021.06.21,nõ,81,"magasvérnyomás-betegség, krónikus veseelégtelenség, iszkémiás szívbetegség, hasi verõér tágulata"
 29958,2021.06.21,férfi,62,"cukorbetegség, magas vérnyomás"
 29957,2021.06.21,férfi,55,agysorvadás
@@ -28213,8 +28246,8 @@ szívritmuszavar, cukorbetegség, tüdõtágulat, magasvérnyomás-betegség, m�
 1766,2020.11.01,Nő,82,csípőkopás
 1765,2020.11.01,Nő,92,érelmeszesedés
 1764,2020.11.01,Férfi,71,jelenleg nem ismert
-1762,2020.11.01,Férfi,59,"veseelégtelenség, epilepszia, skizofrénia"
 1762,2020.11.01,Férfi,77,"magas vérnyomás, cukorbetegség, vérszegénység, gerincsérv"
+1762,2020.11.01,Férfi,59,"veseelégtelenség, epilepszia, skizofrénia"
 1761,2020.11.01,Férfi,64,"magas vérnyomás, pitvarfibrilláció"
 1760,2020.11.01,Nő,78,"magas vérnyomás, szívizom vérellátási elégtelenség, emlődaganat"
 1759,2020.11.01,Férfi,79,"szívinfarktus, epekő, májzsugorodás, gyomorfekély"

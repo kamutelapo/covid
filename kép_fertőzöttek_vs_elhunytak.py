@@ -18,6 +18,5 @@ dfheti['Dátum'] = dfheti['Hét kezdet']
 
 plot = dfheti.plot(x='Dátum', y=['Heti új fertőzöttek átlaga / 20','Heti új elhunytak átlaga'], title="COVID fertőzöttek és elhunytak")	
 
-
 fig = plot.get_figure()
 fig.savefig(BASEDIR + "/képek/FertőzöttekVsElhunytak.png", bbox_inches = "tight")

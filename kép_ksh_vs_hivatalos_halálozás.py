@@ -9,7 +9,7 @@ import os
 BASEDIR=os.path.dirname(__file__)
 
 df = pd.read_csv(BASEDIR +"/adatok/stadat-halalozas-elokeszitve.csv", parse_dates=['A hét kező napja', 'A hét záró napja'], delimiter=';')
-dfweeks = df[(df['A hét sorszáma'] < 21.0) | (df['A hét sorszáma'] > 35.0)]
+dfweeks = df[(df['A hét sorszáma'] < 23.0) | (df['A hét sorszáma'] > 35.0)]
 
 df2020 = dfweeks[dfweeks['A hét záró napja'] > "2020-08-30"]
 covid_elhunytak = df2020[['A hét kező napja', 'A hét sorszáma', 'Összesen összesen']].rename(columns = {'Összesen összesen': 'Elhunytak'}, inplace = False)
@@ -34,7 +34,7 @@ df = pd.read_csv(BASEDIR +"/adatok/covidadatok.csv", parse_dates=['Dátum'])
 df['Dátum'] = df.apply(lambda row: row['Dátum'] - dt.timedelta(days=row['Dátum'].weekday()), axis=1)
 dfheti = (df.groupby('Dátum', as_index=False).sum())
 dfheti['Hivatalos heti új elhunyt'] = dfheti['Napi új elhunyt']
-dfheti = dfheti[(dfheti['Dátum'] < "2021-05-20") & (dfheti['Dátum'] > "2020-08-30")]
+dfheti = dfheti[(dfheti['Dátum'] < "2021-06-01") & (dfheti['Dátum'] > "2020-08-30")]
 
 dfkozos = pd.merge(dfkozos, dfheti, left_on = 'Dátum', right_on = 'Dátum')
 

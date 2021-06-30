@@ -10,7 +10,7 @@ import re
 BASEDIR=os.path.dirname(__file__)
 
 df = pd.read_csv(BASEDIR +"/adatok/stadat-halalozas-elokeszitve.csv", parse_dates=['A hét kező napja', 'A hét záró napja'], delimiter=';')
-dfweeks = df[(df['A hét sorszáma'] < 21.0) | (df['A hét sorszáma'] > 35.0)]
+dfweeks = df[(df['A hét sorszáma'] < 23.0) | (df['A hét sorszáma'] > 35.0)]
 
 covid_elhunytak = dfweeks[dfweeks['A hét záró napja'] > "2020-08-30"].sum()
 
