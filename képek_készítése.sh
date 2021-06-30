@@ -18,3 +18,5 @@ $BASEDIR/kép_ksh_vs_hivatalos_halálozás.py
 $BASEDIR/kép_fertőzöttek_vs_elhunytak.py
 $BASEDIR/kép_covid_terjedése_hetente.py
 $BASEDIR/halalozas_orszagok.py
+$BASEDIR/kép_fertőzés_után_várható_halál.py
+$BASEDIR/kép_halálozási_ráta.py
