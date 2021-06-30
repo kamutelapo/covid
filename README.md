@@ -19,7 +19,7 @@
          * [Új fertőzöttek és halottak együtt](#új-fertőzöttek-és-halottak-együtt)
          * [Korreláció a fertőzöttek és halottak között](#korreláció-a-fertőzöttek-és-halottak-között)
          * [Halálozási ráta az új fertőzöttek és elhunytak alapján (12 nap eltolással)](#halálozási-ráta-az-új-fertőzöttek-és-elhunytak-alapján-12-nap-eltolással)
-      * [Halálozások számának alakulása a környező országok kontextusában](#Halálozások-számánaküalakulása-a-környező-országok-kontextusában)
+      * [Halálozások számának alakulása a környező országok kontextusában](#Halálozások-számának-alakulása-a-környező-országok-kontextusában)
    * [Szimulációk:](#szimulációk)
       * [Korlátozások](#korlátozások)
       * [Oltások](#oltások)
@@ -110,7 +110,7 @@ A fertőzöttek és halottak közti korreláció a legmagasabb értéket 12 napn
 
 Ahhoz, hogy meg tudjuk ítélni, hogy egy országban mennyire volt eredményes a járvány elleni küzdelem érdemes megnézni az elhalálozások számának időbeli alakulását a környező országokhoz képest. Érdekes módon nemcsak azt látjuk, hogy az elhunytak számában mutatkozik jelentős különbség, hanem a járványhullámok számában is. Ez azért érdekes, mert a közeli országokban, a szocioökönómiai különbségek ellenére, mégiscsak hasonló az éghajlat és a társadalmi szerkezet. Érdemes lenne megvizsgálni, hogy mivel  magyarázhatóak a megfigyelt különbségek pl. milyen járványellenes intézkedések történtek a járványgörbe adott szakaszaiban. Mindenesetre jól látható, hogy tulajdonképpen az összes környező országhoz képest nálunk volt a legmagasabb a százezer főre eső elhalálozás a remek oltási program ellenére is.
 
-![Elhalálozások alakulása a környező országokban](https://github.com/kamutelapo/covid/blob/master/k%C3%A9pek//Napi_halalozas_kontextus.png?raw=true)
+![Elhalálozások alakulása a környező országokban](https://github.com/kamutelapo/covid/blob/master/k%C3%A9pek/Napi_halalozas_kontextus.png?raw=true)
 
 ## Szimulációk:
 
