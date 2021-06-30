@@ -38,73 +38,73 @@ hogy mi történt a 2020-2021-es COVID járvány alatt Magyarországon.
 
 Az ábrán a hivatalos COVID halálozási adatokat vetjük össze a KSH adatokkal.
 
-![Halálozási adatok](https://github.com/kamutelapo/covid/blob/master/k%C3%A9pek/KshVsHivatalosCovidHal%C3%A1loz%C3%A1s.png?raw=true)
+![Halálozási adatok](k%C3%A9pek/KshVsHivatalosCovidHal%C3%A1loz%C3%A1s.png?raw=true)
 
 ### Elhunytak életkor szerint
 
 #### Hivatalos COVID adatok
 
-![Elhunytak életkor szerint](https://github.com/kamutelapo/covid/blob/master/k%C3%A9pek/ElhunytakKorcsoportSzerint.png?raw=true)
+![Elhunytak életkor szerint](k%C3%A9pek/ElhunytakKorcsoportSzerint.png?raw=true)
 
 #### KSH alapján számolva
 
-![Elhunytak életkor szerint](https://github.com/kamutelapo/covid/blob/master/k%C3%A9pek/KshElhunytakKorcsoportSzerint.png?raw=true)
+![Elhunytak életkor szerint](k%C3%A9pek/KshElhunytakKorcsoportSzerint.png?raw=true)
 
 ### Elhunytak nem szerint
 
 #### Hivatalos COVID adatok
 
-![Elhunytak nem szerint](https://github.com/kamutelapo/covid/blob/master/k%C3%A9pek/ElhunytakNemSzerint.png?raw=true)
+![Elhunytak nem szerint](k%C3%A9pek/ElhunytakNemSzerint.png?raw=true)
 
 #### KSH alapján számolva
 
-![Elhunytak nem szerint](https://github.com/kamutelapo/covid/blob/master/k%C3%A9pek/KshElhunytakNemSzerint.png?raw=true)
+![Elhunytak nem szerint](k%C3%A9pek/KshElhunytakNemSzerint.png?raw=true)
 
 ### Fiatalok többlet halálozása a KSH alapján
 
-![Fiatalok halálozási többlete](https://github.com/kamutelapo/covid/blob/master/k%C3%A9pek/FiatalokCovidHal%C3%A1loz%C3%A1siT%C3%B6bblete.png?raw=true)
+![Fiatalok halálozási többlete](k%C3%A9pek/FiatalokCovidHal%C3%A1loz%C3%A1siT%C3%B6bblete.png?raw=true)
 
 ### A vírus terjedése az előző héthez képest
 
-![A vírus terjedése az előző héthez képest](https://github.com/kamutelapo/covid/blob/master/k%C3%A9pek/V%C3%ADrusTerjed%C3%A9s.png?raw=true)
+![A vírus terjedése az előző héthez képest](k%C3%A9pek/V%C3%ADrusTerjed%C3%A9s.png?raw=true)
 
 ### Főbb alapbetegségek
 
-![Főbb alapbetegségek](https://github.com/kamutelapo/covid/blob/master/k%C3%A9pek/Alapbetegs%C3%A9gek.png?raw=true)
+![Főbb alapbetegségek](k%C3%A9pek/Alapbetegs%C3%A9gek.png?raw=true)
 
 ### Az elhunytak átlag életkora a járvány alatt
 
-![Elhunytak átlag életkora](https://github.com/kamutelapo/covid/blob/master/k%C3%A9pek/Elhunytak%C3%81tlag%C3%89letkora.png?raw=true)
+![Elhunytak átlag életkora](k%C3%A9pek/Elhunytak%C3%81tlag%C3%89letkora.png?raw=true)
 
 ### Az oltási kampány
 
 #### Oltások heti átlaga 
 
-![Oltások heti átlaga](https://github.com/kamutelapo/covid/blob/master/k%C3%A9pek/Beoltottak.png?raw=true)
+![Oltások heti átlaga](k%C3%A9pek/Beoltottak.png?raw=true)
 
 #### Oltások és halálozások KSH alapján
 
-![Oltások és halálozások](https://github.com/kamutelapo/covid/blob/master/k%C3%A9pek/KshHal%C3%A1loz%C3%A1sVsOlt%C3%A1s.png?raw=true)
+![Oltások és halálozások](k%C3%A9pek/KshHal%C3%A1loz%C3%A1sVsOlt%C3%A1s.png?raw=true)
 
 #### Nem ismert alapbetegség miatt elhunytak
 
-![Nem ismert alapbetegség](https://github.com/kamutelapo/covid/blob/master/k%C3%A9pek/NemIsmertAlapbetegs%C3%A9g.png?raw=true)
+![Nem ismert alapbetegség](k%C3%A9pek/NemIsmertAlapbetegs%C3%A9g.png?raw=true)
 
 ### Fertőzés és halál
 
 #### Új fertőzöttek és halottak együtt
 
-![Új fertőzöttek és halottak](https://github.com/kamutelapo/covid/blob/master/k%C3%A9pek/Fert%C5%91z%C3%B6ttekVsElhunytak.png?raw=true)
+![Új fertőzöttek és halottak](k%C3%A9pek/Fert%C5%91z%C3%B6ttekVsElhunytak.png?raw=true)
 
 #### Korreláció a fertőzöttek és halottak között
 
 A fertőzöttek és halottak közti korreláció a legmagasabb értéket 12 napnál mutatja.
 
-![Új fertőzöttek és halottak korreláció](https://github.com/kamutelapo/covid/blob/master/k%C3%A9pek/Fert%C5%91z%C3%A9sUt%C3%A1nV%C3%A1rhat%C3%B3Hal%C3%A1l.png?raw=true)
+![Új fertőzöttek és halottak korreláció](k%C3%A9pek/Fert%C5%91z%C3%A9sUt%C3%A1nV%C3%A1rhat%C3%B3Hal%C3%A1l.png?raw=true)
 
 #### Halálozási ráta az új fertőzöttek és elhunytak alapján (12 nap eltolással)
 
-![Új fertőzöttek és halottak korreláció](https://github.com/kamutelapo/covid/blob/master/k%C3%A9pek/Fert%C5%91z%C3%B6ttekHal%C3%A1loz%C3%A1siR%C3%A1t%C3%A1ja.png?raw=true)
+![Új fertőzöttek és halottak korreláció](k%C3%A9pek/Fert%C5%91z%C3%B6ttekHal%C3%A1loz%C3%A1siR%C3%A1t%C3%A1ja.png?raw=true)
 
 ### Halálozások számának alakulása a környező országok kontextusában
 
@@ -122,7 +122,7 @@ A szimulációban bevezetünk egy korlátozást, ami a vírus R értékét felé
 haranggörbe lesz. A korlátozás után a görbe meredek csökkenésbe kezd, majd törést követően beáll az új
 R értéknek megfelelő haranggörbére. A korlátozás hatására majdnem haranggörbét kapunk.
 
-![Korlátozás-szimuláció](https://github.com/kamutelapo/covid/blob/master/k%C3%A9pek/Korl%C3%A1toz%C3%A1s-szimul%C3%A1ci%C3%B3.png?raw=true)
+![Korlátozás-szimuláció](k%C3%A9pek/Korl%C3%A1toz%C3%A1s-szimul%C3%A1ci%C3%B3.png?raw=true)
 
 ### Oltások
 
@@ -130,7 +130,7 @@ A szimulációban azt nézzük meg, hogy az oltás hatása mennyiben változtatj
 A végeredmény az, hogy a fokozatos oltás szintén haranggörbét eredményez, ami logikus is, hiszen
 csak az R érték csökken.
 
-![Oltás-szimuláció](https://github.com/kamutelapo/covid/blob/master/k%C3%A9pek/Olt%C3%A1s-szimul%C3%A1ci%C3%B3.png?raw=true)
+![Oltás-szimuláció](k%C3%A9pek/Olt%C3%A1s-szimul%C3%A1ci%C3%B3.png?raw=true)
 
 ### Következtetés
 
@@ -141,7 +141,7 @@ Pusztán a járvány-görbe alakján lehetetlen megmondani, hogy hatásosak volt
 Amennyiben a lakosság oltások miatt immunissá válik a vírusra, az a járvány elhalásához vezet. Ha 1.6-os R értéket
 veszünk, abban az esetben 40%-os átoltottság az R 40%-os csökkenését eredményezi 0.96-ra. A járvány ebben az esetben elhal.
 
-![Immunitás-szimuláció](https://github.com/kamutelapo/covid/blob/master/k%C3%A9pek/Immunit%C3%A1s-szimul%C3%A1ci%C3%B3.png?raw=true)
+![Immunitás-szimuláció](k%C3%A9pek/Immunit%C3%A1s-szimul%C3%A1ci%C3%B3.png?raw=true)
 
 ### Mindenki elkapja a vírust?
 
@@ -149,4 +149,4 @@ A szimulációval azt teszeljük, hogy mielőtt elhal a járvány, hány embert 
 mindenkit elfertőzni. Ellenkező esetben egyre több ember lesz immunis a vírusra, folyamatosan csökken az R érték, végül leáll a járvány,
 lesznek emberek, akik nem fogják elkapni a vírust.
 
-![Mindenki elkapja a vírust](https://github.com/kamutelapo/covid/blob/master/k%C3%A9pek/J%C3%A1rv%C3%A1ny-szimul%C3%A1ci%C3%B3.png?raw=true)
+![Mindenki elkapja a vírust](k%C3%A9pek/J%C3%A1rv%C3%A1ny-szimul%C3%A1ci%C3%B3.png?raw=true)
