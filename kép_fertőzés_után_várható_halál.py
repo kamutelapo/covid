@@ -9,6 +9,8 @@ import os
 BASEDIR=os.path.dirname(__file__)
 
 df = pd.read_csv(BASEDIR +"/adatok/covidadatok.csv", parse_dates=['Dátum'])
+df = df[df['Dátum'] >= "2020-08-01"]
+df = df[df['Dátum'] < "2021-02-01"]
 
 korrelacio = []
 

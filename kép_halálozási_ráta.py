@@ -10,8 +10,8 @@ import matplotlib.pyplot as plt
 
 BASEDIR=os.path.dirname(__file__)
 
-# fertőzés utáni várható halál 12 nap
-VARHATO_HALAL=12
+# fertőzés utáni várható halál 20 nap
+VARHATO_HALAL=20
 
 df = pd.read_csv(BASEDIR +"/adatok/covidadatok.csv", parse_dates=['Dátum'])
 
@@ -33,7 +33,7 @@ par = host.twinx()
 
 host.set_xlabel("Dátum")
 host.set_ylabel("Halálozási ráta")
-host.set_title("COVID fertőzöttek halálozási rátája (halálozás 12 nappal eltolva)")
+host.set_title("COVID fertőzöttek halálozási rátája (halálozás " + str(VARHATO_HALAL) + " nappal eltolva)")
 par.set_ylabel("Heti új fertőzött átlaga")
 par.set_ylim([0, 80000])
 
