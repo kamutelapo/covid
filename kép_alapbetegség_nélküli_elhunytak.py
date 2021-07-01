@@ -74,6 +74,8 @@ leg.texts[1].set_color(p2.get_color())
 par2.yaxis.get_label().set_color(p3.get_color())
 leg.texts[2].set_color(p3.get_color())
 
+host.axhline(0, color='black', ls='--', linewidth=1)
+
 fig = host.get_figure()
 fig.autofmt_xdate()
 fig.savefig(BASEDIR + "/képek/NemIsmertAlapbetegség.png", bbox_inches = "tight", dpi = 100)
