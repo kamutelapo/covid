@@ -30,4 +30,4 @@ explode = (0.35, 0.2, 0.15, 0.1, 0.05, 0, 0, 0, 0)
 plot = dfkor.plot.pie(y='Halálozások', figsize=(8.9, 8.9), explode=explode, colors=colors, title='COVID elhunytak eloszlása Magyarországon korcsoportok szerint',  autopct='%.2f%%')
 
 fig = plot.get_figure()
-fig.savefig(BASEDIR + "/képek/ElhunytakKorcsoportSzerint.png", bbox_inches = "tight")
+fig.savefig(BASEDIR + "/képek/ElhunytakKorcsoportSzerint.png", bbox_inches = "tight", dpi=80)

@@ -39,4 +39,4 @@ plot = df.plot.pie(labels=df['Korcsoport'], y='Többlet halálozás', figsize=(9
                    + str(tobblet) + ' fő)',  autopct='%.2f%%')
 
 fig = plot.get_figure()
-fig.savefig(BASEDIR + "/képek/KshElhunytakKorcsoportSzerint.png", bbox_inches = "tight")
+fig.savefig(BASEDIR + "/képek/KshElhunytakKorcsoportSzerint.png", bbox_inches = "tight", dpi=80)
