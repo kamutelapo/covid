@@ -4,8 +4,11 @@
 import pandas as pd
 import numpy as np
 import os
+import datetime
 
-adat_oszlopok = ["Aktív fertőzött", "Elhunyt", "Gyógyult", "Összesen", "Beoltottak", "Aktív fertőzöttek változása", "Napi új elhunyt", "Napi új gyógyult", "Napi új fertőzött", "Napi új beoltott"]
+osszeg_oszlopok = ["Aktív fertőzött", "Elhunyt", "Gyógyult", "Összesen", "Beoltottak"]
+pillanat_oszlopok = ["Aktív fertőzöttek változása", "Napi új elhunyt", "Napi új gyógyult", "Napi új fertőzött", "Napi új beoltott"]
+adat_oszlopok = osszeg_oszlopok + pillanat_oszlopok
 minden_oszlop = ["Dátum"] + adat_oszlopok
 
 DATADIR=os.path.dirname(__file__) + "/adatok"
@@ -30,6 +33,60 @@ csvout['Napi új beoltott'] = csvout['Napi új beoltott'].str.replace(' ', '')
 csvout['Napi új fertőzött'] = csvout['Napi új fertőzött'].str.replace(' ', '')
 
 csvout[adat_oszlopok] = csvout[adat_oszlopok].apply(pd.to_numeric)
+csvout=csvout.reset_index()
+
+ujdf = pd.DataFrame(columns=minden_oszlop)
+utolsoDatum = None
+utolsoIndex = None
+
+# interpoláció
+for index, row in csvout.iterrows():
+    datum = row["Dátum"]
+    
+    if utolsoDatum is not None:
+        d2 = datetime.datetime.strptime(datum, '%Y.%m.%d')
+        d1 = datetime.datetime.strptime(utolsoDatum, '%Y.%m.%d')
+        
+        kulonbseg = (d2 - d1).days
+        if kulonbseg > 1:
+            d1 = d1 + datetime.timedelta(days=1)
+            
+            jelenlegi = csvout.loc[index]
+            utolso = csvout.loc[utolsoIndex]
+            
+            delta_osszeg = ((jelenlegi[osszeg_oszlopok] - utolso[osszeg_oszlopok]) / 3).apply(int)
+            delta_pillanat = (jelenlegi[pillanat_oszlopok]/3).apply(int)
+            maradek=jelenlegi[pillanat_oszlopok]
+            
+            interpolalt_osszeg = utolso[osszeg_oszlopok]
+            
+            while( d2 > d1 ):
+                interpolalt_osszeg = interpolalt_osszeg + delta_osszeg
+                maradek = maradek - delta_pillanat
+                ujsor_osszeg = dict(zip(osszeg_oszlopok, interpolalt_osszeg))
+                ujsor_pillanat = dict(zip(pillanat_oszlopok, delta_pillanat))
+                ujsor = {**ujsor_osszeg,**ujsor_pillanat}
+                ujsor["Dátum"] = d1.strftime('%Y.%m.%d')
+                
+                ujdf = ujdf.append(ujsor, ignore_index=True)
+                
+                d1 = d1 + datetime.timedelta(days=1)
+            
+            ujsor_osszeg = dict(zip(osszeg_oszlopok, jelenlegi[osszeg_oszlopok]))
+            ujsor_pillanat = dict(zip(pillanat_oszlopok, maradek))
+            ujsor = {**ujsor_osszeg,**ujsor_pillanat}
+            ujsor["Dátum"] = d2.strftime('%Y.%m.%d')
+            ujdf = ujdf.append(ujsor, ignore_index=True)
+        else:
+            ujdf = ujdf.append(row, ignore_index=True)
+    else:
+        ujdf = ujdf.append(row, ignore_index=True)
+    
+    utolsoDatum = datum
+    utolsoIndex = index
+
+del ujdf['index']
+csvout = ujdf
 
 csvout.to_csv(DATADIR +"/covidadatok.csv", index = False)
 

@@ -5,12 +5,12 @@ Sorszám,Dátum,Nem,Kor,Alapbetegségek
 29989,2021.06.28,Nõ,90,keringési zavar
 29988,2021.06.28,Nõ,73,"magasvérnyomás-betegség, cukorbetegség"
 29987,2021.06.28,Férfi,81,"magasvérnyomás-betegség, iszkémiás szívbetegség, köszvény, prosztata megnagyobbodás"
-29986,2021.06.28,Férfi,73,"magasvérnyomás-betegség, cukorbetegség"
-29985,2021.06.28,Férfi,75,magasvérnyomás-betegség
-29984,2021.06.28,Nõ,46,májbetegség
-29983,2021.06.28,Nõ,93,"emésztõrendszeri megbetegedés, vérszegénység, érelmeszesedés, csontritkulás"
-29982,2021.06.28,Nõ,93,magasvérnyomás-betegség
-29981,2021.06.28,Férfi,72,"húgyhólyag-gyulladás, szívelégtelenség, prosztata megnagyobbodás"
+29986,2021.06.27,Férfi,73,"magasvérnyomás-betegség, cukorbetegség"
+29985,2021.06.27,Férfi,75,magasvérnyomás-betegség
+29984,2021.06.27,Nõ,46,májbetegség
+29983,2021.06.26,Nõ,93,"emésztõrendszeri megbetegedés, vérszegénység, érelmeszesedés, csontritkulás"
+29982,2021.06.26,Nõ,93,magasvérnyomás-betegség
+29981,2021.06.26,Férfi,72,"húgyhólyag-gyulladás, szívelégtelenség, prosztata megnagyobbodás"
 29980,2021.06.25,Férfi,49,nem ismert alapbetegség
 29979,2021.06.25,Nõ,43,epilepszia
 29978,2021.06.25,Nõ,82,"magasvérnyomás-betegség, iszkémiás szívbetegség"
@@ -35,12 +35,12 @@ Sorszám,Dátum,Nem,Kor,Alapbetegségek
 29959,2021.06.21,nõ,81,"magasvérnyomás-betegség, krónikus veseelégtelenség, iszkémiás szívbetegség, hasi verõér tágulata"
 29958,2021.06.21,férfi,62,"cukorbetegség, magas vérnyomás"
 29957,2021.06.21,férfi,55,agysorvadás
-29956,2021.06.21,nõ,77,"magas vérnyomás, cukorbetegség, iszkémiás szívbetegség, agyérbetegség"
-29955,2021.06.21,nõ,59,magas vérnyomás
-29954,2021.06.21,férfi,78,"magas vérnyomás, mozgásszervi- és pszichiátriai zavarok"
-29953,2021.06.21,férfi,48,visszértágulat
-29952,2021.06.21,nõ,89,magasvérnyomás-betegség
-29951,2021.06.21,férfi,54,"epilepszia, pajzsmirigy túlmûködés"
+29956,2021.06.20,nõ,77,"magas vérnyomás, cukorbetegség, iszkémiás szívbetegség, agyérbetegség"
+29955,2021.06.20,nõ,59,magas vérnyomás
+29954,2021.06.20,férfi,78,"magas vérnyomás, mozgásszervi- és pszichiátriai zavarok"
+29953,2021.06.19,férfi,48,visszértágulat
+29952,2021.06.19,nõ,89,magasvérnyomás-betegség
+29951,2021.06.19,férfi,54,"epilepszia, pajzsmirigy túlmûködés"
 29950,2021.06.18,nõ,91,"Alzheimer-kór, szívbetegség, magasvérnyomás-betegség"
 29949,2021.06.18,férfi,83,"magasvérnyomás-betegség, iszkémiás szívbetegség"
 29948,2021.06.17,nõ,42,"daganatos megbetegedés, súlyos elhízás"
@@ -73,20 +73,20 @@ Sorszám,Dátum,Nem,Kor,Alapbetegségek
 29921,2021.06.14,férfi,55,"magasvérnyomás-betegség, cukorbetegség"
 29920,2021.06.14,nõ,82,magasvérnyomás-betegség
 29919,2021.06.14,nõ,77,"magasvérnyomás-betegség, cukorbetegség"
-29918,2021.06.14,férfi,80,"pitvarfibrilláció, tüdõdaganat, magasvérnyomás-betegség"
-29917,2021.06.14,férfi,68,"magasvérnyomás-betegség, vékony- és vastagbélgyulladás, elhízás"
-29916,2021.06.14,férfi,26,nem ismert alapbetegség
-29915,2021.06.14,férfi,44,"daganatos megbetegedés, vérszegénység"
-29914,2021.06.14,férfi,72,általános- és agyi érelmeszesedés
-29913,2021.06.14,nõ,86,"magasvérnyomás-betegség, cukorbetegség"
-29912,2021.06.14,nõ,58,"magasvérnyomás-betegség, pangásos szívelégtelenség"
-29911,2021.06.14,férfi,66,magasvérnyomás-betegség
-29910,2021.06.14,nõ,73,"hasnyálmirigy-betegség, magasvérnyomás-betegség"
-29909,2021.06.14,férfi,86,emésztõrendszeri betegség
-29908,2021.06.14,nõ,66,"cukorbetegség, magasvérnyomás-betegség, iszkémiás szívbetegség"
-29907,2021.06.14,férfi,74,"magasvérnyomás-betegség, pitvarfibrilláció"
-29906,2021.06.14,férfi,42,limfóma
-29905,2021.06.14,férfi,66,"cukorbetegség, krónikus tüdõbetegség"
+29918,2021.06.13,férfi,80,"pitvarfibrilláció, tüdõdaganat, magasvérnyomás-betegség"
+29917,2021.06.13,férfi,68,"magasvérnyomás-betegség, vékony- és vastagbélgyulladás, elhízás"
+29916,2021.06.13,férfi,26,nem ismert alapbetegség
+29915,2021.06.13,férfi,44,"daganatos megbetegedés, vérszegénység"
+29914,2021.06.13,férfi,72,általános- és agyi érelmeszesedés
+29913,2021.06.13,nõ,86,"magasvérnyomás-betegség, cukorbetegség"
+29912,2021.06.13,nõ,58,"magasvérnyomás-betegség, pangásos szívelégtelenség"
+29911,2021.06.12,férfi,66,magasvérnyomás-betegség
+29910,2021.06.12,nõ,73,"hasnyálmirigy-betegség, magasvérnyomás-betegség"
+29909,2021.06.12,férfi,86,emésztõrendszeri betegség
+29908,2021.06.12,nõ,66,"cukorbetegség, magasvérnyomás-betegség, iszkémiás szívbetegség"
+29907,2021.06.12,férfi,74,"magasvérnyomás-betegség, pitvarfibrilláció"
+29906,2021.06.12,férfi,42,limfóma
+29905,2021.06.12,férfi,66,"cukorbetegség, krónikus tüdõbetegség"
 29904,2021.06.11,férfi,60,magasvérnyomás-betegség
 29903,2021.06.11,nõ,88,"magasvérnyomás-betegség, általános- és agyi érelmeszesedés"
 29902,2021.06.11,nõ,33,nem ismert alapbetegség
