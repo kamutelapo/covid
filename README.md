@@ -40,6 +40,8 @@ Az ábrán a hivatalos COVID halálozási adatokat vetjük össze a KSH adatokka
 
 ![Halálozási adatok](https://github.com/kamutelapo/covid/blob/master/k%C3%A9pek/KshVsHivatalosCovidHal%C3%A1loz%C3%A1s.png?raw=true)
 
+![Halálozási adatok tábla](https://github.com/kamutelapo/covid/blob/master/k%C3%A9pek/KshVsHivatalosCovidHal%C3%A1loz%C3%A1sT%C3%A1bla.png?raw=true)
+
 ### Elhunytak életkor szerint
 
 #### Hivatalos COVID adatok
