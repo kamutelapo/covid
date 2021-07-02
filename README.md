@@ -97,9 +97,13 @@ Az ábrán a hivatalos COVID halálozási adatokat vetjük össze a KSH adatokka
 
 #### Korreláció a fertőzöttek és halottak között
 
-Az első hullám alatt a fertőzöttek és halottak közti korreláció legmagasabb értéke 20 napnál volt.
+A második hullám alatt a fertőzöttek és halottak közti korreláció legmagasabb értéke 20 napnál volt.
 
-![Új fertőzöttek és halottak korreláció](https://github.com/kamutelapo/covid/blob/master/k%C3%A9pek/Fert%C5%91z%C3%A9sUt%C3%A1nV%C3%A1rhat%C3%B3Hal%C3%A1l.png?raw=true)
+![Új fertőzöttek és halottak korreláció](https://github.com/kamutelapo/covid/blob/master/k%C3%A9pek/Fert%C5%91z%C3%A9sUt%C3%A1nV%C3%A1rhat%C3%B3Hal%C3%A1l2.png?raw=true)
+
+A harmadik hullám alatt ugyanez az érték 12 napnál volt.
+
+![Új fertőzöttek és halottak korreláció](https://github.com/kamutelapo/covid/blob/master/k%C3%A9pek/Fert%C5%91z%C3%A9sUt%C3%A1nV%C3%A1rhat%C3%B3Hal%C3%A1l3.png?raw=true)
 
 #### Halálozási ráta az új fertőzöttek és elhunytak alapján (20 nap eltolással)
 
