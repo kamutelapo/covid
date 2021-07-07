@@ -50,13 +50,14 @@ for hullam in (hullamok):
     dfsorted=dfkorr.sort_values('Korreláció', ascending=False)
 
     varhato_halal = int(dfsorted['Napok eltolása'].head(1).mean())
+    
+    if hullamszam == 3:
+      varhato_halal = 19 # szebben korrelál
 
     dfr = dfek[varhato_halal]
-    dfr['Hét kezdet'] = dfr.apply(lambda row: row['Dátum'] - dt.timedelta(days=row['Dátum'].weekday()), axis=1)
-
-    dfr = (dfr.groupby('Hét kezdet', as_index=False).mean())
-
-    dfr = dfr.rename(columns = {'Napi új elhunyt': 'Heti új elhunytak átlaga', 'Napi új fertőzött': "Heti új fertőzöttek átlaga", 'Hét kezdet': 'Dátum'}, inplace = False)
+    dfrheti = dfr.rolling(7, center=True, min_periods=4).mean()
+    dfr['Heti új fertőzöttek átlaga'] = dfrheti['Napi új fertőzött']
+    dfr['Heti új elhunytak átlaga'] = dfrheti['Napi új elhunyt']
 
     pd.plotting.register_matplotlib_converters()
 

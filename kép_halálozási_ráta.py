@@ -19,11 +19,13 @@ fertozott = df.iloc[:-VARHATO_HALAL]
 ujelhunyt = df.iloc[VARHATO_HALAL:, :]['Napi új elhunyt'].reset_index()
 fertozott['Fertőzésben meghalt'] = ujelhunyt['Napi új elhunyt']
 
-fertozott['Hét kezdet'] = df.apply(lambda row: row['Dátum'] - dt.timedelta(days=row['Dátum'].weekday()), axis=1)
-dfheti = (fertozott.groupby('Hét kezdet', as_index=False).mean())
+dfheti = fertozott.rolling(7, center=True, min_periods=4).mean()
 dfheti['Fertőzésben meghalt'] = dfheti.apply(lambda row: row['Fertőzésben meghalt'] if int(row['Fertőzésben meghalt']) >= 15 else np.NaN, axis=1)
-dfheti['Halálozási ráta'] = dfheti['Fertőzésben meghalt'] / dfheti['Napi új fertőzött']
-dfheti = dfheti.rename(columns = {'Hét kezdet': 'Dátum', 'Napi új fertőzött': 'Heti új fertőzött átlaga'}, inplace = False)
+fertozott['Heti új fertőzöttek átlaga'] = dfheti['Napi új fertőzött']
+fertozott['Heti új elhunytak átlaga'] = dfheti['Fertőzésben meghalt']
+dfheti = fertozott
+
+dfheti['Halálozási ráta'] = dfheti['Heti új elhunytak átlaga'] / dfheti['Heti új fertőzöttek átlaga']
 
 pd.plotting.register_matplotlib_converters()
 
@@ -38,7 +40,7 @@ par.set_ylabel("Heti új fertőzött átlaga")
 par.set_ylim([0, 80000])
 
 p1, = host.plot(dfheti['Dátum'], dfheti['Halálozási ráta'], label="Halálozási ráta")
-p2, = par.plot(dfheti['Dátum'], dfheti['Heti új fertőzött átlaga'], label="Heti új fertőzött átlaga")
+p2, = par.plot(dfheti['Dátum'], dfheti['Heti új fertőzöttek átlaga'], label="Heti új fertőzöttek átlaga")
 
 leg = plt.legend()
 
