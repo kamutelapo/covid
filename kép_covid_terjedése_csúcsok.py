@@ -28,10 +28,10 @@ dfheti['Terjedés'] = dfheti['Heti új fertőzöttek átlaga'] / dfheti['Előző
 dfheti = dfheti[['Dátum', "Heti új fertőzöttek átlaga", 'Előző fertőzött átlag', 'Terjedés']]
 
 df2 = dfheti[dfheti['Dátum'] >= "2020-09-29"]
-df2 = df2[df2['Dátum'] < "2020-12-13"]
+df2 = df2[df2['Dátum'] < "2020-12-20"]
 
 df3 = dfheti[dfheti['Dátum'] >= "2021-01-25"]
-df3 = df3[df3['Dátum'] < "2021-04-05"]
+df3 = df3[df3['Dátum'] < "2021-04-12"]
 
 pd.plotting.register_matplotlib_converters()
 
@@ -55,7 +55,7 @@ ax.set_title("A 2. hullám heti dinamikája")
 ax.axhline(1.0,color='magenta',ls='--')
 
 ax2=fig.add_subplot(121, label="2", frame_on=False)
-ax2.plot(df2['Dátum'], df2['Heti új fertőzöttek átlaga'], color="orange", linewidth=2.0)
+ax2.plot(df2['Dátum'], df2['Előző fertőzött átlag'], color="orange", linewidth=2.0, marker='o')
 ax2.xaxis.set_visible(False)
 ax2.yaxis.set_visible(False)
 
@@ -67,7 +67,7 @@ ax3.set_title("A 3. hullám heti dinamikája")
 ax3.axhline(1.0,color='magenta',ls='--')
 
 ax4=fig.add_subplot(122, label="4", frame_on=False)
-ax4.plot(df3['Dátum'], df3['Heti új fertőzöttek átlaga'], color="orange", linewidth=2.0)
+ax4.plot(df3['Dátum'], df3['Előző fertőzött átlag'], color="orange", linewidth=2.0, marker='o')
 ax4.xaxis.set_visible(False)
 ax4.yaxis.set_visible(False)
 
