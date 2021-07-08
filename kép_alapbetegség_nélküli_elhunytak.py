@@ -15,25 +15,21 @@ def isHealthy(c):
     lower = c.lower()
     return ('nem' in lower) and ('ismert' in lower)
 
+dfcv = pd.read_csv(BASEDIR +"/adatok/covidadatok.csv", parse_dates=['Dátum'])
+dfcvroll = dfcv.rolling(7, center=True, min_periods=7).sum()
+dfcv['Heti halálozás'] = dfcvroll['Napi új elhunyt']
+dfcv['Heti új beoltott'] = dfcvroll['Napi új beoltott']
+
 df = pd.read_csv(BASEDIR +"/adatok/elhunytak_datummal.csv", parse_dates=['Dátum'])
-
-df['Hét kezdet'] = df.apply(lambda row: row['Dátum'] - dt.timedelta(days=row['Dátum'].weekday()), axis=1)
-
-dfhetimind = df.groupby('Hét kezdet', as_index=False).count()
-dffiltered = dfhetimind[['Hét kezdet', 'Sorszám']].rename(columns = {'Sorszám': 'Heti összes'}, inplace = False)
-
-df = pd.merge(df, dffiltered, left_on = 'Hét kezdet', right_on = 'Hét kezdet')
 df = df[np.vectorize(isHealthy)(df['Alapbetegségek'])].reset_index()
+dfnapimind = df.groupby('Dátum', as_index=False).count()
+dfnapimind = dfnapimind[['Dátum','Alapbetegségek']].rename(columns = {'Alapbetegségek': 'Napi nem ismert alapbetegség'}, inplace = False)
 
-dfheti = (df.groupby('Hét kezdet', as_index=False).agg(['mean', 'count'], as_index = False))
-dfheti = dfheti['Heti összes'].reset_index().rename(columns = {'Hét kezdet': 'Dátum', 'mean': 'Heti halálozás', 'count': 'Nem ismert alapbetegség'}, inplace = False)
+df = pd.merge(dfcv[['Dátum']], dfnapimind, left_on = 'Dátum', right_on = 'Dátum', how="outer").fillna(0)
+dfroll = df.rolling(7, center=True, min_periods=7).sum()
+df['Nem ismert alapbetegség'] = dfroll['Napi nem ismert alapbetegség']
 
-dfoltas = pd.read_csv(BASEDIR +"/adatok/covidadatok.csv", parse_dates=['Dátum'])
-dfoltas['Hét kezdet'] = dfoltas.apply(lambda row: row['Dátum'] - dt.timedelta(days=row['Dátum'].weekday()), axis=1)
-dfoltasmind = dfoltas.groupby('Hét kezdet', as_index=False).sum().reset_index()
-dfoltasmind = dfoltasmind[['Hét kezdet', 'Napi új beoltott']].rename(columns = {'Hét kezdet': 'Dátum', 'Napi új beoltott': 'Heti új beoltott'}, inplace = False)
-
-dfheti = pd.merge(dfheti, dfoltasmind, left_on = 'Dátum', right_on = 'Dátum')
+df = pd.merge(dfcv, df, left_on = 'Dátum', right_on = 'Dátum', how="outer")
 
 pd.plotting.register_matplotlib_converters()
 
@@ -63,9 +59,9 @@ par2.set_ylabel("Heti új beoltott")
 par2.set_ylim([0, 550000])
 par2.axis[:].major_ticks.set_tick_out(True)
 
-p1, = host.plot(dfheti['Dátum'], dfheti['Heti halálozás'], label="Heti halálozás")
-p2, = par1.plot(dfheti['Dátum'], dfheti['Nem ismert alapbetegség'], label="Nem ismert alapbetegség")
-p3, = par2.plot(dfheti['Dátum'], dfheti['Heti új beoltott'], label="Heti új beoltott")
+p1, = host.plot(df['Dátum'], df['Heti halálozás'], label="Heti halálozás")
+p2, = par1.plot(df['Dátum'], df['Nem ismert alapbetegség'], label="Nem ismert alapbetegség")
+p3, = par2.plot(df['Dátum'], df['Heti új beoltott'], label="Heti új beoltott")
 
 leg = plt.legend(loc='upper left')
 
