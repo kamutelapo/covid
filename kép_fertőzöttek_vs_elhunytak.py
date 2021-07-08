@@ -25,6 +25,7 @@ par = host.twinx()
 host.set_xlabel("Dátum")
 host.set_ylabel("Heti új fertőzöttek átlaga")
 host.set_title("COVID fertőzöttek és elhunytak")
+host.set_ylim([0, 10000])
 par.set_ylabel("Heti új elhunytak átlaga")
 par.set_ylim([0, 450])
 
