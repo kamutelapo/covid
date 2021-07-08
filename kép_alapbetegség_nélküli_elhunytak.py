@@ -16,12 +16,14 @@ def isHealthy(c):
     return ('nem' in lower) and ('ismert' in lower)
 
 dfcv = pd.read_csv(BASEDIR +"/adatok/covidadatok.csv", parse_dates=['Dátum'])
+dfcv = dfcv[dfcv['Dátum'] >= "2020-07-01"].reset_index()
 dfcvroll = dfcv.rolling(7, center=True, min_periods=7).sum()
 dfcv['Heti halálozás'] = dfcvroll['Napi új elhunyt']
 dfcv['Heti új beoltott'] = dfcvroll['Napi új beoltott']
 
 df = pd.read_csv(BASEDIR +"/adatok/elhunytak_datummal.csv", parse_dates=['Dátum'])
 df = df[np.vectorize(isHealthy)(df['Alapbetegségek'])].reset_index()
+df = df[df['Dátum'] >= "2020-07-01"].reset_index()
 dfnapimind = df.groupby('Dátum', as_index=False).count()
 dfnapimind = dfnapimind[['Dátum','Alapbetegségek']].rename(columns = {'Alapbetegségek': 'Napi nem ismert alapbetegség'}, inplace = False)
 
@@ -73,6 +75,7 @@ leg.texts[1].set_color(p2.get_color())
 
 par2.yaxis.get_label().set_color(p3.get_color())
 leg.texts[2].set_color(p3.get_color())
+
 
 fig = host.get_figure()
 fig.autofmt_xdate()
