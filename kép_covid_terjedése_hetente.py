@@ -9,24 +9,18 @@ import os
 BASEDIR=os.path.dirname(__file__)
 
 df = pd.read_csv(BASEDIR +"/adatok/covidadatok.csv", parse_dates=['Dátum'])
-df['Hét kezdet'] = df.apply(lambda row: row['Dátum'] - dt.timedelta(days=row['Dátum'].weekday()), axis=1)
+dfheti = df.rolling(7, center=True, min_periods=4).mean()
+df['Heti új fertőzöttek átlaga'] = dfheti['Napi új fertőzött']
 
-dfheti = (df.groupby('Hét kezdet', as_index=False).mean())
-dfheti['Heti új fertőzöttek átlaga'] = dfheti['Napi új fertőzött']
-dfheti['Dátum'] = dfheti['Hét kezdet']
-
-
-elozoertek = dfheti.iloc[:-1]['Heti új fertőzöttek átlaga']
-
-elsonan = pd.DataFrame([[np.NaN]]);
+elozoertek = df.iloc[:-7]['Heti új fertőzöttek átlaga']
+elsonan = pd.DataFrame([[np.NaN]] * 7);
 elozoertek = pd.concat([elsonan, elozoertek], ignore_index=True)
 elozoertek.columns = ['Előző fertőzött átlag']
 
-dfheti['Előző fertőzött átlag'] = elozoertek['Előző fertőzött átlag']
-dfheti['Terjedés'] = dfheti['Heti új fertőzöttek átlaga'] / dfheti['Előző fertőzött átlag']
+df['Előző fertőzött átlag'] = elozoertek['Előző fertőzött átlag']
+df['Terjedés'] = df['Heti új fertőzöttek átlaga'] / df['Előző fertőzött átlag']
 
-
-plot = dfheti.plot(x='Dátum', y='Terjedés', title="Fertőzöttek számának növekedése az előző héthez képest")	
+plot = df.plot(x='Dátum', y='Terjedés', title="Fertőzöttek számának növekedése az előző héthez képest")	
 plot.axhline(1.0,color='magenta',ls='--')
 
 
