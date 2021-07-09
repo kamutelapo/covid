@@ -14,6 +14,19 @@ BASEDIR=os.path.dirname(__file__)
 df = pd.read_csv(BASEDIR +"/adatok/covidadatok.csv", parse_dates=['Dátum'])
 df['Hét kezdet'] = df.apply(lambda row: row['Dátum'] - dt.timedelta(days=row['Dátum'].weekday()), axis=1)
 
+dfhd = df.rolling(7).mean().shift(-6)
+
+elozoertekhd = dfhd.iloc[:-7]['Napi új fertőzött']
+elsonanhd = pd.DataFrame([[np.NaN]] * 7);
+elozoertekhd = pd.concat([elsonanhd, elozoertekhd], ignore_index=True)
+elozoertekhd.columns = ['Előző fertőzött átlag']
+
+dfhd['Előző fertőzött átlag'] = elozoertekhd['Előző fertőzött átlag']
+dfhd = dfhd.rename(columns = {'Napi új fertőzött': 'Heti új fertőzöttek átlaga'}, inplace = False)
+dfhd['Terjedés'] = dfhd['Heti új fertőzöttek átlaga'] / dfhd['Előző fertőzött átlag']
+dfhd['Dátum'] = df['Dátum']
+
+
 dfheti = (df.groupby('Hét kezdet', as_index=False).mean())
 dfheti = dfheti.rename(columns = {'Napi új fertőzött': "Heti új fertőzöttek átlaga", 'Hét kezdet': 'Dátum'}, inplace = False)
 
@@ -27,11 +40,15 @@ dfheti['Terjedés'] = dfheti['Heti új fertőzöttek átlaga'] / dfheti['Előző
 
 dfheti = dfheti[['Dátum', "Heti új fertőzöttek átlaga", 'Előző fertőzött átlag', 'Terjedés']]
 
-df2 = dfheti[dfheti['Dátum'] >= "2020-09-29"]
-df2 = df2[df2['Dátum'] < "2020-12-20"]
+df2 = dfheti[dfheti['Dátum'] >= "2020-10-05"]
+df2 = df2[df2['Dátum'] < "2020-12-15"]
+df2hd = dfhd[dfhd['Dátum'] >= "2020-10-05"]
+df2hd = df2hd[df2hd['Dátum'] < "2020-12-15"]
 
 df3 = dfheti[dfheti['Dátum'] >= "2021-01-25"]
-df3 = df3[df3['Dátum'] < "2021-04-12"]
+df3 = df3[df3['Dátum'] < "2021-04-06"]
+df3hd = dfhd[dfhd['Dátum'] >= "2021-01-25"]
+df3hd = df3hd[df3hd['Dátum'] < "2021-04-06"]
 
 pd.plotting.register_matplotlib_converters()
 
@@ -55,7 +72,7 @@ ax.set_title("A 2. hullám heti dinamikája")
 ax.axhline(1.0,color='magenta',ls='--')
 
 ax2=fig.add_subplot(121, label="2", frame_on=False)
-ax2.plot(df2['Dátum'], df2['Előző fertőzött átlag'], color="orange", linewidth=2.0, marker='o')
+ax2.plot(df2hd['Dátum'], df2hd['Előző fertőzött átlag'], color="orange", linewidth=2.0, marker='o', markevery=(0,7))
 ax2.xaxis.set_visible(False)
 ax2.yaxis.set_visible(False)
 
@@ -67,7 +84,7 @@ ax3.set_title("A 3. hullám heti dinamikája")
 ax3.axhline(1.0,color='magenta',ls='--')
 
 ax4=fig.add_subplot(122, label="4", frame_on=False)
-ax4.plot(df3['Dátum'], df3['Előző fertőzött átlag'], color="orange", linewidth=2.0, marker='o')
+ax4.plot(df3hd['Dátum'], df3hd['Előző fertőzött átlag'], color="orange", linewidth=2.0, marker='o', markevery=(0,7))
 ax4.xaxis.set_visible(False)
 ax4.yaxis.set_visible(False)
 
