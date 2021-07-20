@@ -9,7 +9,7 @@ DATADIR=os.path.dirname(__file__) + "/adatok"
 
 DATE_PATTERN = re.compile(r'^\s*#####\s+(.*)$')
 
-LELEGEZTET = re.compile(r'.*[^\d](\d+)\s*-\s*.n\s+vannak\s+lélegeztetőgépen.*', re.S)
+LELEGEZTET = re.compile(r'.*[^0-9\s+]([0-9\s+]+)\s*-\s*.n\s+vannak\s+lélegeztetőgépen.*', re.S)
 
 file1 = open(DATADIR +"/nyersadatok.txt", 'r', encoding='utf-8', errors='ignore')
 lines = file1.readlines()
@@ -38,6 +38,7 @@ while (lines):
     mtch = LELEGEZTET.match(body)
     if mtch:
         lelegezteton = mtch.group(1)
+        lelegezteton = re.sub(r'\s', '', lelegezteton)
     else:
         if "léleg" in body.lower():
             print (body)
