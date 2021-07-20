@@ -8,6 +8,7 @@
          * [Hivatalos COVID adatok](#hivatalos-covid-adatok-1)
          * [KSH alapján számolva](#ksh-alapján-számolva-1)
       * [Fiatalok többlet halálozása a KSH alapján](#fiatalok-többlet-halálozása-a-ksh-alapján)
+      * [Lélegeztetettek száma](#lélegeztetettek-száma)
       * [A vírus terjedése az előző héthez képest](#a-vírus-terjedése-az-előző-héthez-képest)
          * [A járványcsúcsok fertőzési dinamikája](#a-járványcsúcsok-fertőzési-dinamikája)
       * [Főbb alapbetegségek](#főbb-alapbetegségek)
@@ -65,6 +66,10 @@ Az ábrán a hivatalos COVID halálozási adatokat vetjük össze a KSH adatokka
 ### Fiatalok többlet halálozása a KSH alapján
 
 ![Fiatalok halálozási többlete](https://github.com/kamutelapo/covid/blob/master/k%C3%A9pek/FiatalokCovidHal%C3%A1loz%C3%A1siT%C3%B6bblete.png?raw=true)
+
+### Lélegeztetettek száma
+
+![Lélegeztetettek száma](https://github.com/kamutelapo/covid/blob/master/k%C3%A9pek/L%C3%A9legeztetettek.png?raw=true)
 
 ### A vírus terjedése az előző héthez képest
 
