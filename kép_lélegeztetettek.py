@@ -10,17 +10,11 @@ import matplotlib.pyplot as plt
 
 BASEDIR=os.path.dirname(__file__)
 
-df = pd.read_csv(BASEDIR +"/adatok/covidadatok.csv", parse_dates=['Dátum'])
-df2 = pd.read_csv(BASEDIR +"/adatok/hiradatok.csv", parse_dates=['Dátum'])
+df = pd.read_csv(BASEDIR +"/adatok/hiradatok.csv", parse_dates=['Dátum'])
 
-dfkozos = pd.merge(df, df2, left_on = 'Dátum', right_on = 'Dátum', how='outer')
-dfkozos = dfkozos[dfkozos['Dátum'] >= "2020-04-17"]
-dfkozos = dfkozos[dfkozos['Dátum'] < "2021-07-01"]
+df['Lélegeztetettek'] = df['Lélegeztetettek'].interpolate(method='linear')
 
-dfkozos['Lélegeztetettek'] = dfkozos['Lélegeztetettek'].interpolate(method='linear')
-
-
-plot = dfkozos.plot(x='Dátum', y='Lélegeztetettek', title="Lélegeztetettek száma")	
+plot = df.plot(x='Dátum', y='Lélegeztetettek', title="Lélegeztetettek száma")	
 
 fig = plot.get_figure()
 fig.savefig(BASEDIR + "/képek/Lélegeztetettek.png", bbox_inches = "tight")
