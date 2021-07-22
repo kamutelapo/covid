@@ -23,7 +23,7 @@ for i in `seq 0 10000`; do
     break
   fi
   
-  for href in `cat $TEMP_DIR/hirek$NUMBER.html | grep -1 -E 'aktualis_a|01304724o|00cikk_[0-9]{1,4}|koronavirus_bejelentes|adatok_[0-9]{1,4}' | grep href | awk -F '"' '{print $2}'`; do
+  for href in `cat $TEMP_DIR/hirek$NUMBER.html | grep -1 -E 'aktualis_a|01304724o|00cikk_[0-9]{1,4}|koronavirus_bejelentes|adatok.png|00cikk.png|adatok_[0-9]{1,4}' | grep href | awk -F '"' '{print $2}'`; do
     HIRNUMBER=`printf "%04d" $hir`
     wget https://koronavirus.gov.hu$href -O $TEMP_DIR/hir$HIRNUMBER.html;
     html2text -utf8 $TEMP_DIR/hir$HIRNUMBER.html >$TEMP_DIR/hir$HIRNUMBER.txt
