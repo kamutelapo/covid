@@ -100,6 +100,12 @@ df = pd.merge(ddf, df, left_on = 'Dátum', right_on = 'Dátum', how="outer")
 df['Elhunytak'] = (df['Elhunytak'].interpolate(method='linear') + 0.5).astype(int)
 df['Lélegeztetettek'] = df.apply(lambda row: None if np.isnan(row['Lélegeztetettek']) else str(int(row['Lélegeztetettek'])), axis = 1 )
 
+elozoertek = df.iloc[:-1]['Elhunytak']
+elsoelozo = pd.DataFrame([[47]]);
+elozoertek = pd.concat([elsoelozo, elozoertek], ignore_index=True)
+elozoertek.columns = ['Napi új elhunyt']
+
+df['Napi új elhunyt'] = df['Elhunytak'] - elozoertek['Napi új elhunyt'] 
 
 #pd.set_option("display.max_rows", None)
 #print (df)
