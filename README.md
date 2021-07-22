@@ -1,32 +1,35 @@
-* [COVID járványelemzés a magyarországi adatok alapján](#covid-járványelemzés-a-magyarországi-adatok-alapján)
-   * [Járvány adatok:](#járvány-adatok)
-      * [Halálozási adatok](#halálozási-adatok)
-      * [Elhunytak életkor szerint](#elhunytak-életkor-szerint)
-         * [Hivatalos COVID adatok](#hivatalos-covid-adatok)
-         * [KSH alapján számolva](#ksh-alapján-számolva)
-      * [Elhunytak nem szerint](#elhunytak-nem-szerint)
-         * [Hivatalos COVID adatok](#hivatalos-covid-adatok-1)
-         * [KSH alapján számolva](#ksh-alapján-számolva-1)
-      * [Fiatalok többlet halálozása a KSH alapján](#fiatalok-többlet-halálozása-a-ksh-alapján)
-      * [Lélegeztetettek száma](#lélegeztetettek-száma)
-      * [A vírus terjedése az előző héthez képest](#a-vírus-terjedése-az-előző-héthez-képest)
-         * [A járványcsúcsok fertőzési dinamikája](#a-járványcsúcsok-fertőzési-dinamikája)
-      * [Főbb alapbetegségek](#főbb-alapbetegségek)
-      * [Az elhunytak átlag életkora a járvány alatt](#az-elhunytak-átlag-életkora-a-járvány-alatt)
-      * [Az oltási kampány](#az-oltási-kampány)
-         * [Oltások heti átlaga](#oltások-heti-átlaga)
-         * [Oltások és halálozások KSH alapján](#oltások-és-halálozások-ksh-alapján)
-         * [Nem ismert alapbetegség miatt elhunytak](#nem-ismert-alapbetegség-miatt-elhunytak)
-      * [Fertőzés és halál](#fertőzés-és-halál)
-         * [Új fertőzöttek és halottak együtt](#új-fertőzöttek-és-halottak-együtt)
-         * [Korreláció a fertőzöttek és halottak között](#korreláció-a-fertőzöttek-és-halottak-között)
-         * [Halálozási ráta az új fertőzöttek és elhunytak alapján (12 nap eltolással)](#halálozási-ráta-az-új-fertőzöttek-és-elhunytak-alapján-12-nap-eltolással)
-   * [Szimulációk:](#szimulációk)
-      * [Korlátozások](#korlátozások)
-      * [Oltások](#oltások)
-      * [Következtetés](#következtetés)
-      * [Immunitás](#immunitás)
-      * [Mindenki elkapja a vírust?](#mindenki-elkapja-a-vírust)
+- [COVID járványelemzés a magyarországi adatok alapján](#covid-járványelemzés-a-magyarországi-adatok-alapján)
+  - [Járvány adatok:](#járvány-adatok)
+    - [Halálozási adatok](#halálozási-adatok)
+    - [Elhunytak életkor szerint](#elhunytak-életkor-szerint)
+      - [Hivatalos COVID adatok](#hivatalos-covid-adatok)
+      - [KSH alapján számolva](#ksh-alapján-számolva)
+    - [Elhunytak nem szerint](#elhunytak-nem-szerint)
+      - [Hivatalos COVID adatok](#hivatalos-covid-adatok-1)
+      - [KSH alapján számolva](#ksh-alapján-számolva-1)
+    - [Fiatalok többlet halálozása a KSH alapján](#fiatalok-többlet-halálozása-a-ksh-alapján)
+    - [Lélegeztetés](#lélegeztetés)
+      - [Lélegeztetettek száma](#lélegeztetettek-száma)
+      - [Lélegeztetés és halálozás](#lélegeztetés-és-halálozás)
+      - [Lélegeztetés után várható halál](#lélegeztetés-után-várható-halál)
+    - [A vírus terjedése az előző héthez képest](#a-vírus-terjedése-az-előző-héthez-képest)
+      - [A járványcsúcsok fertőzési dinamikája](#a-járványcsúcsok-fertőzési-dinamikája)
+    - [Főbb alapbetegségek](#főbb-alapbetegségek)
+    - [Az elhunytak átlag életkora a járvány alatt](#az-elhunytak-átlag-életkora-a-járvány-alatt)
+    - [Az oltási kampány](#az-oltási-kampány)
+      - [Oltások heti átlaga](#oltások-heti-átlaga)
+      - [Oltások és halálozások KSH alapján](#oltások-és-halálozások-ksh-alapján)
+      - [Nem ismert alapbetegség miatt elhunytak](#nem-ismert-alapbetegség-miatt-elhunytak)
+    - [Fertőzés és halál](#fertőzés-és-halál)
+      - [Új fertőzöttek és halottak együtt](#új-fertőzöttek-és-halottak-együtt)
+      - [Korreláció a fertőzöttek és halottak között](#korreláció-a-fertőzöttek-és-halottak-között)
+      - [Halálozási ráta az új fertőzöttek és elhunytak alapján (20 nap eltolással)](#halálozási-ráta-az-új-fertőzöttek-és-elhunytak-alapján-20-nap-eltolással)
+  - [Szimulációk:](#szimulációk)
+    - [Korlátozások](#korlátozások)
+    - [Oltások](#oltások)
+    - [Következtetés](#következtetés)
+    - [Immunitás](#immunitás)
+    - [Mindenki elkapja a vírust?](#mindenki-elkapja-a-vírust)
 
 # COVID járványelemzés a magyarországi adatok alapján
 
@@ -67,9 +70,19 @@ Az ábrán a hivatalos COVID halálozási adatokat vetjük össze a KSH adatokka
 
 ![Fiatalok halálozási többlete](https://github.com/kamutelapo/covid/blob/master/k%C3%A9pek/FiatalokCovidHal%C3%A1loz%C3%A1siT%C3%B6bblete.png?raw=true)
 
-### Lélegeztetettek száma
+### Lélegeztetés
+
+#### Lélegeztetettek száma
 
 ![Lélegeztetettek száma](https://github.com/kamutelapo/covid/blob/master/k%C3%A9pek/L%C3%A9legeztetettek.png?raw=true)
+
+#### Lélegeztetés és halálozás
+
+![Lélegeztetés és halálozás](https://github.com/kamutelapo/covid/blob/master/k%C3%A9pek/L%C3%A9legeztetettekVsElhunytak.png?raw=true)
+
+#### Lélegeztetés után várható halál
+
+![Lélegeztetés után várható halál](https://github.com/kamutelapo/covid/blob/master/k%C3%A9pek/L%C3%A9legeztet%C3%A9sUt%C3%A1nV%C3%A1rhat%C3%B3Hal%C3%A1l.png?raw=true)
 
 ### A vírus terjedése az előző héthez képest
 
@@ -89,7 +102,7 @@ Az ábrán a hivatalos COVID halálozási adatokat vetjük össze a KSH adatokka
 
 ### Az oltási kampány
 
-#### Oltások heti átlaga 
+#### Oltások heti átlaga
 
 ![Oltások heti átlaga](https://github.com/kamutelapo/covid/blob/master/k%C3%A9pek/Beoltottak.png?raw=true)
 
