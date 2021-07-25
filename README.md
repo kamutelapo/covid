@@ -18,6 +18,7 @@
     - [Az elhunytak átlag életkora a járvány alatt](#az-elhunytak-átlag-életkora-a-járvány-alatt)
     - [Az oltási kampány](#az-oltási-kampány)
       - [Oltások heti átlaga](#oltások-heti-átlaga)
+      - [Oltások összesen](#oltások-összesen)
       - [Oltások és halálozások KSH alapján](#oltások-és-halálozások-ksh-alapján)
       - [Nem ismert alapbetegség miatt elhunytak](#nem-ismert-alapbetegség-miatt-elhunytak)
     - [Fertőzés és halál](#fertőzés-és-halál)
@@ -105,6 +106,10 @@ Az ábrán a hivatalos COVID halálozási adatokat vetjük össze a KSH adatokka
 #### Oltások heti átlaga
 
 ![Oltások heti átlaga](https://github.com/kamutelapo/covid/blob/master/k%C3%A9pek/Beoltottak.png?raw=true)
+
+#### Oltások összesen
+
+![Oltások összesen](https://github.com/kamutelapo/covid/blob/master/k%C3%A9pek/Beoltottak%C3%96sszesen.png?raw=true)
 
 #### Oltások és halálozások KSH alapján
 
