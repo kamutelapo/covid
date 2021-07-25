@@ -35,11 +35,17 @@ BEOLTOTTAK_SZAMA = [
     re.compile(r'.*[mM]ár\s+([0-9\s+]+)\s*fő\s+kapott\s+oltást.*', re.S),
 ]
 
+KETSZER_OLTOTTAK_SZAMA = [
+    re.compile(r'.*közülük\s+([0-9\s+]+)\s*fő\s+már\s+a\s+második\s+oltását\s+is\s+megkapta.*', re.S),
+    re.compile(r'.*ebből\s+([0-9\s+]+)\s*fő\s+már\s+a\s+második\s+oltását\s+is\s+megkapta.*', re.S),
+    re.compile(r'.*,\s*([0-9\s+]+)\s*fő\s+már\s+a\s+második\s+oltását\s+is\s+megkapta.*', re.S),
+]
+
 file1 = open(DATADIR +"/nyersadatok.txt", 'r', encoding='utf-8', errors='ignore')
 lines = file1.readlines()
 file1.close()
 
-df = pd.DataFrame(columns=['Dátum', 'Elhunytak', 'Lélegeztetettek','Beoltottak'])
+df = pd.DataFrame(columns=['Dátum', 'Elhunytak', 'Lélegeztetettek','Beoltottak', 'Kétszer oltottak'])
 
 
 while (lines):
@@ -63,6 +69,7 @@ while (lines):
     lelegezteton = None
     elhunytak = None
     beoltottak = None
+    ketszeroltottak = None
     
     mtch = LELEGEZTET.match(body)
     if mtch:
@@ -102,15 +109,36 @@ while (lines):
         elif "oltott" in body.lower():
             print (body)
             quit()
+
+
+    for pattern in KETSZER_OLTOTTAK_SZAMA:
+        mtch = pattern.match(body)
+        if mtch:
+            break
+
+    if mtch:
+        ketszeroltottak = mtch.group(1)
+        ketszeroltottak = re.sub(r'\s', '', ketszeroltottak)
+    else:
+        if date == '2021-03-30':
+            # nincs adat
+            pass
+        elif date == '2021-03-08':
+            # nincs adat
+            pass
+        elif "második olt" in body.lower() or "kétszer olt" in body.lower():
+            print (body)
+            quit()
     
     if elhunytak is None:
         continue
-
+    
     ujsor = {
         "Dátum": datetime.datetime.strptime(date, '%Y-%m-%d'),
         "Elhunytak": elhunytak,
         "Lélegeztetettek": lelegezteton,
         "Beoltottak": beoltottak,
+        "Kétszer oltottak": ketszeroltottak,
     }
     
     df = df.append(ujsor, ignore_index=True)
@@ -119,6 +147,7 @@ while (lines):
 df[['Elhunytak']] = df[['Elhunytak']].astype(float)
 df[['Lélegeztetettek']] = df[['Lélegeztetettek']].astype(float)
 df[['Beoltottak']] = df[['Beoltottak']].astype(float)
+df[['Kétszer oltottak']] = df[['Kétszer oltottak']].astype(float)
 
 mindate = df['Dátum'].min()
 maxdate = df['Dátum'].max()
@@ -128,6 +157,7 @@ df = pd.merge(ddf, df, left_on = 'Dátum', right_on = 'Dátum', how="outer")
 
 df['Elhunytak'] = (df['Elhunytak'].interpolate(method='linear') + 0.5).astype(int)
 df['Beoltottak'] = (df['Beoltottak'].interpolate(method='linear') + 0.5).apply(np.floor)
+df['Kétszer oltottak'] = (df['Kétszer oltottak'].interpolate(method='linear') + 0.5).apply(np.floor)
 df['Lélegeztetettek'] = df.apply(lambda row: None if np.isnan(row['Lélegeztetettek']) else str(int(row['Lélegeztetettek'])), axis = 1 )
 
 elozoertek = df.iloc[:-1]['Elhunytak']
@@ -142,8 +172,16 @@ elozoertek = pd.concat([elsoelozo, elozoertek], ignore_index=True)
 elozoertek.columns = ['Napi új beoltott']
 df['Napi új beoltott'] = df['Beoltottak'] - elozoertek['Napi új beoltott'] 
 
+elozoertek = df.iloc[:-1]['Kétszer oltottak']
+elsoelozo = pd.DataFrame([[np.NaN]]);
+elozoertek = pd.concat([elsoelozo, elozoertek], ignore_index=True)
+elozoertek.columns = ['Napi új másodszor oltott']
+df['Napi új másodszor oltott'] = df['Kétszer oltottak'] - elozoertek['Napi új másodszor oltott'] 
+
 df['Beoltottak'] = df.apply(lambda row: None if np.isnan(row['Beoltottak']) else str(int(row['Beoltottak'])), axis = 1 )
+df['Kétszer oltottak'] = df.apply(lambda row: None if np.isnan(row['Kétszer oltottak']) else str(int(row['Kétszer oltottak'])), axis = 1 )
 df['Napi új beoltott'] = df.apply(lambda row: None if np.isnan(row['Napi új beoltott']) else str(int(row['Napi új beoltott'])), axis = 1 )
+df['Napi új másodszor oltott'] = df.apply(lambda row: None if np.isnan(row['Napi új másodszor oltott']) else str(int(row['Napi új másodszor oltott'])), axis = 1 )
 
 #pd.set_option("display.max_rows", None)
 #print (df)
