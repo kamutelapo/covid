@@ -41,11 +41,18 @@ KETSZER_OLTOTTAK_SZAMA = [
     re.compile(r'.*,\s*([0-9\s+]+)\s*fő\s+már\s+a\s+második\s+oltását\s+is\s+megkapta.*', re.S),
 ]
 
+KORHAZBAN = [
+    [False, re.compile(r'.*[^0-9\s+]([0-9\s+]+)\s*koronavírusos\s+beteget\s+ápolnak\s+kórházban.*', re.S)],
+    [True,  re.compile(r'.*[^0-9\s+]([0-9\s+]+)\s*beteget\s+ápolnak\s+kórházban\s+lélegeztetés\s+nélkül.*', re.S)],
+    [False, re.compile(r'.*[^0-9\s+]([0-9\s+]+)\s*fő\s+igényel\s+kórházi\s+kezelést.*', re.S)],
+    [False, re.compile(r'.*\(([0-9\s+]+)\s*fő\s*\)\s*kórházi\s+ellátásra\s+szorul.*', re.S)],
+]
+
 file1 = open(DATADIR +"/nyersadatok.txt", 'r', encoding='utf-8', errors='ignore')
 lines = file1.readlines()
 file1.close()
 
-df = pd.DataFrame(columns=['Dátum', 'Elhunytak', 'Lélegeztetettek','Beoltottak', 'Kétszer oltottak'])
+df = pd.DataFrame(columns=['Dátum', 'Elhunytak', 'Lélegeztetettek','Beoltottak', 'Kétszer oltottak', 'Kórházban ápoltak'])
 
 
 while (lines):
@@ -70,6 +77,7 @@ while (lines):
     elhunytak = None
     beoltottak = None
     ketszeroltottak = None
+    korhazban = None
     
     mtch = LELEGEZTET.match(body)
     if mtch:
@@ -129,6 +137,25 @@ while (lines):
         elif "második olt" in body.lower() or "kétszer olt" in body.lower():
             print (body)
             quit()
+
+    lelegeztetettek_nelkul = False
+    for pattern in KORHAZBAN:
+        lelegeztetettek_nelkul = pattern[0]
+        mtch = pattern[1].match(body)
+        if mtch:
+            break
+
+    if mtch:
+        korhazban = mtch.group(1)
+        korhazban = re.sub(r'\s', '', korhazban)
+
+        if lelegeztetettek_nelkul:
+            korhazban = str(int(korhazban) + int(lelegezteton))
+    else:
+        if "kórház" in body.lower() and "ápol" in body.lower():
+            print (body)
+            quit()
+
     
     if elhunytak is None:
         continue
@@ -139,6 +166,7 @@ while (lines):
         "Lélegeztetettek": lelegezteton,
         "Beoltottak": beoltottak,
         "Kétszer oltottak": ketszeroltottak,
+        "Kórházban ápoltak": korhazban,
     }
     
     df = df.append(ujsor, ignore_index=True)

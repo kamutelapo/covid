@@ -26,3 +26,4 @@ $BASEDIR/kép_covid_terjedése_csúcsok.py
 $BASEDIR/kép_lélegeztetettek.py
 $BASEDIR/kép_lélegeztetettek_vs_elhunytak.py
 $BASEDIR/kép_lélegeztetés_után_várható_halál.py
+$BASEDIR/kép_kórházban_ápoltak.py
