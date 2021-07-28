@@ -12,6 +12,9 @@
       - [Lélegeztetettek száma](#lélegeztetettek-száma)
       - [Lélegeztetés és halálozás](#lélegeztetés-és-halálozás)
       - [Lélegeztetés után várható halál](#lélegeztetés-után-várható-halál)
+    - [Kórházban ápoltak](#kórházban-ápoltak)
+      - [A kórházban ápoltak száma](#a-kórházban-ápoltak-száma)
+      - [Kórházban ápoltak és új fertőzöttek](#kórházban-ápoltak-és-új-fertőzöttek)
     - [A vírus terjedése az előző héthez képest](#a-vírus-terjedése-az-előző-héthez-képest)
       - [A járványcsúcsok fertőzési dinamikája](#a-járványcsúcsok-fertőzési-dinamikája)
     - [Főbb alapbetegségek](#főbb-alapbetegségek)
@@ -84,6 +87,16 @@ Az ábrán a hivatalos COVID halálozási adatokat vetjük össze a KSH adatokka
 #### Lélegeztetés után várható halál
 
 ![Lélegeztetés után várható halál](https://github.com/kamutelapo/covid/blob/master/k%C3%A9pek/L%C3%A9legeztet%C3%A9sUt%C3%A1nV%C3%A1rhat%C3%B3Hal%C3%A1l.png?raw=true)
+
+### Kórházban ápoltak
+
+#### A kórházban ápoltak száma
+
+![Kórházban ápoltak száma](https://github.com/kamutelapo/covid/blob/master/k%C3%A9pek/K%C3%B3rh%C3%A1zban%C3%81poltak.png?raw=true)
+
+#### Kórházban ápoltak és új fertőzöttek
+
+![Kórházban ápoltak és új fertőzöttek](https://github.com/kamutelapo/covid/blob/master/k%C3%A9pek/K%C3%B3rh%C3%A1zban%C3%81poltakVs%C3%9AjFert%C5%91z%C3%B6ttek.png?raw=true)
 
 ### A vírus terjedése az előző héthez képest
 
