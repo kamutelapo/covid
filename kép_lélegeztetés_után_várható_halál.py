@@ -51,7 +51,7 @@ host = host_subplot(211, axes_class=AA.Axes)
 
 host.set_xlabel("Napok")
 host.set_ylabel("Korreláció")
-host.set_title("Légegeztetés után várható halál (" + str(varhato_halal) + " nap)")
+host.set_title("Lélegeztetés után várható halál (" + str(varhato_halal) + " nap)")
 host.axis["top"].major_ticks.set_visible(False)
 host.axis["right"].major_ticks.set_visible(False)
 
