@@ -13,7 +13,7 @@ BASEDIR=os.path.dirname(__file__)
 df = pd.read_csv(BASEDIR +"/adatok/hiradatok.csv", parse_dates=['Dátum'])
 df['Kórházban ápoltak'] = df['Kórházban ápoltak'].interpolate(method='linear')
 dfheti = df.rolling(7, center=True, min_periods=4).mean()
-df['Heti új fertőzöttek átlaga'] = dfheti['Napi új fertőzött']
+df['Napi új fertőzöttek átlaga'] = dfheti['Napi új fertőzött']
 
 pd.plotting.register_matplotlib_converters()
 
@@ -22,13 +22,13 @@ host = host_subplot(111)
 par = host.twinx()
 
 host.set_xlabel("Dátum")
-host.set_ylabel("Heti új fertőzöttek átlaga")
+host.set_ylabel("Napi új fertőzöttek átlaga")
 host.set_title("Új fertőzöttek és kórházban ápoltak")
 host.set_ylim([0, 10000])
 par.set_ylabel("Kórházban ápoltak")
 par.set_ylim([0, 14000])
 
-p1, = host.plot(df['Dátum'], df['Heti új fertőzöttek átlaga'], label="Heti új fertőzöttek átlaga", color='red')
+p1, = host.plot(df['Dátum'], df['Napi új fertőzöttek átlaga'], label="Napi új fertőzöttek átlaga", color='red')
 p2, = par.plot(df['Dátum'], df['Kórházban ápoltak'], label="Kórházban ápoltak", color='blue')
 
 leg = plt.legend()
