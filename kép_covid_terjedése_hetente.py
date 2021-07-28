@@ -8,7 +8,7 @@ import os
 
 BASEDIR=os.path.dirname(__file__)
 
-df = pd.read_csv(BASEDIR +"/adatok/covidadatok.csv", parse_dates=['Dátum'])
+df = pd.read_csv(BASEDIR +"/adatok/hiradatok.csv", parse_dates=['Dátum'])
 dfheti = df.rolling(7, center=True, min_periods=4).mean()
 df['Heti új fertőzöttek átlaga'] = dfheti['Napi új fertőzött']
 
