@@ -15,11 +15,11 @@ def isHealthy(c):
     lower = c.lower()
     return ('nem' in lower) and ('ismert' in lower)
 
-dfcv = pd.read_csv(BASEDIR +"/adatok/covidadatok.csv", parse_dates=['Dátum'])
+dfcv = pd.read_csv(BASEDIR +"/adatok/hiradatok.csv", parse_dates=['Dátum'])
 dfcv = dfcv[dfcv['Dátum'] >= "2020-07-01"].reset_index()
 dfcvroll = dfcv.rolling(7, center=True, min_periods=7).sum()
 dfcv['Heti halálozás'] = dfcvroll['Napi új elhunyt']
-dfcv['Heti új beoltott'] = dfcvroll['Napi új beoltott']
+dfcv['Heti új oltott'] = dfcvroll['Napi új beoltott'] + dfcvroll['Napi új másodszor oltott']
 
 df = pd.read_csv(BASEDIR +"/adatok/elhunytak_datummal.csv", parse_dates=['Dátum'])
 df = df[np.vectorize(isHealthy)(df['Alapbetegségek'])].reset_index()
@@ -57,13 +57,13 @@ host.axis["top"].major_ticks.set_visible(False)
 par1.set_ylabel("Nem ismert alapbetegség")
 par1.set_ylim([0, 400])
 par1.axis[:].major_ticks.set_tick_out(True)
-par2.set_ylabel("Heti új beoltott")
-par2.set_ylim([0, 550000])
+par2.set_ylabel("Heti új oltott (1x+2x)")
+par2.set_ylim([0, 900000])
 par2.axis[:].major_ticks.set_tick_out(True)
 
 p1, = host.plot(df['Dátum'], df['Heti halálozás'], label="Heti halálozás")
 p2, = par1.plot(df['Dátum'], df['Nem ismert alapbetegség'], label="Nem ismert alapbetegség")
-p3, = par2.plot(df['Dátum'], df['Heti új beoltott'], label="Heti új beoltott")
+p3, = par2.plot(df['Dátum'], df['Heti új oltott'], label="Heti új oltott (1x+2x)")
 
 leg = plt.legend(loc='upper left')
 
