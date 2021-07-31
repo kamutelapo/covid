@@ -75,12 +75,12 @@ df4hd = df4hd[df4hd['Dátum'] < NEGYEDIK_HULLAM_END]
 
 pd.plotting.register_matplotlib_converters()
 
-fig=plt.figure(figsize=[10,8.5])
+fig=plt.figure(figsize=[10,9])
 
-spec = gridspec.GridSpec(ncols=3, nrows=4,
+spec = gridspec.GridSpec(ncols=3, nrows=5,
                          width_ratios=[1, 1, 1], wspace=0.3,
-                         hspace=0.4, height_ratios=[1.3, 1, 1, 1])
-spec.update(left=0.06,right=0.99,top=0.89,bottom=0.1,wspace=0.25,hspace=0.35)
+                         hspace=0.4, height_ratios=[1.3, 1, 1, 1, 0.7])
+spec.update(left=0.06,right=0.99,top=0.89,bottom=0.01,wspace=0.25,hspace=0.35)
 
 ax=fig.add_subplot(spec[0], label="1")
 ax.bar(df2['Dátum'], df2['Terjedés'], width=2.0)
@@ -186,7 +186,10 @@ ax15.xaxis.set_visible(False)
 ax15.set_title("4. hullám, kórházban ápoltak")
 ax15.fill_between(df4hd['Dátum'], df4hd['Kórházban ápoltak'], color="blue")
 
-fig.text(.01, .02, "")
-
+ax16=fig.add_subplot(spec[4,:])
+ax16.xaxis.set_visible(False)
+ax16.yaxis.set_visible(False)
+ax16.set_title("Adatok szöveges kiértékelése", color = "indigo")
+ax16.text(x=0.01, y=0.05, s="Szöveges kiértékelés itt...\n\n\n\n", color = "indigo")
 fig.suptitle('COVID járvány monitor', fontsize=26)
 fig.savefig(BASEDIR + "/képek/CovidMonitor.png")
