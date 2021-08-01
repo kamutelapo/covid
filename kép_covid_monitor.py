@@ -20,7 +20,7 @@ df['Lélegeztetettek'] = df['Lélegeztetettek'].interpolate(method='linear')
 df['Kórházban ápoltak'] = df['Kórházban ápoltak'].interpolate(method='linear')
 
 dfeh = pd.read_csv(BASEDIR +"/adatok/elhunytak_datummal.csv", parse_dates=['Dátum']).sort_values(by = ['Dátum']).reset_index()
-dfehavg = dfeh["Kor"].rolling(100).mean().reset_index()
+dfehavg = dfeh["Kor"].rolling(50).mean().reset_index()
 dfehavg["Dátum"] = dfeh["Dátum"]
 
 dfeh = dfehavg.groupby("Dátum").last().reset_index()
@@ -107,6 +107,7 @@ ax.axhline(1.0,color='magenta',ls='--')
 
 ax2=fig.add_subplot(spec[0], label="2", frame_on=False)
 ax2.plot(df2hd['Dátum'], df2hd['Előző fertőzött átlag'], color="orange", linewidth=2.0, marker='o', markevery=(0,7))
+ax2.set_ylim([0,10000])
 ax2.xaxis.set_visible(False)
 ax2.yaxis.set_visible(False)
 
@@ -119,6 +120,7 @@ ax3.axhline(1.0,color='magenta',ls='--')
 
 ax4=fig.add_subplot(spec[1], label="4", frame_on=False)
 ax4.plot(df3hd['Dátum'], df3hd['Előző fertőzött átlag'], color="orange", linewidth=2.0, marker='o', markevery=(0,7))
+ax4.set_ylim([0,10000])
 ax4.xaxis.set_visible(False)
 ax4.yaxis.set_visible(False)
 
@@ -132,6 +134,7 @@ ax5.axhline(1.0,color='magenta',ls='--')
 
 ax6=fig.add_subplot(spec[2], label="6", frame_on=False)
 ax6.plot(df4hd['Dátum'], df4hd['Előző fertőzött átlag'], color="orange", linewidth=2.0, marker='o', markevery=(0,7))
+ax6.set_ylim([0,10000])
 ax6.set_xlim([df4hd['Dátum'].min() + pd.Timedelta("-5 days"), df4hd['Dátum'].max()])
 ax6.xaxis.set_visible(False)
 ax6.yaxis.set_visible(False)
