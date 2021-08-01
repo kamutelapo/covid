@@ -19,8 +19,18 @@ df = pd.read_csv(BASEDIR +"/adatok/hiradatok.csv", parse_dates=['Dátum'])
 df['Lélegeztetettek'] = df['Lélegeztetettek'].interpolate(method='linear')
 df['Kórházban ápoltak'] = df['Kórházban ápoltak'].interpolate(method='linear')
 
+dfeh = pd.read_csv(BASEDIR +"/adatok/elhunytak_datummal.csv", parse_dates=['Dátum']).sort_values(by = ['Dátum']).reset_index()
+dfehavg = dfeh["Kor"].rolling(100).mean().reset_index()
+dfehavg["Dátum"] = dfeh["Dátum"]
+
+dfeh = dfehavg.groupby("Dátum").last().reset_index()
+ddf = pd.DataFrame(pd.date_range(start = dfeh['Dátum'].min(), end = dfeh['Dátum'].max()), columns=['Dátum'])
+dfeh = pd.merge(dfeh, ddf, left_on = 'Dátum', right_on = 'Dátum', how="outer").sort_values('Dátum').reset_index()
+dfeh['Kor'] = dfeh['Kor'].interpolate(method='linear')
+
 date_range_4h = pd.DataFrame({'Dátum': pd.date_range(start=NEGYEDIK_HULLAM_START, end=NEGYEDIK_HULLAM_END)})
 df = pd.merge(df, date_range_4h, left_on = 'Dátum', right_on = 'Dátum', how="outer").sort_values('Dátum')
+dfeh = pd.merge(df, dfeh, left_on = 'Dátum', right_on = 'Dátum', how="outer").sort_values('Dátum')
 
 df['Hét kezdet'] = df.apply(lambda row: row['Dátum'] - dt.timedelta(days=row['Dátum'].weekday()), axis=1)
 
@@ -58,6 +68,8 @@ df2 = dfheti[dfheti['Dátum'] >= "2020-10-05"]
 df2 = df2[df2['Dátum'] < "2020-12-29"]
 df2hd = dfhd[dfhd['Dátum'] >= "2020-10-05"]
 df2hd = df2hd[df2hd['Dátum'] < "2020-12-29"]
+df2eh = dfeh[dfeh['Dátum'] >= "2020-10-05"]
+df2eh = df2eh[df2eh['Dátum'] < "2020-12-29"]
 
 # 3. hullám
 
@@ -65,6 +77,8 @@ df3 = dfheti[dfheti['Dátum'] >= "2021-01-25"]
 df3 = df3[df3['Dátum'] < "2021-04-20"]
 df3hd = dfhd[dfhd['Dátum'] >= "2021-01-25"]
 df3hd = df3hd[df3hd['Dátum'] < "2021-04-20"]
+df3eh = dfeh[dfeh['Dátum'] >= "2021-01-25"]
+df3eh = df3eh[df3eh['Dátum'] < "2021-04-20"]
 
 # 4. hullám
 
@@ -72,15 +86,17 @@ df4 = dfheti[dfheti['Dátum'] >= NEGYEDIK_HULLAM_START]
 df4 = df4[df4['Dátum'] < NEGYEDIK_HULLAM_END]
 df4hd = dfhd[dfhd['Dátum'] >= NEGYEDIK_HULLAM_START]
 df4hd = df4hd[df4hd['Dátum'] < NEGYEDIK_HULLAM_END]
+df4eh = dfeh[dfeh['Dátum'] >= NEGYEDIK_HULLAM_START]
+df4eh = df4eh[df4eh['Dátum'] < NEGYEDIK_HULLAM_END]
 
 pd.plotting.register_matplotlib_converters()
 
-fig=plt.figure(figsize=[10,9])
+fig=plt.figure(figsize=[10,9.5])
 
-spec = gridspec.GridSpec(ncols=3, nrows=5,
+spec = gridspec.GridSpec(ncols=3, nrows=6,
                          width_ratios=[1, 1, 1], wspace=0.3,
-                         hspace=0.4, height_ratios=[1.3, 1, 1, 1, 0.7])
-spec.update(left=0.06,right=0.99,top=0.89,bottom=0.01,wspace=0.25,hspace=0.35)
+                         hspace=0.38, height_ratios=[1.3, 1, 1, 1, 1, 0.6])
+spec.update(left=0.06,right=0.99,top=0.91,bottom=0.01,wspace=0.25,hspace=0.35)
 
 ax=fig.add_subplot(spec[0], label="1")
 ax.bar(df2['Dátum'], df2['Terjedés'], width=2.0)
@@ -186,10 +202,32 @@ ax15.xaxis.set_visible(False)
 ax15.set_title("4. hullám, kórházban ápoltak")
 ax15.fill_between(df4hd['Dátum'], df4hd['Kórházban ápoltak'], color="blue")
 
-ax16=fig.add_subplot(spec[4,:])
+ax16=fig.add_subplot(spec[12], label="16")
+ax16.plot(df2eh['Dátum'], df2eh['Kor'], color="darkcyan")
+ax16.set_ylim([65,80])
 ax16.xaxis.set_visible(False)
-ax16.yaxis.set_visible(False)
-ax16.set_title("Adatok szöveges kiértékelése", color = "indigo")
-ax16.text(x=0.01, y=0.05, s="Szöveges kiértékelés itt...\n\n\n\n", color = "indigo")
-fig.suptitle('COVID járvány monitor', fontsize=26)
+ax16.set_title("2. hullám, elhunytak életkora")
+
+ax17=fig.add_subplot(spec[13], label="17")
+ax17.plot(df3eh['Dátum'], df3eh['Kor'], color="darkcyan")
+ax17.set_ylim([65,80])
+ax17.xaxis.set_visible(False)
+ax17.set_title("3. hullám, elhunytak életkora")
+
+ax18=fig.add_subplot(spec[14], label="18")
+ax18.plot(df4eh['Dátum'], df4eh['Kor'], color="darkcyan")
+ax18.set_xlim([df4eh['Dátum'].min() + pd.Timedelta("-5 days"), df4eh['Dátum'].max()])
+ax18.set_ylim([65,80])
+ax18.xaxis.set_visible(False)
+ax18.set_title("4. hullám, elhunytak életkora")
+
+#pd.set_option("display.max_rows", None)
+#print (df4eh)
+
+ax19=fig.add_subplot(spec[5,:])
+ax19.xaxis.set_visible(False)
+ax19.yaxis.set_visible(False)
+ax19.set_title("Adatok szöveges kiértékelése", color = "indigo")
+ax19.text(x=0.01, y=0.05, s="Szöveges kiértékelés itt...\n\n\n", color = "indigo")
+fig.suptitle('COVID járvány monitor', fontsize=22)
 fig.savefig(BASEDIR + "/képek/CovidMonitor.png")
