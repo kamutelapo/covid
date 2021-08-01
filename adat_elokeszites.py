@@ -90,9 +90,15 @@ csvout = ujdf
 
 csvout.to_csv(DATADIR +"/covidadatok.csv", index = False)
 
-csv = pd.read_csv(DATADIR +"/covidadatok.csv")
+csv = pd.read_csv(DATADIR +"/covidadatok.csv", parse_dates=['Dátum'])
+csv2 = pd.read_csv(DATADIR +"/hiradatok.csv", parse_dates=['Dátum'])
 
 csvpart = csv[["Dátum", "Elhunyt"]]
+csv2part = csv2[["Dátum", "Elhunytak"]]
+
+csvpart = pd.merge(csvpart, csv2part, left_on = 'Dátum', right_on = 'Dátum', how="outer")
+csvpart['Elhunyt'] = csvpart.apply(lambda row: row['Elhunytak'] if np.isnan(row['Elhunyt']) else row['Elhunyt'], axis = 1 )
+csvpart[['Elhunyt']] = csvpart[['Elhunyt']].astype(int)
 
 elhunytnap = []
 last = 0
