@@ -37,6 +37,7 @@ BEOLTOTTAK_SZAMA = [
 
 KETSZER_OLTOTTAK_SZAMA = [
     re.compile(r'.*közülük\s+([0-9\s+]+)\s*fő\s+már\s+a\s+második\s+oltását\s+is\s+megkapta.*', re.S),
+    re.compile(r'.*közülük\s+([0-9\s+]+)\s*már\s+a\s+második\s+oltását\s+is\s+megkapta.*', re.S),
     re.compile(r'.*ebből\s+([0-9\s+]+)\s*fő\s+már\s+a\s+második\s+oltását\s+is\s+megkapta.*', re.S),
     re.compile(r'.*,\s*([0-9\s+]+)\s*fő\s+már\s+a\s+második\s+oltását\s+is\s+megkapta.*', re.S),
 ]
