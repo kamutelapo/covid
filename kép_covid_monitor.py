@@ -153,7 +153,7 @@ ax5.axhline(1.0,color='magenta',ls='--')
 
 ax6=fig.add_subplot(spec[2], label="6", frame_on=False)
 ax6.plot(df4hd['Dátum'], df4hd['Előző fertőzött átlag'], color="orange", linewidth=2.0, marker='o', markevery=(0,7))
-ax6.set_ylim([0,100])
+ax6.set_ylim([0,10000])
 ax6.set_xlim([df4hd['Dátum'].min() + pd.Timedelta("-5 days"), df4hd['Dátum'].max()])
 ax6.xaxis.set_visible(False)
 ax6.yaxis.set_visible(False)
