@@ -44,11 +44,10 @@ dfeh = pd.merge(dfeh, ddf, left_on = 'Dátum', right_on = 'Dátum', how="outer")
 dfeh['Kor'] = dfeh['Kor'].interpolate(method='linear')
 
 date_range_4h = pd.DataFrame({'Dátum': pd.date_range(start=NEGYEDIK_HULLAM_START, end=NEGYEDIK_HULLAM_END)})
-df = pd.merge(df, date_range_4h, left_on = 'Dátum', right_on = 'Dátum', how="outer").sort_values('Dátum')
 df = pd.merge(df, elhunyt50, left_on = 'Dátum', right_on = 'Dátum', how="outer").sort_values('Dátum')
-dfeh = pd.merge(df, dfeh, left_on = 'Dátum', right_on = 'Dátum', how="outer").sort_values('Dátum')
-
 df["Napi új elhunyt 50 alatt"] = df["Napi új elhunyt 50 alatt"].fillna(0)
+df = pd.merge(df, date_range_4h, left_on = 'Dátum', right_on = 'Dátum', how="outer").sort_values('Dátum')
+dfeh = pd.merge(df, dfeh, left_on = 'Dátum', right_on = 'Dátum', how="outer").sort_values('Dátum')
 
 df['Hét kezdet'] = df.apply(lambda row: row['Dátum'] - dt.timedelta(days=row['Dátum'].weekday()), axis=1)
 
