@@ -110,11 +110,11 @@ df4eh = df4eh[df4eh['Dátum'] < NEGYEDIK_HULLAM_END]
 
 pd.plotting.register_matplotlib_converters()
 
-fig=plt.figure(figsize=[10,9.5])
+fig=plt.figure(figsize=[10,9.55])
 
 spec = gridspec.GridSpec(ncols=3, nrows=6,
                          width_ratios=[1, 1, 1], wspace=0.3,
-                         hspace=0.38, height_ratios=[1.3, 1, 1, 1, 1, 0.6])
+                         hspace=0.38, height_ratios=[1.3, 1, 1, 1, 1, 0.65])
 spec.update(left=0.06,right=0.99,top=0.91,bottom=0.01,wspace=0.25,hspace=0.35)
 
 ax=fig.add_subplot(spec[0], label="1")
@@ -272,6 +272,6 @@ ax19=fig.add_subplot(spec[5,:])
 ax19.xaxis.set_visible(False)
 ax19.yaxis.set_visible(False)
 ax19.set_title("Adatok szöveges kiértékelése", color = "indigo")
-ax19.text(x=0.01, y=0.05, s="Szöveges kiértékelés itt...\n\n\n", color = "indigo")
+ax19.text(x=0.01, y=0.08, s="Szöveges kiértékelés itt...\n\n\n", color = "indigo")
 fig.suptitle('COVID járvány monitor', fontsize=22)
 fig.savefig(BASEDIR + "/képek/CovidMonitor.png")
