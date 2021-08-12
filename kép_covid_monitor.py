@@ -10,8 +10,14 @@ import matplotlib.pyplot as plt
 import mpl_toolkits.axisartist as AA
 from matplotlib import gridspec
 
+MASODIK_HULLAM_START = '2020-10-05'
+MASODIK_HULLAM_END = '2021-01-26'
+
+HARMADIK_HULLAM_START = '2021-01-27'
+HARMADIK_HULLAM_END = '2021-05-20'
+
 NEGYEDIK_HULLAM_START = '2021-06-21'
-NEGYEDIK_HULLAM_END = '2021-09-08'
+NEGYEDIK_HULLAM_END = '2021-10-15'
 
 BASEDIR=os.path.dirname(__file__)
 
@@ -20,8 +26,17 @@ df['Lélegeztetettek'] = df['Lélegeztetettek'].interpolate(method='linear')
 df['Kórházban ápoltak'] = df['Kórházban ápoltak'].interpolate(method='linear')
 
 dfeh = pd.read_csv(BASEDIR +"/adatok/elhunytak_datummal.csv", parse_dates=['Dátum']).sort_values(by = ['Dátum']).reset_index()
+
+dfeh50 = dfeh.copy()
+dfeh50 = dfeh50[dfeh50['Kor'] <= 50]
+dfeh50 = dfeh50[dfeh50['Dátum'] >= '2020-04-08']
+
 dfehavg = dfeh["Kor"].rolling(50).mean().reset_index()
 dfehavg["Dátum"] = dfeh["Dátum"]
+
+elhunyt50 = dfeh50.groupby('Dátum').count().reset_index()
+elhunyt50 = elhunyt50.rename(columns = {'Sorszám': 'Napi új elhunyt 50 alatt'}, inplace = False)
+elhunyt50 = elhunyt50[['Dátum', 'Napi új elhunyt 50 alatt']]
 
 dfeh = dfehavg.groupby("Dátum").last().reset_index()
 ddf = pd.DataFrame(pd.date_range(start = dfeh['Dátum'].min(), end = dfeh['Dátum'].max()), columns=['Dátum'])
@@ -30,7 +45,10 @@ dfeh['Kor'] = dfeh['Kor'].interpolate(method='linear')
 
 date_range_4h = pd.DataFrame({'Dátum': pd.date_range(start=NEGYEDIK_HULLAM_START, end=NEGYEDIK_HULLAM_END)})
 df = pd.merge(df, date_range_4h, left_on = 'Dátum', right_on = 'Dátum', how="outer").sort_values('Dátum')
+df = pd.merge(df, elhunyt50, left_on = 'Dátum', right_on = 'Dátum', how="outer").sort_values('Dátum')
 dfeh = pd.merge(df, dfeh, left_on = 'Dátum', right_on = 'Dátum', how="outer").sort_values('Dátum')
+
+df["Napi új elhunyt 50 alatt"] = df["Napi új elhunyt 50 alatt"].fillna(0)
 
 df['Hét kezdet'] = df.apply(lambda row: row['Dátum'] - dt.timedelta(days=row['Dátum'].weekday()), axis=1)
 
@@ -42,7 +60,8 @@ elozoertekhd = pd.concat([elsonanhd, elozoertekhd], ignore_index=True)
 elozoertekhd.columns = ['Előző fertőzött átlag']
 
 dfhd['Előző fertőzött átlag'] = elozoertekhd['Előző fertőzött átlag']
-dfhd = dfhd.rename(columns = {'Napi új fertőzött': 'Heti új fertőzöttek átlaga', 'Napi új elhunyt': 'Napi új elhunytak átlaga'}, inplace = False)
+dfhd = dfhd.rename(columns = {'Napi új fertőzött': 'Heti új fertőzöttek átlaga', 'Napi új elhunyt': 'Napi új elhunytak átlaga', 
+                              'Napi új elhunyt 50 alatt': 'Napi új elhunytak átlaga 50 alatt'}, inplace = False)
 dfhd['Terjedés'] = dfhd['Heti új fertőzöttek átlaga'] / dfhd['Előző fertőzött átlag']
 dfhd['Dátum'] = df['Dátum']
 
@@ -64,21 +83,21 @@ dfheti = dfheti[['Dátum', "Heti új fertőzöttek átlaga", "Napi új elhunytak
 
 # 2. hullám
 
-df2 = dfheti[dfheti['Dátum'] >= "2020-10-05"]
-df2 = df2[df2['Dátum'] < "2020-12-29"]
-df2hd = dfhd[dfhd['Dátum'] >= "2020-10-05"]
-df2hd = df2hd[df2hd['Dátum'] < "2020-12-29"]
-df2eh = dfeh[dfeh['Dátum'] >= "2020-10-05"]
-df2eh = df2eh[df2eh['Dátum'] < "2020-12-29"]
+df2 = dfheti[dfheti['Dátum'] >= MASODIK_HULLAM_START]
+df2 = df2[df2['Dátum'] < MASODIK_HULLAM_END]
+df2hd = dfhd[dfhd['Dátum'] >= MASODIK_HULLAM_START]
+df2hd = df2hd[df2hd['Dátum'] < MASODIK_HULLAM_END]
+df2eh = dfeh[dfeh['Dátum'] >= MASODIK_HULLAM_START]
+df2eh = df2eh[df2eh['Dátum'] < MASODIK_HULLAM_END]
 
 # 3. hullám
 
-df3 = dfheti[dfheti['Dátum'] >= "2021-01-25"]
-df3 = df3[df3['Dátum'] < "2021-04-20"]
-df3hd = dfhd[dfhd['Dátum'] >= "2021-01-25"]
-df3hd = df3hd[df3hd['Dátum'] < "2021-04-20"]
-df3eh = dfeh[dfeh['Dátum'] >= "2021-01-25"]
-df3eh = df3eh[df3eh['Dátum'] < "2021-04-20"]
+df3 = dfheti[dfheti['Dátum'] >= HARMADIK_HULLAM_START]
+df3 = df3[df3['Dátum'] < HARMADIK_HULLAM_END]
+df3hd = dfhd[dfhd['Dátum'] >= HARMADIK_HULLAM_START]
+df3hd = df3hd[df3hd['Dátum'] < HARMADIK_HULLAM_END]
+df3eh = dfeh[dfeh['Dátum'] >= HARMADIK_HULLAM_START]
+df3eh = df3eh[df3eh['Dátum'] < HARMADIK_HULLAM_END]
 
 # 4. hullám
 
@@ -134,7 +153,7 @@ ax5.axhline(1.0,color='magenta',ls='--')
 
 ax6=fig.add_subplot(spec[2], label="6", frame_on=False)
 ax6.plot(df4hd['Dátum'], df4hd['Előző fertőzött átlag'], color="orange", linewidth=2.0, marker='o', markevery=(0,7))
-ax6.set_ylim([0,10000])
+ax6.set_ylim([0,100])
 ax6.set_xlim([df4hd['Dátum'].min() + pd.Timedelta("-5 days"), df4hd['Dátum'].max()])
 ax6.xaxis.set_visible(False)
 ax6.yaxis.set_visible(False)
@@ -143,23 +162,44 @@ ax7=fig.add_subplot(spec[3], label="7")
 ax7.plot(df2hd['Dátum'], df2hd['Napi új elhunytak átlaga'], color="red")
 ax7.set_ylim([0,300])
 ax7.xaxis.set_visible(False)
-ax7.set_title("2. hullám, elhunytak")
+ax7.set_title("2. hullám, elhunytak & 50 alatt")
 ax7.fill_between(df2hd['Dátum'], df2hd['Napi új elhunytak átlaga'], color="red")
+
+ax7b=fig.add_subplot(spec[3], label="7b", frame_on=False)
+ax7b.plot(df2hd['Dátum'], df2hd['Napi új elhunytak átlaga 50 alatt'], color="cyan")
+ax7b.set_ylim([0,300])
+ax7b.xaxis.set_visible(False)
+ax7b.yaxis.set_visible(False)
+ax7b.fill_between(df2hd['Dátum'], df2hd['Napi új elhunytak átlaga 50 alatt'], color="cyan")
 
 ax8=fig.add_subplot(spec[4], label="8")
 ax8.plot(df3hd['Dátum'], df3hd['Napi új elhunytak átlaga'], color="red")
 ax8.set_ylim([0,300])
 ax8.xaxis.set_visible(False)
-ax8.set_title("3. hullám, elhunytak")
+ax8.set_title("3. hullám, elhunytak & 50 alatt")
 ax8.fill_between(df3hd['Dátum'], df3hd['Napi új elhunytak átlaga'], color="red")
+
+ax8b=fig.add_subplot(spec[4], label="8b", frame_on=False)
+ax8b.plot(df3hd['Dátum'], df3hd['Napi új elhunytak átlaga 50 alatt'], color="cyan")
+ax8b.set_ylim([0,300])
+ax8b.xaxis.set_visible(False)
+ax8b.yaxis.set_visible(False)
+ax8b.fill_between(df3hd['Dátum'], df3hd['Napi új elhunytak átlaga 50 alatt'], color="cyan")
 
 ax9=fig.add_subplot(spec[5], label="9")
 ax9.plot(df4hd['Dátum'], df4hd['Napi új elhunytak átlaga'], color="red")
 ax9.set_xlim([df4hd['Dátum'].min() + pd.Timedelta("-5 days"), df4hd['Dátum'].max()])
 ax9.set_ylim([0,300])
 ax9.xaxis.set_visible(False)
-ax9.set_title("4. hullám, elhunytak")
+ax9.set_title("4. hullám, elhunytak & 50 alatt")
 ax9.fill_between(df4hd['Dátum'], df4hd['Napi új elhunytak átlaga'], color="red")
+
+ax9b=fig.add_subplot(spec[5], label="9b", frame_on=False)
+ax9b.plot(df4hd['Dátum'], df4hd['Napi új elhunytak átlaga 50 alatt'], color="cyan")
+ax9b.set_ylim([0,300])
+ax9b.xaxis.set_visible(False)
+ax9b.yaxis.set_visible(False)
+ax9b.fill_between(df4hd['Dátum'], df4hd['Napi új elhunytak átlaga 50 alatt'], color="cyan")
 
 ax10=fig.add_subplot(spec[6], label="10")
 ax10.plot(df2hd['Dátum'], df2hd['Lélegeztetettek'], color="green")
