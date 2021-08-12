@@ -43,9 +43,10 @@ ddf = pd.DataFrame(pd.date_range(start = dfeh['Dátum'].min(), end = dfeh['Dátu
 dfeh = pd.merge(dfeh, ddf, left_on = 'Dátum', right_on = 'Dátum', how="outer").sort_values('Dátum').reset_index()
 dfeh['Kor'] = dfeh['Kor'].interpolate(method='linear')
 
-date_range_4h = pd.DataFrame({'Dátum': pd.date_range(start=NEGYEDIK_HULLAM_START, end=NEGYEDIK_HULLAM_END)})
 df = pd.merge(df, elhunyt50, left_on = 'Dátum', right_on = 'Dátum', how="outer").sort_values('Dátum')
 df["Napi új elhunyt 50 alatt"] = df["Napi új elhunyt 50 alatt"].fillna(0)
+
+date_range_4h = pd.DataFrame({'Dátum': pd.date_range(start=NEGYEDIK_HULLAM_START, end=NEGYEDIK_HULLAM_END)})
 df = pd.merge(df, date_range_4h, left_on = 'Dátum', right_on = 'Dátum', how="outer").sort_values('Dátum')
 dfeh = pd.merge(df, dfeh, left_on = 'Dátum', right_on = 'Dátum', how="outer").sort_values('Dátum')
 
@@ -198,6 +199,7 @@ ax9b.plot(df4hd['Dátum'], df4hd['Napi új elhunytak átlaga 50 alatt'], color="
 ax9b.set_ylim([0,300])
 ax9b.xaxis.set_visible(False)
 ax9b.yaxis.set_visible(False)
+ax9b.set_xlim([df4hd['Dátum'].min() + pd.Timedelta("-5 days"), df4hd['Dátum'].max()])
 ax9b.fill_between(df4hd['Dátum'], df4hd['Napi új elhunytak átlaga 50 alatt'], color="cyan")
 
 ax10=fig.add_subplot(spec[6], label="10")
