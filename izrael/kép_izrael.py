@@ -49,7 +49,7 @@ dfuj['Oltott'] = dfuj['positive_1_6_days_after_1st_dose'] + dfuj['positive_7_13_
 
 dfuj = dfuj.rename(columns = {'Sum_positive_without_vaccination': 'Oltatlan', 'Age_group': 'Korcsoport' }, inplace = False)
 dfuj['Dátum'] = dfuj.apply(lambda row: row['Week'][0:10], axis=1)
-dfuj['Dátum'] = pd.to_datetime(dfuj['Dátum'], format='%Y-%m-%d')
+dfuj['Dátum'] = pd.to_datetime(dfuj['Dátum'], format='%Y-%m-%d') + pd.Timedelta("3 days") # csütörtök hétfő helyett (hét közepe)
 dfuj = dfuj[['Dátum', 'Korcsoport', 'Oltatlan', 'Oltott']]
 
 dfuj20alatt = dfuj.copy()
@@ -84,7 +84,7 @@ dfevnt['Oltott'] = dfevnt['event_after_1st_dose'] + dfevnt['event_after_2nd_dose
 dfevnt = dfevnt.rename(columns = {'event_for_not_vaccinated': 'Oltatlan', 'Age_group': 'Korcsoport' }, inplace = False)
 
 dfevnt['Dátum'] = dfevnt.apply(lambda row: row['Week'][0:10], axis=1)
-dfevnt['Dátum'] = pd.to_datetime(dfevnt['Dátum'], format='%Y-%m-%d')
+dfevnt['Dátum'] = pd.to_datetime(dfevnt['Dátum'], format='%Y-%m-%d') + pd.Timedelta("3 days") # csütörtök hétfő helyett (hét közepe)
 
 dfevnt['Összes'] = dfevnt['Oltatlan'] + dfevnt['Oltott']
 

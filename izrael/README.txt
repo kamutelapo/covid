@@ -1,4 +1,4 @@
-Használt adatok:
+Használt adatok (források):
 
 Oltások:
 https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/vaccinations/country_data/Israel.csv
