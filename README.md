@@ -34,6 +34,7 @@
     - [Következtetés](#következtetés)
     - [Immunitás](#immunitás)
     - [Mindenki elkapja a vírust?](#mindenki-elkapja-a-vírust)
+- [Izraeli adatok](#izraeli-adatok)
 
 # COVID járványelemzés a magyarországi adatok alapján
 
@@ -189,4 +190,11 @@ A szimulációval azt teszeljük, hogy mielőtt elhal a járvány, hány embert 
 mindenkit elfertőzni. Ellenkező esetben egyre több ember lesz immunis a vírusra, folyamatosan csökken az R érték, végül leáll a járvány,
 lesznek emberek, akik nem fogják elkapni a vírust.
 
-![Mindenki elkapja a vírust](https://github.com/kamutelapo/covid/blob/master/k%C3%A9pek/J%C3%A1rv%C3%A1ny-szimul%C3%A1ci%C3%B3.png?raw=true)
+![Mindenki elkapja a vírust](https://github.com/kamutelapo/covid/blob/master/k%C3%A9pek/izraeli-járvány.png?raw=true)
+
+# Izraeli adatok
+
+Sajnos Magyarország nem biztosít elég adatot az oltások hatásfokának becslésére. Az izraeli egészségügyi rendszer mindezt megteszi, bár ott csak Pfizerrel és Modernával oltottak.
+
+
+![Izraeli adatok](https://github.com/kamutelapo/covid/blob/master/izrael/izraeli-j%C3%A1rv%C3%A1ny.png?raw=true)
