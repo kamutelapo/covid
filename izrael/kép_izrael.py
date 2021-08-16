@@ -12,6 +12,9 @@ from matplotlib import gridspec
 
 BASEDIR=os.path.dirname(__file__)
 
+FIATAL_KORCSOPORT_NEVE = "20"
+FIATAL_KORCSOPORT = ['0-19']
+
 def smallerThan5Random(c):
     if c == '<5':
         return str(np.random.randint(4)+1)
@@ -50,11 +53,12 @@ dfuj['Dátum'] = pd.to_datetime(dfuj['Dátum'], format='%Y-%m-%d')
 dfuj = dfuj[['Dátum', 'Korcsoport', 'Oltatlan', 'Oltott']]
 
 dfuj20alatt = dfuj.copy()
-dfuj20alatt = dfuj20alatt[dfuj20alatt['Korcsoport'] == '0-19']
+dfuj20alatt = dfuj20alatt[dfuj20alatt['Korcsoport'].isin(FIATAL_KORCSOPORT)]
+dfuj20alatt = dfuj20alatt.groupby("Dátum").sum().reset_index()
 dfuj20alatt['Összes'] = dfuj20alatt['Oltatlan'] + dfuj20alatt['Oltott']
 
 dfuj20felett = dfuj.copy()
-dfuj20felett = dfuj20felett[dfuj20felett['Korcsoport'] != '0-19']
+dfuj20felett = dfuj20felett[~dfuj20felett['Korcsoport'].isin(FIATAL_KORCSOPORT)]
 
 dfuj20felett = dfuj20felett.groupby("Dátum").sum().reset_index()
 dfuj20felett['Összes'] = dfuj20felett['Oltatlan'] + dfuj20felett['Oltott']
@@ -86,22 +90,22 @@ dfevnt['Összes'] = dfevnt['Oltatlan'] + dfevnt['Oltott']
 
 dfkorhaz20alatt = dfevnt.copy()
 dfkorhaz20alatt = dfkorhaz20alatt[dfkorhaz20alatt['Type_of_event'] == 'Hospitalization']
-dfkorhaz20alatt = dfkorhaz20alatt[dfkorhaz20alatt['Korcsoport'] == '0-19']
+dfkorhaz20alatt = dfkorhaz20alatt[dfkorhaz20alatt['Korcsoport'].isin(FIATAL_KORCSOPORT)]
+dfkorhaz20alatt = dfkorhaz20alatt.groupby("Dátum").sum().reset_index()
 
 dfkorhaz20felett = dfevnt.copy()
 dfkorhaz20felett = dfkorhaz20felett[dfkorhaz20felett['Type_of_event'] == 'Hospitalization']
-dfkorhaz20felett = dfkorhaz20felett[dfkorhaz20felett['Korcsoport'] != '0-19']
-
+dfkorhaz20felett = dfkorhaz20felett[~dfkorhaz20felett['Korcsoport'].isin(FIATAL_KORCSOPORT)]
 dfkorhaz20felett = dfkorhaz20felett.groupby("Dátum").sum().reset_index()
 
 dfhalal20alatt = dfevnt.copy()
 dfhalal20alatt = dfhalal20alatt[dfhalal20alatt['Type_of_event'] == 'Death']
-dfhalal20alatt = dfhalal20alatt[dfhalal20alatt['Korcsoport'] == '0-19']
-
+dfhalal20alatt = dfhalal20alatt[dfhalal20alatt['Korcsoport'].isin(FIATAL_KORCSOPORT)]
+dfhalal20alatt = dfhalal20alatt.groupby("Dátum").sum().reset_index()
 
 dfhalal20felett = dfevnt.copy()
 dfhalal20felett = dfhalal20felett[dfhalal20felett['Type_of_event'] == 'Death']
-dfhalal20felett = dfhalal20felett[dfhalal20felett['Korcsoport'] != '0-19']
+dfhalal20felett = dfhalal20felett[~dfhalal20felett['Korcsoport'].isin(FIATAL_KORCSOPORT)]
 
 dfhalal20felett = dfhalal20felett.groupby("Dátum").sum().reset_index()
 
@@ -146,7 +150,7 @@ ax2.legend()
 ax2.tick_params(axis='x', rotation=15)
 
 ax3=fig.add_subplot(spec[2], label="3")
-ax3.set_title("Új fertőzések 20 év felett, sok oltott")
+ax3.set_title("Új fertőzések " + FIATAL_KORCSOPORT_NEVE + " év felett, sok oltott")
 ax3.plot(dfuj20felett['Dátum'], dfuj20felett['Összes'], color="lightgreen", label="Összes")
 ax3.plot(dfuj20felett['Dátum'], dfuj20felett['Oltott'], color="green", label="Oltott")
 ax3.set_ylim([0,36000])
@@ -159,7 +163,7 @@ ax3.set_xlim([df['Dátum'].min(), df['Dátum'].max()])
 ax3.legend()
 
 ax4=fig.add_subplot(spec[3], label="4")
-ax4.set_title("Új fertőzések 20 év alatt, kevés oltott")
+ax4.set_title("Új fertőzések " + FIATAL_KORCSOPORT_NEVE + " év alatt, kevés oltott")
 ax4.plot(dfuj20alatt['Dátum'], dfuj20alatt['Összes'], color="lightgreen", label="Összes")
 ax4.plot(dfuj20alatt['Dátum'], dfuj20alatt['Oltott'], color="green", label="Oltott")
 ax4.set_ylim([0,36000])
@@ -172,7 +176,7 @@ ax4.set_xlim([df['Dátum'].min(), df['Dátum'].max()])
 ax4.legend()
 
 ax5=fig.add_subplot(spec[4], label="5")
-ax5.set_title("Kórházi kezelés 20 év felett, sok oltott")
+ax5.set_title("Kórházi kezelés " + FIATAL_KORCSOPORT_NEVE + " év felett, sok oltott")
 ax5.plot(dfkorhaz20felett['Dátum'], dfkorhaz20felett['Összes'], color="#8888ff", label="Összes")
 ax5.plot(dfkorhaz20felett['Dátum'], dfkorhaz20felett['Oltott'], color="blue", label="Oltott")
 ax5.set_ylim([0,1900])
@@ -185,7 +189,7 @@ ax5.set_xlim([df['Dátum'].min(), df['Dátum'].max()])
 ax5.legend()
 
 ax6=fig.add_subplot(spec[5], label="6")
-ax6.set_title("Kórházi kezelés 20 év alatt, kevés oltott")
+ax6.set_title("Kórházi kezelés " + FIATAL_KORCSOPORT_NEVE + " év alatt, kevés oltott")
 ax6.plot(dfkorhaz20alatt['Dátum'], dfkorhaz20alatt['Összes'], color="#8888ff", label="Összes")
 ax6.plot(dfkorhaz20alatt['Dátum'], dfkorhaz20alatt['Oltott'], color="blue", label="Oltott")
 ax6.set_ylim([0,1900])
@@ -198,7 +202,7 @@ ax6.set_xlim([df['Dátum'].min(), df['Dátum'].max()])
 ax6.legend()
 
 ax7=fig.add_subplot(spec[6], label="7")
-ax7.set_title("Halál 20 év felett, sok oltott")
+ax7.set_title("Halál " + FIATAL_KORCSOPORT_NEVE + " év felett, sok oltott")
 ax7.plot(dfhalal20felett['Dátum'], dfhalal20felett['Összes'], color="#FF8888", label="Összes")
 ax7.plot(dfhalal20felett['Dátum'], dfhalal20felett['Oltott'], color="red", label="Oltott")
 ax7.set_ylim([0,400])
@@ -211,7 +215,7 @@ ax7.set_xlim([df['Dátum'].min(), df['Dátum'].max()])
 ax7.legend()
 
 ax8=fig.add_subplot(spec[7], label="8")
-ax8.set_title("Halál 20 év alatt, kevés oltott")
+ax8.set_title("Halál " + FIATAL_KORCSOPORT_NEVE + " év alatt, kevés oltott")
 ax8.plot(dfhalal20alatt['Dátum'], dfhalal20alatt['Összes'], color="#FF8888", label="Összes")
 ax8.plot(dfhalal20alatt['Dátum'], dfhalal20alatt['Oltott'], color="red", label="Oltott")
 ax8.set_ylim([0,400])
