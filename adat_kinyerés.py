@@ -86,6 +86,9 @@ while (lines):
     
     body = ''.join(arr)
     
+    if ("Törökországban" in body) and ("Oroszországban" in body) and ("Spanyolországban" in body):
+        continue
+    
     lelegezteton = None
     elhunytak = None
     beoltottak = None
