@@ -5,16 +5,18 @@ import pandas as pd
 import numpy as np
 import datetime as dt
 import os
+from datetime import timedelta
 
 BASEDIR=os.path.dirname(__file__)
 
 df = pd.read_csv(BASEDIR +"/adatok/stadat-halalozas-elokeszitve.csv", parse_dates=['A hét kező napja', 'A hét záró napja'], delimiter=';')
-dfweeks = df[(df['A hét sorszáma'] < 29.0) | (df['A hét sorszáma'] > 35.0)]
+maxdate = df['A hét kező napja'].max() + timedelta(days = -35)
+df = df[df['A hét kező napja'] <= maxdate]
 
-df2020 = dfweeks[dfweeks['A hét záró napja'] > "2020-08-30"]
+df2020 = df[df['A hét záró napja'] > "2020-08-30"]
 covid_elhunytak = df2020[['A hét kező napja', 'A hét sorszáma', 'Összesen összesen']].rename(columns = {'Összesen összesen': 'Elhunytak'}, inplace = False)
 
-dfatlag = dfweeks[dfweeks['A hét záró napja'] < "2020-01-01"]
+dfatlag = df[df['A hét záró napja'] < "2020-01-01"]
 
 dfatlag = dfatlag.groupby('A hét sorszáma').mean().reset_index()
 atlag_elhunytak = dfatlag[['A hét sorszáma', 'Összesen összesen']].rename(columns = {'Összesen összesen': 'KSH 5 éves átlag'}, inplace = False)
