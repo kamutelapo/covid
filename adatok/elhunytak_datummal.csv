@@ -1,4 +1,47 @@
 Sorszám,Dátum,Nem,Kor,Alapbetegségek
+30123,2021-09-17,Férfi,75,"Parkinson-kór, stroke"
+30122,2021-09-17,Férfi,80,"magasvérnyomás-betegség, cukorbetegség"
+30121,2021-09-17,Nő,82,"cukorbetegség, magasvérnyomás-betegség, Parkinson-kór"
+30120,2021-09-17,Nő,88,"magasvérnyomás-betegség, szívbetegség, pajzsmirigy-betegség"
+30119,2021-09-17,Nő,83,"pajzsmirigy-alulműködés, asztma, cukorbetegség"
+30118,2021-09-16,Férfi,71,"magasvérnyomás-betegség, cukorbetegség"
+30117,2021-09-16,Nő,93,"magasvérnyomás-betegség, pangásos szívelégtelenség"
+30116,2021-09-16,Nő,45,"magasvérnyomás-betegség, cukorbetegség, extrém elhízás"
+30115,2021-09-16,Nő,81,"magasvérnyomás-betegség, cukorbetegség, iszkémiás szívbetegség"
+30114,2021-09-15,Nő,82,daganatos megbetegedés
+30113,2021-09-15,Férfi,82,"cukorbetegség, szívbetegség"
+30112,2021-09-15,Nő,87,"magasvérnyomás-betegség, Parkinson-kór, szívbetegség"
+30111,2021-09-15,Nő,72,"magasvérnyomás-betegség, cukorbetegség, elhízás"
+30110,2021-09-15,Férfi,19,daganatos megbetegedés
+30109,2021-09-15,Nő,78,"magasvérnyomás-betegség, elhízás, szívbetegség, refluxbetegség, nyiroködéma"
+30108,2021-09-15,Nő,65,"szkizoaffektív zavar, paranoia"
+30107,2021-09-15,Férfi,56,"magasvérnyomás-betegség, cukorbetegség, elhízás, epilepszia"
+30106,2021-09-15,Nő,86,"magasvérnyomás-betegség, szívbetegség, cukorbetegség, daganatos megbetegedés"
+30105,2021-09-15,Férfi,56,"magasvérnyomás-betegség, elhízás"
+30104,2021-09-15,Nő,94,"magasvérnyomás-betegség, szívritmuszavar, agyi érbetegség"
+30103,2021-09-15,Nő,84,"stroke, afázia"
+30102,2021-09-14,Férfi,64,"iszkémiás szívbetegség, veseelégtelenség, májelégtelenség"
+30101,2021-09-14,Férfi,63,agyi infarktus
+30100,2021-09-14,Férfi,46,nem ismert alapbetegség
+30099,2021-09-14,Férfi,57,"magasvérnyomás-betegség, cukorbetegség"
+30098,2021-09-13,Férfi,79,"magasvérnyomás-betegség, cukorbetegség"
+30097,2021-09-13,Nõ,87,"magasvérnyomás-betegség, demencia"
+30096,2021-09-13,Nõ,92,"magasvérnyomás-betegség, szívbetegség"
+30095,2021-09-13,Nõ,92,"általános érelmeszesedés, magasvérnyomás-betegség"
+30094,2021-09-12,Nõ,85,"magasvérnyomás-betegség, demencia"
+30093,2021-09-12,Nõ,81,"iszkémiás szívbetegség, magas vérnyomás"
+30092,2021-09-12,Nõ,72,"stroke, spasztikus bénulás, epilepszia"
+30091,2021-09-12,Nõ,74,"magasvérnyomás-betegség, gyomor és nyombélfekély, daganatos megbetegedés"
+30090,2021-09-11,Nő,0,(pár napos újszülött) hirtelen csecsemõhalál
+30089,2021-09-11,Nõ,82,daganatos megbetegedés
+30088,2021-09-11,Férfi,65,"magasvérnyomás-betegség, daganatos megbetegedés, epilepszia"
+30087,2021-09-11,Nõ,87,"cukorbetegség, magasvérnyomás-betegség"
+30086,2021-09-10,Férfi,62,"érelmeszesedés, pajzsmirigybetegség, Alzheimer-kór"
+30085,2021-09-10,Férfi,64,"magasvérnyomás-betegség, szív és érrendszeri betegség, daganatos megbetegedés"
+30084,2021-09-10,Nő,74,"érbetegség, cukorbetegség, magasvérnyomás-betegség"
+30083,2021-09-10,Nő,82,"iszkémiás szívbetegség, hörghurut, agyi működés zavara"
+30082,2021-09-10,Nő,80,"magasvérnyomás-betegség, érelmeszesedés"
+30081,2021-09-10,Férfi,83,"cukorbetegség, demencia, érelmeszesedés, daganatos megbetegedés"
 30080,2021-09-09,Férfi,79,tüdőbetegség
 30079,2021-09-09,Férfi,69,magasvérnyomás-betegség
 30078,2021-09-09,Férfi,32,"magasvérnyomás-betegség, extrém elhízás, cukorbetegség"
