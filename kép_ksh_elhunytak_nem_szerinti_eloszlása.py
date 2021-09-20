@@ -6,26 +6,37 @@ import numpy as np
 import datetime as dt
 import os
 import re
+from datetime import timedelta
 
 BASEDIR=os.path.dirname(__file__)
 
 df = pd.read_csv(BASEDIR +"/adatok/stadat-halalozas-elokeszitve.csv", parse_dates=['A hét kező napja', 'A hét záró napja'], delimiter=';')
-dfweeks = df[(df['A hét sorszáma'] < 29.0) | (df['A hét sorszáma'] > 35.0)]
+maxdate = df['A hét kező napja'].max() + timedelta(days = -35)
+df = df[df['A hét kező napja'] <= maxdate]
 
-covid_elhunytak = dfweeks[dfweeks['A hét záró napja'] > "2020-08-30"].sum()
+covid_elhunytak = df[df['A hét záró napja'] > "2020-08-30"]
 
-dfatlag = dfweeks[dfweeks['A hét záró napja'] < "2020-01-01"]
-dfatlag = dfatlag.groupby('A hét sorszáma').mean().sum()
-diff = covid_elhunytak - dfatlag
+dfatlag = df[df['A hét záró napja'] < "2020-01-01"]
+dfatlag = dfatlag.groupby('A hét sorszáma').mean().reset_index()
+
+for index, item in dfatlag.iteritems():
+    if ('Nő összesen' == index) or ('Férfi összesen' == index):
+        dfatlag = dfatlag.rename(columns = {index: "Átlag " + index })
+
+dfatlag = dfatlag[['A hét sorszáma', 'Átlag Nő összesen', 'Átlag Férfi összesen']]
+
+diff = pd.merge(covid_elhunytak, dfatlag, left_on = 'A hét sorszáma', right_on = 'A hét sorszáma', how="left")
 
 ferfiak = np.NaN
 nok = np.NaN
 
 for index, item in diff.iteritems():
     if index == 'Nő összesen':
-        nok = int(item + 0.5)
+        diff[index] = diff[index] - diff["Átlag " + index]
+        nok = int(diff[index].sum() + 0.5)
     if index == 'Férfi összesen':
-        ferfiak = int(item + 0.5)
+        diff[index] = diff[index] - diff["Átlag " + index]
+        ferfiak = int(diff[index].sum() + 0.5)
 
 
 data = [['Férfi', ferfiak], ['Nő', nok]];
