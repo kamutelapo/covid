@@ -26,23 +26,12 @@ mindate = pd.to_datetime("2021-08-01")
 df2021 = df[df['Dátum'] >= mindate]
 df2021 = df2021[df2021['Dátum'] <= maxdate]
 
-maxdate1y = maxdate + timedelta(days = -385)
-mindate1y = mindate + timedelta(days = -385)
+maxdate1y = maxdate + timedelta(days = -365)
+mindate1y = mindate + timedelta(days = -365)
 
-mincorr = 999999999999999999999
-
-for napok in range(0,30):
-    df2020 = df[df['Dátum'] >= mindate1y + timedelta(days = napok)]
-    df2020 = df2020[df2020['Dátum'] <= maxdate1y + timedelta(days = napok)]
+df2020 = df[df['Dátum'] >= mindate1y]
+df2020 = df2020[df2020['Dátum'] <= maxdate1y]
     
-    corr = abs((df2021['Napi új fertőzött átlag'].reset_index() - df2020['Napi új fertőzött átlag'].reset_index()).sum())['Napi új fertőzött átlag']
-    
-    if corr < mincorr:
-        mincorr = corr
-        df2020m = df2020
-    
-df2020 = df2020m
-
 pd.plotting.register_matplotlib_converters()
 
 fig=plt.figure(figsize=[10,8])
