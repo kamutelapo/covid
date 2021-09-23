@@ -1,4 +1,26 @@
 Sorszám,Nem,Kor,Alapbetegségek
+30145,Nő,77,daganatos megbetegedés
+30144,Férfi,52,nem ismert alapbetegség
+30143,Férfi,76,daganatos megbetegedés
+30142,Férfi,60,magasvérnyomás-betegség
+30141,Nő,81,"magasvérnyomás, tüdőbetegség, érszűkület, szívelégtelenség, stroke"
+30140,Férfi,64,"magasvérnyomás-betegség, daganatos betegség"
+30139,Nő,81,"magasvérnyomás-betegség, pajzsmirigybetegség"
+30138,Nő,65,"magasvérnyomás-betegség, cukorbetegség, tüdőbetegség"
+30137,Nő,80,"magasvérnyomás-betegség, cukorbetegség"
+30136,Férfi,95,"leukémia, cukorbetegség"
+30135,Férfi,82,"magasvérnyomás-betegség, cukorbetegség, krónikus obstruktív tüdőbetegség, gyomorrák"
+30134,Nő,83,Parkinson-kór
+30133,Férfi,58,"magasvérnyomás-betegség, kóros elhízás"
+30132,Nő,91,magasvérnyomás-betegség
+30131,Férfi,67,"cukorbetegség, veseelégtelenség"
+30130,Nő,65,"magasvérnyomás-betegség, krónikus obstruktív tüdőbetegség, pánikbetegség, tüdődaganat agyi áttétekkel"
+30129,Nő,71,"krónikus obstruktív tüdőbetegség, magasvérnyomás-betegség"
+30128,Nő,86,"magasvérnyomás-betegség, krónikus veseelégtelenség"
+30127,Nő,60,magasvérnyomás-betegség
+30126,Férfi,79,"cukorbetegség, magas vérnyomás, stroke, generalizált érbetegség"
+30125,Nő,85,"pangásos szívelégtelenség, agyi érszűkület, pitvarfibrilláció"
+30124,Nő,76,"cukorbetegség, sokideg-gyulladás, Alzheimer-kór"
 30123,Férfi,75,"Parkinson-kór, stroke"
 30122,Férfi,80,"magasvérnyomás-betegség, cukorbetegség"
 30121,Nő,82,"cukorbetegség, magasvérnyomás-betegség, Parkinson-kór"
@@ -28377,8 +28399,8 @@ szívritmuszavar, cukorbetegség, tüdõtágulat, magasvérnyomás-betegség, m�
 1766,Nő,82,csípőkopás
 1765,Nő,92,érelmeszesedés
 1764,Férfi,71,jelenleg nem ismert
-1762,Férfi,59,"veseelégtelenség, epilepszia, skizofrénia"
 1762,Férfi,77,"magas vérnyomás, cukorbetegség, vérszegénység, gerincsérv"
+1762,Férfi,59,"veseelégtelenség, epilepszia, skizofrénia"
 1761,Férfi,64,"magas vérnyomás, pitvarfibrilláció"
 1760,Nő,78,"magas vérnyomás, szívizom vérellátási elégtelenség, emlődaganat"
 1759,Férfi,79,"szívinfarktus, epekő, májzsugorodás, gyomorfekély"
