@@ -28,6 +28,7 @@
       - [Új fertőzöttek és halottak együtt](#új-fertőzöttek-és-halottak-együtt)
       - [Korreláció a fertőzöttek és halottak között](#korreláció-a-fertőzöttek-és-halottak-között)
       - [Halálozási ráta az új fertőzöttek és elhunytak alapján (20 nap eltolással)](#halálozási-ráta-az-új-fertőzöttek-és-elhunytak-alapján-20-nap-eltolással)
+    - [Hullámok összehasonlítása](#hullámok-összehasonlítása)
   - [Szimulációk:](#szimulációk)
     - [Korlátozások](#korlátozások)
     - [Oltások](#oltások)
@@ -151,7 +152,12 @@ A harmadik hullám alatt ugyanez az érték 12 napnál volt.
 
 #### Halálozási ráta az új fertőzöttek és elhunytak alapján (20 nap eltolással)
 
+
 ![Új fertőzöttek és halottak korreláció](https://github.com/kamutelapo/covid/blob/master/k%C3%A9pek/Fert%C5%91z%C3%B6ttekHal%C3%A1loz%C3%A1siR%C3%A1t%C3%A1ja.png?raw=true)
+
+### Hullámok összehasonlítása
+
+![Hullámok összehasonlítása](https://github.com/kamutelapo/covid/blob/master/k%C3%A9pek/Covid%C3%96sszehasonl%C3%ADt%C3%A1s.png?raw=true)
 
 ## Szimulációk:
 
