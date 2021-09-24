@@ -1207,6 +1207,7 @@ Sorszám,Nem,Kor,Alapbetegségek
 29658,nõ,49,daganatos megbetegedés
 29698,férfi,49,"magas vérnyomás, elhízás"
 29980,Férfi,49,nem ismert alapbetegség
+30148,Nő,49,"cukorbetegség, magasvérnyomás-betegség"
 597,Férfi,50,"tüdő rosszindulatú daganata,  tüdőtágulat, cachexia, carcinoma neuroendocrinicum"
 1110,Férfi,50,"szívelégtelenség, magas vérnyomás, cukorbetegség"
 1196,Férfi,50,"vírusos tüdőgyulladás, magasvérnyomás-betegség, szívbetegség, cukorbetegség"
@@ -6730,6 +6731,7 @@ húgyhólyag- és vesemedence-gyulladás, polipózis"
 30108,Nő,65,"szkizoaffektív zavar, paranoia"
 30130,Nő,65,"magasvérnyomás-betegség, krónikus obstruktív tüdőbetegség, pánikbetegség, tüdődaganat agyi áttétekkel"
 30138,Nő,65,"magasvérnyomás-betegség, cukorbetegség, tüdőbetegség"
+30147,Nő,65,"daganatos megbetegedés, kóros elhízás, tüdőbetegség"
 19,Férfi,66,"szív- és érrendszeri megbetegedés, idült reumás szívbetegség, degenaratív („kopásos”) gerincbetegség"
 68,Nő,66,szív és érrendszeri betegség
 100,Férfi,66,"krónikus veseelégtelenség, daganatos betegség"
@@ -8291,6 +8293,7 @@ húgyhólyag- és vesemedence-gyulladás, polipózis"
 30016,Férfi,67,daganatos betegség
 30077,Nő,67,rosszindulatú daganatos megbetegedés
 30131,Férfi,67,"cukorbetegség, veseelégtelenség"
+30150,Nő,67,"magasvérnyomás-betegség, vesebetegség"
 5,Férfi,68,szív és érrendszeri
 134,Férfi,68,"szív- és érrendszeri betegség, daganatos betegség"
 219,Férfi,68,"magas vérnyomás, köszvény"
@@ -26531,6 +26534,7 @@ történt)"
 30087,Nõ,87,"cukorbetegség, magasvérnyomás-betegség"
 30097,Nõ,87,"magasvérnyomás-betegség, demencia"
 30112,Nő,87,"magasvérnyomás-betegség, Parkinson-kór, szívbetegség"
+30151,Nő,87,"magasvérnyomás-betegség, demencia, Alzheimer-kór"
 118,Nő,88,"szívizomelégtelenség, vese problémák"
 123,Nő,88,"magas vérnyomás, stroke"
 162,Nő,88,"művese kezelés, magas vérnyomás, cukorbetegség, pacemaker"
@@ -27213,6 +27217,7 @@ történt)"
 29998,Nő,88,"magas vérnyomás, krónikus veseelégtelenség, cukorbetegség"
 30050,Férfi,88,"cukorbetegség, krónikus obstruktív tüdőbetegség"
 30120,Nő,88,"magasvérnyomás-betegség, szívbetegség, pajzsmirigy-betegség"
+30146,Nő,88,magasvérnyomás-betegség
 22,Férfi,89,"post TBC, mellhártya összenövés, prosztata-betegség"
 57,Férfi,89,"magas vérnyomás, agyi érbetegség"
 65,Férfi,89,"daganatos betegség, magas vérnyomás, krónikus veseelégtelenség"
@@ -27818,6 +27823,7 @@ történt)"
 29797,Nő,89,Parkinson-kór
 29952,nõ,89,magasvérnyomás-betegség
 30011,Nõ,89,"magasvérnyomás-betegség, szívbetegség"
+30149,Nő,89,magasvérnyomás-betegség
 9,Nő,90,"aorta stenosis, ISzB, magas vérnyomás, pitvarfibrilláció"
 84,Nő,90,"légzési elégtelenség, tüdőgyulladás, verőér elmeszesedés"
 96,Nő,90,"magas vérnyomás, krónikus obstruktív tüdőbetegség, kiterjedt érbetegség"
