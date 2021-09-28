@@ -1,4 +1,32 @@
 Sorszám,Nem,Kor,Alapbetegségek
+30179,Nő,72,"magasvérnyomás-betegség, cukorbetegség"
+30178,Nő,74,"magasvérnyomás-betegség, cukorbetegség"
+30177,Nő,84,csontritkulás
+30176,Nő,88,"magasvérnyomás-betegség, cukorbetegség, iszkémiás szívbetegség"
+30175,Nő,83,"magasvérnyomás-betegség, demencia"
+30174,Nő,64,"magasvérnyomás-betegség, pánikzavar"
+30173,Nő,67,"magasvérnyomás-betegség, cukorbetegség"
+30172,Férfi,63,magasvérnyomás-betegség
+30171,Nő,80,"magasvérnyomás-betegség, pajzsmirigybetegség, agyi megbetegedés"
+30170,Nő,90,"magasvérnyomás-betegség, pajzsmirigybetegség"
+30169,Nő,91,"magasvérnyomás-betegség, krónikus veseelégtelenség"
+30168,Nő,81,"magasvérnyomás-betegség, demencia"
+30167,Férfi,77,"magasvérnyomás-betegség, kóros elhízás"
+30166,Férfi,72,magasvérnyomás-betegség
+30165,Nő,67,"magasvérnyomás-betegség, cukorbetegség"
+30164,Nő,91,szívelégtelenség
+30163,Nő,93,magasvérnyomás-betegség
+30162,Nő,68,"magasvérnyomás-betegség, Sjögren-szindróma, szívműködési zavar, pajzsmirigy-alulműködés, csontritkulás"
+30161,Férfi,80,"magasvérnyomás-betegség, köszvény, agysorvadás, szívbillentyű elégtelenség"
+30160,Férfi,85,magasvérnyomás-betegség
+30159,Férfi,65,"magasvérnyomás-betegség, vérmérgezés"
+30158,Férfi,67,"cukorbetegség, veseelégtelenség"
+30157,Nő,54,magasvérnyomás-betegség
+30156,Férfi,78,"magasvérnyomás-betegség, érelmeszesedés"
+30155,Nő,89,"asztma, pajzsmirigybetegség, magasvérnyomás-betegség"
+30154,Nő,75,"veseelégtelenség, magasvérnyomás-betegség, köszvény, májbetegség"
+30153,Férfi,43,extrém elhízás
+30152,Nő,86,"magasvérnyomás-betegség, extrém elhízás, cukorbetegség, szívbetegség"
 30151,Nő,87,"magasvérnyomás-betegség, demencia, Alzheimer-kór"
 30150,Nő,67,"magasvérnyomás-betegség, vesebetegség"
 30149,Nő,89,magasvérnyomás-betegség
@@ -21,9 +49,6 @@ Sorszám,Nem,Kor,Alapbetegségek
 30132,Nő,91,magasvérnyomás-betegség
 30131,Férfi,67,"cukorbetegség, veseelégtelenség"
 30130,Nő,65,"magasvérnyomás-betegség, krónikus obstruktív tüdőbetegség, pánikbetegség, tüdődaganat agyi áttétekkel"
-30129,Nő,71,"krónikus obstruktív tüdőbetegség, magasvérnyomás-betegség"
-30128,Nő,86,"magasvérnyomás-betegség, krónikus veseelégtelenség"
-30127,Nő,60,magasvérnyomás-betegség
 30126,Férfi,79,"cukorbetegség, magas vérnyomás, stroke, generalizált érbetegség"
 30125,Nő,85,"pangásos szívelégtelenség, agyi érszűkület, pitvarfibrilláció"
 30124,Nő,76,"cukorbetegség, sokideg-gyulladás, Alzheimer-kór"
@@ -74,6 +99,7 @@ Sorszám,Nem,Kor,Alapbetegségek
 30079,Férfi,69,magasvérnyomás-betegség
 30078,Férfi,32,"magasvérnyomás-betegség, extrém elhízás, cukorbetegség"
 30077,Nő,67,rosszindulatú daganatos megbetegedés
+30077,Nő,67,rosszindulatú daganatos megbetegedés
 30076,Nő,96,magasvérnyomás-betegség
 30075,Férfi,60,rosszindulatú daganatos megbetegedés
 30074,Nõ,62,"magasvérnyomás-betegség, cukorbetegség, stroke"
@@ -123,6 +149,7 @@ Sorszám,Nem,Kor,Alapbetegségek
 30030,Férfi,70,"daganatos betegségek, pangásos szívelégtelenség, vérszegénység"
 30029,Férfi,72,"magasvérnyomás-betegség, asztma"
 30028,Nő,86,"cukorbetegség, iszkémiás szívbetegség"
+30028,Nő,86,"cukorbetegség, iszkémiás szívbetegség"
 30027,Férfi,56,"iszkémiás szívbetegség, szívritmuszavar, vérkeringési zavar"
 30026,Férfi,83,tüdőgyulladás
 30025,Férfi,73,"extrém elhízás, szívbetegség, korábbi szívinfarktusok"
@@ -171,6 +198,7 @@ Sorszám,Nem,Kor,Alapbetegségek
 29982,Nõ,93,magasvérnyomás-betegség
 29981,Férfi,72,"húgyhólyag-gyulladás, szívelégtelenség, prosztata megnagyobbodás"
 29980,Férfi,49,nem ismert alapbetegség
+29979,Nõ,43,epilepszia
 29979,Nõ,43,epilepszia
 29978,Nõ,82,"magasvérnyomás-betegség, iszkémiás szívbetegség"
 29977,Nõ,77,"iszkémiás szívbetegség, magasvérnyomás-betegség"
@@ -28405,8 +28433,8 @@ szívritmuszavar, cukorbetegség, tüdõtágulat, magasvérnyomás-betegség, m�
 1766,Nő,82,csípőkopás
 1765,Nő,92,érelmeszesedés
 1764,Férfi,71,jelenleg nem ismert
-1762,Férfi,77,"magas vérnyomás, cukorbetegség, vérszegénység, gerincsérv"
 1762,Férfi,59,"veseelégtelenség, epilepszia, skizofrénia"
+1762,Férfi,77,"magas vérnyomás, cukorbetegség, vérszegénység, gerincsérv"
 1761,Férfi,64,"magas vérnyomás, pitvarfibrilláció"
 1760,Nő,78,"magas vérnyomás, szívizom vérellátási elégtelenség, emlődaganat"
 1759,Férfi,79,"szívinfarktus, epekő, májzsugorodás, gyomorfekély"
