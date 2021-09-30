@@ -1,4 +1,15 @@
 Sorszám,Nem,Kor,Alapbetegségek
+30190,Nő,70,szívelégtelenség
+30189,Férfi,71,"magasvérnyomás-betegség, cukorbetegség"
+30188,Férfi,50,"magasvérnyomás-betegség, daganatos megbetegedés, vesebetegség"
+30187,Férfi,70,"stroke, magasvérnyomás-betegség"
+30186,Nő,87,"magasvérnyomás-betegség, veseelégtelenség, refluxbetegség, porckorongsérv"
+30185,Férfi,66,"daganatos megbetegedés, cukorbetegség, szívbetegség, magasvérnyomás-betegség, májbetegség"
+30184,Férfi,88,magasvérnyomás-betegség
+30183,Nő,87,"magasvérnyomás-betegség, cukorbetegség, szívbetegség"
+30182,Nő,92,magasvérnyomás-betegség
+30181,Nő,94,"szívelégtelenség, cukorbetegség, Alzheimer-kór"
+30180,Nő,65,tüdőt érintő károsodás
 30179,Nő,72,"magasvérnyomás-betegség, cukorbetegség"
 30178,Nő,74,"magasvérnyomás-betegség, cukorbetegség"
 30177,Nő,84,csontritkulás
@@ -49,6 +60,9 @@ Sorszám,Nem,Kor,Alapbetegségek
 30132,Nő,91,magasvérnyomás-betegség
 30131,Férfi,67,"cukorbetegség, veseelégtelenség"
 30130,Nő,65,"magasvérnyomás-betegség, krónikus obstruktív tüdőbetegség, pánikbetegség, tüdődaganat agyi áttétekkel"
+30129,Nő,71,"krónikus obstruktív tüdőbetegség, magasvérnyomás-betegség"
+30128,Nő,86,"magasvérnyomás-betegség, krónikus veseelégtelenség"
+30127,Nő,60,magasvérnyomás-betegség
 30126,Férfi,79,"cukorbetegség, magas vérnyomás, stroke, generalizált érbetegség"
 30125,Nő,85,"pangásos szívelégtelenség, agyi érszűkület, pitvarfibrilláció"
 30124,Nő,76,"cukorbetegség, sokideg-gyulladás, Alzheimer-kór"
@@ -99,7 +113,6 @@ Sorszám,Nem,Kor,Alapbetegségek
 30079,Férfi,69,magasvérnyomás-betegség
 30078,Férfi,32,"magasvérnyomás-betegség, extrém elhízás, cukorbetegség"
 30077,Nő,67,rosszindulatú daganatos megbetegedés
-30077,Nő,67,rosszindulatú daganatos megbetegedés
 30076,Nő,96,magasvérnyomás-betegség
 30075,Férfi,60,rosszindulatú daganatos megbetegedés
 30074,Nõ,62,"magasvérnyomás-betegség, cukorbetegség, stroke"
@@ -149,7 +162,6 @@ Sorszám,Nem,Kor,Alapbetegségek
 30030,Férfi,70,"daganatos betegségek, pangásos szívelégtelenség, vérszegénység"
 30029,Férfi,72,"magasvérnyomás-betegség, asztma"
 30028,Nő,86,"cukorbetegség, iszkémiás szívbetegség"
-30028,Nő,86,"cukorbetegség, iszkémiás szívbetegség"
 30027,Férfi,56,"iszkémiás szívbetegség, szívritmuszavar, vérkeringési zavar"
 30026,Férfi,83,tüdőgyulladás
 30025,Férfi,73,"extrém elhízás, szívbetegség, korábbi szívinfarktusok"
@@ -198,7 +210,6 @@ Sorszám,Nem,Kor,Alapbetegségek
 29982,Nõ,93,magasvérnyomás-betegség
 29981,Férfi,72,"húgyhólyag-gyulladás, szívelégtelenség, prosztata megnagyobbodás"
 29980,Férfi,49,nem ismert alapbetegség
-29979,Nõ,43,epilepszia
 29979,Nõ,43,epilepszia
 29978,Nõ,82,"magasvérnyomás-betegség, iszkémiás szívbetegség"
 29977,Nõ,77,"iszkémiás szívbetegség, magasvérnyomás-betegség"
