@@ -34,12 +34,12 @@ df2020 = df2020[df2020['Dátum'] <= maxdate1y]
     
 pd.plotting.register_matplotlib_converters()
 
-fig=plt.figure(figsize=[10,8])
+fig=plt.figure(figsize=[10,11])
 
-spec = gridspec.GridSpec(ncols=2, nrows=3,
+spec = gridspec.GridSpec(ncols=2, nrows=4,
                          width_ratios=[1, 1], wspace=0.3,
-                         hspace=0.38, height_ratios=[1, 1, 1])
-spec.update(left=0.06,right=0.99,top=0.88,bottom=0.08,wspace=0.25,hspace=0.50)
+                         hspace=0.38, height_ratios=[1, 1, 1, 1])
+spec.update(left=0.06,right=0.99,top=0.90,bottom=0.08,wspace=0.25,hspace=0.50)
 
 
 concatfr = pd.concat([df2020, df2021]).max()
@@ -47,6 +47,7 @@ concatfr = pd.concat([df2020, df2021]).max()
 maxuf = int(((concatfr['Napi új fertőzött átlag']) + 999) / 1000) * 1000
 maxkr = int(((concatfr['Kórházban ápoltak']) + 99) / 100) * 100
 maxeh = int(((concatfr['Napi új elhunyt átlag']) + 9) / 10) * 10
+maxlg = int(((concatfr['Lélegeztetettek']) + 19) / 20) * 20
 
 ax1=fig.add_subplot(spec[0], label="1")
 ax1.plot(df2020['Dátum'], df2020['Napi új fertőzött átlag'], color='orange')
@@ -89,6 +90,20 @@ ax6.set_ylim([0,maxeh])
 ax6.set_title("2021 - elhunytak átlaga")
 ax6.tick_params(axis='x', rotation=20)
 ax6.fill_between(df2021['Dátum'], df2021['Napi új elhunyt átlag'], color="red")
+
+ax7=fig.add_subplot(spec[6], label="7")
+ax7.plot(df2020['Dátum'], df2020['Lélegeztetettek'], color='green')
+ax7.set_ylim([0,maxlg])
+ax7.set_title("2020 - lélegeztetettek")
+ax7.tick_params(axis='x', rotation=20)
+ax7.fill_between(df2020['Dátum'], df2020['Lélegeztetettek'], color="green")
+
+ax8=fig.add_subplot(spec[7], label="8")
+ax8.plot(df2021['Dátum'], df2021['Lélegeztetettek'], color='green')
+ax8.set_ylim([0,maxlg])
+ax8.set_title("2021 - lélegeztetettek")
+ax8.tick_params(axis='x', rotation=20)
+ax8.fill_between(df2021['Dátum'], df2021['Lélegeztetettek'], color="green")
 
 fig.suptitle('COVID járvány összehasonlítás', fontsize=22)
 fig.savefig(BASEDIR + "/képek/CovidÖsszehasonlítás.png")
