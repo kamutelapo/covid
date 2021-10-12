@@ -39,7 +39,7 @@ fig=plt.figure(figsize=[10,11])
 spec = gridspec.GridSpec(ncols=2, nrows=4,
                          width_ratios=[1, 1], wspace=0.3,
                          hspace=0.38, height_ratios=[1, 1, 1, 1])
-spec.update(left=0.06,right=0.99,top=0.90,bottom=0.08,wspace=0.25,hspace=0.50)
+spec.update(left=0.06,right=0.95,top=0.90,bottom=0.08,wspace=0.25,hspace=0.50)
 
 
 concatfr = pd.concat([df2020, df2021]).max()
