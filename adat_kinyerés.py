@@ -167,10 +167,11 @@ while (lines):
         haromszoroltottak = re.sub(r'\s', '', haromszoroltottak)
         haromszoroltottak = str(int(haromszoroltottak) * 1000)
     else:
-        if (date > '2021-08-11') and ("háromszor oltott" in body.lower() or "harmadik oltás"):
-            print (body)
-            quit()
-        if date <= '2021-08-11':
+        if (date > '2021-08-03') and ("háromszor oltott" in body.lower() or "harmadik oltás"):
+            if date != '2021-08-11':
+              print (body)
+              quit()
+        if date <= '2021-08-03':
             haromszoroltottak = "0"
 
     lelegeztetettek_nelkul = False
