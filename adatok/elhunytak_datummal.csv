@@ -1,4 +1,14 @@
 Sorszám,Dátum,Nem,Kor,Alapbetegségek
+30330,2021-10-13,Nő,35,áttétes daganatos megbetegedés
+30329,2021-10-13,Férfi,84,általános- és agyi érelmeszesedés
+30328,2021-10-13,Férfi,52,"magasvérnyomás-betegség, cukorbetegség, pajzsmirigy-betegség"
+30327,2021-10-13,Férfi,70,"magasvérnyomás-betegség, pajzsmirigy-betegség"
+30326,2021-10-13,Nő,65,"magasvérnyomás-betegség, szívbetegség, pajzsmirigy-betegség"
+30325,2021-10-13,Férfi,72,"magasvérnyomás-betegség, cukorbetegség, prosztatabetegség"
+30324,2021-10-13,Nő,82,"magasvérnyomás-betegség, szívbetegség"
+30323,2021-10-13,Nő,85,"magasvérnyomás-betegség, veseelégtelenség, cukorbetegség, kóros elhízás"
+30322,2021-10-13,Férfi,59,"szívbetegség, kóros elhízás"
+30321,2021-10-13,Férfi,85,"magasvérnyomás-betegség, cukorbetegség, kóros elhízás"
 30320,2021-10-12,Nő,79,"szívbetegség, magasvérnyomás-betegség"
 30319,2021-10-12,Nő,74,"magasvérnyomás-betegség, demencia, szívbetegség"
 30318,2021-10-12,Nő,69,nem ismert alapbetegség
@@ -28574,8 +28584,8 @@ szívritmuszavar, cukorbetegség, tüdõtágulat, magasvérnyomás-betegség, m�
 1766,2020-11-01,Nő,82,csípőkopás
 1765,2020-11-01,Nő,92,érelmeszesedés
 1764,2020-11-01,Férfi,71,jelenleg nem ismert
-1762,2020-11-01,Férfi,59,"veseelégtelenség, epilepszia, skizofrénia"
 1762,2020-11-01,Férfi,77,"magas vérnyomás, cukorbetegség, vérszegénység, gerincsérv"
+1762,2020-11-01,Férfi,59,"veseelégtelenség, epilepszia, skizofrénia"
 1761,2020-11-01,Férfi,64,"magas vérnyomás, pitvarfibrilláció"
 1760,2020-11-01,Nő,78,"magas vérnyomás, szívizom vérellátási elégtelenség, emlődaganat"
 1759,2020-11-01,Férfi,79,"szívinfarktus, epekő, májzsugorodás, gyomorfekély"

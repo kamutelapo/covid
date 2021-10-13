@@ -217,6 +217,7 @@ Sorszám,Nem,Kor,Alapbetegségek
 28246,nõ,35,krónikus pajzsmirigygyulladás
 28543,nõ,35,magasvérnyomás-betegség
 29668,férfi,35,adat feltöltés alatt
+30330,Nő,35,áttétes daganatos megbetegedés
 1568,Férfi,36,"vírusos tüdőgyulladás, légzési elégtelenség, végtagbénulás, alkoholfüggőség"
 2340,Nő,36,"mentális retardáció, epilepszia"
 8075,férfi,36,adat feltöltés alatt
@@ -1739,6 +1740,7 @@ Sorszám,Nem,Kor,Alapbetegségek
 30003,Férfi,52,daganatos megbetegedés
 30144,Férfi,52,nem ismert alapbetegség
 30262,Férfi,52,cukorbetegség
+30328,Férfi,52,"magasvérnyomás-betegség, cukorbetegség, pajzsmirigy-betegség"
 8,Férfi,53,szív és érrendszeri
 142,Férfi,53,adat feltöltés alatt
 677,Nő,53,"Magas vérnyomás, cukorbetegség, Cushing kór, Thyreoiditis"
@@ -3575,6 +3577,7 @@ Sorszám,Nem,Kor,Alapbetegségek
 29829,Nõ,59,"magas vérnyomás, pajzsmirigy betegség"
 29955,nõ,59,magas vérnyomás
 30032,Nő,59,"májbetegség, veseelégtelenség"
+30322,Férfi,59,"szívbetegség, kóros elhízás"
 78,Férfi,60,"krónikus veseelégtelenség, cukorbetegség, magas vérnyomás, szívizom elégtelenség, krónikus keringési elégtelenség"
 208,Nő,60,az adat feltölés alatt
 241,Férfi,60,"veseelégtelenség, embólia, trombozis, vesegyulladás"
@@ -6775,6 +6778,7 @@ húgyhólyag- és vesemedence-gyulladás, polipózis"
 30238,Nő,65,"magasvérnyomás-betegség, tüdőbetegség"
 30287,Nő,65,"magasvérnyomás-betegség, tüdőembólia"
 30304,Férfi,65,"magasvérnyomás-betegség, krónikus koszorúér-szindróma"
+30326,Nő,65,"magasvérnyomás-betegség, szívbetegség, pajzsmirigy-betegség"
 19,Férfi,66,"szív- és érrendszeri megbetegedés, idült reumás szívbetegség, degenaratív („kopásos”) gerincbetegség"
 68,Nő,66,szív és érrendszeri betegség
 100,Férfi,66,"krónikus veseelégtelenség, daganatos betegség"
@@ -10740,6 +10744,7 @@ húgyhólyag- és vesemedence-gyulladás, polipózis"
 30210,Férfi,70,"cukorbetegség, magasvérnyomás-betegség, veseelégelenség"
 30260,Nő,70,nem ismert alapbetegség
 30312,Férfi,70,"magasvérnyomás-betegség, iszkémiás szívbetegség, krónikus obstruktív tüdőbetegség"
+30327,Férfi,70,"magasvérnyomás-betegség, pajzsmirigy-betegség"
 52,Férfi,71,"krónikus veseelégtelenség, anyagcsere betegség, magas vérnyomás"
 66,Nő,71,krónikus vesebetegség
 150,Férfi,71,"Parkinsor-kór, agyérelmeszesedés"
@@ -12469,6 +12474,7 @@ húgyhólyag- és vesemedence-gyulladás, polipózis"
 30179,Nő,72,"magasvérnyomás-betegség, cukorbetegség"
 30255,Férfi,72,"magasvérnyomás-betegség, veseelégtelenség"
 30295,Nő,72,nem ismert alapbetegség
+30325,Férfi,72,"magasvérnyomás-betegség, cukorbetegség, prosztatabetegség"
 12,Férfi,73,"ISZB, encephalopathia, hepatopathia, érszűkület, hypothyreosis"
 37,Férfi,73,szív- és érrendszeri betegség
 56,Férfi,73,"magas vérnyomás, anyagcsere betegség"
@@ -22228,6 +22234,7 @@ Kísérõbetegség: ISZB, M. hypertonicus, Mitr. et ao. insuff. valv., Hyperthyr
 30277,Férfi,82,"magasvérnyomás-betegség, vesebetegség"
 30300,Férfi,82,"iszkémiás szívbetegség, magasvérnyomás-betegség, daganatos megbetegedés"
 30301,Férfi,82,"cukorbetegség, magasvérnyomás-betegség, iszkémiás szívbetegség, kóros elhízás"
+30324,Nő,82,"magasvérnyomás-betegség, szívbetegség"
 104,Nő,83,"magas vérnyomás, szív-és érrendszeri betegség, dementia"
 145,Férfi,83,"krónikus veseelégtelenség, magas vérnyomás, légzési elégtelenség, agyérelmeszesedés, encephalopathia (agykárosodás)"
 181,Férfi,83,"magas vérnyomás, pitvarfibrilláció, daganatos megbetegedés, krónikus veseelégtelenség"
@@ -24138,6 +24145,7 @@ történt)"
 30066,Nő,84,"magasvérnyomás-betegség, szív és érrendszeri betegség, szürkehályog"
 30103,Nő,84,"stroke, afázia"
 30177,Nő,84,csontritkulás
+30329,Férfi,84,általános- és agyi érelmeszesedés
 30,Nő,85,"magas vérnyomás, anyagcsere betegség"
 32,Férfi,85,szív- és érrendszeri betegség
 69,Férfi,85,"szív- és érrendszeri betegség, magas vérnyomás"
@@ -25048,6 +25056,8 @@ történt)"
 30160,Férfi,85,magasvérnyomás-betegség
 30240,Nő,85,"magasvérnyomás-betegség, cukorbetegség"
 30291,Nő,85,"magasvérnyomás-betegség, cukorbetegség"
+30321,Férfi,85,"magasvérnyomás-betegség, cukorbetegség, kóros elhízás"
+30323,Nő,85,"magasvérnyomás-betegség, veseelégtelenség, cukorbetegség, kóros elhízás"
 13,Nő,86,"TBC,LC,PE,HT,DM,diab. polyneuropathia,MVT,"
 17,Nő,86,magas vérnyomás
 25,Nő,86,"veseelégtelenség, magas vérnyomás"
