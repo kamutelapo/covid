@@ -1,4 +1,14 @@
 Sorszám,Dátum,Nem,Kor,Alapbetegségek
+30351,2021-10-15,Nő,71,"magasvérnyomás-betegség, stroke és szövődményei"
+30350,2021-10-15,Nő,55,"krónikus veseelégtelenség, szívritmuszavar, mentális retardáció, vérmérgezés, légzési elégtelenség"
+30349,2021-10-15,Férfi,96,"magasvérnyomás-betegség, prosztata betegségek, hólyagkő eltávolítás"
+30348,2021-10-15,Férfi,78,cukorbetegség
+30347,2021-10-15,Nő,68,"iszkémiás szívbetegség, magasvérnyomás-betegség"
+30346,2021-10-15,Férfi,58,"magasvérnyomás-betegség, iszkémiás szívbetegség, szívelégtelenség"
+30345,2021-10-15,Férfi,69,"magasvérnyomás-betegség, cukorbetegség, epehólyag eltávolítás"
+30344,2021-10-15,Férfi,58,agyi infarktus szövődményei
+30343,2021-10-15,Férfi,56,"magasvérnyomás-betegség, cukorbetegség szövődményekkel, pikkelysömör, iszkémiás szívbetegség"
+30342,2021-10-15,Férfi,91,"szívelégtelenség, szívritmuszavar, stroke"
 30341,2021-10-14,Férfi,75,daganatos megbetegedés
 30340,2021-10-14,Nő,79,"magasvérnyomás-betegség, iszkémiás szívbetegség, cukorbetegség, daganatos megbetegedés"
 30339,2021-10-14,Férfi,77,"magasvérnyomás-betegség, iszkémiás szívbetegség, stroke"
@@ -28595,8 +28605,8 @@ szívritmuszavar, cukorbetegség, tüdõtágulat, magasvérnyomás-betegség, m�
 1766,2020-11-01,Nő,82,csípőkopás
 1765,2020-11-01,Nő,92,érelmeszesedés
 1764,2020-11-01,Férfi,71,jelenleg nem ismert
-1762,2020-11-01,Férfi,59,"veseelégtelenség, epilepszia, skizofrénia"
 1762,2020-11-01,Férfi,77,"magas vérnyomás, cukorbetegség, vérszegénység, gerincsérv"
+1762,2020-11-01,Férfi,59,"veseelégtelenség, epilepszia, skizofrénia"
 1761,2020-11-01,Férfi,64,"magas vérnyomás, pitvarfibrilláció"
 1760,2020-11-01,Nő,78,"magas vérnyomás, szívizom vérellátási elégtelenség, emlődaganat"
 1759,2020-11-01,Férfi,79,"szívinfarktus, epekő, májzsugorodás, gyomorfekély"
