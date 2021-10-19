@@ -43,6 +43,7 @@ KETSZER_OLTOTTAK_SZAMA = [
 ]
 
 HAROMSZOR_OLTOTTAK_SZAMA = [
+    re.compile(r'.*[^0-9]([0-9\s+]\s*millió\s+[0-9\s+]+)\s*ezren\s+(?:pedig)?\s*már\s+a\s+harmadik\s+oltást\s+is\s+felvették.*', re.S),
     re.compile(r'.*[^0-9]([0-9\s+]+)\s*ezren\s+(?:pedig)?\s*már\s+a\s+harmadik\s+oltást\s+is\s+felvették.*', re.S),
     re.compile(r'.*Már\s+([0-9\s+]+)\s*ezren\s+a\s+harmadik\s+oltást\s+is\s+felvették.*', re.S),
     re.compile(r'.*harmadik\s+oltásra\s+és\s+([0-9\s+]+)\s*ezren\s+már\s+fel\s+is\s+vették\s+azt.*', re.S),
@@ -165,6 +166,9 @@ while (lines):
     if mtch:
         haromszoroltottak = mtch.group(1)
         haromszoroltottak = re.sub(r'\s', '', haromszoroltottak)
+        if "millió" in haromszoroltottak:
+            arr = haromszoroltottak.split("millió")
+            haromszoroltottak = int(arr[0])*1000 + int(arr[1])
         haromszoroltottak = str(int(haromszoroltottak) * 1000)
     else:
         if (date > '2021-08-03') and ("háromszor oltott" in body.lower() or "harmadik oltás"):
