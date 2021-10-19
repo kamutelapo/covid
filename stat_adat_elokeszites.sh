@@ -1,4 +1,5 @@
 #!/bin/bash
+wget https://www.ksh.hu/stadat_files/nep/hu/nep0065.csv -O adatok/stadat-halalozas.csv
 
 iconv -f 'ISO 8859-2' -t 'UTF-8' adatok/stadat-halalozas.csv | head -2 | tail -1  >adatok/stadat-halalozas-elokeszitve.csv
 
