@@ -43,7 +43,7 @@ dfkshatlag = dfkshatlag.rename(columns = {'Összesen összesen': 'KSH 5 éves á
 dfkshatlag = dfkshatlag[["A hét sorszáma", "KSH 5 éves átlag"]]
 
 maxdateksh = dfksh['A hét kező napja'].max()
-maxdateksh1y = maxdateksh + timedelta(days = -365)
+maxdateksh1y = maxdateksh + timedelta(days = -360)
 
 dfkshmerge = pd.merge(dfksh[['A hét sorszáma', 'A hét kező napja', 'Összesen összesen']], dfkshatlag, left_on = 'A hét sorszáma', right_on = 'A hét sorszáma')
 dfkshmerge = dfkshmerge.rename(columns = {'Összesen összesen': 'KSH halálozás', 'A hét kező napja': 'Dátum'}, inplace = False)
