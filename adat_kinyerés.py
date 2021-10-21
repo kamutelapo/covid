@@ -68,6 +68,7 @@ file1.close()
 
 df = pd.DataFrame(columns=['Dátum', 'Elhunytak', 'Lélegeztetettek','Beoltottak', 'Kétszer oltottak', 'Kórházban ápoltak', 'Összes fertőzött'])
 
+processed_dates = set()
 
 while (lines):
   line = lines.pop(0)
@@ -212,6 +213,12 @@ while (lines):
 
     if elhunytak is None:
         continue
+    
+    if date in processed_dates:
+        print (body)
+        print ("Dupla")
+        quit()
+    processed_dates.add(date)
     
     ujsor = {
         "Dátum": datetime.datetime.strptime(date, '%Y-%m-%d'),
