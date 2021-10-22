@@ -10,6 +10,7 @@ import matplotlib.pyplot as plt
 import mpl_toolkits.axisartist as AA
 from matplotlib import gridspec
 from datetime import timedelta
+from matplotlib.patches import Rectangle
 
 BASEDIR=os.path.dirname(__file__)
 
@@ -154,6 +155,7 @@ ax10.set_title("2021 - KSH többlet (" + str(ksh2021tobblet) + " fő)", fontweig
 ax10.tick_params(axis='x', rotation=20)
 ax10.axhline(0,color='magenta',ls='--')
 ax10.fill_between(dfksh2021['Dátum'], dfksh2021['KSH többlet'], color="darkviolet")
+ax10.add_patch(Rectangle((maxdateksh + timedelta(days = -35), kshtlim1), timedelta(days = 35), kshtlim2 - kshtlim1, facecolor="pink", alpha=0.5, zorder=-10))
 
 fig.suptitle('COVID járvány összehasonlítás', fontsize=22)
 fig.savefig(BASEDIR + "/képek/CovidÖsszehasonlítás.png")
