@@ -73,7 +73,7 @@ dfevnt = pd.read_csv(BASEDIR + "/event-among-vaccinated.csv")
 
 dfevnt = dfevnt.fillna(0)
 
-EVT_COLUMN_LIST = ["event_after_1st_dose", "event_after_2nd_dose", "event_for_not_vaccinated"]
+EVT_COLUMN_LIST = ["event_after_1st_dose", "event_after_2nd_dose", "event_after_3rd_dose", "event_for_not_vaccinated"]
 
 for column in EVT_COLUMN_LIST:
     dfevnt[column] = dfevnt.apply(lambda row: smallerThan5Random(row[column]), axis=1)
@@ -83,7 +83,7 @@ for column in EVT_COLUMN_LIST:
     dfevnt[column] = dfevnt[column].astype(float)
     dfevnt[column] = dfevnt[column].astype(int)
 
-dfevnt['Oltott'] = dfevnt['event_after_1st_dose'] + dfevnt['event_after_2nd_dose']
+dfevnt['Oltott'] = dfevnt['event_after_1st_dose'] + dfevnt['event_after_2nd_dose'] + dfevnt['event_after_3rd_dose']
 dfevnt = dfevnt.rename(columns = {'event_for_not_vaccinated': 'Oltatlan', 'Age_group': 'Korcsoport' }, inplace = False)
 
 dfevnt['Dátum'] = dfevnt.apply(lambda row: row['Week'][0:10], axis=1)
