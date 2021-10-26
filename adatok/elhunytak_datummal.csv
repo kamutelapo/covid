@@ -1,4 +1,48 @@
 Sorszám,Dátum,Nem,Kor,Alapbetegségek
+30611,2021-10-26,Férfi,72,"magasvérnyomás-betegség, cukorbetegség, szívbetegség, érelmeszesedés, veseelégtelenség"
+30610,2021-10-26,Férfi,70,"cukorbetegség, érelmeszesedés, szívelégtelenség"
+30609,2021-10-26,Férfi,81,"érszûkület, mélyvénás trombózis, ízületi betegség"
+30608,2021-10-26,Nõ,89,"daganatos megbetegedés, cukorbetegség, magasvérnyomás-betegség"
+30607,2021-10-26,Férfi,85,"magasvérnyomás-betegség, pitvarfibrilláció"
+30606,2021-10-26,Férfi,84,"magasvérnyomás-betegség cukorbetegség, érelmeszesedés"
+30605,2021-10-26,Nõ,99,"Parkinson-kór, demencia"
+30604,2021-10-26,Férfi,67,"magasvérnyomás-betegség, pitvarfibrilláció, tüdõbetegség, generalizált érbetegség"
+30603,2021-10-26,Nõ,64,"cukorbetegség, magasvérnyomás-betegség, tüdõbetegség, krónikus veseelégtelenség"
+30602,2021-10-26,Férfi,81,"magasvérnyomás-betegség  nyelõcsõfekély, prosztata túltengés"
+30601,2021-10-26,Férfi,83,"Alzheimer-kór, demencia, epilepszia, veseelégtelenség"
+30600,2021-10-26,Férfi,88,"magasvérnyomás-betegség, veseelégtelenség, húgyúti fertõzés"
+30599,2021-10-26,Nõ,78,"érszûkület, stroke, pajzsmirigy-betegség, magasvérnyomás-betegség"
+30598,2021-10-26,Nõ,90,magasvérnyomás-betegség
+30597,2021-10-26,Férfi,71,"magasvérnyomás-betegség, szívbetegség, általános érelmeszesedés, cukorbetegség, agyi infarktus, veseelégtelenség"
+30596,2021-10-26,Férfi,96,"magasvérnyomás-betegség, szívbetegség"
+30595,2021-10-26,Férfi,87,"szívizomelhalás, magasvérnyomás-betegség"
+30594,2021-10-26,Nõ,79,"magas vérnyomás, cukorbetegség"
+30593,2021-10-26,Férfi,95,"veseelégtelenség, pitvarfibrilláció"
+30592,2021-10-26,Nõ,89,"tüdõembólia, magasvérnyomás-betegség, szívbetegség, daganatos megbetegedés"
+30591,2021-10-26,Nõ,78,"cukorbetegség, magasvérnyomás-betegség, veseelégtelenség"
+30590,2021-10-26,Nõ,81,Alzheimer-kór
+30589,2021-10-26,Nõ,90,magasvérnyomás-betegség
+30588,2021-10-26,Nõ,56,"cukorbetegség, magasvérnyomás-betegség"
+30587,2021-10-26,Férfi,80,"cukorbetegség, magasvérnyomás-betegség, daganatos megbetegedés"
+30586,2021-10-26,Nõ,24,sav-bázis egyensúly kevert zavara
+30585,2021-10-26,Férfi,73,"cukorbetegség, csontritkulás, magasvérnyomás-betegség"
+30584,2021-10-26,Férfi,72,"magasvérnyomás-betegség, cukorbetegség, magas vérzsírszint, érelmeszesedés, veseelégtelenség"
+30583,2021-10-26,Férfi,92,"légzési elégtelenség, magasvérnyomás-betegség, érelmeszesedés, veseelégtelenség"
+30582,2021-10-26,Nõ,91,"magasvérnyomás-betegség, szívbetegség, érelmeszesedés, cukorbetegség, veseelégtelenség"
+30581,2021-10-26,Nõ,89,"magasvérnyomás-betegség, érelmeszesedés"
+30580,2021-10-26,Férfi,64,"tüdõ transzplantáció, asztma, magasvérnyomás-betegség, szívbetegség"
+30579,2021-10-26,Nõ,83,"magasvérnyomás-betegség, demencia, reflux"
+30578,2021-10-26,Férfi,93,"magasvérnyomás-betegség, cukorbetegség, prosztata túltengés"
+30577,2021-10-26,Nõ,80,magasvérnyomás-betegség
+30576,2021-10-26,Nõ,55,"cukorbetegség, magasvérnyomás-betegség"
+30575,2021-10-26,Nõ,44,asztma
+30574,2021-10-26,Nõ,92,"magasvérnyomás-betegség, vesebetegség, csontritkulás, ízületi betegség"
+30573,2021-10-26,Férfi,65,"magasvérnyomás-betegség, elhízás, szívbetegség"
+30572,2021-10-26,Férfi,49,nem ismert alapbetegség
+30571,2021-10-26,Férfi,70,nem ismert alapbetegség
+30570,2021-10-26,Férfi,52,magasvérnyomás-betegség
+30569,2021-10-26,Férfi,49,"magasvérnyomás-betegség, magas vérzsírszint, pajzsmirigy-betegség"
+30568,2021-10-26,Férfi,77,"magasvérnyomás-betegség, cukorbetegség"
 30567,2021-10-25,Férfi,72,"krónikus veseelégtelenség, pirvafibrilláció, szívizombetegség, szívelégtelenség, magasvérnyomás-betegség"
 30566,2021-10-25,Férfi,79,"magasvérnyomás-betegség, szürkehályog"
 30565,2021-10-25,Nõ,78,"magasvérnyomás-betegség, cukorbetegség, pajzsmirigy-betegség, májbetegség"
