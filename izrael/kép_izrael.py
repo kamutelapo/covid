@@ -83,6 +83,12 @@ for column in EVT_COLUMN_LIST:
     dfevnt[column] = dfevnt[column].astype(float)
     dfevnt[column] = dfevnt[column].astype(int)
 
+gby = dfevnt.groupby(["Week", "Type_of_event"]).sum().reset_index()
+print (gby)
+DATADIR=os.path.dirname(__file__)
+gby.to_csv(DATADIR +"/esemenyek.csv", index = False)
+quit()
+
 dfevnt['Oltott'] = dfevnt['event_after_1st_dose'] + dfevnt['event_after_2nd_dose'] + dfevnt['event_after_3rd_dose']
 dfevnt = dfevnt.rename(columns = {'event_for_not_vaccinated': 'Oltatlan', 'Age_group': 'Korcsoport' }, inplace = False)
 
