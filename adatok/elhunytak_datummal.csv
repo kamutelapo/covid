@@ -1,4 +1,127 @@
 Sorszám,Dátum,Nem,Kor,Alapbetegségek
+31521,2021-11-09,Nõ,78,cukorbetegség
+31520,2021-11-09,Nõ,68,daganatos megbetegedés
+31519,2021-11-09,Férfi,63,magasvérnyomás-betegség
+31518,2021-11-09,Férfi,77,magasvérnyomás-betegség
+31517,2021-11-09,Nõ,71,"magasvérnyomás-betegség, cukorbetegség, iszkémiás szívbetegség"
+31516,2021-11-09,Férfi,70,daganatos megbetegedés
+31515,2021-11-09,Férfi,74,"magasvérnyomás-betegség, szívbetegség, veseelégtelenség"
+31514,2021-11-09,Nõ,64,magasvérnyomás-betegség
+31513,2021-11-09,Nõ,94,"magasvérnyomás-betegség, vérzékenység, daganatos megbetegedés, demencia, szívelégtelenség"
+31512,2021-11-09,Férfi,51,"magasvérnyomás-betegség, agytörzsi beékelõdés"
+31511,2021-11-09,Nõ,67,"magasvérnyomás-betegség, obstruktív tüdõbetegség, cukorbetegség"
+31510,2021-11-09,Nõ,68,"Parkinson-kór, pajzsmirigy betegség"
+31509,2021-11-09,Nõ,89,"iszkémiás szívbetegség, cukorbetegség, magasvérnyomás-betegség"
+31508,2021-11-09,Nõ,71,nem ismert alapbetegség
+31507,2021-11-09,Férfi,86,"érelmeszesedés, agysorvadás, májbetegség, vesebetegség, tüdõbetegség, kiszáradás, kóros soványsás"
+31506,2021-11-09,Nõ,83,"magasvérnyomás-betegség, iszkémiás szívbetegség"
+31505,2021-11-09,Nõ,64,"magasvérnyomás-betegség, cukorbetegség"
+31504,2021-11-09,Nõ,67,"érelmeszesedés, cukorbetegség, iszkémiás szívbetegség, pitvarfibrilláció"
+31503,2021-11-09,Férfi,68,nem ismert alapbetegség
+31502,2021-11-09,Férfi,73,"iszkémiás szívbetegség, magasvérnyomás-betegség"
+31501,2021-11-09,Nõ,58,cukorbetegség
+31500,2021-11-09,Férfi,60,"pangásos szívelégtelenség, aorta szûkület, iszkémiás szívbetegség, obstruktív tüdõbetegség, érszûkület"
+31499,2021-11-09,Nõ,73,"magasvérnyomás-betegség, elhízás, heveny hasnyálmirigy-gyulladás"
+31498,2021-11-09,Nõ,78,magas vérnyomásos szívtúltengés
+31497,2021-11-09,Nõ,90,"pitvarfibrilláció, magasvérnyomás-betegség"
+31496,2021-11-09,Nõ,67,"cukorbetegség, magasvérnyomás-betegség"
+31495,2021-11-09,Nõ,78,"daganatos megbetegedés, obstruktív tüdõbetegség, magasvérnyomás-betegség, szívelégtelenség, iszkémiás szívbetegség"
+31494,2021-11-09,Férfi,74,"magasvérnyomás-betegség, cukorbetegség"
+31493,2021-11-09,Férfi,86,szívelégtelenség
+31492,2021-11-09,Férfi,71,cukorbetegség
+31491,2021-11-09,Nõ,69,"daganatos megbetegedés, cukorbetegség, magasvérnyomás-betegség, iszkémiás szívbetegség"
+31490,2021-11-09,Férfi,87,"magasvérnyomás-betegség, iszkémiás szívbetegség, daganatos megbetegedés"
+31489,2021-11-09,Férfi,67,"obstruktív tüdõbetegség, pitvarfibrilláció, magasvérnyomás-betegség"
+31488,2021-11-09,Férfi,81,cukorbetegség
+31487,2021-11-09,Nõ,66,"cukorbetegség, magasvérnyomás-betegség, magas vérzsírszint, májbetegség"
+31486,2021-11-09,Nõ,78,"magasvérnyomás-betegség, cukorbetegség"
+31485,2021-11-09,Nõ,83,"magasvérnyomás-betegség, demencia"
+31484,2021-11-09,Nõ,72,"daganatos megbetedés, cukorbetegség"
+31483,2021-11-09,Nõ,83,"magasvérnyomás-betegség, érelmeszesedés"
+31482,2021-11-09,Férfi,81,magasvérnyomás-betegség
+31481,2021-11-09,Nõ,93,"szívbetegség, demencia, veseelégtelenség, iszkémiás szívbetegség, pitvarfibrilláció"
+31480,2021-11-09,Férfi,81,"cukorbetegség, magasvérnyomás-betegség"
+31479,2021-11-09,Férfi,84,pitvarfibrilláció
+31478,2021-11-09,Férfi,77,"iszkémiás szívbetegség, magasvérnyomás-betegség"
+31477,2021-11-09,Férfi,84,"érszûkület, magas vérzsírszint"
+31476,2021-11-09,Férfi,70,"iszkémiás szívbetegség, érelmeszesedés, szívelégtelenség"
+31475,2021-11-09,Férfi,72,"cukorbetegség, magasvérnyomás-betegség, elhízás"
+31474,2021-11-09,Nõ,83,"demencia, magasvérnyomás-betegség, pitvarfibrilláció, érelmeszesedés"
+31473,2021-11-09,Nõ,85,"daganatos megbetegedés, pajzsmirigy-alulmûködés, agyalapi mirigy betegsége, érelmeszesedés"
+31472,2021-11-09,Férfi,74,"iszkémiás szívbetegség, cukorbetegség"
+31471,2021-11-09,Nõ,78,"cukorbetegség, magasvérnyomás-betegség, veseelégtelenség"
+31470,2021-11-09,Nõ,89,"magasvérnyomás-betegség, cukorbetegség"
+31469,2021-11-09,Férfi,74,"krónikus veseelégtelenség, cukorbetegség, magas vérzsírszint, magasvérnyomás-betegség"
+31468,2021-11-09,Nõ,68,"magasvérnyomás-betegség, pitvarfibrilláció, aorta szûkület, cukorbetegség, szívelégtelenség"
+31467,2021-11-09,Férfi,79,"iszkémiás szívbetegség, cukorbetegség, érszûkület"
+31466,2021-11-09,Nõ,79,"iszkémiás szívbetegség, obstruktív tüdõbetegség, magasvérnyomás-betegség, cukorbetegség, veselégtelenség"
+31465,2021-11-09,Nõ,96,"cukorbetegség, magasvérnyomás-betegség"
+31464,2021-11-09,Férfi,78,"iszkémiás szívbetegség, cukorbetegség, pitvarfibrilláció, érszûkület"
+31463,2021-11-09,Férfi,87,"magasvérnyomás-betegség, pajzsmirigy-túlmûködés"
+31462,2021-11-09,Nõ,81,"magasvérnyomás-betegség, demencia, cukorbetegség, stroke"
+31461,2021-11-09,Férfi,76,"magasvérnyomás-betegség, agyi infarktus, veseelégtelenség"
+31460,2021-11-09,Férfi,63,"cukorbetegség, magasvérnyomás-betegség"
+31459,2021-11-09,Férfi,66,"magasvérnyomás-betegség, obstruktív tüdõbetegség, daganatos megbetegedés"
+31458,2021-11-09,Nõ,85,iszkémiás szívbetegség
+31457,2021-11-09,Nõ,73,"krónikus hasnyálmirigy gyulladás, magasvérnyomás-betegség, érelmeszesedés"
+31456,2021-11-09,Férfi,88,"érelmeszesedés, szívritmuszavar, magasvérnyomás-betegség"
+31455,2021-11-09,Nõ,65,"iszkémiás szívbetegség, cukorbetegség, érelmeszesedés"
+31454,2021-11-09,Nõ,70,"obstruktív tüdõbetegség, iszkémiás szívbetegség magasvérnyomás-betegség, szívelégtelenség, pitvarfibilláció"
+31453,2021-11-09,Nõ,65,"daganatos megbetegedés, magasvérnyomás-betegség"
+31452,2021-11-09,Férfi,71,"tüdõmûtét, kóros soványság"
+31451,2021-11-09,Férfi,73,"cukorbetegség, pitvarfibrilláció, magasvérnyomás-betegség, iszkémiás szívbetegség, szívelégtelenség"
+31450,2021-11-09,Férfi,85,daganatos megbetegedés
+31449,2021-11-09,Nõ,34,extrém elhízás
+31448,2021-11-09,Nõ,59,"magasvérnyomás-betegség, vérzékenység"
+31447,2021-11-09,Nõ,57,veseelégtelenség
+31446,2021-11-09,Férfi,83,nem ismert alapbetegség
+31445,2021-11-09,Nõ,55,"magasvérnyomás-betegség, iszkémiás szívbetegség, cukorbetegség"
+31444,2021-11-09,Nõ,79,"szívbetegség, szívelégtelenség, veseelégteleség, cukorbetegség"
+31443,2021-11-09,Nõ,83,"trombózis, magasvérnyomás-betegség, cukorbetegség"
+31442,2021-11-09,Nõ,65,"magasvérnyomás-betegség, pajzsmirigy-alulmûködés"
+31441,2021-11-09,Nõ,84,"demencia, érelmeszesedés, vérzékenység, magasvérnyomás-betegség, veseelégtelenség"
+31440,2021-11-09,Férfi,40,"magasvérnyomás-betegség, elhízás"
+31439,2021-11-09,Férfi,91,"agysorvadás, alsó végtagok visszértágulatai fekéllyel"
+31438,2021-11-09,Férfi,86,"agyi infarktus, vérzékenység, veseelégtelenség, pitvarfibrilláció"
+31437,2021-11-09,Férfi,74,"veseelégtelenség, szívbetegség, tüdõbetegség, obstruktív tüdõbetegség"
+31436,2021-11-09,Nõ,81,nem ismert alapbetegség
+31435,2021-11-09,Férfi,63,"magasvérnyomás-betegség, szívbetegség"
+31434,2021-11-09,Férfi,75,"magasvérnyomás-betegség, pitvarfibrilláció"
+31433,2021-11-09,Nõ,83,szívelégtelenség
+31432,2021-11-09,Nõ,80,"veseelégtelenség, cukorbetegség, iszkémiás szívbetegség, szívelégtelenség, obstruktív tüdõbetegség"
+31431,2021-11-09,Nõ,77,"magasvérnyomás-betegség, cukorbetegség"
+31430,2021-11-09,Férfi,81,daganatos megbetegedés
+31429,2021-11-09,Férfi,70,"obstruktív tüdõbetegség, szívbetegség"
+31428,2021-11-09,Férfi,88,"magasvérnyomás-betegség, pajzsmirigy-alulmûködés, pitvarfibrilláció"
+31427,2021-11-09,Nõ,71,elhízás
+31426,2021-11-09,Férfi,67,elhízás
+31425,2021-11-09,Férfi,80,érelmeszesedés
+31424,2021-11-09,Nõ,62,"magas vérnyomás, daganatos megbetegedés"
+31423,2021-11-09,Férfi,72,"vérzékenység, érelmeszesedés, daganatos megbetegedés"
+31422,2021-11-09,Nõ,86,"szívbetegség, magasvérnyomás-betegség, demencia, pajzsmirigy-alulmûködés, obstruktív tüdõbetegség"
+31421,2021-11-09,Nõ,63,"magasvérnyomás-betegség, iszkémiás szívbetegség, pajzsmirigy-alulmûködés"
+31420,2021-11-09,Nõ,73,magasvérnyomás-betegség
+31419,2021-11-09,Férfi,55,nem ismert alapbetegség
+31418,2021-11-09,Nõ,82,szívelégtelenség
+31417,2021-11-09,Férfi,78,"érelmeszesedés, demencia, cukorbetegség, pitvarfibrilláció"
+31416,2021-11-09,Férfi,79,"magasvérnyomás-betegság, cukorbetegség, érelmeszesedés"
+31415,2021-11-09,Férfi,71,pitvarfibrilláció
+31414,2021-11-09,Nõ,95,nem ismert alapbetegség
+31413,2021-11-09,Nõ,84,iszkémiás szívbetegség
+31412,2021-11-09,Nõ,73,"magasvérnyomás-betegség, cukorbetegség, pajzsmirigy-alulmûködés"
+31411,2021-11-09,Nõ,48,magasvérnyomás-betegség
+31410,2021-11-09,Nõ,65,daganatos megbetegedés
+31409,2021-11-09,Férfi,47,reflux
+31408,2021-11-09,Férfi,62,nem ismert alapbetegség
+31407,2021-11-09,Férfi,49,nem ismert alapbetegség
+31406,2021-11-09,Nõ,81,"magasvérnyomás-betegség, krónikus veseelégtelenség"
+31405,2021-11-09,Nõ,91,"magasvérnyomás-betegség, krónikus veseelégtelenség"
+31404,2021-11-09,Nõ,68,"magasvérnyomás-betegség, általános érelmeszesedés"
+31403,2021-11-09,Nõ,61,tüdõbetegség
+31402,2021-11-09,Nõ,54,"magasvérnyomás-betegség, asztma"
+31401,2021-11-09,Nõ,67,"autoimmun betegség, magasvérnyomás-betegség"
+31400,2021-11-09,Nõ,74,"magasvérnyomás-betegség, iszkémiás szívbetegség"
+31399,2021-11-09,Férfi,72,"cukorbetegség, magasvérnyomás-betegség"
 31398,2021-11-08,Férfi,70,nem ismert alapbetegség
 31397,2021-11-08,Nõ,73,"magasvérnyomás-betegség, cukorbetegség, kóros elhízás, krónikus veseelégtelenség"
 31396,2021-11-08,Férfi,89,"magasvérnyomás-betegség, cukorbetegség"
