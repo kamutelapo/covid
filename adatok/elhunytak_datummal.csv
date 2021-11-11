@@ -1,4 +1,136 @@
 Sorszám,Dátum,Nem,Kor,Alapbetegségek
+31751,2021-11-11,Férfi,62,"magas vérnyomás, cukorbetegség"
+31750,2021-11-11,Férfi,75,tüdõembólia
+31749,2021-11-11,Nõ,53,"down-szindróma, pajzsmirigy-alulmûködés, epilepszia"
+31748,2021-11-11,Férfi,85,"magas vérnyomás, depresszió"
+31747,2021-11-11,Férfi,86,"krónikus veseelégtelenség, magas vérnyomás, cukorbetegség"
+31746,2021-11-11,Férfi,46,nem ismert alapbetegség
+31745,2021-11-11,Férfi,51,magas vérnyomás
+31744,2021-11-11,Nõ,66,érelmeszedés
+31743,2021-11-11,Férfi,72,iszkémiás szívbetegség
+31742,2021-11-11,Férfi,79,tüdõbetegség
+31741,2021-11-11,Nõ,42,nem ismert alapbetegség
+31740,2021-11-11,Férfi,72,cukorbetegség szövõdményekkel
+31739,2021-11-11,Férfi,89,agysorvadás
+31738,2021-11-11,Nõ,71,magas vérnyomás
+31737,2021-11-11,Férfi,68,anyagcserezavar
+31736,2021-11-11,Nõ,88,infarktus
+31735,2021-11-11,Férfi,70,leukémia
+31734,2021-11-11,Nõ,71,motoneuronbetegség
+31733,2021-11-11,Nõ,64,"szívelégtelenség, pitvarfibrilláció"
+31732,2021-11-11,Férfi,50,"szívbetegség, elhízás"
+31731,2021-11-11,Férfi,57,"csontvelõ-, máj- és gyomordaganat"
+31730,2021-11-11,Nõ,66,tüdõbetegség
+31729,2021-11-11,Férfi,83,vesetumor
+31728,2021-11-11,Férfi,73,agyvérzés
+31727,2021-11-11,Nõ,90,cukorbetegség
+31726,2021-11-11,Férfi,80,"elhízás, magas vérnyomás"
+31725,2021-11-11,Nõ,88,tüdõbetegség
+31724,2021-11-11,Férfi,76,"szívelégtelenség, magas vérnyomás"
+31723,2021-11-11,Nõ,79,tüdõtumor
+31722,2021-11-11,Férfi,57,"magas vérnyomás, cukorbetegség szövõdménnyel"
+31721,2021-11-11,Nõ,88,"krónikus veseelégtelenség, magas vérnyomás, cukorbetegség"
+31720,2021-11-11,Férfi,80,"Parkinson-kór, demencia"
+31719,2021-11-11,Férfi,68,Parkinson-kór
+31718,2021-11-11,Nõ,73,agysorvadás
+31717,2021-11-11,Nõ,80,cukorbetegség
+31716,2021-11-11,Nõ,68,magas vérnyomás
+31715,2021-11-11,Nõ,93,magas vérnyomás
+31714,2021-11-11,Férfi,85,gyomorvérzés
+31713,2021-11-11,Férfi,69,epilepszia
+31712,2021-11-11,Férfi,77,magas vérnyomás
+31711,2021-11-11,Férfi,79,"magasvérnyomás-betegség, agyi infarktus következményei, cukorbetegség"
+31710,2021-11-11,Férfi,64,"cukorbetegség, pangásos szívelégtelenség"
+31709,2021-11-11,Nõ,82,szívelégtelenség
+31708,2021-11-11,Nõ,89,nem ismert alapbetegség
+31707,2021-11-11,Férfi,75,"pangásos szívelégtelenség, tüdõgyulladás"
+31706,2021-11-11,Férfi,72,nem ismert alapbetegsége
+31705,2021-11-11,Nõ,76,"magas vérnyomás, agyvérzés"
+31704,2021-11-11,Nõ,72,magas vérnyomás
+31703,2021-11-11,Férfi,59,idegi hallásvesztés
+31702,2021-11-11,Nõ,67,magas vérnyomás
+31701,2021-11-11,Férfi,91,"magas vérnyomás, pitvarfibrilláció"
+31700,2021-11-11,Nõ,79,magas vérnyomás
+31699,2021-11-11,Nõ,87,"magas vérnyomás, kiszáradás"
+31698,2021-11-11,Férfi,79,nem ismert alapbetegség
+31697,2021-11-11,Nõ,68,"tüdõbetegség, pangásos szívelégtelenség, reflux"
+31696,2021-11-11,Nõ,87,iszkémiás szívbetegség
+31695,2021-11-11,Nõ,79,magas vérnyomás
+31694,2021-11-11,Nõ,71,magas vérnyomás
+31693,2021-11-11,Nõ,80,"magas vérnyomás, iszkémiás szívelégtelenség"
+31692,2021-11-11,Nõ,93,"combnyaktörés, szívelégtelenség"
+31691,2021-11-11,Férfi,83,"magas vérnyomás, szívizom elhalás"
+31690,2021-11-11,Férfi,71,nem ismert alapbetegség
+31689,2021-11-11,Nõ,75,epilepszás rohamok
+31688,2021-11-11,Nõ,78,"szívelégtelenség, ritmuszavar, magas vérnyomás, nõgyógyászati mûtét"
+31687,2021-11-11,Nõ,72,"alsó végtagi fekélyek, vesebetegség, magas vérnyomás"
+31686,2021-11-11,Nõ,81,"magas vérnyomás, krónikus vesebetegég"
+31685,2021-11-11,Nõ,83,csípõizület kopása
+31684,2021-11-11,Férfi,71,pitvarfibrilláció
+31683,2021-11-11,Férfi,92,"demencia, szívbetegség"
+31682,2021-11-11,Férfi,64,magas vérnyomás
+31681,2021-11-11,Nõ,64,elhízás
+31680,2021-11-11,Férfi,53,magas vérnyomás
+31679,2021-11-11,Nõ,80,"pajzsmirigy betegsége, agyi sorvadás, cukorbetegség"
+31678,2021-11-11,Férfi,56,kitágulásos szívizom-elfajulás
+31677,2021-11-11,Férfi,82,prosztata rosszindulatú megbetegedése
+31676,2021-11-11,Férfi,84,"visszérbetegség, magas vérnyomás"
+31675,2021-11-11,Férfi,87,"prosztatatúltengés, iszkémiás szívbetegség, magas vérnyomás"
+31674,2021-11-11,Nõ,88,"magas vérnyomás, demencia"
+31673,2021-11-11,Férfi,71,"epilepszia, magas vérnyomás, cukorbetegség"
+31671,2021-11-11,Nõ,66,tüdõ rosszindulatú daganata
+31671,2021-11-11,Férfi,59,"magas vérnyomás, reflux"
+31670,2021-11-11,Nõ,76,"magasvérnyomás-betegség, cukorbetegség, krónikus veseelégtelenség"
+31669,2021-11-11,Nõ,76,"gerinccsatorna szûkület, magas vérnyomás"
+31668,2021-11-11,Nõ,75,"érelmeszesedés, magas vérnyomás"
+31667,2021-11-11,Nõ,70,bõrrák agyi és tüdõ áttéttel
+31666,2021-11-11,Nõ,67,"másodlagos Parkinson-kór, depresszió"
+31665,2021-11-11,Nõ,85,"szívizom elégtelenség, iszkémiás szívbetegség"
+31664,2021-11-11,Nõ,81,"cukorbetegség, magas vérnyomás, agytörzsi stroke"
+31663,2021-11-11,Nõ,59,"tüdõ és emlõ rosszindulatú daganata, multiplex csontáttét"
+31662,2021-11-11,Férfi,80,"magas vérnyomás, érszûkület"
+31661,2021-11-11,Férfi,76,magas vérnyomás
+31660,2021-11-11,Férfi,65,Crohn-betegség
+31659,2021-11-11,Férfi,67,nem ismert alapbetegség
+31658,2021-11-11,Férfi,78,májzsugor
+31657,2021-11-11,Férfi,71,prosztata rosszindulatú daganata
+31656,2021-11-11,Férfi,70,"cukorbetegség, magas vérnyomás, szívelégtelenség"
+31655,2021-11-11,Nõ,77,magas vérnyomás
+31654,2021-11-11,Nõ,83,"elhízás, agyi infarktus, szívelégtelenség"
+31653,2021-11-11,Férfi,65,"ütõérszõkület, magas vérnyomás, elhízás, cukorbetegség"
+31652,2021-11-11,Nõ,87,"szívizom elégtelenség, magas vérnyomás, cukorbetegség"
+31651,2021-11-11,Nõ,88,"magas vérnyomás, cukorbetegség szövõdményekkel"
+31650,2021-11-11,Nõ,75,"magas vérnyomás, demencia"
+31649,2021-11-11,Férfi,64,"magas vérnyomás, tüdõ rosszindulatú daganata"
+31648,2021-11-11,Nõ,67,magas vérnyomás
+31647,2021-11-11,Férfi,64,szívizom elégtelenség
+31646,2021-11-11,Férfi,66,"magas vérnyomás, cukorbetegség, billentyû elégtelenség"
+31645,2021-11-11,Nõ,83,"cukorbetegség, magas vérnyomás"
+31644,2021-11-11,Nõ,66,emlõtumor
+31643,2021-11-11,Nõ,61,nem ismert alapbetegség
+31642,2021-11-11,Nõ,83,"koszorúér-meszesedés, magas vérnyomás"
+31641,2021-11-11,Férfi,80,agyvérzés
+31640,2021-11-11,Nõ,73,"magas vérnyomás, húgyhólyag-gyulladás, cukorbetegség"
+31639,2021-11-11,Férfi,71,"allergia asztma, cukorbetegség, mentális zavar"
+31638,2021-11-11,Férfi,67,"hasfali sérv, májdaganat"
+31637,2021-11-11,Nõ,94,koszorúérgörcs
+31636,2021-11-11,Férfi,84,"májbetegség, nyelõcsõ reflux"
+31635,2021-11-11,Férfi,76,"szívizom elégtelenség, prosztatadaganat"
+31634,2021-11-11,Férfi,50,nem ismer alapbetegség
+31633,2021-11-11,Nõ,87,szívbetegség
+31632,2021-11-11,Férfi,73,általános érelmeszesedés
+31631,2021-11-11,Férfi,62,"magas vérnyomás, gyermekkori szívpitvarmûtét"
+31630,2021-11-11,Nõ,46,pangásos szívelégtelenség
+31629,2021-11-11,Nõ,90,"pajzsmirigy-megnagyobbodás, agykárosodás"
+31628,2021-11-11,Nõ,82,"magas vérnyomás, súlyos cukorbetegség"
+31627,2021-11-11,Nõ,76,"magas húgysavszint, idegkárosodás, gerincvelõ jóindulató daganata"
+31626,2021-11-11,Nõ,62,nem ismert alapbetegség
+31625,2021-11-11,Nõ,84,"méhnyak rosszindulatú daganata, zsákvese"
+31624,2021-11-11,Férfi,59,szívelégtelenség
+31623,2021-11-11,Férfi,77,"szívelégtelenség, stent beültetés"
+31622,2021-11-11,Férfi,70,vérmérgezés
+31621,2021-11-11,Férfi,68,"epilepszia, mentális zavar, agykárosodás"
+31620,2021-11-11,Férfi,85,"krónikus veseelégtelenség, magas vérnyomás, cukorbetegség"
 31619,2021-11-10,Nõ,85,"magasvérnyomás-betegség, cukorbetegség, krónikus veseelégtelenség, iszkémiás szívbetegség"
 31618,2021-11-10,Nõ,31,mentális betegség
 31617,2021-11-10,Nõ,71,"magasvérnyomás-betegség, cukorbetegség"
