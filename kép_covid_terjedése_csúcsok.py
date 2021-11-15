@@ -11,7 +11,7 @@ import mpl_toolkits.axisartist as AA
 
 BASEDIR=os.path.dirname(__file__)
 
-df = pd.read_csv(BASEDIR +"/adatok/covidadatok.csv", parse_dates=['Dátum'])
+df = pd.read_csv(BASEDIR +"/adatok/hiradatok.csv", parse_dates=['Dátum'])
 df['Hét kezdet'] = df.apply(lambda row: row['Dátum'] - dt.timedelta(days=row['Dátum'].weekday()), axis=1)
 
 dfhd = df.rolling(7).mean().shift(-6)
@@ -50,6 +50,11 @@ df3 = df3[df3['Dátum'] < "2021-04-06"]
 df3hd = dfhd[dfhd['Dátum'] >= "2021-01-25"]
 df3hd = df3hd[df3hd['Dátum'] < "2021-04-06"]
 
+df4 = dfheti[dfheti['Dátum'] >= "2021-10-18"]
+df4 = df4[df4['Dátum'] < "2021-12-31"]
+df4hd = dfhd[dfhd['Dátum'] >= "2021-10-18"]
+df4hd = df4hd[df4hd['Dátum'] < "2021-12-31"]
+
 pd.plotting.register_matplotlib_converters()
 
 x_values1=[1,2,3,4,5]
@@ -62,30 +67,44 @@ x_values3=[150,200,250,300,350]
 y_values3=[10,20,30,40,50]
 
 
-fig=plt.figure(figsize=[8,5])
+fig=plt.figure(figsize=[10,5])
 
-ax=fig.add_subplot(121, label="1")
+ax=fig.add_subplot(131, label="1")
 ax.bar(df2['Dátum'], df2['Terjedés'], width=2.0)
 ax.set_ylim([0,3.0])
 ax.xaxis.set_visible(False)
 ax.set_title("A 2. hullám heti dinamikája")
 ax.axhline(1.0,color='magenta',ls='--')
 
-ax2=fig.add_subplot(121, label="2", frame_on=False)
+ax2=fig.add_subplot(131, label="2", frame_on=False)
 ax2.plot(df2hd['Dátum'], df2hd['Előző fertőzött átlag'], color="orange", linewidth=2.0, marker='o', markevery=(0,7))
 ax2.xaxis.set_visible(False)
 ax2.yaxis.set_visible(False)
 
-ax3=fig.add_subplot(122, label="3")
+ax3=fig.add_subplot(132, label="3")
 ax3.bar(df3['Dátum'], df3['Terjedés'], width=2.0)
 ax3.set_ylim([0,3.0])
 ax3.xaxis.set_visible(False)
 ax3.set_title("A 3. hullám heti dinamikája")
 ax3.axhline(1.0,color='magenta',ls='--')
 
-ax4=fig.add_subplot(122, label="4", frame_on=False)
+ax4=fig.add_subplot(132, label="4", frame_on=False)
 ax4.plot(df3hd['Dátum'], df3hd['Előző fertőzött átlag'], color="orange", linewidth=2.0, marker='o', markevery=(0,7))
 ax4.xaxis.set_visible(False)
 ax4.yaxis.set_visible(False)
+
+ax4=fig.add_subplot(133, label="4")
+ax4.bar(df4['Dátum'], df4['Terjedés'], width=2.0)
+ax4.set_ylim([0,3.0])
+ax4.xaxis.set_visible(False)
+ax4.set_title("A 4. hullám heti dinamikája")
+ax4.axhline(1.0,color='magenta',ls='--')
+ax4.set_xlim([df4hd['Dátum'].min() + pd.Timedelta("-5 days"), df4hd['Dátum'].min() + pd.Timedelta("72 days")])
+
+ax5=fig.add_subplot(133, label="5", frame_on=False)
+ax5.plot(df4hd['Dátum'], df4hd['Előző fertőzött átlag'], color="orange", linewidth=2.0, marker='o', markevery=(0,7))
+ax5.xaxis.set_visible(False)
+ax5.yaxis.set_visible(False)
+ax5.set_xlim([df4hd['Dátum'].min() + pd.Timedelta("-5 days"), df4hd['Dátum'].min() + pd.Timedelta("72 days")])
 
 fig.savefig(BASEDIR + "/képek/VírusTerjedésCsúcsok.png", bbox_inches = "tight")
