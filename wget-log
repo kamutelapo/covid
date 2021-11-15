@@ -1,0 +1,11 @@
+--2021-11-15 11:01:50--  https://koronavirus.gov.hu/hirek?page=284
+koronavirus.gov.hu (koronavirus.gov.hu) feloldása… 84.206.130.249
+Csatlakozás a következőhöz: koronavirus.gov.hu (koronavirus.gov.hu)[84.206.130.249]:443… kapcsolódva.
+HTTP kérés elküldve, várakozás válaszra… 200 OK
+Hossz: nincs megadva [text/html]
+Mentés ide: „/tmp/covidadat-KzIcu8pGi6/hirek0284.html”
+
+     0K .......... .......... .....                            5,94M=0,004s
+
+2021-11-15 11:01:51 (5,94 MB/s) -- „/tmp/covidadat-KzIcu8pGi6/hirek0284.html” mentve [26366]
+

@@ -11,7 +11,7 @@ BASEDIR=os.path.dirname(__file__)
 df = pd.read_csv(BASEDIR +"/adatok/hiradatok.csv", parse_dates=['Dátum'])
 df = df[df['Dátum'] >= "2021-01-01"].reset_index()
 
-df['6 hónapon belül oltottak'] = ((df['Napi új másodszor oltott'] + df['Napi új harmadszor oltott']).rolling(min_periods=1, window=180).sum().fillna(0))
+df['6 hónapon belül oltottak'] = ((df['Napi új másodszor oltott'] + df['Napi új harmadszor oltott']).rolling(min_periods=1, window=182).sum().fillna(0))
 
 
 plot = df.plot(x='Dátum', y=['6 hónapon belül oltottak', 'Beoltottak', 'Kétszer oltottak', 'Háromszor oltottak'],
