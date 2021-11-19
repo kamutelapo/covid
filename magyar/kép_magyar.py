@@ -36,6 +36,7 @@ ax1.plot(df['Dátum'], df['Legalább 1 oltással rendelkezők száma'], color='d
 ax1.fill_between(df['Dátum'], df['Regisztrált fertőzöttek száma'], color="#7070FF")
 ax1.fill_between(df['Dátum'], df['Legalább 1 oltással rendelkezők száma'], color="darkblue")
 ax1.set_ylim([0, 5000])
+ax1.tick_params(axis='x', rotation=20)
 ax1.legend()
 
 fig.savefig(BASEDIR + "/Magyar.png", bbox_inches = "tight")
