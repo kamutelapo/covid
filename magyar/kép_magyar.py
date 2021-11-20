@@ -8,35 +8,47 @@ import os
 from mpl_toolkits.axes_grid1 import host_subplot
 import matplotlib.pyplot as plt
 import mpl_toolkits.axisartist as AA
-from matplotlib import gridspec
-from datetime import timedelta
-from matplotlib.patches import Rectangle
 
 BASEDIR=os.path.dirname(__file__)
 
 df = pd.read_csv(BASEDIR +"/újfertőzések.csv", parse_dates=['Dátum'])
+df["Oltottak aránya"] =100 * df['Legalább 1 oltással rendelkezők száma'] / df['Regisztrált fertőzöttek száma']
 
 summa = df.sum()
 
 rate = int(100.0 * summa['Legalább 1 oltással rendelkezők száma'] / summa['Regisztrált fertőzöttek száma'] + 0.5)
 
+
 pd.plotting.register_matplotlib_converters()
 
-fig=plt.figure(figsize=[6,4])
+host = host_subplot(111)
 
-spec = gridspec.GridSpec(ncols=1, nrows=1,
-                         width_ratios=[1], wspace=0.3,
-                         hspace=0.40, height_ratios=[1])
-spec.update(left=0.06,right=0.95,top=0.92,bottom=0.08,wspace=0.25,hspace=0.50)
+par = host.twinx()
 
-ax1=fig.add_subplot(spec[0], label="1")
-ax1.set_title("Magyar COVID adatok az új fertőzöttekről (" + str(rate) + "% oltott)")
-ax1.plot(df['Dátum'], df['Regisztrált fertőzöttek száma'], color='#7070FF', label='Regisztrált fertőzöttek száma')
-ax1.plot(df['Dátum'], df['Legalább 1 oltással rendelkezők száma'], color='darkblue', label='Legalább 1 oltással rendelkezők száma')
-ax1.fill_between(df['Dátum'], df['Regisztrált fertőzöttek száma'], color="#7070FF")
-ax1.fill_between(df['Dátum'], df['Legalább 1 oltással rendelkezők száma'], color="darkblue")
-ax1.set_ylim([0, 5000])
-ax1.tick_params(axis='x', rotation=20)
-ax1.legend()
+host.set_xlabel("Dátum")
+host.set_ylabel("Új fertőzöttek")
+host.set_title("Magyar COVID adatok az új fertőzöttekről (" + str(rate) + "% oltott)")
+host.set_ylim([0, 5000])
+par.set_ylabel("Oltottak aránya")
+par.set_ylim([0, 100])
 
+p1, = host.plot(df['Dátum'], df['Regisztrált fertőzöttek száma'], label="Regisztrált fertőzöttek száma", color="#7070FF")
+p1b, = host.plot(df['Dátum'], df['Legalább 1 oltással rendelkezők száma'], label="Legalább 1 oltással rendelkezők száma", color="darkblue")
+p2, = par.plot(df['Dátum'], df['Oltottak aránya'], label="Oltottak aránya", color="magenta")
+
+host.fill_between(df['Dátum'], df['Regisztrált fertőzöttek száma'], color="#7070FF")
+host.fill_between(df['Dátum'], df['Legalább 1 oltással rendelkezők száma'], color="darkblue")
+
+leg = plt.legend()
+
+host.yaxis.get_label().set_color(p1b.get_color())
+leg.texts[0].set_color(p1.get_color())
+
+leg.texts[1].set_color(p1b.get_color())
+
+par.yaxis.get_label().set_color(p2.get_color())
+leg.texts[2].set_color(p2.get_color())
+
+fig = host.get_figure()
+fig.autofmt_xdate()
 fig.savefig(BASEDIR + "/Magyar.png", bbox_inches = "tight")
