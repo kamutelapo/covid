@@ -35,6 +35,7 @@
     - [Következtetés](#következtetés)
     - [Immunitás](#immunitás)
     - [Mindenki elkapja a vírust?](#mindenki-elkapja-a-vírust)
+- [Oltottak és oltatlanok fertőződése](#oltottak-és-oltatlanok-fertőződése)
 - [Izraeli adatok](#izraeli-adatok)
 
 # COVID járványelemzés a magyarországi adatok alapján
@@ -197,6 +198,10 @@ mindenkit elfertőzni. Ellenkező esetben egyre több ember lesz immunis a víru
 lesznek emberek, akik nem fogják elkapni a vírust.
 
 ![Mindenki elkapja a vírust](https://github.com/kamutelapo/covid/blob/master/k%C3%A9pek/J%C3%A1rv%C3%A1ny-szimul%C3%A1ci%C3%B3.png?raw=true)
+
+# Oltottak és oltatlanok fertőződése
+
+![Oltottak fertőződése](https://github.com/kamutelapo/covid/blob/master/magyar/Magyar.png?raw=true)
 
 # Izraeli adatok
 
