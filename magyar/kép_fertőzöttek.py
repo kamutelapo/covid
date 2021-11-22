@@ -51,4 +51,4 @@ leg.texts[2].set_color(p2.get_color())
 
 fig = host.get_figure()
 fig.autofmt_xdate()
-fig.savefig(BASEDIR + "/Magyar.png", bbox_inches = "tight")
+fig.savefig(BASEDIR + "/Fertőzöttek.png", bbox_inches = "tight")
