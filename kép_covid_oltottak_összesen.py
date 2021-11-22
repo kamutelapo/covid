@@ -15,7 +15,7 @@ df['6 hónapon belül oltottak'] = ((df['Napi új másodszor oltott'] + df['Napi
 
 
 plot = df.plot(x='Dátum', y=['6 hónapon belül oltottak', 'Beoltottak', 'Kétszer oltottak', 'Háromszor oltottak'],
-               ylim=[0, 6000000], title='A COVID ellen beoltottak összesen', color=['magenta', 'blue', 'orange', 'green'],
+               ylim=[0, 6500000], title='A COVID ellen beoltottak összesen', color=['magenta', 'blue', 'orange', 'green'],
                grid=True)
 
 fig = plot.get_figure()
