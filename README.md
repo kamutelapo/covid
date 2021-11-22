@@ -201,7 +201,13 @@ lesznek emberek, akik nem fogják elkapni a vírust.
 
 # Oltottak és oltatlanok fertőződése
 
-![Oltottak fertőződése](https://github.com/kamutelapo/covid/blob/master/magyar/Magyar.png?raw=true)
+## Új fertőzés adatok
+
+![Oltottak fertőződése](https://github.com/kamutelapo/covid/blob/master/magyar/Fert%C5%91z%C3%B6ttek.png?raw=true)
+
+## Korreláció a harmadik oltásokkal
+
+![Korreláció harmadik oltás](https://github.com/kamutelapo/covid/blob/master/magyar/Fert%C5%91z%C3%B6ttek.png?raw=true)
 
 # Izraeli adatok
 
