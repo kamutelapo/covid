@@ -27,6 +27,7 @@ $BASEDIR/kép_lélegeztetettek.py
 $BASEDIR/kép_lélegeztetettek_vs_elhunytak.py
 $BASEDIR/kép_lélegeztetés_után_várható_halál.py
 $BASEDIR/kép_kórházban_ápoltak.py
+$BASEDIR/kép_kórházban_ápoltak_változása.py
 $BASEDIR/kép_új_fertőzöttek_vs_kórházban_ápoltak.py
 $BASEDIR/kép_összehasonlítás.py
 
