@@ -36,6 +36,8 @@
     - [Immunitás](#immunitás)
     - [Mindenki elkapja a vírust?](#mindenki-elkapja-a-vírust)
 - [Oltottak és oltatlanok fertőződése](#oltottak-és-oltatlanok-fertőződése)
+  - [Új fertőzés adatok](#új-fertőzés-adatok)
+  - [Korreláció a harmadik oltásokkal](#korreláció-a-harmadik-oltásokkal)
 - [Izraeli adatok](#izraeli-adatok)
 
 # COVID járványelemzés a magyarországi adatok alapján
@@ -207,7 +209,7 @@ lesznek emberek, akik nem fogják elkapni a vírust.
 
 ## Korreláció a harmadik oltásokkal
 
-![Korreláció harmadik oltás](https://github.com/kamutelapo/covid/blob/master/magyar/Fert%C5%91z%C3%B6ttek.png?raw=true)
+![Korreláció harmadik oltás](https://github.com/kamutelapo/covid/blob/master/magyar/Fert%C5%91z%C3%A9sVsHarmadikOlt%C3%A1s.png?raw=true)
 
 # Izraeli adatok
 
