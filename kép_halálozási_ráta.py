@@ -13,7 +13,7 @@ BASEDIR=os.path.dirname(__file__)
 # fertőzés utáni várható halál 20 nap
 VARHATO_HALAL=20
 
-df = pd.read_csv(BASEDIR +"/adatok/covidadatok.csv", parse_dates=['Dátum'])
+df = pd.read_csv(BASEDIR +"/adatok/hiradatok.csv", parse_dates=['Dátum'])
 df = df[df['Dátum'] >= "2020-08-01"].reset_index()
 
 fertozott = df.iloc[:-VARHATO_HALAL]
