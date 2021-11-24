@@ -44,9 +44,10 @@ KETSZER_OLTOTTAK_SZAMA = [
 
 HAROMSZOR_OLTOTTAK_SZAMA = [
     re.compile(r'.*[^0-9]([0-9\s+]\s*millió\s+[0-9\s+]+)\s*ezren\s+(?:pedig)?\s*már\s+a\s+harmadik\s+oltást\s+is\s+felvették.*', re.S),
-    re.compile(r'.*[^0-9]([0-9\s+]+)\s*ezren\s+(?:pedig)?\s*már\s+a\s+harmadik\s+oltást\s+is\s+felvették.*', re.S),
-    re.compile(r'.*Már\s+([0-9\s+]+)\s*ezren\s+a\s+harmadik\s+oltást\s+is\s+felvették.*', re.S),
-    re.compile(r'.*harmadik\s+oltásra\s+és\s+([0-9\s+]+)\s*ezren\s+már\s+fel\s+is\s+vették\s+azt.*', re.S),
+    re.compile(r'.*[^0-9]([0-9\s+]+\s*ezren)\s+(?:pedig)?\s*már\s+a\s+harmadik\s+oltást\s+is\s+felvették.*', re.S),
+    re.compile(r'.*Már\s+([0-9\s+]+\s*ezren)\s+a\s+harmadik\s+oltást\s+is\s+felvették.*', re.S),
+    re.compile(r'.*harmadik\s+oltásra\s+és\s+([0-9\s+]+\s*ezren)\s+már\s+fel\s+is\s+vették\s+azt.*', re.S),
+    re.compile(r'.*[^0-9\s+]([0-9\s+]+)\s+fő\s+pedig\s+már\s+a\s+harmadik\s+oltást\s+is\s+felvették.*', re.S),
 ]
 
 KORHAZBAN = [
@@ -106,6 +107,7 @@ while (lines):
     else:
         if "léleg" in body.lower():
             print (body)
+            print ("a lélegeztetetteknél gond van")
             quit()
 
     for pattern in ELHUNYTAK_SZAMA:
@@ -119,6 +121,7 @@ while (lines):
     else:
         if "elhunytak" in body.lower():
             print (body)
+            print ("az elhunytaknál gond van")
             quit()
 
     for pattern in BEOLTOTTAK_SZAMA:
@@ -136,6 +139,7 @@ while (lines):
             beoltottak = 1002714
         elif "oltott" in body.lower():
             print (body)
+            print ("az oltottaknál gond van")
             quit()
 
 
@@ -156,6 +160,7 @@ while (lines):
             pass
         elif "második olt" in body.lower() or "kétszer olt" in body.lower():
             print (body)
+            print ("a másodszor oltottaknál gond van")
             quit()
 
 
@@ -167,14 +172,20 @@ while (lines):
     if mtch:
         haromszoroltottak = mtch.group(1)
         haromszoroltottak = re.sub(r'\s', '', haromszoroltottak)
+
         if "millió" in haromszoroltottak:
             arr = haromszoroltottak.split("millió")
-            haromszoroltottak = int(arr[0])*1000 + int(arr[1])
-        haromszoroltottak = str(int(haromszoroltottak) * 1000)
+            haromszoroltottak = int(arr[0])*1000000 + int(arr[1]) * 1000
+        elif "ezren" in haromszoroltottak:
+            haromszoroltottak = re.sub(r'ezren', '', haromszoroltottak)
+            haromszoroltottak = int(haromszoroltottak)*1000
+        else:
+            haromszoroltottak = str(int(haromszoroltottak))
     else:
         if (date > '2021-08-03') and ("háromszor oltott" in body.lower() or "harmadik oltás"):
             if date != '2021-08-11':
               print (body)
+              print ("a háromszor oltottaknál gond van")
               quit()
         if date <= '2021-08-03':
             haromszoroltottak = "0"
@@ -195,6 +206,7 @@ while (lines):
     else:
         if "kórház" in body.lower() and "ápol" in body.lower():
             print (body)
+            print ("a kórházi kezeléseknél gond van")
             quit()
 
     for pattern in OSSZES_FERTOZOTT:
@@ -209,6 +221,7 @@ while (lines):
     else:
         if "összes fertőz" in body.lower():
             print (body)
+            print ("az összes fertőzöttnél gond van")
             quit()
 
     if elhunytak is None:
