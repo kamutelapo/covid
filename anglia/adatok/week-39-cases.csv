@@ -1,4 +1,4 @@
-"Cases reported by specimen date between week 35 and week 38 2021","Total","Unlinked*","Not vaccinated","Received one dose (1-20 days before specimen date)","Received one dose, ≥21 days before specimen date","Second dose ≥14 days before specimen date","Rates among persons vaccinated with 2 doses (per 100,000)","Rates among persons not vaccinated (per 100,000)"
+"Age group", "Total", "Unlinked", "Not vaccinated", "One dose (1-20)","One dose (21-)","Two doses (14-)","Rate vaccinated","Rate not vaccinated"
 "Under 18","273,685","20,290","240,077","8,217","4,419","682","330.4","2,032.0"
 "18-29","87,622","10,336","29,488","1,652","20,962","25,184","475.6","863.0"
 "30-39","89,030","8,575","24,770","826","9,888","44,971","780.1","848.9"
