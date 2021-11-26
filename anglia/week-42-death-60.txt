@@ -1,0 +1,89 @@
+Death within 60 days of positive COVID-19 test by date of death between week 38 and week 41 2021
+Under 18
+18-29
+30-39
+40-49
+50-59
+60-69
+70-79
+80+
+
+Total
+6
+25
+38
+101
+253
+477
+879
+1,682
+
+Unlinked*
+1
+1
+2
+3
+3
+5
+5
+6
+
+Not vaccinated
+4
+15
+26
+59
+112
+140
+121
+169
+
+Received one dose (1-20 days before specimen date)
+1
+0
+0
+0
+1
+0
+0
+0
+
+Received one dose, ≥21 days before specimen date
+0
+0
+2
+5
+13
+26
+23
+50
+
+Second dose ≥14 days before specimen date
+0
+9
+8
+34
+124
+306
+730
+1,457
+
+Rates among persons vaccinated with 2 doses (per 100,000)
+0.0
+0.2
+0.1
+0.6
+1.8
+5.4
+15.8
+56.7
+
+Rates among persons not vaccinated (per 100,000)
+0.0
+0.4
+0.9
+3.5
+11.0
+26.0
+49.2
+134.5

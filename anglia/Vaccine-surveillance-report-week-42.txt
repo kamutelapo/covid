@@ -1,0 +1,2036 @@
+COVID-19 vaccine surveillance report
+Week 42
+
+COVID-19 vaccine surveillance report – week 42
+
+Contents
+Summary...................................................................................................................................... 3
+Vaccine effectiveness ............................................................................................................... 3
+Population impact ..................................................................................................................... 3
+Vaccine effectiveness .................................................................................................................. 4
+Effectiveness against symptomatic disease ............................................................................. 4
+Effectiveness against hospitalisation ........................................................................................ 5
+Effectiveness against mortality ................................................................................................. 5
+Effectiveness against infection ................................................................................................. 5
+Effectiveness against transmission........................................................................................... 6
+Population impact ........................................................................................................................ 8
+Vaccine coverage ..................................................................................................................... 8
+Vaccination status .................................................................................................................. 11
+Vaccine impact on proportion of population with antibodies to COVID-19.............................. 19
+Summary of impact on hospitalisations, infections and mortality ............................................ 26
+References................................................................................................................................. 27
+
+2
+
+COVID-19 vaccine surveillance report – week 42
+
+Summary
+Four coronavirus (COVID-19) vaccines have now been approved for use in the UK. Rigorous
+clinical trials have been undertaken to understand the immune response, safety profile and
+efficacy of these vaccines as part of the regulatory process. Ongoing monitoring of the vaccines
+as they are rolled out in the population is important to continually ensure that clinical and public
+health guidance on the vaccination programme is built upon the best available evidence.
+UK Health Security Agency, UKHSA, formerly Public Health England (PHE), works closely with
+the Medicines and Healthcare Regulatory Agency (MHRA), NHS England, and other
+government, devolved administration and academic partners to monitor the COVID-19
+vaccination programme. Details of the vaccine surveillance strategy are set on the page
+COVID-19: vaccine surveillance strategy (1). As with all vaccines, the safety of COVID-19
+vaccines is continuously being monitored by the MHRA. They conclude that overall, the benefits
+of COVID-19 vaccines outweigh any potential risks (2).
+
+Vaccine effectiveness
+Several studies of vaccine effectiveness have been conducted in the UK which indicate that 2
+doses of vaccine are between 65 and 95% effective at preventing symptomatic disease with
+COVID-19 with the Delta variant, with higher levels of protection against severe disease
+including hospitalisation and death. There is some evidence of waning of protection against
+infection and symptomatic disease over time, though protection against severe disease remains
+high in most groups at least 5 months after the second dose.
+
+Population impact
+The impact of the vaccination programme on the population is assessed by taking into account
+vaccine coverage, evidence on vaccine effectiveness and the latest COVID-19 disease
+surveillance indicators. Vaccine coverage tells us about the proportion of the population that
+have received 1 and 2 doses of COVID-19 vaccines. By 10 October 2021, the overall vaccine
+uptake in England for dose 1 was 65.5% and 60.4% for dose 2. In line with the programme
+rollout, coverage is highest in the oldest age groups.
+We present data on COVID-19 cases, hospitalisations and deaths by vaccination status.
+Based on antibody testing of blood donors, 98.0% of the adult population now have antibodies
+to COVID-19 from either infection or vaccination compared to 18.7% that have antibodies from
+infection alone.
+
+3
+
+COVID-19 vaccine surveillance report – week 42
+
+Vaccine effectiveness
+Large clinical trials have been undertaken for each of the COVID-19 vaccines approved in the
+UK which found that they are highly efficacious at preventing symptomatic disease in the
+populations that were studied. The clinical trials have been designed to be able to assess the
+efficacy of the vaccine against laboratory confirmed symptomatic disease with a relatively short
+follow up period so that effective vaccines can be introduced as rapidly as possible.
+Nevertheless, understanding the effectiveness against different outcomes (such as severe
+disease and onwards transmission), effectiveness in different subgroups of the population and
+understanding the duration of protection are equally important in decision making around which
+vaccines should be implemented as the programme evolves, who they should be offered to and
+whether booster doses are required.
+Vaccine effectiveness is estimated by comparing rates of disease in vaccinated individuals to
+rates in unvaccinated individuals. Below we outline the latest real-world evidence on vaccine
+effectiveness from studies in UK populations. We focus on data related to the Delta variant
+which is currently dominant in the UK. The findings are also summarised in Table 1.
+
+Effectiveness against symptomatic disease
+Vaccine effectiveness against symptomatic COVID-19 has been assessed in England based on
+community testing data linked to vaccination data from the National Immunisation Management
+System (NIMS), cohort studies such as the COVID Infection Survey and GP electronic health
+record data. After 2 doses, observed vaccine effectiveness against symptomatic disease with
+the Delta variant reaches approximately 65 to 70% with AstraZeneca Vaxzevria and 80 to 95%
+with Pfizer-BioNTech Comirnaty and Moderna Spikevax (3, 4) Vaccine effectiveness is
+generally slightly higher in younger compared to older age groups. With both Vaxzevria and
+Comirnaty, there is evidence of waning of protection over time, most notably among older
+adults. There is not yet enough follow-up with Spikevax to assess waning (3).
+Data (based primarily on the Alpha variant) suggest that in most clinical risk groups, immune
+response to vaccination is maintained and high levels of VE are seen with both the Pfizer and
+AstraZeneca vaccines. Reduced antibody response and vaccine effectiveness were seen after
+one dose of vaccine among the immunosuppressed group, however, after a second dose the
+reduction in vaccine effectiveness is smaller (5).
+Analyses by dosing interval suggest that immune response to vaccination and vaccine
+effectiveness against symptomatic disease improves with a longer (greater than 6 week
+interval) compared to a shorter interval of 3 to 4 weeks (6, 3)
+
+4
+
+COVID-19 vaccine surveillance report – week 42
+
+Effectiveness against hospitalisation
+Several studies have estimated vaccine effectiveness against hospitalisation in older ages, all of
+which indicate higher levels of protection against hospitalisation with all vaccines against the
+Alpha variant (7, 8, 9, 10). Effectiveness against hospitalisation of over 90% is also observed
+with the Delta variant with all 3 vaccines (3). In most groups there is relatively limited waning of
+protection against hospitalisation over a period of at least 5 months after the second dose.
+Greater waning appears to occur among those in clinical risk groups (3).
+
+Effectiveness against mortality
+High levels of protection (over 90%) are also seen against mortality with all 3 vaccines and
+against both the Alpha and Delta variants (7, 11, 3). Relatively limited waning of protection
+against mortality is seen over a period of at least 5 months.
+
+Effectiveness against infection
+Although individuals may not develop symptoms of COVID-19 after vaccination, it is possible
+that they could still be infected with the virus and could transmit to others. Understanding how
+effective vaccines are at preventing infection is therefore important to predict the likely impact of
+the vaccination programme on the wider population. In order to estimate vaccine effectiveness
+against infection, repeat asymptomatic testing of a defined cohort of individuals is required.
+Studies have now reported on vaccine effectiveness against infection in healthcare workers,
+care home residents and the general population (12, 13, 14, 15). With the delta variant, vaccine
+effectiveness against infection has been estimated at around 65% with Vaxzevria and 80% with
+Comirnaty (4).
+
+5
+
+COVID-19 vaccine surveillance report – week 42
+
+Effectiveness against transmission
+As described above, several studies have provided evidence that vaccines are effective at
+preventing infection. Uninfected individuals cannot transmit; therefore, the vaccines are also
+effective at preventing transmission. There may be additional benefit, beyond that due to
+prevention of infection, if some of those individuals who become infected despite vaccination
+are also at a reduced risk of transmitting (for example, because of reduced duration or level of
+viral shedding). A household transmission study in England found that household contacts of
+cases vaccinated with a single dose had approximately 35 to 50% reduced risk of becoming a
+confirmed case of COVID-19. This study used routine testing data so would only include
+household contacts that developed symptoms and went on to request a test via pillar 2. It
+cannot exclude asymptomatic secondary cases or mildly symptomatic cases who chose not to
+request a COVID-19 test (16). Data from Scotland has also shown that household contacts of
+vaccinated healthcare workers are at reduced risk of becoming a case, which is in line with the
+studies on infection (17). Both of these studies relate to a period when the Alpha variant
+dominated. An analysis from the ONS Community Infection Survey found that contacts of
+vaccinated index cases had around 65 to 80% reduced odds of testing positive with the Alpha
+variant and 35 to 65% reduced odds of testing positive with the Delta variant compare to
+contacts of unvaccinated index cases (18).
+
+6
+
+COVID-19 vaccine surveillance report – week 42
+
+A summary of vaccine effectiveness evidence can be seen in Table 1.
+Table 1. Summary of evidence on vaccine effectiveness against different outcomes Delta
+Vaccine effectiveness*
+Outcome
+
+Pfizer-BioNTech
+Cominarty
+
+AstraZeneca
+Vaxzevria
+
+Moderna
+Spikevax
+
+Infection
+
+75-85%
+
+60-70%
+
+Symptomatic
+disease
+
+80-90%
+
+65-75%
+
+90-99%
+
+Hospitalisation
+
+95-99%
+
+90-99%
+
+95-99%
+
+Mortality
+
+90-99%
+
+90-95%
+
+High
+Confidence
+
+Evidence from multiple studies which is consistent and
+comprehensive
+
+Medium
+Confidence
+
+Evidence is emerging from a limited number of studies or with a
+moderately level of uncertainty
+
+Low
+Confidence
+
+Little evidence is available at present and results are
+inconclusive
+
+* Estimates of initial vaccine effectiveness in the general population after a 2 dose course. This typically applies for
+at least the first 3 to 4 months after vaccination. For some outcomes there may be waning of effectiveness beyond
+this point.
+
+7
+
+COVID-19 vaccine surveillance report – week 42
+
+Population impact
+Vaccines typically have both direct effects on those who are vaccinated and indirect effects on
+the wider population due to a reduced probability that people will come into contact with an
+infected individual. The overall impact of the vaccination programme may therefore extend
+beyond that estimated through vaccine effectiveness analysis.
+Estimating the impact of a vaccination programme is challenging as there is no completely
+unaffected control group. Furthermore, the effects of the vaccination programme need to be
+differentiated from that of other interventions (for example, lockdowns or outbreak control
+measures), changes in behaviour and any seasonal variation in COVID-19 activity.
+UKHSA and other government and academic partners monitor the impact of the of the
+vaccination programme on levels of COVID-19 antibodies in the population and different
+disease indicators, including hospitalisations and mortality. This is done through populationbased testing and through modelling which combines vaccine coverage rates in different
+populations, estimates of vaccine effectiveness and disease surveillance indicators.
+
+Vaccine coverage
+Please note that in order to undertake preparatory work prior to a change in the definition of
+age-cohorts and to ensure alignment across publications of weekly data, data on vaccine
+uptake are not being updated this week. Normal publication will resume next week. Daily figures
+on uptake can be found on the COVID-19 Data Dashboard.
+The data in this week’s report covers the period from 8 December 2020 to 10 October 2021
+(week 40) (Figure 1). It shows the provisional number and percentage of people in England who
+have had received 1 dose or 2 doses of a COVID-19 vaccination by age group and week since
+the start of the programme.
+Up to 30 September 2021 84,122 women of child-bearing age in England (under 50) who
+reported that they were pregnant or could be pregnant at the time, received at least one dose of
+COVID-19 vaccination and of these, 67,144 have received their second dose. This is in
+response to the self-reported pre-screening question “Are you or could you be pregnant?”. The
+true number of pregnant women who have had a COVID-19 vaccination is likely to be greater
+than this.
+Please note that pregnant women are not a separate priority group as defined by JCVI who
+have advised that “women who are pregnant should be offered vaccination at the same time as
+non-pregnant women, based on their age and clinical risk group” therefore comparing vaccine
+uptake in pregnant women to other vaccination programmes is not currently appropriate. The
+MHRA closely monitors the safety of COVID-19 vaccine exposures in pregnancy, including
+Yellow Card reports for COVID-19 vaccines used in pregnancy, for the latest information please
+see the webpage Coronavirus vaccine – weekly summary of Yellow Card reporting.
+8
+
+COVID-19 vaccine surveillance report – week 42
+
+Figure 1. Cumulative weekly vaccine uptake by age
+a) Dose 1
+Over 80
+
+75 to under 80
+
+70 to under 75
+
+65 to under 70
+
+60 to under 65
+
+55 to under 60
+
+50 to under 55
+
+45 to under 50
+
+35 to under 40
+
+30 to under 35
+
+25 to under 30
+
+20 to under 25
+
+18 to under 20
+
+16 to under 18
+
+12 to under 15
+
+Under 12
+
+40 to under 45
+
+100.0
+
+90.0
+
+80.0
+
+% vaccine uptake
+
+70.0
+
+60.0
+
+50.0
+
+40.0
+
+30.0
+
+20.0
+
+10.0
+
+0.0
+50
+
+51
+
+52
+
+53
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10
+
+11
+
+12
+
+13
+
+14
+
+15
+
+16
+
+17
+
+18
+
+Week number
+
+9
+
+19
+
+20
+
+21
+
+22
+
+23
+
+24
+
+25
+
+26
+
+27
+
+28
+
+29
+
+30
+
+31
+
+32
+
+33
+
+34
+
+35
+
+36
+
+37
+
+38
+
+39
+
+40
+
+COVID-19 vaccine surveillance report – week 42
+
+b) Dose 2
+
+Over 80
+
+75 to under 80
+
+70 to under 75
+
+65 to under 70
+
+60 to under 65
+
+55 to under 60
+
+50 to under 55
+
+45 to under 50
+
+35 to under 40
+
+30 to under 35
+
+25 to under 30
+
+20 to under 25
+
+18 to under 20
+
+16 to under 18
+
+12 to under 15
+
+Under 12
+
+40 to under 45
+
+100.0
+
+90.0
+
+80.0
+
+% vaccine uptake
+
+70.0
+
+60.0
+
+50.0
+
+40.0
+
+30.0
+
+20.0
+
+10.0
+
+0.0
+50
+
+51
+
+52
+
+53
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10
+
+11
+
+12
+
+13
+
+14
+
+15
+
+16
+
+17
+
+18
+
+Week number
+
+10
+
+19
+
+20
+
+21
+
+22
+
+23
+
+24
+
+25
+
+26
+
+27
+
+28
+
+29
+
+30
+
+31
+
+32
+
+33
+
+34
+
+35
+
+36
+
+37
+
+38
+
+39
+
+40
+
+COVID-19 vaccine surveillance report – week 42
+
+Vaccination status
+Vaccination status of COVID-19 cases, deaths and hospitalisations by week of specimen date
+over the past 4 weeks up to week 41 (up to 17 October 2021) are shown in Table 2 to 4 and
+Figure 2.
+Please note that data on vaccine uptake are not being updated this week, and as such the
+population sizes used to calculate rates relate to last week’s data.
+
+Methods
+COVID-19 cases and deaths identified through routine collection from the Second Generation
+Surveillance System (SGSS) and from UKHSA EpiCell's deaths data as described here, were
+linked to the National Immunisation Management System (NIMS) to derive vaccination status,
+using an individual’s NHS number as the unique identifier.
+Attendance to emergency care at NHS trusts was derived from the Emergency Care DataSet
+(ECDS) managed by NHS Digital. The same data source was used to identify COVID-19 cases
+where the attendance to emergency care resulted in admission to an NHS trust.
+ECDS is updated weekly, and cases are linked to these data twice weekly. Data from ECDS are
+subject to reporting delays as, although NHS trusts may update data daily, the mandatory
+deadline for submission is by the 21st of every month. This means that for weeks immediately
+following the 21st of a month, numbers may be artificially low and are likely to be higher in later
+versions of the report.
+Data from ECDS also only report on cases who have been presented to emergency care and
+had a related overnight patient admission and do not show those who are currently in hospital
+with COVID-19. As such, it is not appropriate for use for surveillance of those currently
+hospitalised with COVID-19. In addition, these data will not show cases who were directly
+admitted as inpatients without presenting to emergency care.
+The outcome of overnight inpatient admission following presentation to emergency care, was
+limited to those occurring within 28 days of the earliest specimen date for a COVID-19 case.
+Deaths include those who died (a) within 28 days of the earliest specimen date or (b) within 60
+days of the first specimen date or more than 60 days after the first specimen date with COVID19 mentioned on the death certificate.
+The rate of COVID-19 cases, hospitalisation, and deaths in fully vaccinated and unvaccinated
+groups was calculated using vaccine coverage data for each age group extracted from the
+National Immunisation Management Service.
+
+11
+
+COVID-19 vaccine surveillance report – week 42
+
+Results
+The rate of a positive COVID-19 test varies by age and vaccination status. The rate of a positive
+COVID-19 test is substantially lower in vaccinated individuals compared to unvaccinated
+individuals up to the age of 29. In individuals aged greater than 30, the rate of a positive
+COVID-19 test is higher in vaccinated individuals compared to unvaccinated. This is likely to be
+due to a variety of reasons, including differences in the population of vaccinated and
+unvaccinated people as well as differences in testing patterns.
+The rate of hospitalisation within 28 days of a positive COVID-19 test increases with age, and is
+substantially greater in unvaccinated individuals compared to vaccinated individuals.
+The rate of death within 28 days or within 60 days of a positive COVID-19 test increases with
+age, and again is substantially greater in unvaccinated individuals compared to fully vaccinated
+individuals.
+
+Interpretation of data
+These data should be considered in the context of vaccination status of the population groups
+shown in the rest of this report. The vaccination status of cases, inpatients and deaths is not the
+most appropriate method to assess vaccine effectiveness and there is a high risk of
+misinterpretation. Vaccine effectiveness has been formally estimated from a number of different
+sources and is described earlier in this report.
+In the context of very high vaccine coverage in the population, even with a highly effective
+vaccine, it is expected that a large proportion of cases, hospitalisations and deaths would occur
+in vaccinated individuals, simply because a larger proportion of the population are vaccinated
+than unvaccinated and no vaccine is 100% effective. This is especially true because vaccination
+has been prioritised in individuals who are more susceptible or more at risk of severe disease.
+Individuals in risk groups may also be more at risk of hospitalisation or death due to nonCOVID-19 causes, and thus may be hospitalised or die with COVID-19 rather than because of
+COVID-19.
+The case rates in the vaccinated and unvaccinated populations are crude rates that do not take
+into account underlying statistical biases in the data. There are likely to be systematic
+differences in who chooses to be tested and the COVID risk of people who are vaccinated.
+These biases become more evident as more people are vaccinated and the differences
+between the vaccinated and unvaccinated population become systematically different in ways
+that are not accounted for without undertaken formal analysis of vaccine effectiveness as is
+made clear.
+NIMS is used as a denominator because it is a database of named individuals eligible for
+vaccination in which there is a record of each individual’s vaccination status.
+
+12
+
+COVID-19 vaccine surveillance report – week 42
+
+Table 2. COVID-19 cases by vaccination status between week 38 and week 41 2021
+
+Cases reported
+by specimen date
+between week 38
+and week 41 2021
+
+Total
+
+Under 18
+18-29
+30-39
+40-49
+50-59
+60-69
+70-79
+≥80
+
+397,882
+62,885
+92,257
+130,904
+88,020
+45,155
+27,360
+11,907
+
+Unlinked*
+
+24,292
+7,512
+7,346
+7,297
+4,790
+2,614
+1,559
+854
+
+Not
+vaccinated
+
+351,148
+20,902
+21,726
+13,022
+5,399
+1,872
+658
+382
+
+Received
+one dose
+(1-20 days
+before
+specimen
+date)
+10,698
+758
+636
+293
+80
+24
+12
+7
+
+Received
+one dose,
+≥21 days
+before
+specimen
+date
+11,001
+8,404
+6,545
+3,800
+1,632
+617
+215
+215
+
+Second
+dose ≥14
+days before
+specimen
+date
+
+Rates among
+persons
+vaccinated
+with 2 doses
+(per 100,000)
+
+Rates among
+persons not
+vaccinated
+(per 100,000)
+
+743
+25,309
+56,004
+106,492
+76,119
+40,028
+24,916
+10,449
+
+314.1
+462.1
+956.7
+1,731.3
+1,075.3
+704.1
+537.9
+406.8
+
+3,013.6
+615.4
+751.1
+772.9
+528.6
+347.1
+267.6
+304.1
+
+* Individuals whose NHS numbers were unavailable to link to the NIMS
+** Interpretation of the case rates in vaccinated and unvaccinated population is particularly susceptible to changes in denominators and should be interpreted
+with extra caution
+
+13
+
+COVID-19 vaccine surveillance report – week 42
+
+Table 3. COVID-19 cases presenting to emergency care (within 28 days of a positive specimen) resulting in an
+overnight inpatient admission by vaccination status between week 38 and week 41 2021
+Cases presenting to
+emergency care
+(within 28 days of a
+positive test)
+resulting in overnight
+inpatient admission,
+by specimen date
+between week 38 and
+week 41 2021
+Under 18
+18-29
+30-39
+40-49
+50-59
+60-69
+70-79
+≥80
+
+Total
+
+601
+300
+631
+914
+993
+1,023
+1,377
+1,553
+
+Unlinked*
+
+Not
+vaccinated
+
+20
+6
+7
+11
+11
+9
+1
+2
+
+560
+199
+388
+461
+385
+240
+167
+134
+
+Received
+one dose
+(1-20 days
+before
+specimen
+date)
+9
+3
+2
+6
+1
+5
+3
+1
+
+* Individuals whose NHS numbers were unavailable to link to the NIMS
+
+14
+
+Received
+one dose,
+≥21 days
+before
+specimen
+date
+10
+23
+45
+38
+44
+40
+32
+43
+
+Second
+dose ≥14
+days
+before
+specimen
+date
+2
+69
+189
+398
+552
+729
+1,174
+1,373
+
+Rates among
+persons
+vaccinated
+with 2 doses
+(per 100,000)
+
+Rates among
+persons not
+vaccinated
+(per 100,000)
+
+0.8
+1.3
+3.2
+6.5
+7.8
+12.8
+25.3
+53.4
+
+4.8
+5.9
+13.4
+27.4
+37.7
+44.5
+67.9
+106.7
+
+COVID-19 vaccine surveillance report – week 42
+
+Table 4. COVID-19 deaths (a) within 28 days and (b) within 60 days of positive specimen or with COVID-19 reported
+on death certificate, by vaccination status between week 38 and week 41 2021
+(a)
+
+Death within 28
+days of positive
+COVID-19 test by
+date of death
+between week 38
+and week 41 2021
+Under 18
+18-29
+30-39
+40-49
+50-59
+60-69
+70-79
+≥80
+
+Total
+
+5
+17
+24
+64
+184
+367
+719
+1,365
+
+Unlinked*
+
+Not
+vaccinated
+
+0
+1
+1
+1
+3
+4
+3
+6
+
+4
+11
+20
+34
+83
+105
+98
+147
+
+Received
+one dose
+(1-20 days
+before
+specimen
+date)
+1
+0
+0
+0
+1
+0
+0
+0
+
+15
+
+Received
+one dose,
+≥21 days
+before
+specimen
+date
+0
+0
+0
+1
+9
+20
+19
+37
+
+Second
+dose ≥14
+days before
+specimen
+date
+
+Rates among
+persons
+vaccinated
+with 2 doses
+(per 100,000)
+
+Rates among
+persons not
+vaccinated
+(per 100,000)
+
+0
+5
+3
+28
+88
+238
+599
+1,175
+
+0.0
+0.1
+0.1
+0.5
+1.2
+4.2
+12.9
+45.7
+
+0.0
+0.3
+0.7
+2.0
+8.1
+19.5
+39.9
+117.0
+
+COVID-19 vaccine surveillance report – week 42
+
+(b)
+
+Death within 60
+days of positive
+COVID-19 test by
+date of death
+between week 38
+and week 41 2021
+Under 18
+18-29
+30-39
+40-49
+50-59
+60-69
+70-79
+≥80
+
+Total
+
+6
+25
+38
+101
+253
+477
+879
+1,682
+
+Unlinked*
+
+Not
+vaccinated
+
+1
+1
+2
+3
+3
+5
+5
+6
+
+4
+15
+26
+59
+112
+140
+121
+169
+
+Received
+one dose
+(1-20 days
+before
+specimen
+date)
+1
+0
+0
+0
+1
+0
+0
+0
+
+Received
+one dose,
+≥21 days
+before
+specimen
+date
+0
+0
+2
+5
+13
+26
+23
+50
+
+Second
+dose ≥14
+days before
+specimen
+date
+
+Rates among
+persons
+vaccinated
+with 2 doses
+(per 100,000)
+
+Rates among
+persons not
+vaccinated
+(per 100,000)
+
+0
+9
+8
+34
+124
+306
+730
+1,457
+
+0.0
+0.2
+0.1
+0.6
+1.8
+5.4
+15.8
+56.7
+
+0.0
+0.4
+0.9
+3.5
+11.0
+26.0
+49.2
+134.5
+
+* Individuals whose NHS numbers were unavailable to link to the NIMS
+** Number of deaths of people who had had a positive test result for COVID-19 and either died within 60 days of the first positive test or have COVID-19
+mentioned on their death certificate
+
+16
+
+COVID-19 vaccine surveillance report – week 42
+
+Figure 2. Rates (per 100,000) by vaccination status from week 38 to week 41 2021
+(a) COVID-19 cases
+3,500.0
+3,000.0
+
+Rate per 100,000
+
+2,500.0
+2,000.0
+1,500.0
+1,000.0
+500.0
+0.0
+Under 18
+
+18-29
+
+30-39
+
+40-49
+
+50-59
+
+60-69
+
+70-79
+
+≥80
+
+Age group
+Vaccinated with at least 2 doses
+
+Unvaccinated
+
+(b) Cases presenting to emergency care (within 28 days of a positive test) resulting in overnight
+inpatient admission
+120.0
+
+Rate per 100,000
+
+100.0
+
+80.0
+
+60.0
+
+40.0
+
+20.0
+
+0.0
+Under 18
+
+18-29
+
+30-39
+
+40-49
+
+50-59
+
+60-69
+
+Age group
+Vaccinated with at least 2 doses
+
+17
+
+Unvaccinated
+
+70-79
+
+≥80
+
+COVID-19 vaccine surveillance report – week 42
+
+(c) Death within 28 days of positive COVID-19 test
+140.0
+120.0
+
+Rate per 100,000
+
+100.0
+80.0
+60.0
+40.0
+20.0
+0.0
+Under 18
+
+18-29
+
+30-39
+
+40-49
+
+50-59
+
+60-69
+
+70-79
+
+≥80
+
+Age group
+Vaccinated with at least 2 doses
+
+Unvaccinated
+
+(d) Death within 60 days of positive COVID-19 test
+160.0
+140.0
+
+Rate per 100,000
+
+120.0
+100.0
+80.0
+60.0
+40.0
+20.0
+0.0
+Under 18
+
+18-29
+
+30-39
+
+40-49
+
+50-59
+
+60-69
+
+Age group
+Vaccinated with at least 2 doses
+
+18
+
+Unvaccinated
+
+70-79
+
+≥80
+
+COVID-19 vaccine surveillance report – week 42
+
+Vaccine impact on proportion of population with
+antibodies to COVID-19
+Seroprevalence
+The results from testing samples provided by healthy adult blood donors aged 17 years and
+older, supplied by the NHS Blood and Transplant (NHS BT collection) between weeks 35 2020
+and week 40 2021 are summarised. As of week 44 2020, approximately 250 samples from each
+geographic NHS region are tested each week.
+The COVID-19 vaccination campaign began on the 8 December 2020 (week 50) with a phased
+roll out by age and risk group. A booster dose was introduced from 16 September 2021 for
+individuals aged 50 years and over, frontline health and social care staff, individuals aged 16 to
+49 with certain underlying health conditions and household contacts of immunosuppressed
+individuals. Booster doses are given at least 6 months after the second dose.
+Please note that this section will be updated monthly. Last update was published 21 October
+2021.
+
+Seroprevalence in blood donors aged 17 years and older
+The results presented here are based on testing samples with Roche nucleoprotein (N) and
+Roche spike (S) antibody assays.
+Nucleoprotein (Roche N) assays only detect post-infection antibodies, whereas spike (Roche S)
+assays will detect both post-infection antibodies and vaccine-induced antibodies. Thus, changes
+in seropositivity for the Roche N assay reflect the effect of natural infection. Increases in
+seropositivity as measured by S antibody reflect both infection and vaccination. Antibody
+responses to both targets reflect infection or vaccination occurring at least 2 to 3 weeks
+previously given the time taken to generate a COVID-19 antibody response. Donors have been
+asked to defer donations for at least 7 full days post vaccination, and for at least 28 days post
+recovery if side-effects following vaccination or COVID-19 infection.
+This report presents Roche N and Roche S seropositivity estimates on the same set of
+samples, using a 12-week rolling prevalence for national, age group and regional estimates.
+Seropositivity estimates are plotted using the mid-point of a 12-weekly rolling period that
+reduces to 8 weeks in the most recent weeks to allow for a more representative current
+estimate of seropositivity. Seroprevalence estimates reported are based on seropositivity which
+are unadjusted for the sensitivity and specificity of the assays used.
+This is the first week reporting using a 12-weekly period for national and age group estimates.
+Previously, national and age group seropositivity was reported using a 4-week rolling period.
+
+19
+
+COVID-19 vaccine surveillance report – week 42
+
+National prevalence
+Overall population weighted (by age group, sex and NHS region) antibody prevalence among
+blood donors aged 17 years and older in England was 18.7% (95% CI 17.7% to 19.8%) using
+the Roche N assay and 98.0% (95% CI 97.7% to 98.3%) using the Roche S assay for the
+period 16 August to 10 October (weeks 33 to 40 2021). 1,334 out of 7,384 were Roche N
+positive and 14,815 out of 15,081 samples were Roche S positive. This compares with 14.9%
+(95% CI 14.1% to 15.8%) Roche N seropositivity and 92.3% (95% CI 91.9% to 92.7%) Roche S
+seropositivity for the period of 24 May to 13 August 2021 (weeks 21 to 32 2021).
+Seropositivity (weighted by region, age group and sex) varies over time. Figure 3 shows the
+overall 12-weekly rolling proportion seropositive over time for the Roche N and Roche S assays.
+Seropositivity estimates are plotted weekly using the mid-point of a rolling 12-weekly period.
+Figure 3: Overall 12-weekly rolling SARS-CoV-2 antibody seroprevalence (%
+seropositive) in blood donors.
+100
+90
+80
+
+% seropositive
+
+70
+60
+50
+40
+30
+20
+
+10
+0
+
+35 37 39 41 43 45 47 49 51 53 2
+
+4
+
+6
+
+8 10 12 14 16 18 20 22 24 26 28 30 32 34 36 38 40
+
+week number (12-week period mid point)
+Roche S (infection / vaccination)
+
+Roche N (infection)
+
+20
+
+vaccination introduced
+
+COVID-19 vaccine surveillance report – week 42
+
+Regional prevalence of infection over time
+Seropositivity (weighted by age group and sex) using the Roche N assay which detects
+infection only, varies by region (Figure 4).
+Figure 4: Twelve-weekly rolling SARS-CoV-2 antibody seroprevalence (% seropositive) in
+blood donors by region, using Roche N test; error bars show 95% confidence intervals
+30
+
+25
+
+% seropositive
+
+20
+
+15
+
+10
+
+5
+
+0
+48 50 52
+
+1
+
+3
+
+5
+
+7
+
+9
+
+11 13 15 17 19 21 23 25 27 29 31 33 35 37 39
+
+week number (12-week period mid point)
+London
+
+Midlands
+
+North West
+
+North East & Yorks
+
+South West
+
+South East
+
+East of Eng
+
+Table 5: Roche N seropositivity (95%CI) estimates by NHS region
+
+NHS region
+
+Weeks 21 - 32
+
+Weeks 33 - 40
+
+East of England
+
+13.3% (12.1% - 14.6%)
+
+15.7% (14.1% - 17.3%)
+
+London
+
+25.0% (23.5% - 26.6%)
+
+27.1% (25.2% - 29.0%)
+
+Midlands
+
+16.2% (15.0% - 17.6%)
+
+19.1% (17.2% - 21.1%)
+
+North East and
+Yorkshire
+
+15.7% (14.3% - 17.1%)
+
+19.3% (17.6% - 21.2%)
+
+North West
+
+20.7% (19.1% - 22.4%)
+
+25.9% (23.9% - 28.1%)
+
+South East
+
+12.9% (11.7% - 14.2%)
+
+14.9% (13.4% - 16.6%)
+
+South West
+
+9.4% (8.3% - 10.6%)
+
+12.8% (11.3% - 14.5%)
+
+21
+
+COVID-19 vaccine surveillance report – week 42
+
+Increases in Roche N seropositivity have recently been observed across all regions (Table 5)
+compared to the previous 12-week period.
+London has consistently seen the highest Roche N seropositivity with the lowest observed in
+the South West.
+
+Prevalence by age group
+Seropositivity estimates by age group using the Roche N assay are presented below.
+Figure 5: Population weighted 12-weekly rolling SARS-CoV-2 antibody seroprevalence (%
+seropositive) in blood donors from the Roche N assay by age group
+35
+30
+
+% seropositive
+
+25
+20
+15
+10
+5
+0
+48
+
+50
+
+52
+
+1
+
+3
+
+5
+
+7
+
+9
+
+11
+
+13
+
+15
+
+17
+
+19
+
+21
+
+23
+
+25
+
+27
+
+29
+
+31
+
+33
+
+35
+
+37
+
+39
+
+week number (12-week period mid point)
+17-29
+
+30-39
+
+40-49
+
+50-59
+
+60-64
+
+70-84
+
+Based on testing samples using the Roche N assay (Figure 5) as a marker of infection, the
+highest seropositivity has consistently been observed in those aged 17 to 29 and the lowest in
+those aged 70 to 84.
+
+22
+
+COVID-19 vaccine surveillance report – week 42
+
+Table 6: Roche N seropositivity (95%CI) estimates by age group
+
+Age group
+
+Weeks 21-32
+
+Weeks 33-40
+
+17-29
+
+24.1% (22.6% - 25.8%)
+
+28.8% (26.6% - 31.0%)
+
+30-39
+
+18.4% (17.3% - 19.7%)
+
+23.6% (22.0% - 25.3%)
+
+40-49
+
+17.6% (16.5% - 18.8%)
+
+19.9% (18.5% - 21.5%)
+
+50-59
+
+16.4% (15.4% - 17.4%)
+
+18.4% (17.1% - 19.7%)
+
+60-69
+
+11.0% (10.0% - 12.0%)
+
+13.4% (12.2% - 14.8%)
+
+70-84
+
+7.2% (6.0% - 8.7%)
+
+7.9% (6.4% - 9.7%)
+
+Small increases in Roche N seropositivity have recently been observed across all age groups
+(Table 6) compared to the previous 12-week period. Increases in the overall COVID-19 case
+rates in England have been observed across all age groups and regions in week 40 (Weekly
+national Influenza and COVID-19 surveillance report week 41).
+Roche S seropositivity in blood donors has plateaued and is now over 96% across all age
+groups.
+Seropositivity estimates for S antibody in blood donors are likely to be higher than would be
+expected in the general population and this probably reflects the fact that donors are more likely
+to be vaccinated. Seropositivity estimates for N antibody will underestimate the proportion of the
+population previously infected due to (i) blood donors are potentially less likely to be exposed to
+natural infection than age matched individuals in the general population (ii) waning of the N
+antibody response over time and (iii) recent observations from UK Health Security Agency
+(UKHSA) surveillance data that N antibody levels appear to be lower in individuals who acquire
+infection following 2 doses of vaccination.
+Vaccination has made an important contribution to the overall Roche S increases observed
+since the roll out of the vaccination programme, initially amongst individuals aged 50 years and
+above who were prioritised for vaccination as part of the phase 1 programme and more recently
+in younger adults as part of phase 2 of the vaccination programme.
+
+Roche S levels by age group and month
+The Roche S assay that the UK Health Security Agency (UKHSA) uses for serological
+surveillance is fully quantitative, meaning that it measures the level of antibodies in a blood
+sample; an antibody level above 0.8 AU/ml (approximately one IU/ml using the WHO standard)
+is deemed positive. The PHE and UKHSA surveillance over the past few months has found that
+over 97% of the population of blood donors test positive for S-antibodies, which may have
+resulted from either COVID-19 infection or vaccination. With such high seropositivity, it is
+important to look at population antibody levels in order to assess the impact of the vaccination
+booster programme.
+23
+
+COVID-19 vaccine surveillance report – week 42
+
+Figure 6 shows monthly categorised Roche S levels in N-antibody negative individuals by age
+group. Almost all tested S-antibody negative during December. In the 3 oldest age groups, the
+impact of first vaccine dose, then second vaccine dose, can be seen from December through
+June, as the profile of population antibody levels increases. Then from June through September
+the profile of antibody levels in these cohorts gradually decreases, consistent with waning.
+During October there is a small increase in percentage of donors with high antibody levels of
+1000+ AU/ml for the 70 to 84 age group only, following the initiation of the booster programme.
+The higher profile of antibody levels in the youngest age group, is likely a result of a
+combination of factors including stronger immune responses in younger individuals and the
+higher antibody levels produced after mRNA vaccination.
+Figure 7 shows categorised Roche S levels in N-antibody positive individuals, those likely to
+have experienced past infection. Pre-vaccination antibody levels will be influenced by time since
+infection, variant and severity of infection, as well as personal factors such as underlying health
+conditions and age. At the start of the vaccination rollout in December antibody levels typically
+sat within the range of 0.8 to 1000 AU/ml, after vaccination antibody levels typically exceed
+1000 AU/ml. Comparing Figure 6 with Figure 7, the overall higher profile of antibody levels in
+those who have experienced past infection is evident; both vaccination post infection and
+breakthrough infection following vaccination are expected to boost existing antibody levels.
+Researchers across the globe are working to better understand what antibody levels mean in
+terms of protection against COVID-19. Current thinking is that there is no threshold antibody
+level that offers complete protection against infection, but instead that higher antibody levels are
+likely to be associated with lower probability of infection.
+
+24
+
+COVID-19 vaccine surveillance report – week 42
+
+Figure 6: Categorised Roche S antibody levels by age group and month in N negative
+samples, December 2020 to October 2021
+17-29
+Dec
+Jan
+Feb
+Mar
+Apr
+May
+Jun
+Jul
+Aug
+Sep
+Oct
+
+30-39
+Dec
+Jan
+Feb
+Mar
+Apr
+May
+Jun
+Jul
+Aug
+Sep
+Oct
+
+Dec
+Jan
+Feb
+Mar
+Apr
+May
+Jun
+Jul
+Aug
+Sep
+Oct
+
+50-59
+Dec
+Jan
+Feb
+Mar
+Apr
+May
+Jun
+Jul
+Aug
+Sep
+Oct
+
+60-69
+Dec
+Jan
+Feb
+Mar
+Apr
+May
+Jun
+Jul
+Aug
+Sep
+Oct
+
+0 20 40 60 80 100
+
+40-49
+
+Roche S level
+<0.8 (negative)
+0.8-<25
+
+70-84
+
+250-<1000
+
+Dec
+Jan
+Feb
+Mar
+Apr
+May
+Jun
+Jul
+Aug
+Sep
+Oct
+0 20 40 60 80 100
+
+25-<250
+1000-<2500
+2500-<10000*
+10000+*
+
+0 20 40 60 80 100
+
+percent
+
+*levels were capped at 2500 in samples taken before 11 May 2021
+
+Figure 7: Categorised Roche S antibody levels by age group and month in N positive
+samples, December 2020 to October 2021
+17-29
+Dec
+Jan
+Feb
+Mar
+Apr
+May
+Jun
+Jul
+Aug
+Sep
+Oct
+
+30-39
+Dec
+Jan
+Feb
+Mar
+Apr
+May
+Jun
+Jul
+Aug
+Sep
+Oct
+
+50-59
+Dec
+Jan
+Feb
+Mar
+Apr
+May
+Jun
+Jul
+Aug
+Sep
+Oct
+
+Dec
+Jan
+Feb
+Mar
+Apr
+May
+Jun
+Jul
+Aug
+Sep
+Oct
+
+60-69
+Dec
+Jan
+Feb
+Mar
+Apr
+May
+Jun
+Jul
+Aug
+Sep
+Oct
+
+0 20 40 60 80 100
+
+40-49
+
+Roche S level
+<0.8 (negative)
+0.8-<25
+
+70-84
+
+250-<1000
+
+Dec
+Jan
+Feb
+Mar
+Apr
+May
+Jun
+Jul
+Aug
+Sep
+Oct
+0 20 40 60 80 100
+
+percent
+
+25-<250
+1000-<2500
+2500-<10000*
+10000+*
+
+0 20 40 60 80 100
+
+*levels were capped at 2500 in samples taken before 11 May 2021
+
+25
+
+COVID-19 vaccine surveillance report – week 42
+
+Summary of impact on hospitalisations, infections
+and mortality
+UKHSA previously reported on the number of hospitalisations directly averted by vaccination. In
+total, around 261,500 hospitalisations have been prevented in those aged 45 years and over up
+to 19 September 2021.
+UKHSA and University of Cambridge MRC Biostatistics Unit previously reported on the direct
+and indirect impact of the vaccination programme on infections and mortality. Estimates suggest
+that 127,500 deaths and 24,144,000 infections have been prevented as a result of the COVID19 vaccination programme, up to 24 September.
+Neither of these models will be updated going forward. This is due to these models being
+unable to account for the interventions that would have been implemented in the absence of
+vaccination. Consequently, over time the state of the actual pandemic and the no-vaccination
+pandemic scenario have become increasingly less comparable. For further context surrounding
+this figure and for previous estimates, please see previous vaccine surveillance reports.
+
+26
+
+COVID-19 vaccine surveillance report – week 42
+
+References
+1.
+2.
+3.
+
+4.
+5.
+
+6.
+
+7.
+
+8.
+
+9.
+
+10.
+
+11.
+
+12.
+
+13.
+
+14.
+
+Public Health England. ‘COVID-19: vaccine surveillance strategy 2021’
+Medicines and Healthcare Products Regulatory Agency. ‘Coronavirus vaccine –
+weekly summary of Yellow Card reporting 2021’
+Andrews N and others. ‘Vaccine effectiveness and duration of protection of
+Comirnaty, Vaxzervia and Spikevax against mild and severe COVID-19 in the UK’
+Knowledge Hub 2021
+Pouwels K and others. ‘Impact of Delta on viral burden and vaccine effectiveness
+against new SARS-CoV-2 infections in the UK’ MedRxiv 2021
+Whitaker H and others. ‘Pfizer-BioNTech and Oxford AstraZeneca COVID-19
+vaccine effectiveness and immune response among individuals in clinical risk
+groups’
+Amirthalingham G and others. ‘Higher serological responses and increased
+vaccine effectiveness demonstrate the value of extended vaccine schedules in
+combatting COVID-19 in England’ medRxiv 2021
+Lopez Bernal J and others. ‘Effectiveness of the Pfizer-BioNTech and OxfordAstraZeneca vaccines on COVID-19-related symptoms, hospital admissions, and
+mortality in older adults in England: test negative case-control study’ British
+Medical Journal 2021: volume 373, n1,088
+Vasileiou E and others. ‘Effectiveness of first dose of COVID-19 vaccines against
+hospital admissions in Scotland: national prospective cohort study of 5.4 million
+people’ 2021
+Hyams C and others. ‘Effectiveness of BNT162b2 and ChAdOx1 nCoV-19 COVID19 vaccination at preventing hospitalisations in people aged at least 80 years: a
+test-negative, case-control study’ Lancet Infectious Diseases 2021
+Ismail SA and others. ‘Effectiveness of BNT162b2 mRNA and ChAdOx1
+adenovirus vector COVID-19 vaccines on risk of hospitalisation among older adults
+in England: an observational study using surveillance data’ Public Health England
+Preprints 2021
+Lopez Bernal J and others. ‘Effectiveness of BNT162b2 mRNA vaccine and
+ChAdOx1 adenovirus vector vaccine on mortality following COVID-19’ Public
+Health England Preprints 2021
+Pritchard E and others. ‘Impact of vaccination on SARS-CoV-2 cases in the
+community: a population-based study using the UK’s COVID-19 Infection Survey’
+medRxiv 2021: 2021.04.22.21255913
+Hall VJ and others. ‘COVID-19 vaccine coverage in health-care workers in England
+and effectiveness of BNT162b2 mRNA vaccine against infection (SIREN): a
+prospective, multicentre, cohort study’ Lancet 2021
+Shrotri M and others. ‘Vaccine effectiveness of the first dose of ChAdOx1 nCoV-19
+and BNT162b2 against SARS-CoV-2 infection in residents of long-term care
+facilities in England (VIVALDI): a prospective cohort study’ Lancet Infectious
+Diseases 2021
+27
+
+COVID-19 vaccine surveillance report – week 42
+
+15.
+
+16.
+17.
+
+18.
+
+Menni C and others. ‘Vaccine side-effects and SARS-CoV-2 infection after
+vaccination in users of the COVID Symptom Study app in the UK: a prospective
+observational study’ Lancet Infectious Diseases 2021
+Harris RJ and others. ‘Effect of Vaccination on Household Transmission of SARSCoV-2 in England’ New England Journal of Medicine 2021
+V Shah AS and others. ‘Effect of vaccination on transmission of COVID-19: an
+observational study in healthcare workers and their households.’ medRxiv 2021:
+2021.03.11.21253275
+Eyre DW and others. ‘The impact of SARS-CoV-2 vaccination on Alpha and Delta
+variant transmission’ medRxiv 2021: 2021.09.28.21264260
+
+28
+
+About the UK Health Security Agency
+The UK Health Security Agency is an executive agency, sponsored by the Department
+of Health and Social Care.
+
+www.ukhsa.gov.uk
+© Crown copyright 2021
+
+Published: 21 October 2021
+Publishing reference: GOV-10227
+
+You may re-use this information (excluding logos) free of charge in any format or medium,
+under the terms of the Open Government Licence v3.0. To view this licence, visit OGL. Where
+we have identified any third party copyright information you will need to obtain permission from
+the copyright holders concerned.
+
+29
+
+
