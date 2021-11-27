@@ -31,7 +31,7 @@ def hatasfokTabla(dfdata, csoportok):
         csopname = csoport
         if csopname == 'Under 18':
             csopname = '18 alatt'
-        csopi = dfcases[dfcases['Korcsoport'] == csoport].rename(columns = {'Hatásfok': csopname} )
+        csopi = dfdata[dfdata['Korcsoport'] == csoport].rename(columns = {'Hatásfok': csopname} )
         csopi = csopi[['Intervallum', csopname]].set_index('Intervallum')
     
         if dfmerge is None:
@@ -57,6 +57,7 @@ dfemergency['Hatásfok'] = dfemergency.apply(lambda row: hatasfokSzamolas(row['K
 korcsoportok = dfcases['Korcsoport'].unique()
 
 dfcaseseff = hatasfokTabla(dfcases, korcsoportok)
+dfemergencyeff = hatasfokTabla(dfemergency, korcsoportok[1:])
 
     
 pd.plotting.register_matplotlib_converters()
@@ -84,6 +85,21 @@ ax1.set_ylim([-150, 350])
 ax1.text(2, 320, '18 év alatt nagyon magas a hatásfok', color = 'red')
 ax1.text(0, -140, 'A negatív hatásfok az oltatlanok előnyét jelenti', color = 'red')
 ax1.legend()
+
+ax2=fig.add_subplot(spec[1], label="2")
+
+ax2.set_title("Védelem a kórházba kerülés ellen")
+
+ndx = 0
+for csn in csoportNevek(dfemergencyeff):
+  ax2.plot(dfemergencyeff['Intervallum'].apply(intervallumFormatter), dfemergencyeff[csn], label=csn, marker='o', color = COLORS[ndx + 1])
+  ndx += 1
+ax2.axhline(0.0,color='magenta',ls='--')
+ax2.set(xlabel="Intervallum (hetek)", ylabel="Védelem az oltatlanokhoz képest")
+ax2.yaxis.set_major_formatter(mtick.PercentFormatter())
+ax2.tick_params(axis='x', rotation=20)
+ax2.text(2.5, 700, '18 év alatt minimális a kórházi kezelés', color = 'red')
+ax2.legend()
 
 
 fig.suptitle('Brit COVID adatok\nA vakcinák hatásfoka', fontsize=22)
