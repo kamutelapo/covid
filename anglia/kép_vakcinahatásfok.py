@@ -101,7 +101,7 @@ ax2.set(xlabel="Intervallum (hetek)", ylabel="Védelem az oltatlanokhoz képest"
 ax2.yaxis.set_major_formatter(mtick.PercentFormatter())
 ax2.tick_params(axis='x', rotation=20)
 ax2.text(2.5, 700, '18 év alatt minimális a kórházi kezelés', color = 'red')
-ax2.legend()
+ax2.legend(loc = 'upper right')
 
 
 ax3=fig.add_subplot(spec[2], label="3")
