@@ -8,6 +8,39 @@ import pandas as pd
 from matplotlib import gridspec
 import matplotlib.pyplot as plt
 import matplotlib.ticker as mtick
+import numpy as np
+
+
+def intervallumFormatter(x):
+    return x + '. hét'
+
+def hatasfokSzamolas(a,b):
+    if (a == 0.0) or (b == 0.0):
+        return np.NaN
+    if ( a < b ):
+        return -((a - b) / a) * 100
+    return ((b - a) / b) * 100
+
+def csoportNevek(dfdata):
+    return list(dfdata.columns[1:])
+
+def hatasfokTabla(dfdata, csoportok):
+    dfmerge = None
+
+    for csoport in csoportok:
+        csopname = csoport
+        if csopname == 'Under 18':
+            csopname = '18 alatt'
+        csopi = dfcases[dfcases['Korcsoport'] == csoport].rename(columns = {'Hatásfok': csopname} )
+        csopi = csopi[['Intervallum', csopname]].set_index('Intervallum')
+    
+        if dfmerge is None:
+            dfmerge = csopi
+        else:
+            dfmerge[csopname] = csopi[csopname]
+    
+    dfmerge = dfmerge.reset_index()
+    return dfmerge
 
 BASEDIR=os.path.dirname(__file__)
 DATADIR=BASEDIR + "/adatok/"
@@ -17,44 +50,22 @@ COLORS = [
 ]
 
 dfcases = pd.read_csv(DATADIR + "data-cases.csv")
-
-def intervallumFormatter(x):
-    return x + '. hét'
-
-def hatasfokSzamolas(a,b):
-    if ( a < b ):
-        return -((a - b) / a) * 100
-    return ((b - a) / b) * 100
-
+dfemergency = pd.read_csv(DATADIR + "data-emergency.csv")
 dfcases['Hatásfok'] = dfcases.apply(lambda row: hatasfokSzamolas(row['Kétszer oltottak aránya'], row['Oltatlanok aránya']), axis=1)
+dfemergency['Hatásfok'] = dfemergency.apply(lambda row: hatasfokSzamolas(row['Kétszer oltottak aránya'], row['Oltatlanok aránya']), axis=1)
 
 korcsoportok = dfcases['Korcsoport'].unique()
-csopnevek = []
 
-dfmerge = None
+dfcaseseff = hatasfokTabla(dfcases, korcsoportok)
 
-for csoport in korcsoportok:
-    csopname = csoport
-    if csopname == 'Under 18':
-        csopname = '18 alatt'
-    csopnevek.append(csopname)
-    csopi = dfcases[dfcases['Korcsoport'] == csoport].rename(columns = {'Hatásfok': csopname} )
-    csopi = csopi[['Intervallum', csopname]].set_index('Intervallum')
-    
-    if dfmerge is None:
-        dfmerge = csopi
-    else:
-        dfmerge[csopname] = csopi[csopname]
-    
-dfmerge = dfmerge.reset_index()
     
 pd.plotting.register_matplotlib_converters()
 
-fig = plt.figure(figsize=[7,6], constrained_layout=True)
+fig = plt.figure(figsize=[7,9], constrained_layout=True)
 
-spec = gridspec.GridSpec(ncols=1, nrows=1,
+spec = gridspec.GridSpec(ncols=1, nrows=2,
                          width_ratios=[1,], wspace=0.3,
-                         hspace=0.38, height_ratios=[1,], figure = fig)
+                         hspace=0.38, height_ratios=[1,1], figure = fig)
 spec.update(left=0.06,right=0.99,top=1,bottom=0.01,wspace=0.25,hspace=0.35)
 
 ax1=fig.add_subplot(spec[0], label="1")
@@ -62,8 +73,8 @@ ax1=fig.add_subplot(spec[0], label="1")
 ax1.set_title("Védelem a fertőzés ellen")
 
 ndx = 0
-for csn in csopnevek:
-  ax1.plot(dfmerge['Intervallum'].apply(intervallumFormatter), dfmerge[csn], label=csn, marker='o', color = COLORS[ndx])
+for csn in csoportNevek(dfcaseseff):
+  ax1.plot(dfcaseseff['Intervallum'].apply(intervallumFormatter), dfcaseseff[csn], label=csn, marker='o', color = COLORS[ndx])
   ndx += 1
 ax1.axhline(0.0,color='magenta',ls='--')
 ax1.set(xlabel="Intervallum (hetek)", ylabel="Védelem az oltatlanokhoz képest")
