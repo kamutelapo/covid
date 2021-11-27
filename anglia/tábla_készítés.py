@@ -22,6 +22,10 @@ MERGE_COLUMNS = {
         "Deaths28 rate vaccinated",
         "Deaths28 rate not vaccinated"
     ],
+    "death-60": [
+        "Deaths60 rate vaccinated",
+        "Deaths60 rate not vaccinated"
+    ],
 }
 
 cases = []
@@ -54,6 +58,7 @@ def importData(week):
     cases.extend(addData(week, "cases"))
     emergency.extend(addData(week, "emergency"))
     death28.extend(addData(week, "death-28"))
+    death60.extend(addData(week, "death-60"))
 
 for week in range(36, 53):
     if os.path.exists(DATADIR + "week-" + str(week) + "-cases.csv"):
@@ -66,6 +71,8 @@ dfemergency = pd.DataFrame(emergency, columns=['Hét', 'Intervallum', 'Korcsopor
 dfemergency.to_csv(DATADIR + "data-emergency.csv", index = False)
 dfdeath28 = pd.DataFrame(death28, columns=['Hét', 'Intervallum', 'Korcsoport', 'Összes', 'TB-n kívül', 'Oltatlan', 'Egyszer oltott (1-20)', 'Egyszer oltott (21-)', 'Kétszer oltott', 'Kétszer oltottak aránya', 'Oltatlanok aránya'])
 dfdeath28.to_csv(DATADIR + "data-death-28.csv", index = False)
+dfdeath60 = pd.DataFrame(death60, columns=['Hét', 'Intervallum', 'Korcsoport', 'Összes', 'TB-n kívül', 'Oltatlan', 'Egyszer oltott (1-20)', 'Egyszer oltott (21-)', 'Kétszer oltott', 'Kétszer oltottak aránya', 'Oltatlanok aránya'])
+dfdeath60.to_csv(DATADIR + "data-death-60.csv", index = False)
 
 #pd.set_option("display.max_rows", None)
 #print (dfcases)
