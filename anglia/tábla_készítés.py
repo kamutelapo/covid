@@ -48,7 +48,9 @@ def addData(week, dtype):
     for row in array:
         rowd = [week, str(week - 4) + "-" + str(week - 1)]
         rowd.extend(row)
-        
+
+        for i in range(0, len(rowd)):
+            rowd[i] = str(rowd[i]).replace(",", "")
         
         result.append(rowd)
 
