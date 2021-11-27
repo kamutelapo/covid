@@ -71,7 +71,7 @@ ax1.yaxis.set_major_formatter(mtick.PercentFormatter())
 ax1.tick_params(axis='x', rotation=20)
 ax1.set_ylim([-150, 350])
 ax1.text(2, 320, '18 év alatt nagyon magas a hatásfok', color = 'red')
-ax1.text(0, -140, 'Negatív hatásfok az oltatlanok előnyét jelenti', color = 'red')
+ax1.text(0, -140, 'A negatív hatásfok az oltatlanok előnyét jelenti', color = 'red')
 ax1.legend()
 
 
