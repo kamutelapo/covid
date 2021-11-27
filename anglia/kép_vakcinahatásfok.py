@@ -101,7 +101,7 @@ ax2.set(xlabel="Intervallum (hetek)", ylabel="Védelem az oltatlanokhoz képest"
 ax2.yaxis.set_major_formatter(mtick.PercentFormatter())
 ax2.tick_params(axis='x', rotation=20)
 ax2.text(2.5, 700, '18 év alatt minimális a kórházi kezelés', color = 'red')
-ax2.legend(loc = 'upper right')
+ax2.legend(loc = 'lower left')
 
 
 ax3=fig.add_subplot(spec[2], label="3")
@@ -117,7 +117,7 @@ ax3.set(xlabel="Intervallum (hetek)", ylabel="Védelem az oltatlanokhoz képest"
 ax3.yaxis.set_major_formatter(mtick.PercentFormatter())
 ax3.tick_params(axis='x', rotation=20)
 ax3.text(2.5, 50, '40 év alatt minimális a halálesetek száma', color = 'red')
-ax3.legend()
+ax3.legend(loc = 'upper right')
 
 fig.suptitle('Brit COVID adatok\nA vakcinák hatásfoka', fontsize=22)
 fig.savefig(BASEDIR + "/anglia-vakcinahatásfok.png")
