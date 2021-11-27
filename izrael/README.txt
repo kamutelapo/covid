@@ -14,4 +14,4 @@ Kevés esetnél az izraeli adatok "<5" értéket tartalmaznak. Ilyenkor véletle
 Ez némi zajt okozhat az eredményekben.
 
 Program:
-https://github.com/kamutelapo/covid/izrael
+https://github.com/kamutelapo/covid/tree/master/izrael
