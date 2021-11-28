@@ -40,6 +40,10 @@
   - [Új fertőzés adatok](#új-fertőzés-adatok)
   - [Korreláció a harmadik oltásokkal](#korreláció-a-harmadik-oltásokkal)
 - [Izraeli adatok](#izraeli-adatok)
+- [Angliai adatok](#angliai-adatok)
+  - [Vakcinák hatásfoka](#vakcinák-hatásfoka)
+  - [Eloszlás korcsoportok szerint](#eloszlás-korcsoportok-szerint)
+  - [Teljes népesség](#teljes-népesség)
 
 # COVID járványelemzés a magyarországi adatok alapján
 
@@ -222,3 +226,19 @@ Sajnos Magyarország nem biztosít elég adatot az oltások hatásfokának becsl
 
 
 ![Izraeli adatok](https://github.com/kamutelapo/covid/blob/master/izrael/izraeli-j%C3%A1rv%C3%A1ny.png?raw=true)
+
+# Angliai adatok
+
+Az angol adatok nagyon hasonlítanak az izraeliekre.
+
+## Vakcinák hatásfoka
+
+![Anglia: Vakcinák hatásfoka](https://github.com/kamutelapo/covid/blob/master/anglia/anglia-vakcinahat%C3%A1sfok.png?raw=true)
+
+## Eloszlás korcsoportok szerint
+
+![Anglia: Korcsoport eloszlás](https://github.com/kamutelapo/covid/blob/master/anglia/anglia-eloszl%C3%A1s.png?raw=true)
+
+## Teljes népesség
+
+![Anglia: Teljes népességre](https://github.com/kamutelapo/covid/blob/master/anglia/anglia-oltottoltatlan.png?raw=true)
