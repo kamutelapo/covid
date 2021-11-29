@@ -1,4 +1,4 @@
-"Cases presenting to emergency care (within 28 days of a positive test) resulting in overnight inpatient admission, by specimen date between week 36 and week 39 2021","Total","Unlinked*","Not vaccinated","Received one dose (1-20 days before specimen date)","Received one dose, ≥21 days before specimen date","Second dose ≥14 days before specimen date","Rates among persons vaccinated with 2 doses (per 100,000)","Rates among persons not vaccinated (per 100,000)"
+"Age group", "Total", "Unlinked", "Not vaccinated", "One dose (1-20)","One dose (21-)","Two doses (14-)","Rate vaccinated","Rate not vaccinated"
 "Under 18","486","20","455","3","7","1","0.5","3.9"
 "18-29","348","6","241","6","35","60","1.1","7.1"
 "30-39","588","15","396","5","46","126","2.2","13.6"

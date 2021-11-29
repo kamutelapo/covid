@@ -231,5 +231,5 @@ ax8.set_xlim([df['Dátum'].min(), df['Dátum'].max()])
 
 ax8.legend()
 
-fig.suptitle('Izraeli COVID járvány elemzés (Pfizer+Moderna)', fontsize=22)
+fig.suptitle('Izraeli COVID járvány (Pfizer+Moderna)', fontsize=22)
 fig.savefig(BASEDIR + "/izraeli-járvány.png")
