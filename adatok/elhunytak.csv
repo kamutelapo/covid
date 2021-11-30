@@ -1,4 +1,199 @@
 Sorszám,Nem,Kor,Alapbetegségek
+34521,Nõ,87,"magasvérnyomás-betegség, pangásos szívelégtelenség"
+34520,Férfi,88,Parkinson-kór
+34519,Férfi,70,"aorta billentyû szûkülete, krónikus keringési elégtelenség, koszorúér-betegség, kardiogén sokk"
+34518,Nõ,55,"magasvérnyomás-betegség, asztma"
+34517,Nõ,94,"iszkémiás szívbetegség, nõgyógyászati daganat"
+34516,Férfi,49,nem ismert alapbetegség
+34515,Férfi,76,nem ismert alapbetegség
+34514,Férfi,80,"érszûkület, pangásos szívelégtelenség, cukorbetegség, krónikus veseelégtelenség"
+34513,Nõ,53,"magasvérnyomás-betegség, cukorbetegség, asztma"
+34512,Nõ,87,idült iszkémiás szívbetegség
+34511,Nõ,81,"magasvérnyomás-betegség, cukorbetegség, szívbetegség"
+34510,Férfi,85,"iszkémiás szívbetegség, szívbetegség, magasvérnyomás-betegség"
+34509,Férfi,72,"daganatos megbetegedés, vérszegénység, tüdõbetegség"
+34508,Nõ,92,"iszkémiás szívbetegség, magasvérnyomás-betegség, szívbetegség"
+34507,Nõ,93,nem ismert alapbetegség
+34506,Férfi,55,daganatos megbetegedés
+34505,Nõ,88,magasvérnyomás-betegség
+34504,Férfi,71,"cukorbetegség, magasvérnyomás-betegség, iszkémiás szívbetegség, érszûkület, májbetegség"
+34503,Férfi,89,magasvérnyomás-betegség
+34502,Nõ,78,"magasvérnyomás-betegség, cukorbetegség"
+34501,Férfi,87,"érelmeszesedés, agykárosodás, epehólyag kövesség"
+34500,Nõ,80,"érelmeszesedés, magasvérnyomás-betegség"
+34499,Férfi,93,"magasvérnyomás-betegség, cukorbetegség, veseelégtelenség"
+34498,Nõ,87,"szívelégtelenség, tüdõbetegség, cukorbetegség, magasvérnyomás-betegség"
+34497,Férfi,54,"májelégtelenség, heveny veseelégtelenség, cukorbetegség"
+34496,Férfi,21,daganatos megbetegedés
+34495,Férfi,71,"tüdõbetegség, iszkémiás szívbetegség"
+34494,Nõ,34,nem ismert alapbetegség
+34493,Nõ,62,"cukorbetegség, magasvérnyomás-betegség"
+34492,Nõ,86,magasvérnyomás-betegség
+34491,Férfi,75,nem ismert alapbetegség
+34490,Nõ,98,"magasvérnyomás-betegség, szívbetegség, krónikus veseelégtelenség, szívelégtelenség"
+34489,Férfi,67,"magasvérnyomás-betegség, szívritmuszavar"
+34488,Férfi,73,"magasvérnyomás-betegség. cukorbetegség, epekövesség"
+34487,Nõ,91,"magasvérnyomás-betegség, cukorbetegség"
+34486,Férfi,68,"daganatos megbetegedés, magasvérnyomás-betegség, asztma"
+34485,Nõ,81,"magasvérnyomás-betegség, cukorbetegség, leukémia, iszkémiás szívbetegség, daganatos megbetegedés"
+34484,Férfi,58,"magasvérnyomás-betegség, szív- és érrendszer betegség, autoimmun betegség"
+34483,Férfi,88,"májelégtelenség, agyi érszûkület, érelmeszesedés, cukorbetegség"
+34482,Nõ,77,"autoimmun betegség, bõrbetegség, magasvérnyomás-betegség, pitvarfibrilláció"
+34481,Nõ,78,cukorbetegség
+34480,Férfi,93,"magasvérnyomás-betegség, daganatos megbetegedés"
+34479,Férfi,71,"szívbetegség, magasvérnyomás-betegség, cukorbetegség, májzsugor"
+34478,Nõ,79,"magasvérnyomás-betegség, cukorbetegség, iszkémiás szívbetegség"
+34477,Nõ,78,tüdõembólia
+34476,Férfi,61,szívbetegség
+34475,Nõ,33,nem ismert alapbetegség
+34474,Nõ,62,"magasvérnyomás-betegség, daganatos megbetegedés"
+34473,Nõ,85,"magasvérnyomás-betegség, szívbetegség, cukorbetegség, krónikus veseelégtelenség"
+34472,Férfi,89,szívbetegség
+34471,Nõ,82,nem ismert alapbetegség
+34470,Nõ,88,"Parkinson-kór, agykárosodás, gyomorszáj elégtelenség"
+34469,Nõ,90,magasvérnyomás-betegség
+34468,Nõ,81,"magasvérnyomás-betegség, pajzsmirigy-alulmûködés, szívinfarktus, cukorbetegség"
+34467,Férfi,80,"cukorbetegség, magasvérnyomás-betegség"
+34466,Nõ,70,pajzsmirigy-betegség
+34465,Nõ,55,"cukorbetegség, magasvérnyomás-betegség, agykárosodás"
+34464,Férfi,89,"cukorbetegség, magasvérnyomás-betegség"
+34463,Nõ,63,"cukorbetegség szövõdményekkel, krónikus veseelégtelenség"
+34462,Férfi,74,"magasvérnyomás-betegség, krónikus veseelégtelenség"
+34461,Férfi,67,"cukorbetegség, magasvérnyomás-betegség"
+34460,Férfi,75,"magasvérnyomás-betegség, érszûkület"
+34459,Nõ,63,"cukorbetegség, magasvérnyomás-betegség"
+34458,Férfi,58,cukorbetegség
+34457,Nõ,80,"érelmeszesedés, szívbetegség, magasvérnyomás-betegség, asztma"
+34456,Nõ,79,"magasvérnyomás-betegség, érszûkület, kóros elhízás, sokízületi gyulladás"
+34455,Nõ,81,"tüdõbetegség, reflux, idegrendszeri betegség"
+34454,Férfi,63,"magasvérnyomás-betegség, cukorbetegség, veseelégtelenség"
+34453,Nõ,69,"veseelégtelenség, magasvérnyomás-betegség, szívbetegség"
+34452,Férfi,83,"magasvérnyomás-betegség, tüdõbetegség, szívbetegség"
+34451,Férfi,77,magasvérnyomás-betegség
+34450,Nõ,81,magasvérnyomás-betegség
+34449,Férfi,89,"magasvérnyomás-betegség, tüdõbetegség"
+34448,Nõ,88,"magasvérnyomás-betegség, cukorbetegség, szívbetegség"
+34447,Férfi,58,magasvérnyomás-betegség
+34446,Nõ,72,magasvérnyomás-betegség
+34445,Férfi,53,nem ismert alapbetegség
+34444,Férfi,56,szívbetegség
+34443,Nõ,82,cukorbetegség
+34442,Férfi,59,"cukorbetegség, magasvérnyomás-betegség"
+34441,Férfi,87,"cukorbetegség, magasvérnyomás-betegség, szívbetegség"
+34440,Férfi,75,"magasvérnyomás-betegség, cukorbetegség"
+34439,Férfi,76,"magasvérnyomás-betegség, cukorbetegség"
+34438,Férfi,86,tüdõbetegség
+34437,Férfi,61,"daganatos megbetegedés, kóros elhízás, Parkinson-kór, magasvérnyomás-betegség"
+34436,Nõ,90,magasvérnyomás-betegség
+34435,Nõ,79,"magasvérnyomás-betegség, cukorbetegség, szívbetegség"
+34434,Férfi,75,"magasvérnyomás-betegség, szívbetegség, agysorvadás"
+34433,Nõ,80,"magasvérnyomás-betegség, érelmeszesedés"
+34432,Férfi,60,"magasvérnyomás-betegség, cukorbetegség"
+34431,Férfi,81,"magasvérnyomás-betegség, érszûkület"
+34430,Nõ,79,"magasvérnyomás-betegség, cukorbetegség, szívbetegség, elhízás"
+34429,Nõ,72,"cukorbetegség, magasvérnyomás-betegség"
+34428,Férfi,70,nem ismert alapbetegség
+34427,Nõ,54,"magasvérnyomás-betegség, cukorbetegség"
+34426,Nõ,89,magasvérnyomás-betegség
+34425,Nõ,96,magasvérnyomás-betegség
+34424,Nõ,82,"magasvérnyomás-betegség, veseelégtelenség"
+34423,Férfi,67,magasvérnyomás-betegség
+34422,Férfi,79,nem ismert alapbetegség
+34421,Nõ,72,"magasvérnyomás-betegség, cukorbetegség"
+34420,Férfi,82,"szívbetegség, cukorbetegség"
+34419,Férfi,81,"szívbetegség, magasvérnyomás-betegség, daganatos megbetegedés"
+34418,Férfi,71,"magasvérnyomás-betegség, cukorbetegség"
+34417,Nõ,61,"magasvérnyomás-betegség, cukorbetegség, szívbetegség"
+34416,Férfi,64,nem ismert alapbetegség
+34415,Nõ,57,"szívbetegség, magasvérnyomás-betegség, idegrendszeri megbetegedés"
+34414,Nõ,77,"szívbetegség, magasvérnyomás-betegség, máj- és vesebetegség"
+34413,Nõ,73,"magasvérnyomás-betegség, cukorbetegség, kóros elhízás"
+34412,Nõ,86,nem ismert alapbetegség
+34411,Nõ,83,"magasvérnyomás-betegség, cukorbetegség, veseelégtelenség"
+34410,Férfi,71,"magasvérnyomás-betegség, veseelégtelenség, pajzsmirigy-betegség"
+34409,Férfi,82,"magasvérnyomás-betegség, veseelégtelenség"
+34408,Nõ,84,"veseelégtelenség, magasvérnyomás-betegség"
+34407,Férfi,73,"magasvérnyomás-betegség, érelmeszesedés, szívbetegség"
+34406,Férfi,50,veseelégtelenség
+34405,Nõ,83,daganatos megbetegedés
+34404,Nõ,92,"magasvérnyomás-betegség, szívbetegség"
+34403,Nõ,86,"magasvérnyomás-betegség, veseelégtelenség, szívbetegség, daganatos megbetegedés"
+34402,Nõ,91,szívbetegség
+34401,Nõ,85,"magasvérnyomás-betegség, cukorbetegség"
+34400,Nõ,79,"magasvérnyomás-betegség, cukorbetegség"
+34399,Nõ,88,magasvérnyomás-betegség
+34398,Férfi,82,daganatos megbetegedés
+34397,Férfi,59,"magasvérnyomás-betegség, elhízás"
+34396,Nõ,77,"magasvérnyomás-betegség, szívbetegség"
+34395,Nõ,73,"magasvérnyomás-betegség, pajzsmirigy-betegség"
+34394,Nõ,86,magasvérnyomás-betegség
+34393,Nõ,85,"szívbetegség, magasvérnyomás-betegség"
+34392,Nõ,42,daganatos megbetegedés
+34391,Férfi,78,cukorbetegség
+34390,Nõ,85,magasvérnyomás-betegség
+34389,Nõ,57,magasvérnyomás-betegség
+34388,Férfi,90,"szívbetegség, cukorbetegség, magasvérnyomás-betegség, krónikus veseelégtelenség"
+34387,Nõ,79,"magasvérnyomás-betegség, cukorbetegség"
+34386,Nõ,100,"szívbetegség, érrendszer betegség, cukorbetegség, pajzsmirigy-betegség"
+34385,Nõ,85,"szívbetegség, magasvérnyomás-betegség"
+34384,Férfi,61,"cukorbetegség, magasvérnyomás-betegség"
+34383,Nõ,38,"kóros elhízás, szívbetegség"
+34382,Nõ,84,"cukorbetegség, vérszegénység"
+34381,Férfi,61,magasvérnyomás-betegség
+34380,Nõ,80,daganatos megbetegedés
+34379,Nõ,88,"magasvérnyomás-betegség, szívbetegség"
+34378,Férfi,78,asztma
+34377,Nõ,91,"magasvérnyomás-betegség, keringészavar, pajzsmirigy-betegség"
+34376,Nõ,73,tüdõbetegség
+34375,Férfi,39,neurológiai megbetegedés
+34374,Férfi,60,magasvérnyomás-betegség
+34373,Nõ,66,"magasvérnyomás-betegség, cukorbetegség, veseelégtelenség"
+34372,Nõ,91,"cukorbetegség, magasvérnyomás-betegség, szívbetegség, veseelégtelenség"
+34371,Nõ,73,"tüdõbetegség magasvérnyomás-betegség, cukorbetegség"
+34370,Nõ,72,nem ismert alapbetegség
+34369,Nõ,85,"magasvérnyomás-betegség, kóros elhízás"
+34368,Férfi,90,"magasvérnyomás-betegség, szívbetegség, tüdõbetegség, cukorbetegség"
+34367,Férfi,57,"cukorbetegség, magasvérnyomás-betegség, szívbetegség"
+34366,Nõ,76,"szívbetegség, érszûkület"
+34365,Férfi,72,nem ismert alapbetegség
+34364,Férfi,68,"magasvérnyomás-betegség, cukorbetegség, szívbetegség, elhízás"
+34363,Nõ,49,magasvérnyomás-betegség
+34362,Férfi,84,"tüdõbetegség, szívbetegség, magasvérnyomás-betegség"
+34361,Férfi,51,magasvérnyomás-betegség
+34360,Nõ,73,"szívbetegség, magasvérnyomás-betegség"
+34359,Férfi,53,cukorbetegség
+34358,Nõ,70,"cukorbetegség, szívbetegség, magasvérnyomás-betegség"
+34357,Férfi,61,magasvérnyomás-betegség
+34356,Férfi,60,nem ismert alapbetegség
+34355,Nõ,60,magasvérnyomás-betegség
+34354,Férfi,75,magasvérnyomás-betegség
+34353,Férfi,77,"magasvérnyomás-betegség, cukorbetegség, prosztatabetegség"
+34352,Férfi,78,"daganatos megbetegedés, szívbetegség"
+34351,Férfi,77,alkoholizmus
+34350,Férfi,74,"magasvérnyomás-betegség, szívbetegség, tüdõbetegség"
+34349,Nõ,85,magasvérnyomás-betegség
+34348,Férfi,69,"szívbetegség, magasvérnyomás-betegség"
+34347,Férfi,53,"tüdõbetegség, daganatos megbetegedés"
+34346,Nõ,71,"magasvérnyomás-betegség, keringési zavar"
+34345,Nõ,83,"magasvérnyomás-betegség, veseelégtelenség"
+34344,Férfi,54,magasvérnyomás-betegség
+34343,Férfi,65,"magasvérnyomás-betegség, magas vérzsírszint, daganatos megbetegedés"
+34342,Nõ,80,"magasvérnyomás-betegség, szívbetegség, pajzsmirigy-betegség"
+34341,Nõ,64,nem ismert alapbetegség
+34340,Nõ,50,kóros elhízás
+34339,Férfi,85,"magasvérnyomás-betegség, Parkinson-kór, szívbetegség"
+34338,Nõ,80,"szívbetegség, daganatos megbetegedés"
+34337,Nõ,58,"cukorbetegség, magasvérnyomás-betegség, kóros elhízás, pszichiátriai kezelés, asztma, szívbetegség"
+34336,Férfi,78,"veseelégtelenség, májelégtelenség, cukorbetegség, szívbetegség"
+34335,Nõ,58,"magasvérnyomás-betegség, cukorbetegség, pajzsmirigy-betegség"
+34334,Nõ,45,"magasvérnyomás-betegség, cukorbetegség"
+34333,Nõ,59,"májbetegség, daganatos megbetegedés"
+34332,Nõ,82,"agykárosodás, magasvérnyomás-betegség"
+34331,Nõ,79,magasvérnyomás-betegség
+34330,Férfi,89,"szilikózis, epekövesség"
+34329,Férfi,48,nem ismert alapbetegség
+34328,Nõ,81,"magasvérnyomás-betegség, tüdõbetegség, idegrendszeri megbetegedés"
+34327,Férfi,46,nem ismert alapbetegség
 34326,Nõ,81,"magasvérnyomás-betegség, iszkémiás szívbetegség, agyi érelmeszesedés, cukorbetegség, demencia"
 34325,Férfi,83,magasvérnyomás-betegség
 34324,Férfi,73,"pangásos szívelégtelenség, cukorbetegség, kóros elhízás"
@@ -2653,8 +2848,8 @@ Sorszám,Nem,Kor,Alapbetegségek
 31675,Férfi,87,"prosztatatúltengés, iszkémiás szívbetegség, magas vérnyomás"
 31674,Nõ,88,"magas vérnyomás, demencia"
 31673,Férfi,71,"epilepszia, magas vérnyomás, cukorbetegség"
-31671,Férfi,59,"magas vérnyomás, reflux"
 31671,Nõ,66,tüdõ rosszindulatú daganata
+31671,Férfi,59,"magas vérnyomás, reflux"
 31670,Nõ,76,"magasvérnyomás-betegség, cukorbetegség, krónikus veseelégtelenség"
 31669,Nõ,76,"gerinccsatorna szûkület, magas vérnyomás"
 31668,Nõ,75,"érelmeszesedés, magas vérnyomás"
