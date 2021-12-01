@@ -40,10 +40,11 @@
   - [Új fertőzés adatok](#új-fertőzés-adatok)
   - [Korreláció a harmadik oltásokkal](#korreláció-a-harmadik-oltásokkal)
 - [Izraeli adatok](#izraeli-adatok)
+  - [Teljes népesség](#teljes-népesség)
 - [Angliai adatok](#angliai-adatok)
   - [Vakcinák hatásfoka](#vakcinák-hatásfoka)
   - [Eloszlás korcsoportok szerint](#eloszlás-korcsoportok-szerint)
-  - [Teljes népesség](#teljes-népesség)
+  - [Teljes népesség](#teljes-népesség-1)
 
 # COVID járványelemzés a magyarországi adatok alapján
 
@@ -224,8 +225,9 @@ lesznek emberek, akik nem fogják elkapni a vírust.
 
 Sajnos Magyarország nem biztosít elég adatot az oltások hatásfokának becslésére. Az izraeli egészségügyi rendszer mindezt megteszi, bár ott csak Pfizerrel és Modernával oltottak.
 
+## Teljes népesség
 
-![Izraeli adatok](https://github.com/kamutelapo/covid/blob/master/izrael/izraeli-j%C3%A1rv%C3%A1ny.png?raw=true)
+![Izraeli adatok](https://github.com/kamutelapo/covid/blob/master/izrael/izraeli-j%C3%A1rv%C3%A1ny-oltottoltatlan.png?raw=true)
 
 # Angliai adatok
 
