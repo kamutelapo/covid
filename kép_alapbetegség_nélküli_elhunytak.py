@@ -19,7 +19,7 @@ dfcv = pd.read_csv(BASEDIR +"/adatok/hiradatok.csv", parse_dates=['Dátum'])
 dfcv = dfcv[dfcv['Dátum'] >= "2020-07-01"].reset_index()
 dfcvroll = dfcv.rolling(7, center=True, min_periods=7).sum()
 dfcv['Heti halálozás'] = dfcvroll['Napi új elhunyt']
-dfcv['Heti új oltott'] = dfcvroll['Napi új beoltott'] + dfcvroll['Napi új másodszor oltott']
+dfcv['Heti új oltott'] = dfcvroll['Napi új beoltott'] + dfcvroll['Napi új másodszor oltott'] + dfcvroll['Napi új harmadszor oltott']
 
 df = pd.read_csv(BASEDIR +"/adatok/elhunytak_datummal.csv", parse_dates=['Dátum'])
 df = df[np.vectorize(isHealthy)(df['Alapbetegségek'])].reset_index()
@@ -64,7 +64,7 @@ par2.axis[:].major_ticks.set_tick_out(True)
 
 p1, = host.plot(df['Dátum'], df['Heti halálozás'], label="Heti halálozás")
 p2, = par1.plot(df['Dátum'], df['Nem ismert alapbetegség'], label="Nem ismert alapbetegség")
-p3, = par2.plot(df['Dátum'], df['Heti új oltott'], label="Heti új oltott (1x+2x)")
+p3, = par2.plot(df['Dátum'], df['Heti új oltott'], label="Heti új oltott (1x+2x+3x)")
 
 leg = plt.legend(loc='upper left')
 
