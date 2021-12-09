@@ -53,6 +53,7 @@ colors = ['#00FF00', '#00E020', '#00C040', '#00B050', '#00A060', '#009070', '#00
           '#FF40A0', '#FF2080', '#FF0060' ]
 
 explode = (0.35, 0.2, 0.15, 0.1, 0.06, 0.04, 0.02, 0, 0, 0, 0, 0, 0)
+df['Többlet halálozás'] = df['Többlet halálozás'].clip(lower = 0)
 
 plot = df.plot.pie(labels=df['Korcsoport'], y='Többlet halálozás', figsize=(9.5, 9.5), explode=explode, colors=colors, title='KSH alapján a COVID elhunytak eloszlása Magyarországon ('
                    + str(tobblet) + ' fő)',  autopct='%.2f%%')
