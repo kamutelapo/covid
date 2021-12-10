@@ -11,6 +11,7 @@ import mpl_toolkits.axisartist as AA
 from matplotlib import gridspec
 from datetime import timedelta
 from matplotlib.patches import Rectangle
+import matplotlib.dates as mdates
 
 BASEDIR=os.path.dirname(__file__)
 
@@ -84,19 +85,25 @@ maxkr = int(((concatfr['Kórházban ápoltak']) + 99) / 100) * 100
 maxeh = int(((concatfr['Napi új elhunyt átlag']) + 9) / 10) * 10
 maxlg = int(((concatfr['Lélegeztetettek']) + 19) / 20) * 20
 
+formatter = mdates.DateFormatter("%Y-%m-%d")
+
 ax1=fig.add_subplot(spec[0], label="1")
 ax1.plot(df2020['Dátum'], df2020['Napi új fertőzött átlag'], color='orange')
 ax1.set_ylim([0,maxuf])
 ax1.set_title("2020 - napi új fertőzöttek átlaga", fontweight='bold')
 ax1.tick_params(axis='x', rotation=20)
 ax1.fill_between(df2020['Dátum'], df2020['Napi új fertőzött átlag'], color="orange")
-
+ax1.xaxis.set_major_locator(mdates.MonthLocator(interval=1))
+ax1.xaxis.set_major_formatter(formatter)
+    
 ax2=fig.add_subplot(spec[1], label="2")
 ax2.plot(df2021['Dátum'], df2021['Napi új fertőzött átlag'], color='orange')
 ax2.set_ylim([0,maxuf])
 ax2.set_title("2021 - napi új fertőzöttek átlaga", fontweight='bold')
 ax2.tick_params(axis='x', rotation=20)
 ax2.fill_between(df2021['Dátum'], df2021['Napi új fertőzött átlag'], color="orange")
+ax2.xaxis.set_major_locator(mdates.MonthLocator(interval=1))
+ax2.xaxis.set_major_formatter(formatter)
 
 ax3=fig.add_subplot(spec[2], label="3")
 ax3.plot(df2020['Dátum'], df2020['Kórházban ápoltak'], color='blue')
@@ -104,6 +111,8 @@ ax3.set_ylim([0,maxkr])
 ax3.set_title("2020 - kórházban ápoltak", fontweight='bold')
 ax3.tick_params(axis='x', rotation=20)
 ax3.fill_between(df2020['Dátum'], df2020['Kórházban ápoltak'], color="blue")
+ax3.xaxis.set_major_locator(mdates.MonthLocator(interval=1))
+ax3.xaxis.set_major_formatter(formatter)
 
 ax4=fig.add_subplot(spec[3], label="4")
 ax4.plot(df2021['Dátum'], df2021['Kórházban ápoltak'], color='blue')
@@ -111,6 +120,8 @@ ax4.set_ylim([0,maxkr])
 ax4.set_title("2021 - kórházban ápoltak", fontweight='bold')
 ax4.tick_params(axis='x', rotation=20)
 ax4.fill_between(df2021['Dátum'], df2021['Kórházban ápoltak'], color="blue")
+ax4.xaxis.set_major_locator(mdates.MonthLocator(interval=1))
+ax4.xaxis.set_major_formatter(formatter)
 
 ax5=fig.add_subplot(spec[4], label="5")
 ax5.plot(df2020['Dátum'], df2020['Napi új elhunyt átlag'], color='red')
@@ -118,6 +129,8 @@ ax5.set_ylim([0,maxeh])
 ax5.set_title("2020 - elhunytak átlaga", fontweight='bold')
 ax5.tick_params(axis='x', rotation=20)
 ax5.fill_between(df2020['Dátum'], df2020['Napi új elhunyt átlag'], color="red")
+ax5.xaxis.set_major_locator(mdates.MonthLocator(interval=1))
+ax5.xaxis.set_major_formatter(formatter)
 
 ax6=fig.add_subplot(spec[5], label="6")
 ax6.plot(df2021['Dátum'], df2021['Napi új elhunyt átlag'], color='red')
@@ -125,6 +138,8 @@ ax6.set_ylim([0,maxeh])
 ax6.set_title("2021 - elhunytak átlaga", fontweight='bold')
 ax6.tick_params(axis='x', rotation=20)
 ax6.fill_between(df2021['Dátum'], df2021['Napi új elhunyt átlag'], color="red")
+ax6.xaxis.set_major_locator(mdates.MonthLocator(interval=1))
+ax6.xaxis.set_major_formatter(formatter)
 
 ax7=fig.add_subplot(spec[6], label="7")
 ax7.plot(df2020['Dátum'], df2020['Lélegeztetettek'], color='green')
@@ -132,6 +147,8 @@ ax7.set_ylim([0,maxlg])
 ax7.set_title("2020 - lélegeztetettek", fontweight='bold')
 ax7.tick_params(axis='x', rotation=20)
 ax7.fill_between(df2020['Dátum'], df2020['Lélegeztetettek'], color="green")
+ax7.xaxis.set_major_locator(mdates.MonthLocator(interval=1))
+ax7.xaxis.set_major_formatter(formatter)
 
 ax8=fig.add_subplot(spec[7], label="8")
 ax8.plot(df2021['Dátum'], df2021['Lélegeztetettek'], color='green')
@@ -139,6 +156,8 @@ ax8.set_ylim([0,maxlg])
 ax8.set_title("2021 - lélegeztetettek", fontweight='bold')
 ax8.tick_params(axis='x', rotation=20)
 ax8.fill_between(df2021['Dátum'], df2021['Lélegeztetettek'], color="green")
+ax8.xaxis.set_major_locator(mdates.MonthLocator(interval=1))
+ax8.xaxis.set_major_formatter(formatter)
 
 ax9=fig.add_subplot(spec[8], label="9")
 ax9.plot(dfksh2020['Dátum'], dfksh2020['KSH többlet'], color='darkviolet')
@@ -147,6 +166,8 @@ ax9.set_title("2020 - KSH többlet halálozás (" + str(ksh2020tobblet) + " fő)
 ax9.tick_params(axis='x', rotation=20)
 ax9.axhline(0,color='magenta',ls='--')
 ax9.fill_between(dfksh2020['Dátum'], dfksh2020['KSH többlet'], color="darkviolet")
+ax9.xaxis.set_major_locator(mdates.MonthLocator(interval=1))
+ax9.xaxis.set_major_formatter(formatter)
 
 ax10=fig.add_subplot(spec[9], label="10")
 ax10.plot(dfksh2021['Dátum'], dfksh2021['KSH többlet'], color='darkviolet')
@@ -156,6 +177,8 @@ ax10.tick_params(axis='x', rotation=20)
 ax10.axhline(0,color='magenta',ls='--')
 ax10.fill_between(dfksh2021['Dátum'], dfksh2021['KSH többlet'], color="darkviolet")
 ax10.add_patch(Rectangle((maxdateksh + timedelta(days = -35), kshtlim1), timedelta(days = 35), kshtlim2 - kshtlim1, facecolor="pink", alpha=0.5, zorder=-10))
+ax10.xaxis.set_major_locator(mdates.MonthLocator(interval=1))
+ax10.xaxis.set_major_formatter(formatter)
 
 fig.suptitle('COVID járvány összehasonlítás', fontsize=22)
 fig.savefig(BASEDIR + "/képek/CovidÖsszehasonlítás.png")
