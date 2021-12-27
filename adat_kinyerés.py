@@ -137,6 +137,9 @@ while (lines):
             beoltottak = 2000998
         elif date == '2021-03-08':
             beoltottak = 1002714
+        elif date == '2021-12-27':
+            # nincs adat
+            pass
         elif "oltott" in body.lower():
             print (body)
             print ("az oltottaknál gond van")
@@ -156,6 +159,9 @@ while (lines):
             # nincs adat
             pass
         elif date == '2021-03-08':
+            # nincs adat
+            pass
+        elif date == '2021-12-27':
             # nincs adat
             pass
         elif "második olt" in body.lower() or "kétszer olt" in body.lower():
@@ -182,7 +188,7 @@ while (lines):
         else:
             haromszoroltottak = str(int(haromszoroltottak))
     else:
-        if (date > '2021-08-03') and ("háromszor oltott" in body.lower() or "harmadik oltás"):
+        if (date > '2021-08-03') and ("háromszor oltott" in body.lower() or "harmadik oltás" in body.lower()):
             if date != '2021-08-11':
               print (body)
               print ("a háromszor oltottaknál gond van")
