@@ -36,7 +36,7 @@ BEOLTOTTAK_SZAMA = [
 ]
 
 KETSZER_OLTOTTAK_SZAMA = [
-    re.compile(r'.*közülük\s+([0-9\s+]+)\s*fő\s+már\s+a\s+második\s+oltását\s+is\s+megkapta.*', re.S),
+    re.compile(r'.*közülük\s+([0-9\s+]+)\s*fő\s+már\s+a\s+második.*', re.S),
     re.compile(r'.*közülük\s+([0-9\s+]+)\s*már\s+a\s+második\s+oltását\s+is\s+megkapta.*', re.S),
     re.compile(r'.*ebből\s+([0-9\s+]+)\s*fő\s+már\s+a\s+második\s+oltását\s+is\s+megkapta.*', re.S),
     re.compile(r'.*,\s*([0-9\s+]+)\s*fő\s+már\s+a\s+második\s+oltását\s+is\s+megkapta.*', re.S),
@@ -48,6 +48,7 @@ HAROMSZOR_OLTOTTAK_SZAMA = [
     re.compile(r'.*Már\s+([0-9\s+]+\s*ezren)\s+a\s+harmadik\s+oltást\s+is\s+felvették.*', re.S),
     re.compile(r'.*harmadik\s+oltásra\s+és\s+([0-9\s+]+\s*ezren)\s+már\s+fel\s+is\s+vették\s+azt.*', re.S),
     re.compile(r'.*[^0-9\s+]([0-9\s+]+)\s+(?:fő\s+)?pedig\s+már\s+a\s+harmadik\s+oltást\s+is\s+felvették.*', re.S),
+    re.compile(r'.*[^0-9\s+]([0-9\s+]+)\s+(?:fő\s+)?pedig\s+már\s+a\s+megerősítő\s+harmadik\s+oltását\s+is\s+felvette.*', re.S),
 ]
 
 KORHAZBAN = [
