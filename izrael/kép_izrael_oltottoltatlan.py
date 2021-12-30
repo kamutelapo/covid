@@ -35,8 +35,8 @@ dfuj = pd.read_csv(BASEDIR + "/cases-among-vaccinated.csv")
 dfuj = dfuj.fillna(0)
 
 COLUMN_LIST = ['positive_1_6_days_after_1st_dose', 'positive_7_13_days_after_1st_dose', 'positive_14_20_days_after_1st_dose', 'positive_above_20_days_after_1st_dose', 'positive_1_6_days_after_2nd_dose',
-               'positive_7_13_days_after_2nd_dose', 'positive_14_30_days_after_2nd_dose', 'positive_31_90_days_after_2nd_dose', 'positive_above_90_days_after_2nd_dose', 'positive_1_6_days_after_3rd_dose',
-               'positive_7_13_days_after_3rd_dose', 'positive_14_20_days_after_3rd_dose', 'positive_above_20_days_after_3rd_dose', 'Sum_positive_without_vaccination']
+               'positive_7_13_days_after_2nd_dose', 'positive_14_30_days_after_2nd_dose', 'positive_31_90_days_after_2nd_dose', 'positive_above_3_month_after_2nd_before_3rd_dose', 'positive_1_6_days_after_3rd_dose',
+               'positive_7_13_days_after_3rd_dose', 'positive_14_30_days_after_3rd_dose', 'positive_above_90_days_after_3rd_dose', 'Sum_positive_without_vaccination']
 
 for column in COLUMN_LIST:
     dfuj[column] = dfuj.apply(lambda row: smallerThan5Random(row[column]), axis=1)
@@ -47,8 +47,8 @@ for column in COLUMN_LIST:
     
 dfuj['Oltott'] = dfuj['positive_1_6_days_after_1st_dose'] + dfuj['positive_7_13_days_after_1st_dose'] + dfuj['positive_14_20_days_after_1st_dose'] + dfuj['positive_above_20_days_after_1st_dose'] + \
                  dfuj['positive_1_6_days_after_2nd_dose'] + dfuj['positive_7_13_days_after_2nd_dose'] + dfuj['positive_14_30_days_after_2nd_dose'] + dfuj['positive_31_90_days_after_2nd_dose'] + \
-                 dfuj['positive_above_90_days_after_2nd_dose'] + dfuj['positive_1_6_days_after_3rd_dose'] + dfuj['positive_7_13_days_after_3rd_dose'] + dfuj['positive_14_20_days_after_3rd_dose'] + \
-                 dfuj['positive_above_20_days_after_3rd_dose']
+                 dfuj['positive_above_3_month_after_2nd_before_3rd_dose'] + dfuj['positive_1_6_days_after_3rd_dose'] + dfuj['positive_7_13_days_after_3rd_dose'] + dfuj['positive_14_30_days_after_3rd_dose'] + \
+                 dfuj['positive_above_90_days_after_3rd_dose']
 
 dfuj = dfuj.rename(columns = {'Sum_positive_without_vaccination': 'Oltatlan', 'Age_group': 'Korcsoport' }, inplace = False)
 dfuj['Dátum'] = dfuj.apply(lambda row: row['Week'][0:10], axis=1)

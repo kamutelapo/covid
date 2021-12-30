@@ -51,8 +51,8 @@ def korcsoportTabla(dfdata):
 dfuj = pd.read_csv(BASEDIR + "/cases-among-vaccinated.csv")
 
 COLUMN_LIST = ['positive_1_6_days_after_1st_dose', 'positive_7_13_days_after_1st_dose', 'positive_14_20_days_after_1st_dose', 'positive_above_20_days_after_1st_dose', 'positive_1_6_days_after_2nd_dose',
-               'positive_7_13_days_after_2nd_dose', 'positive_14_30_days_after_2nd_dose', 'positive_31_90_days_after_2nd_dose', 'positive_above_90_days_after_2nd_dose', 'positive_1_6_days_after_3rd_dose',
-               'positive_7_13_days_after_3rd_dose', 'positive_14_20_days_after_3rd_dose', 'positive_above_20_days_after_3rd_dose', 'Sum_positive_without_vaccination']
+               'positive_7_13_days_after_2nd_dose', 'positive_14_30_days_after_2nd_dose', 'positive_31_90_days_after_2nd_dose', 'positive_above_3_month_after_2nd_before_3rd_dose', 'positive_1_6_days_after_3rd_dose',
+               'positive_7_13_days_after_3rd_dose', 'positive_14_30_days_after_3rd_dose', 'positive_above_90_days_after_3rd_dose', 'Sum_positive_without_vaccination']
 
 dfuj = fixSmallerThanFive(dfuj, COLUMN_LIST)
 dfuj['all'] = dfuj[COLUMN_LIST].sum(axis=1)
