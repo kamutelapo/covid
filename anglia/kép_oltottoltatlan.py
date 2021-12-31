@@ -18,7 +18,7 @@ COLORS = [
 ]
 
 def intervallumFormatter(x):
-    return x + '. hét'
+    return x + '.'
 
 def oltottOltatlanTabla(dfdata, csoportok):
     dfmerge = dfdata[dfdata['Korcsoport'].isin(csoportok)]
@@ -65,7 +65,7 @@ ax1.fill_between(iformatter, dfcaseseffcs1["Egyszer oltott"] + dfcaseseffcs1["K�
 ax1.fill_between(iformatter, dfcaseseffcs1["Egyszer oltott"], color=COLORS[2])
 ax1.set(xlabel="Intervallum (hetek)", ylabel="Összes esetek száma")
 ax1.set_ylim([0, 600000])
-ax1.tick_params(axis='x', rotation=20)
+ax1.tick_params(axis='x', rotation=45)
 ax1.legend(loc = 'upper left')
 
 ax1b=fig.add_subplot(spec[1], label="2")
@@ -82,7 +82,7 @@ ax1b.fill_between(iformatter, dfcaseseffcs2["Egyszer oltott"] + dfcaseseffcs2["K
 ax1b.fill_between(iformatter, dfcaseseffcs2["Egyszer oltott"], color=COLORS[2])
 ax1b.set(xlabel="Intervallum (hetek)", ylabel="Összes esetek száma")
 ax1b.set_ylim([0, 600000])
-ax1b.tick_params(axis='x', rotation=20)
+ax1b.tick_params(axis='x', rotation=45)
 ax1b.legend(loc = 'upper left')
 
 ax2=fig.add_subplot(spec[2], label="3")
@@ -99,7 +99,7 @@ ax2.fill_between(iformatter, dfemergencyeffcs1["Egyszer oltott"] + dfemergencyef
 ax2.fill_between(iformatter, dfemergencyeffcs1["Egyszer oltott"], color=COLORS[5])
 ax2.set(xlabel="Intervallum (hetek)", ylabel="Összes esetek száma")
 ax2.set_ylim([0, 10000])
-ax2.tick_params(axis='x', rotation=20)
+ax2.tick_params(axis='x', rotation=45)
 ax2.legend(loc = 'upper left')
 
 ax2b=fig.add_subplot(spec[3], label="4")
@@ -116,7 +116,7 @@ ax2b.fill_between(iformatter, dfemergencyeffcs2["Egyszer oltott"] + dfemergencye
 ax2b.fill_between(iformatter, dfemergencyeffcs2["Egyszer oltott"], color=COLORS[5])
 ax2b.set(xlabel="Intervallum (hetek)", ylabel="Összes esetek száma")
 ax2b.set_ylim([0, 10000])
-ax2b.tick_params(axis='x', rotation=20)
+ax2b.tick_params(axis='x', rotation=45)
 ax2b.legend(loc = 'upper left')
 
 ax3=fig.add_subplot(spec[4], label="5")
@@ -133,7 +133,7 @@ ax3.fill_between(iformatter, dfdeatheffcs1["Egyszer oltott"] + dfdeatheffcs1["K�
 ax3.fill_between(iformatter, dfdeatheffcs1["Egyszer oltott"], color=COLORS[8])
 ax3.set(xlabel="Intervallum (hetek)", ylabel="Összes esetek száma")
 ax3.set_ylim([0, 5000])
-ax3.tick_params(axis='x', rotation=20)
+ax3.tick_params(axis='x', rotation=45)
 ax3.legend(loc = 'upper left')
 
 ax3b=fig.add_subplot(spec[5], label="6")
@@ -150,7 +150,7 @@ ax3b.fill_between(iformatter, dfdeatheffcs2["Egyszer oltott"] + dfdeatheffcs2["K
 ax3b.fill_between(iformatter, dfdeatheffcs2["Egyszer oltott"], color=COLORS[8])
 ax3b.set(xlabel="Intervallum (hetek)", ylabel="Összes esetek száma")
 ax3b.set_ylim([0, 5000])
-ax3b.tick_params(axis='x', rotation=20)
+ax3b.tick_params(axis='x', rotation=45)
 ax3b.legend(loc = 'upper left')
 
 fig.suptitle('Brit COVID adatok\nTeljes népességre vonatkozó adatok', fontsize=22)
