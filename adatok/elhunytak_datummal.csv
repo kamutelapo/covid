@@ -1,4 +1,252 @@
 Sorszám,Dátum,Nem,Kor,Alapbetegségek
+39434,2022-01-03,Férfi,78,"érelmeszesedés, magasvérnyomás-betegség, kóros fogyás"
+39433,2022-01-03,Férfi,91,"magasvérnyomás-betegség, pajzsmirigy túlmûködés, szívritmuszavar"
+39432,2022-01-03,Férfi,64,"magasvérnyomás-betegség, májbetegség"
+39431,2022-01-03,Nõ,87,"daganatos betegség, iszkémiás szívbetegség, magasvérnyomás-betegség, cukorbetegség, krónikus veseelégtelenség"
+39430,2022-01-03,Férfi,54,"magasvérnyomás-betegség, cukorbetegség"
+39429,2022-01-03,Férfi,83,"magasvérnyomás-betegség, agyi ödéma"
+39428,2022-01-03,Férfi,77,krónikus obstruktív tüdõbetegség
+39427,2022-01-03,Nõ,74,"magasvérnyomás-betegség, cukorbetegség, krónikus veseelégtelenség, szívelégtelenség"
+39426,2022-01-03,Nõ,87,"krónikus obstruktív tüdõbetegség, iszkémiás szívbetegség, magasvérnyomás-betegség"
+39425,2022-01-03,Férfi,71,"daganatos betegség, krónikus obstruktív tüdõbetegség"
+39424,2022-01-03,Férfi,62,"cukorbetegség, iszkémiás szívbetegség"
+39423,2022-01-03,Nõ,87,"lábszárfekély, izületi gyulladás, elhízás, magasvérnyomás-betegség, cukorbetegség, bélbetegség"
+39422,2022-01-03,Férfi,74,"cukorbetegség, magasvérnyomás-betegség, szívritmuszavar, prosztata megnagyobbodás"
+39421,2022-01-03,Férfi,70,"iszkémiás szívbetegség, krónikus légzõszervi betegség"
+39420,2022-01-03,Nõ,51,"magasvérnyomás-betegség, krónikus obstruktív tüdõbetegség, elhízás, magas húgysav szint"
+39419,2022-01-03,Nõ,86,"iszkémiás szívbetegség, szívritmuszavar, magasvérnyomás-betegség, vese elégtelenség, agyi infarktus"
+39418,2022-01-03,Férfi,64,"magasvérnyomás-betegség, iszkémiás szívbetegség"
+39417,2022-01-03,Nõ,80,nem ismert alapbetegség
+39416,2022-01-03,Nõ,95,"magasvérnyomás-betegség, iszkémiás szívbetegség, daganatos betegség"
+39415,2022-01-03,Férfi,92,"magasvérnyomás-betegség, iszkémiás szívbetegség"
+39414,2022-01-03,Férfi,79,idült obstruktív tüdõbetegség
+39413,2022-01-03,Férfi,50,"cukorbetegség, trombózis"
+39412,2022-01-03,Férfi,64,"magasvérnyomás-betegség, cukorbetegség, nyelõcsõreflux"
+39411,2022-01-03,Nõ,57,"krónikus obstruktív tüdõbetegség, koszorúér mûtét, iszkémiás szívbetegség"
+39410,2022-01-03,Nõ,62,"magasvérnyomás-betegség, iszkémiás szívbetegség, cukorbetegség"
+39409,2022-01-03,Nõ,73,"cukorbetegség, magasvérnyomás-betegség, elhízás"
+39408,2022-01-03,Férfi,72,"magasvérnyomás-betegség, cukorbetegség"
+39407,2022-01-03,Férfi,77,"cukorbetegség, krónikus veseelégtelenség, szívelégtelenség, magasvérnyomás-betegség"
+39406,2022-01-03,Férfi,64,"krónikus obstruktív tüdõbetegség, magasvérnyomás-betegség, szívritmuszavar"
+39405,2022-01-03,Nõ,99,"vérszegénység, magas kálium szint, krónikus vesebetegség, daganatos betegség"
+39404,2022-01-03,Nõ,85,"magasvérnyomás-betegség, cukorbetegség, szívritmuszavar, magas húgysavszint"
+39403,2022-01-03,Férfi,68,daganatos betegség áttétekkel
+39402,2022-01-03,Nõ,63,"tüdõbetegség, cukorbetegség, elhízás, zöldhályog"
+39401,2022-01-03,Nõ,73,"magasvérnyomás-betegség, cukorbetegség, krónikus veseelégtelenség"
+39400,2022-01-03,Nõ,85,"magasvérnyomás-betegség. cukorbetegség, vesebetegség"
+39399,2022-01-03,Férfi,59,"csigolyák közötti porckorongsérv, neurológiai betegség"
+39398,2022-01-03,Férfi,70,szívelégtelenség
+39397,2022-01-03,Nõ,81,"magasvérnyomás-betegség, érbetegség, szívritmuszavar"
+39396,2022-01-03,Férfi,64,"magasvérnyomás-betegség, krónikus prosztatagyulladás"
+39395,2022-01-03,Férfi,75,"magasvérnyomás-betegség, tüdõembólia, daganatos betegség"
+39394,2022-01-03,Nõ,67,"elhízás, reumás izületi gyullladás"
+39393,2022-01-03,Nõ,94,"magasvérnyomás-betegség, vesebetegség, mélyvénás trombózis"
+39392,2022-01-03,Nõ,75,"cukorbetegség, magasvérnyomás-betegség,  göbös struma, epekõ"
+39391,2022-01-03,Nõ,30,nem ismert alapbetegség
+39390,2022-01-03,Férfi,58,"elhízás, magasvérnyomás-betegség, cukorbetegség, koszorúérbetegség"
+39389,2022-01-03,Nõ,68,"magasvérnyomás-betegség, cukorbetegség, szívbetegség"
+39388,2022-01-03,Nõ,85,nem ismert alapbetegség
+39387,2022-01-03,Férfi,60,légzõrendszeri betegség
+39386,2022-01-03,Férfi,70,"magasvérnyomás-betegség, agyi infarktus, érelmeszesedés, csípõízületi kopás"
+39385,2022-01-03,Férfi,76,magasvérnyomás-betegség
+39384,2022-01-03,Férfi,47,elhízás
+39383,2022-01-03,Nõ,63,"daganatos betegség, heveny szívizomelhalás."
+39382,2022-01-03,Nõ,85,"szívritmuszavar, magasvérnyomás-betegség, agyi bántalom"
+39381,2022-01-03,Férfi,63,"epilepszia, magasvérnyomás-betegség"
+39380,2022-01-03,Nõ,103,szívritmuszavar
+39379,2022-01-03,Nõ,64,"iszkémiás szívbetegség, magasvérnyomás-betegség, cukorbetegség szövõdményekkel, elhízás, mozgásszervi panaszok"
+39378,2022-01-03,Férfi,33,elhízás
+39377,2022-01-03,Férfi,46,nem ismert alapbetegség
+39376,2022-01-03,Férfi,60,prosztata megnagyobbodás
+39375,2022-01-03,Férfi,61,"szívritmuszavar, lépeltávolítás"
+39374,2022-01-03,Férfi,74,"magasvérnyomás-betegség, krónikus obstruktív tüdõbetegség, daganatos betegség"
+39373,2022-01-03,Nõ,64,"daganatos betegség, pajzsmirigy alulmûködés"
+39372,2022-01-03,Férfi,56,nem ismert alapbetegség
+39371,2022-01-03,Nõ,34,nem ismert alapbetegség
+39370,2022-01-03,Férfi,59,"cukorbetegség, magasvérnyomás-betegség"
+39369,2022-01-03,Nõ,57,"magasvérnyomás-betegség, cukorbetegség  szövõdményekkel, elhízás, pangásos szívelégtelenség"
+39368,2022-01-03,Férfi,75,"magasvérnyomás-betegség, cukorbetegség, mû szívbillentyû beültetés, mélyvénás trombózis, tüdõembólia, krónikus obstruktív tüdõbetegség, iszkémiás szívbetegség"
+39367,2022-01-03,Nõ,93,"magasvérnyomás-betegség, iszkémiás szívbetegség"
+39366,2022-01-03,Nõ,93,Nem ismert alapbetegség
+39365,2022-01-03,Nõ,83,"Magasvérnyomás-betegség, iszkémiás szívbetegség"
+39364,2022-01-03,Férfi,71,"Idült iszkémiás szívbetegség, idült obstruktív tüdõbetegség"
+39363,2022-01-03,Férfi,70,Nem ismert alapbetegség
+39362,2022-01-03,Férfi,85,"Magasvérnyomás-betegség, vastagbéldaganat"
+39361,2022-01-03,Férfi,69,Prosztatadaganat
+39360,2022-01-03,Férfi,87,Nem ismert alapbetegség
+39359,2022-01-03,Nõ,76,"Cukorbetegség, magasvérnyomás-betegség, iszkémiás szívbetegség, kóros elhízás"
+39358,2022-01-03,Férfi,72,"Magasvérnyomás-betegség, szívelégtelenség"
+39357,2022-01-03,Nõ,72,Nem ismert alapbetegség
+39356,2022-01-03,Férfi,51,Nem ismert alapbetegség
+39355,2022-01-03,Férfi,89,"Cukorbetegség, magasvérnyomás-betegség"
+39354,2022-01-03,Nõ,35,Nem ismert alapbetegség
+39353,2022-01-03,Nõ,52,Nem ismert alapbetegség
+39352,2022-01-03,Férfi,67,Magasvérnyomás-betegség
+39351,2022-01-02,Nõ,72,"Magasvérnyomás-betegség, cukorbetegség"
+39350,2022-01-02,Nõ,61,"Cukorbetegség, érszûkület"
+39349,2022-01-02,Férfi,71,Magasvérnyomás-betegség
+39348,2022-01-02,Férfi,52,Krónikus tüdõbetegség
+39347,2022-01-02,Nõ,83,"Magasvérnyomás-betegség, cukorbetegség"
+39346,2022-01-02,Férfi,95,"Krónikus veseelégtelenség, pitvarfibrilláció"
+39345,2022-01-02,Férfi,82,"Magasvérnyomás-betegség, kóros elhízás"
+39344,2022-01-02,Nõ,90,"Magasvérnyomás-betegség, cukorbetegség"
+39343,2022-01-02,Férfi,74,"pitvarfibrilláció, magasvérnyomás-betegség"
+39342,2022-01-02,Férfi,84,"Magasvérnyomás-betegség, cukorbetegség"
+39341,2022-01-02,Nõ,91,"Magasvérnyomás-betegség, iszkémiás szívbetegség"
+39340,2022-01-02,Nõ,76,"Cukorbetegség, magasvérnyomás-betegség, iszkémiás szívbetegség"
+39339,2022-01-02,Férfi,45,"Magavérnyomás-betegség, cukorbetegség"
+39338,2022-01-02,Férfi,69,"Magasvérnyomás-betegség, cukorbetegség, kóros elhízás"
+39337,2022-01-02,Nõ,85,Szívinfarktus
+39336,2022-01-02,Nõ,55,"Krónikus tüdõbetegség, egyéb elektrolit- és folyadék- egyensúly zavarok"
+39335,2022-01-02,Nõ,64,"Magasvérnyomás-betegség, cukorbetegség"
+39334,2022-01-02,Nõ,90,Magasvérnyomás-betegség
+39333,2022-01-02,Férfi,66,"Nyelvgyöki daganat, magasvérnyomásos-betegség, szívritmuszavar"
+39332,2022-01-02,Nõ,66,"Magasvérnyomás-betegség, szívelégtelenség"
+39331,2022-01-02,Férfi,25,Kóros elhízás
+39330,2022-01-02,Férfi,75,"Cukorbetegség, vérszegénység"
+39329,2022-01-02,Férfi,2,Korábban lezajlott meningoencephalitis (agyhártyagyulladás)
+39328,2022-01-02,Nõ,70,"Magasvérnyomás-betegség, krónikus veseelégtelenség, szívinfarktus"
+39327,2022-01-02,Férfi,62,"Magasvérnyomás-betegség, kóros elhízás"
+39326,2022-01-02,Férfi,70,"Krónikus tüdõbetegség, cukorbetegség"
+39325,2022-01-02,Nõ,83,"Magasvérnyomás-betegség, cukorbetegség, pitvarfibrilláció"
+39324,2022-01-02,Férfi,44,"Magasvérnyomás-betegség, elhízás"
+39323,2022-01-02,Nõ,56,"Cukorbetegség, kóros elhízás"
+39322,2022-01-02,Férfi,92,"Magasvérnyomás-betegség, iszkémiás szívbetegség, mélyvénás trombózis, prosztatadaganat, stroke"
+39321,2022-01-02,Nõ,70,"Magasvérnyomás-betegség, asztma, krónikus veseelégtelenség"
+39320,2022-01-02,Férfi,74,Szívinfarktus
+39319,2022-01-02,Nõ,50,"Magasvérnyomás-betegség, cukorbetegség"
+39318,2022-01-02,Férfi,44,Nem ismert alapbetegség
+39317,2022-01-02,Nõ,72,"Kóros elhízás, magas vérnyomásos betegség"
+39316,2022-01-02,Férfi,69,Nem ismert alapbetegség
+39315,2022-01-02,Férfi,68,Nem ismert alapbetegség
+39314,2022-01-02,Nõ,64,"Magasvérnyomás-betegség, cukorbetegség"
+39313,2022-01-02,Nõ,79,Nem ismert alapbetegség
+39312,2022-01-02,Nõ,64,Nem ismert alapbetegség
+39311,2022-01-02,Férfi,75,Nem ismert alapbetegség
+39310,2022-01-02,Férfi,48,Nem ismert alapbetegség
+39309,2022-01-02,Nõ,91,Nem ismert alapbetegség
+39308,2022-01-02,Férfi,43,Nem ismert alapbetegség
+39307,2022-01-02,Nõ,61,Krónikus tüdõbetegség
+39306,2022-01-02,Férfi,81,Iszkémiás szívbetegség
+39305,2022-01-02,Nõ,74,"Érbetegség, magasvérnyomásos-betegség"
+39304,2022-01-02,Férfi,82,Magasvérnyomásos-betegség
+39303,2022-01-02,Nõ,93,Nem ismert alapbetegség
+39302,2022-01-02,Nõ,70,Magasvérnyomásos-betegség
+39301,2022-01-02,Nõ,55,Nem ismert alapbetegség
+39300,2022-01-02,Nõ,67,Máj és veseelégtelenség
+39299,2022-01-02,Férfi,45,Nem ismert alapbetegség
+39298,2022-01-02,Férfi,81,"Cukorbetegség, Parkinson-kór, szívbetegség"
+39297,2022-01-02,Nõ,73,"Magasvérnyomás-betegség, cukorbetegség"
+39296,2022-01-02,Nõ,53,Nem ismert alapbetegség
+39295,2022-01-02,Férfi,91,"Magasvérnyomás-betegség, veseelégtelenség"
+39294,2022-01-02,Nõ,65,Magasvérnyomás-betegség
+39293,2022-01-02,Nõ,69,"Magas vérnyomás, krónikus tüdõbetegség, húgyhólyagdaganat"
+39292,2022-01-02,Férfi,90,Prosztatadaganat
+39291,2022-01-02,Férfi,90,"Magasvérnyomás-betegség, szívelégtelenség, veseelégtelenség"
+39290,2022-01-02,Férfi,76,"Szívelégtelenség, egyéb elektrolit- és folyadék-egyensúly zavarok"
+39289,2022-01-02,Nõ,74,Csökkent pajzsmirigymûködés
+39288,2022-01-02,Nõ,73,"Magasvérnyomás-betegség, krónikus tüdõbetegség"
+39287,2022-01-02,Férfi,54,Nem ismert alapbetegség
+39286,2022-01-02,Férfi,76,"Magasvérnyomás-betegség, szívelégtelenség"
+39285,2022-01-02,Férfi,43,Heredaganat
+39284,2022-01-02,Nõ,87,"Krónikus tüdõbetegség, magasvérnyomás-betegség"
+39283,2022-01-02,Férfi,47,"Kóros elhízás, szívbetegség"
+39282,2022-01-02,Nõ,80,"Magasvérnyomásos-betegség, agyi infarktus"
+39281,2022-01-02,Férfi,68,"Magasvérnyomás-betegség, cukorbetegség"
+39280,2022-01-02,Nõ,65,Magasvérnyomás-betegség
+39279,2022-01-02,Nõ,86,"Magasvérnyomás-betegség, cukorbetegség"
+39278,2022-01-02,Férfi,85,"Magasvérnyomás-betegség, veseelégtelenség"
+39277,2022-01-02,Nõ,56,"Magasvérnyomás-betegség, tüdõembólia"
+39276,2022-01-02,Nõ,57,magasvérnyomás-betegség
+39275,2022-01-02,Nõ,88,"magasvérnyomás-betegség, vérszegénység"
+39274,2022-01-02,Nõ,66,daganatos megbetegedés. szívelégtelenség
+39273,2022-01-02,Nõ,82,"magasvérnyomás-betegség, stroke, agysorvadás"
+39272,2022-01-02,Nõ,73,nem ismert alapbetegség
+39271,2022-01-02,Nõ,78,"krónikus veseelégtelenség, vérszegénység, magasvérnyomás-betegség"
+39270,2022-01-02,Nõ,60,nem ismert alapbetegség
+39269,2022-01-01,Férfi,79,magasvérnyomás-betegség
+39268,2022-01-01,Nõ,81,"magasvérnyomás-betegség, májzsugor, cukorbetegség"
+39267,2022-01-01,Nõ,80,"Alzheimer-kór, magasvérnyomás-betegség"
+39266,2022-01-01,Nõ,86,"magasvérnyomás-betegség, általános érelmeszesedés"
+39265,2022-01-01,Nõ,58,"magasvérnyomás-betegség, iszkémiás szívbetegség, agyvérzés"
+39264,2022-01-01,Férfi,81,májbetegség
+39263,2022-01-01,Férfi,66,"magasvérnyomás-betegség, cukorbetegség, elhízás"
+39262,2022-01-01,Férfi,74,"magasvérnyomás-betegség, cukorbetegség, iszkémiás szívbetegség, pitvarfibrilláció, vérszegénység"
+39261,2022-01-01,Férfi,76,"krónikus obstruktív tüdõbetegség, cukorbetegség, refluxbetegség"
+39260,2022-01-01,Nõ,90,"magasvérnyomás-betegség, Parkinson-kór"
+39259,2022-01-01,Nõ,79,"magasvérnyomás-betegség, cukorbetegség, iszkémiás szívbetegség"
+39258,2022-01-01,Nõ,65,"krónikus obstruktív tüdõbetegség, cukorbetegség"
+39257,2022-01-01,Férfi,73,"magasvérnyomás-betegség, cukorbetegség"
+39256,2022-01-01,Nõ,79,"magasvérnyomás-betegség, demencia"
+39255,2022-01-01,Férfi,71,"iszkémiás szívbetegség, magasvérnyomás-betegség"
+39254,2022-01-01,Nõ,79,magasvérnyomás-betegség
+39253,2022-01-01,Nõ,52,krónikus obstruktív tüdõbetegség
+39252,2022-01-01,Nõ,78,magasvérnyomás-betegség
+39251,2022-01-01,Nõ,73,"daganatos megbetegedés, pajzsmirigy túlmûködés"
+39250,2022-01-01,Férfi,70,"magasvérnyomás-betegség, pitvarfibrilláció, epilepszia, daganatos megbetegedés, agyi infarktus"
+39249,2022-01-01,Nõ,78,"magasvérnyomás-betegség, általános érelmeszesedés"
+39248,2022-01-01,Férfi,70,"daganatos megbetegedés, magasvérnyomás-betegség"
+39247,2022-01-01,Nõ,75,"krónikus obstruktív tüdõbetegség, magasvérnyomás-betegség, agyi infarktus"
+39246,2022-01-01,Nõ,89,"iszkémiás szívbetegség, cukorbetegség, magasvérnyomás-betegség, érelmeszesedés, idült veseelégtelenség"
+39245,2022-01-01,Nõ,66,"magasvérnyomás-betegség, krónikus obstruktív tüdõbetegség, cukorbetegség, vérszegénység"
+39244,2022-01-01,Férfi,74,"krónikus obstruktív tüdõbetegség, szívbetegség"
+39243,2022-01-01,Férfi,53,nem ismert alapbetegség
+39242,2022-01-01,Férfi,88,"magasvérnyomás-betegség, cukorbetegség, pitvarfibrilláció"
+39241,2022-01-01,Nõ,74,"magasvérnyomás-betegség, agyi érelmeszesedés"
+39240,2022-01-01,Nõ,77,"pitvarfibrilláció, stroke, magasvérnyomás-betegség"
+39239,2022-01-01,Nõ,70,"szívbetegség, vérszegénység, zöldhályog"
+39238,2022-01-01,Férfi,90,"magasvérnyomás-betegség, zöldhályog, demencia"
+39237,2022-01-01,Férfi,51,nem ismert alapbetegség
+39236,2022-01-01,Nõ,68,"krónikus obstruktív tüdõbetegség, magasvérnyomás-betegség"
+39235,2022-01-01,Nõ,78,"magasvérnyomás-betegség, cukorbetegség, szívelégtelenség"
+39234,2022-01-01,Férfi,64,magasvérnyomás-betegség
+39233,2022-01-01,Férfi,49,fekélyes vastagbélgyulladás
+39232,2022-01-01,Nõ,77,"magasvérnyomás-betegség, csökkent pajzsmirigymûködés"
+39231,2022-01-01,Férfi,65,"vérszegénység, szívbetegség, agysorvadás"
+39230,2022-01-01,Nõ,79,"magasvérnyomás-betegség, cukorbetegség"
+39229,2022-01-01,Nõ,71,magasvérnyomás-betegség
+39228,2022-01-01,Nõ,77,"magasvérnyomás-betegség, pitvarfibrilláció, Parkinson-kór"
+39227,2022-01-01,Nõ,44,cukorbetegség
+39226,2022-01-01,Férfi,70,"magasvérnyomás-betegség, szívelégtelenség"
+39225,2022-01-01,Férfi,46,magasvérnyomás-betegség
+39224,2022-01-01,Nõ,92,magasvérnyomás-betegség
+39223,2022-01-01,Nõ,79,agyi érszûkület
+39222,2022-01-01,Nõ,67,nem ismert alapbetegség
+39221,2022-01-01,Férfi,61,magasvérnyomás-betegség
+39220,2022-01-01,Nõ,75,"magasvérnyomás-betegség, cukorbetegség, veseelégtelenség, iszkémiás szívbetegség"
+39219,2022-01-01,Férfi,85,pitvarfibrilláció
+39218,2022-01-01,Nõ,82,"magasvérnyomás-betegség, érelmeszesedés"
+39217,2022-01-01,Férfi,57,nem ismert alapbetegség
+39216,2022-01-01,Nõ,64,"szívbetegség, vérszegénység"
+39215,2022-01-01,Férfi,66,magasvérnyomás-betegség
+39214,2022-01-01,Férfi,83,"iszkémiás szívbetegség, szívelégtelenséggel"
+39213,2022-01-01,Nõ,48,"magasvérnyomás-betegség, cukorbetegség"
+39212,2022-01-01,Nõ,84,"iszkémiás szívbetegség, elhízás, magasvérnyomás betegség"
+39211,2022-01-01,Férfi,88,nem ismert alapbetegség
+39210,2022-01-01,Férfi,74,agyi infarktus
+39209,2022-01-01,Férfi,40,nem ismert alapbetegség
+39208,2022-01-01,Férfi,73,"leukémia, magasvérnyomás-betegség"
+39207,2022-01-01,Férfi,60,"cukorbetegség, magasvérnyomás-betegség"
+39206,2022-01-01,Férfi,57,nem ismert alapbetegség
+39205,2022-01-01,Nõ,80,"magasvérnyomás-betegség, szívbetegség"
+39204,2022-01-01,Nõ,95,"magasvérnyomás-betegség, iszkémiás szívbetegség, érelmeszesedés"
+39203,2022-01-01,Férfi,75,általános érelmeszesedés
+39202,2022-01-01,Férfi,53,"magasvérnyomás-betegség, elhízás, stroke"
+39201,2022-01-01,Férfi,76,"magasvérnyomás-betegség, daganatos megbetegedés, vérszegénység, idült iszkémiás szívbetegség"
+39200,2022-01-01,Férfi,54,"krónikus obstruktív tüdõbetegség, daganatos megbetegedés"
+39199,2022-01-01,Férfi,52,asztma
+39198,2022-01-01,Férfi,65,"krónikus veseelégtelenség, cukorbetegség, magasvérnyomás-betegség, daganatos megbetegedés"
+39197,2022-01-01,Férfi,60,magasvérnyomás-betegség
+39196,2022-01-01,Férfi,45,nem ismert alapbetegség
+39195,2022-01-01,Férfi,60,"magasvérnyomás-betegség, cukorbetegség"
+39194,2022-01-01,Férfi,61,"magasvérnyomás-betegség, cukorbetegség"
+39193,2022-01-01,Nõ,95,"krónikus veseelégtelenség, magasvérnyomás-betegség, demencia, pangásos szívelégtelenség"
+39192,2022-01-01,Nõ,84,"magasvérnyomás-betegség, krónikus veseelégtelenség, daganatos megbetegedés, Crohn-betegség"
+39191,2022-01-01,Nõ,43,magasvérnyomás-betegség
+39190,2022-01-01,Férfi,71,nem ismert alapbetegség
+39189,2022-01-01,Nõ,87,"iszkémiás szívbetegség, magasvérnyomás-betegség, cukorbetegség"
+39188,2022-01-01,Férfi,81,"általános érelmeszesedés, demencia, cukorbetegség"
+39187,2022-01-01,Nõ,82,"demencia, leukémia"
 39186,2021-12-31,Férfi,64,"magasvérnyomás-betegség, magas koleszterinszint, érszûkület, pitvarfibrillació, pánikbetegség"
 39185,2021-12-31,Férfi,79,"magasvérnyomás-betegség, vérszegénység, daganatos megbetegedés"
 39184,2021-12-31,Férfi,76,daganatos megbetegedés
