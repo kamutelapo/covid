@@ -51,9 +51,9 @@ df3hd = dfhd[dfhd['Dátum'] >= "2021-01-25"]
 df3hd = df3hd[df3hd['Dátum'] < "2021-04-06"]
 
 df4 = dfheti[dfheti['Dátum'] >= "2021-10-18"]
-df4 = df4[df4['Dátum'] < "2021-12-31"]
+df4 = df4[df4['Dátum'] < "2021-12-07"]
 df4hd = dfhd[dfhd['Dátum'] >= "2021-10-18"]
-df4hd = df4hd[df4hd['Dátum'] < "2021-12-31"]
+df4hd = df4hd[df4hd['Dátum'] < "2021-12-07"]
 
 pd.plotting.register_matplotlib_converters()
 
@@ -99,12 +99,12 @@ ax4.set_ylim([0,3.0])
 ax4.xaxis.set_visible(False)
 ax4.set_title("A 4. hullám heti dinamikája")
 ax4.axhline(1.0,color='magenta',ls='--')
-ax4.set_xlim([df4hd['Dátum'].min() + pd.Timedelta("-5 days"), df4hd['Dátum'].min() + pd.Timedelta("72 days")])
+#ax4.set_xlim([df4hd['Dátum'].min() + pd.Timedelta("-5 days"), df4hd['Dátum'].min() + pd.Timedelta("58 days")])
 
 ax5=fig.add_subplot(133, label="5", frame_on=False)
 ax5.plot(df4hd['Dátum'], df4hd['Előző fertőzött átlag'], color="orange", linewidth=2.0, marker='o', markevery=(0,7))
 ax5.xaxis.set_visible(False)
 ax5.yaxis.set_visible(False)
-ax5.set_xlim([df4hd['Dátum'].min() + pd.Timedelta("-5 days"), df4hd['Dátum'].min() + pd.Timedelta("72 days")])
+#ax5.set_xlim([df4hd['Dátum'].min() + pd.Timedelta("-5 days"), df4hd['Dátum'].min() + pd.Timedelta("58 days")])
 
 fig.savefig(BASEDIR + "/képek/VírusTerjedésCsúcsok.png", bbox_inches = "tight")
