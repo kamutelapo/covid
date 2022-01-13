@@ -15,6 +15,8 @@ df['Kórházban ápoltak'] = df['Kórházban ápoltak'].interpolate(method='line
 dfheti = df.rolling(7, center=True, min_periods=4).mean()
 df['Napi új fertőzöttek átlaga'] = dfheti['Napi új fertőzött']
 
+df = df[df['Dátum'] >= '2020-09-01']
+
 pd.plotting.register_matplotlib_converters()
 
 host = host_subplot(111)
