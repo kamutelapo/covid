@@ -10,9 +10,9 @@ from datetime import timedelta
 
 BASEDIR=os.path.dirname(__file__)
 
-df = pd.read_csv(BASEDIR +"/adatok/stadat-halalozas-elokeszitve.csv", parse_dates=['A hét kező napja', 'A hét záró napja'], delimiter=';')
-maxdate = df['A hét kező napja'].max() + timedelta(days = -35)
-df = df[df['A hét kező napja'] <= maxdate]
+df = pd.read_csv(BASEDIR +"/adatok/stadat-halalozas-elokeszitve.csv", parse_dates=['A hét kezdő napja', 'A hét záró napja'], delimiter=';')
+maxdate = df['A hét kezdő napja'].max() + timedelta(days = -35)
+df = df[df['A hét kezdő napja'] <= maxdate]
 
 covid_elhunytak = df[df['A hét záró napja'] > "2020-08-30"]
 
@@ -20,7 +20,7 @@ dfatlag = df[df['A hét záró napja'] < "2020-01-01"]
 dfatlag = dfatlag.groupby('A hét sorszáma').mean()
 
 for index, item in dfatlag.iteritems():
-    if ('Összesen ' in index) and (' éves' in index):
+    if ' éves összesen' in index:
         name = "Átlag " + re.sub(str(b'\xc2\x96', 'utf-8'), '-', index)
         dfatlag = dfatlag.rename(columns = {index: name })
 
@@ -30,7 +30,7 @@ diff = pd.merge(covid_elhunytak, dfatlag, left_on = 'A hét sorszáma', right_on
 korcsoport = []
 
 for index, item in diff.iteritems():
-    if ('Összesen ' in index) and (' éves' in index) and ( 'Átlag' not in index):
+    if (' éves összesen' in index) and ( 'Átlag' not in index):
         name = re.sub(str(b'\xc2\x96', 'utf-8'), '-', index)
         diff = diff.rename(columns = {index: name })
 
@@ -39,12 +39,10 @@ for index, item in diff.iteritems():
 
 
 for index, item in diff.iteritems():
-    if ('Összesen ' in index) and (' éves' in index):
-        name = re.sub('Összesen ', '', index)
-        name = re.sub(' éves', '', name)
+    if ' éves összesen' in index:
+        name = re.sub(' éves összesen', '', index)
 
         korcsoport.append([name, item.sum()])
-
 
 df = pd.DataFrame(korcsoport, columns=['Korcsoport', 'Többlet halálozás'])
 tobblet = int(df['Többlet halálozás'].sum() + 0.5)

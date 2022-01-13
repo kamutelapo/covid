@@ -38,17 +38,17 @@ df2020 = df2020[df2020['Dátum'] <= maxdate1y]
 
 # KSH többlet
 
-dfksh = pd.read_csv(BASEDIR +"/adatok/stadat-halalozas-elokeszitve.csv", parse_dates=['A hét kező napja', 'A hét záró napja'], delimiter=';')
+dfksh = pd.read_csv(BASEDIR +"/adatok/stadat-halalozas-elokeszitve.csv", parse_dates=['A hét kezdő napja', 'A hét záró napja'], delimiter=';')
 dfkshatlag = dfksh[dfksh['A hét záró napja'] < "2020-01-01"]
 dfkshatlag = dfkshatlag.groupby('A hét sorszáma').mean().reset_index()
-dfkshatlag = dfkshatlag.rename(columns = {'Összesen összesen': 'KSH 5 éves átlag'}, inplace = False)
+dfkshatlag = dfkshatlag.rename(columns = {'Összesen': 'KSH 5 éves átlag'}, inplace = False)
 dfkshatlag = dfkshatlag[["A hét sorszáma", "KSH 5 éves átlag"]]
 
-maxdateksh = dfksh['A hét kező napja'].max()
+maxdateksh = dfksh['A hét kezdő napja'].max()
 maxdateksh1y = maxdateksh + timedelta(days = -360)
 
-dfkshmerge = pd.merge(dfksh[['A hét sorszáma', 'A hét kező napja', 'Összesen összesen']], dfkshatlag, left_on = 'A hét sorszáma', right_on = 'A hét sorszáma')
-dfkshmerge = dfkshmerge.rename(columns = {'Összesen összesen': 'KSH halálozás', 'A hét kező napja': 'Dátum'}, inplace = False)
+dfkshmerge = pd.merge(dfksh[['A hét sorszáma', 'A hét kezdő napja', 'Összesen']], dfkshatlag, left_on = 'A hét sorszáma', right_on = 'A hét sorszáma')
+dfkshmerge = dfkshmerge.rename(columns = {'Összesen': 'KSH halálozás', 'A hét kezdő napja': 'Dátum'}, inplace = False)
 dfkshmerge['KSH többlet'] = dfkshmerge['KSH halálozás'] - dfkshmerge['KSH 5 éves átlag']
 
 dfksh2020 = dfkshmerge[dfkshmerge['Dátum'] >= mindate1y]

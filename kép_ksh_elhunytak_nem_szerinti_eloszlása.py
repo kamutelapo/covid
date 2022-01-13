@@ -10,9 +10,9 @@ from datetime import timedelta
 
 BASEDIR=os.path.dirname(__file__)
 
-df = pd.read_csv(BASEDIR +"/adatok/stadat-halalozas-elokeszitve.csv", parse_dates=['A hét kező napja', 'A hét záró napja'], delimiter=';')
-maxdate = df['A hét kező napja'].max() + timedelta(days = -35)
-df = df[df['A hét kező napja'] <= maxdate]
+df = pd.read_csv(BASEDIR +"/adatok/stadat-halalozas-elokeszitve.csv", parse_dates=['A hét kezdő napja', 'A hét záró napja'], delimiter=';')
+maxdate = df['A hét kezdő napja'].max() + timedelta(days = -35)
+df = df[df['A hét kezdő napja'] <= maxdate]
 
 covid_elhunytak = df[df['A hét záró napja'] > "2020-08-30"]
 
