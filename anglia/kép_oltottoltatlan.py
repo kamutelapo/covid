@@ -64,7 +64,7 @@ ax1.fill_between(iformatter, dfcaseseffcs1["Egyszer oltott"] + dfcaseseffcs1["K�
 ax1.fill_between(iformatter, dfcaseseffcs1["Egyszer oltott"] + dfcaseseffcs1["Kétszer oltott"], color=COLORS[1])
 ax1.fill_between(iformatter, dfcaseseffcs1["Egyszer oltott"], color=COLORS[2])
 ax1.set(xlabel="Intervallum (hetek)", ylabel="Összes esetek száma")
-ax1.set_ylim([0, 700000])
+ax1.set_ylim([0, 1500000])
 ax1.tick_params(axis='x', rotation=45)
 ax1.legend(loc = 'upper left')
 
@@ -81,7 +81,7 @@ ax1b.fill_between(iformatter, dfcaseseffcs2["Egyszer oltott"] + dfcaseseffcs2["K
 ax1b.fill_between(iformatter, dfcaseseffcs2["Egyszer oltott"] + dfcaseseffcs2["Kétszer oltott"], color=COLORS[1])
 ax1b.fill_between(iformatter, dfcaseseffcs2["Egyszer oltott"], color=COLORS[2])
 ax1b.set(xlabel="Intervallum (hetek)", ylabel="Összes esetek száma")
-ax1b.set_ylim([0, 700000])
+ax1b.set_ylim([0, 1500000])
 ax1b.tick_params(axis='x', rotation=45)
 ax1b.legend(loc = 'upper left')
 
