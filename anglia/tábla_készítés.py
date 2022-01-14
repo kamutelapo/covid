@@ -46,7 +46,15 @@ def addData(week, dtype):
 
     result = []
     for row in array:
-        rowd = [week, str(week - 4) + "-" + str(week - 1)]
+        weekmin = week - 4
+        weekmax = week - 1
+        
+        if weekmin > 51:
+            weekmin -= 51
+        if weekmax > 51:
+            weekmax -= 51
+        
+        rowd = [week, str(weekmin) + "-" + str(weekmax)]
         rowd.extend(row)
 
         for i in range(0, len(rowd)):
