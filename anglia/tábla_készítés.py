@@ -70,7 +70,7 @@ def importData(week):
     death28.extend(addData(week, "death-28"))
     death60.extend(addData(week, "death-60"))
 
-for week in range(36, 53):
+for week in range(36, 100):
     if os.path.exists(DATADIR + "week-" + str(week) + "-cases.csv"):
         #print ("A " + str(week) + ". hét importálása...")
         importData(week)  
