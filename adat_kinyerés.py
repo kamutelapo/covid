@@ -62,6 +62,7 @@ OSSZES_FERTOZOTT = [
     re.compile(r'.*összesen\s+([0-9][0-9\s+]*)\s*főre\s+nőtt\s+a\s+beazonosított\s+fertőzöttek\s+száma.*', re.S),
     re.compile(r'.*ezzel\s+([0-9][0-9\s+]*)\s*főre\s+nőtt\s+a\s+hazánkban\s+beazonosított\s+fertőzöttek\s+száma.*', re.S),
     re.compile(r'.*ezzel\s+([0-9][0-9\.]*)\s*főre\s+nőtt\s+a\s+hazánkban\s+beazonosított\s+fertőzöttek\s+száma.*', re.S),
+    re.compile(r'.*összesen\s+([0-9][0-9\s+]*)\s*nőtt\s+a\s+beazonosított\s+fertőzöttek\s+száma.*', re.S),
 ]
 
 file1 = open(DATADIR +"/nyersadatok.txt", 'r', encoding='utf-8', errors='ignore')
