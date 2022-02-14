@@ -53,9 +53,11 @@ dfkshmerge['KSH többlet'] = dfkshmerge['KSH halálozás'] - dfkshmerge['KSH 5 �
 
 dfksh2020 = dfkshmerge[dfkshmerge['Dátum'] >= mindate1y]
 dfksh2020 = dfksh2020[dfksh2020['Dátum'] <= maxdateksh1y]
+dfksh2020 = dfksh2020.sort_values('Dátum')
 
 dfksh2021 = dfkshmerge[dfkshmerge['Dátum'] >= mindate]
 dfksh2021 = dfksh2021[dfksh2021['Dátum'] <= maxdateksh]
+dfksh2021 = dfksh2021.sort_values('Dátum')
 
 ksh2020tobblet = int(dfksh2020.sum()['KSH többlet'] + 0.5)
 ksh2021tobblet = int(dfksh2021.sum()['KSH többlet'] + 0.5)
