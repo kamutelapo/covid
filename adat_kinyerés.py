@@ -49,6 +49,7 @@ HAROMSZOR_OLTOTTAK_SZAMA = [
     re.compile(r'.*harmadik\s+oltásra\s+és\s+([0-9\s+]+\s*ezren)\s+már\s+fel\s+is\s+vették\s+azt.*', re.S),
     re.compile(r'.*[^0-9\s+]([0-9\s+]+)\s+(?:fő\s+)?pedig\s+már\s+a\s+harmadik\s+oltást\s+is\s+felvették.*', re.S),
     re.compile(r'.*[^0-9\s+]([0-9\s+]+)\s+(?:fő\s+)?pedig\s+már\s+a\s+megerősítő\s+harmadik\s+oltását\s+is\s+felvette.*', re.S),
+    re.compile(r'.*[^0-9\s+]([0-9\s+]+)\s+fő\s+harmadik,.*', re.S),
 ]
 
 KORHAZBAN = [
