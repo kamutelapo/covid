@@ -52,6 +52,10 @@ HAROMSZOR_OLTOTTAK_SZAMA = [
     re.compile(r'.*[^0-9\s+]([0-9\s+]+)\s+fő\s+harmadik,.*', re.S),
 ]
 
+NEGYSZER_OLTOTTAK_SZAMA = [
+    re.compile(r'.*[^0-9\s+]([0-9\s+]+)\s+fő\s+már\s+a\s+negyedik\s+oltását\s+is\s+felvette.*', re.S),
+]
+
 KORHAZBAN = [
     [False, re.compile(r'.*[^0-9\s+]([0-9\s+]+)\s*koronavírusos\s+beteget\s+ápolnak\s+kórházban.*', re.S)],
     [True,  re.compile(r'.*[^0-9\s+]([0-9\s+]+)\s*beteget\s+ápolnak\s+kórházban\s+lélegeztetés\s+nélkül.*', re.S)],
@@ -100,6 +104,7 @@ while (lines):
     beoltottak = None
     ketszeroltottak = None
     haromszoroltottak = None
+    negyszeroltottak = None
     korhazban = None
     osszesfertozott = None
     
@@ -199,6 +204,24 @@ while (lines):
         if date <= '2021-08-03':
             haromszoroltottak = "0"
 
+    for pattern in NEGYSZER_OLTOTTAK_SZAMA:
+        mtch = pattern.match(body)
+        if mtch:
+            break
+
+    if mtch:
+        negyszeroltottak = mtch.group(1)
+        negyszeroltottak = re.sub(r'\s', '', negyszeroltottak)
+
+        negyszeroltottak = str(int(negyszeroltottak))
+    else:
+        if (date > '2022-02-13') and ("négyszer oltott" in body.lower() or "negyedik oltás" in body.lower()):
+            print (body)
+            print ("a négyszer oltottaknál gond van")
+            quit()
+        if date <= '2022-02-13':
+            negyszeroltottak = "0"
+
     lelegeztetettek_nelkul = False
     for pattern in KORHAZBAN:
         lelegeztetettek_nelkul = pattern[0]
@@ -249,6 +272,7 @@ while (lines):
         "Beoltottak": beoltottak,
         "Kétszer oltottak": ketszeroltottak,
         "Háromszor oltottak": haromszoroltottak,
+        "Négyszer oltottak": negyszeroltottak,
         "Kórházban ápoltak": korhazban,
         "Összes fertőzött": osszesfertozott,
     }
@@ -261,6 +285,7 @@ df[['Lélegeztetettek']] = df[['Lélegeztetettek']].astype(float)
 df[['Beoltottak']] = df[['Beoltottak']].astype(float)
 df[['Kétszer oltottak']] = df[['Kétszer oltottak']].astype(float)
 df[['Háromszor oltottak']] = df[['Háromszor oltottak']].astype(float)
+df[['Négyszer oltottak']] = df[['Négyszer oltottak']].astype(float)
 df[['Összes fertőzött']] = df[['Összes fertőzött']].astype(float)
 
 mindate = df['Dátum'].min()
@@ -274,6 +299,7 @@ df['Beoltottak'] = (df['Beoltottak'].interpolate(method='linear') + 0.5).apply(n
 df['Összes fertőzött'] = (df['Összes fertőzött'].interpolate(method='linear') + 0.5).apply(np.floor)
 df['Kétszer oltottak'] = (df['Kétszer oltottak'].interpolate(method='linear') + 0.5).apply(np.floor)
 df['Háromszor oltottak'] = (df['Háromszor oltottak'].interpolate(method='linear') + 0.5).apply(np.floor)
+df['Négyszer oltottak'] = (df['Négyszer oltottak'].interpolate(method='linear') + 0.5).apply(np.floor)
 df['Lélegeztetettek'] = df.apply(lambda row: None if np.isnan(row['Lélegeztetettek']) else str(int(row['Lélegeztetettek'])), axis = 1 )
 
 elozoertek = df.iloc[:-1]['Elhunytak']
@@ -300,6 +326,12 @@ elozoertek = pd.concat([elsoelozo, elozoertek], ignore_index=True)
 elozoertek.columns = ['Napi új harmadszor oltott']
 df['Napi új harmadszor oltott'] = df['Háromszor oltottak'] - elozoertek['Napi új harmadszor oltott'] 
 
+elozoertek = df.iloc[:-1]['Négyszer oltottak']
+elsoelozo = pd.DataFrame([[np.NaN]]);
+elozoertek = pd.concat([elsoelozo, elozoertek], ignore_index=True)
+elozoertek.columns = ['Napi új negyedszer oltott']
+df['Napi új negyedszer oltott'] = df['Négyszer oltottak'] - elozoertek['Napi új negyedszer oltott'] 
+
 elozoertek = df.iloc[:-1]['Összes fertőzött']
 elsoelozo = pd.DataFrame([[817]]);
 elozoertek = pd.concat([elsoelozo, elozoertek], ignore_index=True)
@@ -312,6 +344,7 @@ df['Háromszor oltottak'] = df.apply(lambda row: None if np.isnan(row['Háromszo
 df['Napi új beoltott'] = df.apply(lambda row: None if np.isnan(row['Napi új beoltott']) else str(int(row['Napi új beoltott'])), axis = 1 )
 df['Napi új másodszor oltott'] = df.apply(lambda row: None if np.isnan(row['Napi új másodszor oltott']) else str(int(row['Napi új másodszor oltott'])), axis = 1 )
 df['Napi új harmadszor oltott'] = df.apply(lambda row: None if np.isnan(row['Napi új harmadszor oltott']) else str(int(row['Napi új harmadszor oltott'])), axis = 1 )
+df['Napi új negyedszer oltott'] = df.apply(lambda row: None if np.isnan(row['Napi új negyedszer oltott']) else str(int(row['Napi új negyedszer oltott'])), axis = 1 )
 df['Összes fertőzött'] = df.apply(lambda row: None if np.isnan(row['Összes fertőzött']) else str(int(row['Összes fertőzött'])), axis = 1 )
 df['Napi új fertőzött'] = df.apply(lambda row: None if np.isnan(row['Napi új fertőzött']) else str(int(row['Napi új fertőzött'])), axis = 1 )
 
