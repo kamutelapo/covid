@@ -39,6 +39,7 @@
 - [Oltottak és oltatlanok fertőződése](#oltottak-és-oltatlanok-fertőződése)
   - [Új fertőzés adatok](#új-fertőzés-adatok)
   - [Korreláció a harmadik oltásokkal](#korreláció-a-harmadik-oltásokkal)
+- [A járványkezelés áldozatai](#a-járványkezelés-áldozatai)
 - [Izraeli adatok](#izraeli-adatok)
   - [Eloszlás korcsoportok szerint](#eloszlás-korcsoportok-szerint)
   - [Teljes népesség](#teljes-népesség)
@@ -221,6 +222,13 @@ lesznek emberek, akik nem fogják elkapni a vírust.
 ## Korreláció a harmadik oltásokkal
 
 ![Korreláció harmadik oltás](https://github.com/kamutelapo/covid/blob/master/magyar/Fert%C5%91z%C3%A9sVsHarmadikOlt%C3%A1s.png?raw=true)
+
+# A járványkezelés áldozatai
+
+Onnan lehet megállapítani, hogy valaki a járványkezelésbe halt bele, hogy megnézzük az adott hét és korcsoport KSH többletét. Amennyiben a hivatalos COVID adatokkal magyarázható a többlet, úgy COVID áldozatról beszélünk, ellenkező esetben a járványkezelés miatti halálozásról van szó, mert a halál nem szerepel a COVID halottak között.
+
+![Járványkezelés áldozatai](https://github.com/kamutelapo/covid/blob/master/egy%C3%A9b/COVID%C3%A9sJ%C3%A1rv%C3%A1nykezel%C3%A9sElhunytak.png?raw=true)
+
 
 # Izraeli adatok
 
