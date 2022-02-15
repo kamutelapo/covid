@@ -55,12 +55,12 @@ par = host.twinx()
 
 host.set_xlabel("Dátum")
 host.set_ylabel("Életkor")
-host.set_title("Oltások és elhunytak átlag életkora")
+host.set_title("Oltások és COVID elhunytak átlag életkora")
 #host.set_ylim([0, 17000])
 par.set_ylabel("Beoltottak száma")
 #par.set_ylim([0, 23800])
 
-p1, = host.plot(dfgrp['Dátum'], dfgrp['Átlag életkor'], label="Átlag életkor", color='blue')
+p1, = host.plot(dfgrp['Dátum'], dfgrp['Átlag életkor'], label="COVID elhunyt életkora", color='blue')
 p1b, = host.plot(dfgrp['Dátum'], dfgrp['Várható élettartam'], label="Várható élettartam", color='#FF88FF')
 p2, = par.plot(dfgrp['Dátum'], dfgrp['Heti beoltottak száma'], label="Heti beoltottak száma", color='green')
 
