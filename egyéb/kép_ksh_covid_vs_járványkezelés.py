@@ -151,7 +151,7 @@ for year in range(2020,2022):
     ax10.plot(dfkshdiff['Dátum'], dfkshdiff['Valós COVID'] + dfkshdiff['Járványkezelés'], color='orange', label="Járványkezelés")
     ax10.plot(dfkshdiff['Dátum'], dfkshdiff['Valós COVID'], color='red', label="COVID halálozás")
     ax10.set_ylim([0,maxmind])
-    ax10.set_title(str(year) + " - COVID halálozás (" + str(covid_halott) + " fő), járványkezelés (" + str(jarvany_halott) + ")", fontweight='bold')
+    ax10.set_title(str(year) + " - COVID halálozás (" + str(covid_halott) + " fő), járványkezelés (" + str(jarvany_halott) + " fő)", fontweight='bold')
     ax10.tick_params(axis='x', rotation=20)
     ax10.fill_between(dfkshdiff['Dátum'], dfkshdiff['Valós COVID'] + dfkshdiff['Járványkezelés'], color="orange")
     ax10.fill_between(dfkshdiff['Dátum'], dfkshdiff['Valós COVID'], color="red")
