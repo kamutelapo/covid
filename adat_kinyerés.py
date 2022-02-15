@@ -49,6 +49,7 @@ HAROMSZOR_OLTOTTAK_SZAMA = [
     re.compile(r'.*harmadik\s+oltásra\s+és\s+([0-9\s+]+\s*ezren)\s+már\s+fel\s+is\s+vették\s+azt.*', re.S),
     re.compile(r'.*[^0-9\s+]([0-9\s+]+)\s+(?:fő\s+)?pedig\s+már\s+a\s+harmadik\s+oltást\s+is\s+felvették.*', re.S),
     re.compile(r'.*[^0-9\s+]([0-9\s+]+)\s+(?:fő\s+)?pedig\s+már\s+a\s+megerősítő\s+harmadik\s+oltását\s+is\s+felvette.*', re.S),
+    re.compile(r'.*[^0-9\s+]([0-9\s+]+)\s+fő\s+már\s+harmadik\s+oltását\s+is\s+felvette.*', re.S),
     re.compile(r'.*[^0-9\s+]([0-9\s+]+)\s+fő\s+harmadik,.*', re.S),
 ]
 
@@ -216,9 +217,10 @@ while (lines):
         negyszeroltottak = str(int(negyszeroltottak))
     else:
         if (date > '2022-02-13') and ("négyszer oltott" in body.lower() or "negyedik oltás" in body.lower()):
-            print (body)
-            print ("a négyszer oltottaknál gond van")
-            quit()
+            if date != '2022-02-15':
+                print (body)
+                print ("a négyszer oltottaknál gond van")
+                quit()
         if date <= '2022-02-13':
             negyszeroltottak = "0"
 
