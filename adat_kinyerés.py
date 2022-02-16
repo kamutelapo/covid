@@ -18,6 +18,7 @@ ELHUNYTAK_SZAMA = [
     re.compile(r'.*[eE]zzel\s+([0-9\s+]+)\s*-\s*r?[ae]\s+emelkedett\s+az\s+elhunytak\s+száma.*', re.S),
     re.compile(r'.*[eE]zzel\s+([0-9\s+]+)\s*főre\s+emelkedett\s+az\s+elhunytak\s+száma.*', re.S),
     re.compile(r'.*[aA]z\s+elhunytak\s+száma\s+([0-9\s+]+)\s*fő.*', re.S),
+    re.compile(r'.*[aA]z\s+elhunytak\s+száma\s+([0-9\s+]+)\s*emelkedett.*', re.S),
     re.compile(r'.*[aA]z\s+elhunytak\s+száma,?\s+változatlanul\s+([0-9\s+]+)\s*fő.*', re.S),
     re.compile(r'.*[aA]z\s+elhunytak\s+száma\s+így\s+([0-9\s+]+)\s*főre.*', re.S),
     re.compile(r'.*[aA]z\s+elhunytak\s+száma\s*,\s+immár\s+negyedik\s+napja\s+változatlanul\s+([0-9\s+]+)\s*fő.*', re.S),
@@ -217,7 +218,7 @@ while (lines):
         negyszeroltottak = str(int(negyszeroltottak))
     else:
         if (date > '2022-02-13') and ("négyszer oltott" in body.lower() or "negyedik oltás" in body.lower()):
-            if date != '2022-02-15':
+            if not ((date >= '2022-02-15') and (date <= '2022-02-16')):
                 print (body)
                 print ("a négyszer oltottaknál gond van")
                 quit()
