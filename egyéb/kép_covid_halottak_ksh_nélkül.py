@@ -134,6 +134,8 @@ for year in range(2020,2022):
         dfkshdiff['KSH-ból hiányzik'] = dfkshdiff['KSH-ból hiányzik'] + dfkshdiff['hiany ' + k]
 
 
+    meghaltvolna =  dfkshdiff['KSH-ból hiányzik'].sum()
+
     dfkshdiff['Dátum'] = dfkshdiff['A hét kezdő napja'] 
 
     maxhiany = 800
@@ -141,7 +143,7 @@ for year in range(2020,2022):
     ax10=fig.add_subplot(spec[year - 2020], label=str(year))
     ax10.plot(dfkshdiff['Dátum'], dfkshdiff['KSH-ból hiányzik'], color='blue', label="KSH-ból hiányzik")
     ax10.set_ylim([0,maxhiany])
-    ax10.set_title(str(year) + " - COVID halottak, akik nem szerepelnek a KSH-ban", fontweight='bold')
+    ax10.set_title(str(year) + " - COVID halottak, akik nem szerepelnek a KSH-ban (" + str(meghaltvolna) + " fő)", fontweight='bold')
     ax10.tick_params(axis='x', rotation=20)
     ax10.fill_between(dfkshdiff['Dátum'], dfkshdiff['KSH-ból hiányzik'], color="blue")
     ax10.xaxis.set_major_locator(mdates.MonthLocator(interval=1))
