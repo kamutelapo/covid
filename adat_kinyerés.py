@@ -218,7 +218,7 @@ while (lines):
         negyszeroltottak = str(int(negyszeroltottak))
     else:
         if (date > '2022-02-13') and ("négyszer oltott" in body.lower() or "negyedik oltás" in body.lower()):
-            if not ((date >= '2022-02-15') and (date <= '2022-02-16')):
+            if not ((date >= '2022-02-15') and (date <= '2022-02-17')):
                 print (body)
                 print ("a négyszer oltottaknál gond van")
                 quit()
