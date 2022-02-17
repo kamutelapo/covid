@@ -1,4 +1,119 @@
 Sorszám,Dátum,Nem,Kor,Alapbetegségek
+42966,2022-02-17,Férfi,69,cukorbetegség
+42965,2022-02-17,Férfi,69,"magasvérnyomás-betegség, köszvény, krónikus obstruktív tüdõbetegség, pitvarfibrilláció, epilepszia, daganatos megbetegedés"
+42964,2022-02-17,Férfi,72,"magasvérnyomás-betegség, cukorbetegség, agyi bénulás"
+42963,2022-02-17,Férfi,55,nem ismert alapbetegség
+42962,2022-02-17,Férfi,63,"vérszegénység, magasvérnyomás-betegség, májbetegség"
+42961,2022-02-17,Férfi,58,"pajzsmirigy-betegség, magasvérnyomás-betegség"
+42960,2022-02-17,Férfi,76,"magasvérnyomás-betegség, veselégtelenség, pitvarfibrilláció, kóros elhízás"
+42959,2022-02-17,Férfi,58,"magasvérnyomás-betegség, cukorbetegség, érszûkület"
+42958,2022-02-17,Férfi,85,"mélyvénás trombózis, daganatos megbetegedés, magasvérnyomás-betegség"
+42957,2022-02-17,Férfi,85,"veseelégtelenség, magasvérnyomás-betegség, vérszegénység, agyi mûködés zavara"
+42956,2022-02-17,Férfi,89,"magasvérnyomás-betegség, iszkémiás szívbetegség, cukorbetegség, veseelégtelenség"
+42955,2022-02-17,Nõ,85,"magasvérnyomás-betegség, kóros elhízás, krónikus veseelégtelenség"
+42954,2022-02-17,Férfi,63,"magasvérnyomás-betegség, személyiségzavar, szívbetegség"
+42953,2022-02-17,Nõ,98,magasvérnyomás-betegség
+42952,2022-02-17,Nõ,85,"magas vérnyomás, demencia, veseelégtelenség"
+42951,2022-02-17,Nõ,85,tuberkolózis
+42950,2022-02-17,Nõ,87,"magasvérnyomás-betegség, koszorúérgörcs, cukorbetegség"
+42949,2022-02-17,Férfi,80,"érelmeszesedés, iszkémiás szívbetegség"
+42948,2022-02-17,Férfi,56,"magasvérnyomás-betegség, cukorbetegség, kóros elhízás, veseelégtelenség, vérszegénység"
+42947,2022-02-17,Nõ,87,"magas vérnyomás, általános- és agyi érelmeszesedés"
+42946,2022-02-17,Férfi,70,"magasvérnyomás-betegség, cukorbetegség, kóros elhízás, stroke"
+42945,2022-02-17,Nõ,73,nem ismert alapbetegség
+42944,2022-02-17,Férfi,72,"magasvérnyomás-betegség, pitvarfibrilláció, daganatos megbetegedés"
+42943,2022-02-17,Nõ,90,"magasvérnyomás-betegség, érelmeszesedés"
+42942,2022-02-17,Férfi,80,"pitvarfibrilláció, magasvérnyomás-betegség, idült iszkémiás szívbetegség, érelmeszesedés"
+42941,2022-02-17,Nõ,84,nem ismert alapbetegség
+42940,2022-02-17,Férfi,65,"daganatos megbetegedés, pitvarfibrilláció"
+42939,2022-02-17,Nõ,86,"érelmeszesedés, magasvérnyomás-betegség, pitvarfibrilláció, asztma, cukorbetegség"
+42938,2022-02-17,Nõ,83,"pajzsmirigy-betegség, magasvérnyomás-betegség, iszkémiás szívbetegség, agyi infarktus"
+42937,2022-02-17,Nõ,84,"magasvérnyomás-betegség, vérszegénység"
+42936,2022-02-17,Férfi,72,"végtaggyengeség, hasnyálmirigy gyulladás"
+42935,2022-02-17,Nõ,87,"magasvérnyomás-betegség, csontritkulás, iszkémiás szívbetegség, szívelégtelenség"
+42934,2022-02-17,Nõ,79,nem ismert alapbetegség
+42933,2022-02-17,Férfi,77,magasvérnyomás-betegség
+42932,2022-02-17,Nõ,87,magasvérnyomás-betegség
+42931,2022-02-17,Nõ,89,"cukorbetegség, pitvarfibrilláció, demencia, magasvérnyomás-betegség"
+42930,2022-02-17,Nõ,62,"izombetegség, érelmeszesedés, szív- és érrendszeri betegség, pszichiátriai gondozás"
+42929,2022-02-17,Férfi,75,"cukorbetegség, krónikus obrstuktív tüdõbetegség, szívbetegség"
+42928,2022-02-17,Férfi,53,"magasvérnyomás-betegség, krónikus obstruktív tüdõbetegség"
+42927,2022-02-17,Férfi,57,"magasvérnyomás-betegség, daganatos megbetegedés"
+42926,2022-02-17,Férfi,85,"magasvérnyomás-betegség, demencia"
+42925,2022-02-17,Nõ,88,"magasvérnyomás-betegség, szívbetegség, szívelégtelenség szívizomgyulladás"
+42924,2022-02-17,Férfi,75,"cukorbetegség, érelmeszesedés, daganatos megbetegedés"
+42923,2022-02-17,Férfi,68,idült iszkémiás szívbetegség
+42922,2022-02-17,Nõ,72,"magasvérnyomás betegség, pitvarfibrilláció, szívelegtelenség, krónikus veseelégtelenség, cukorbetegség, daganatos megbetegedés"
+42921,2022-02-17,Nõ,91,"daganatos megbetegedés, magasvérnyomás betegség, koszorúérgörcs, cukorbetegség"
+42920,2022-02-17,Nõ,76,iszkémiás szívbetegség
+42919,2022-02-17,Férfi,64,"daganatos megbetegedés, idült obstruktív tüdõbetegség"
+42918,2022-02-17,Nõ,79,"magasvérnyomás-betegség, veseelégtelenség, idült szívelégtelenség"
+42917,2022-02-17,Férfi,50,"magasvérnyomás-betegség, köszvény, extrém elhízás"
+42916,2022-02-17,Nõ,95,"iszkémiás szívbetegség, magasvérnyomás-betegség, érelmeszesedés, agyi mûködés zavara"
+42915,2022-02-17,Férfi,89,"krónikus veseelégtelenség, daganatos megbetegedés"
+42914,2022-02-17,Nõ,68,"iszkémiás szívbetegség, magasvérnyomás-betegség, cukorbetegség, szívelégtelenség, krónikus veseelégtelenség"
+42913,2022-02-17,Férfi,81,érszûkület
+42912,2022-02-17,Férfi,90,"Parkinson-kór, prosztata megnagyobbodás, érelmeszesedés, stroke, Alzheimer-kór, magasvérnyomás-betegség"
+42911,2022-02-17,Nõ,65,idült obstruktív tüdõbetegség
+42910,2022-02-17,Férfi,80,"magasvérnyomás betegség, iszkémiás szívbetegség, daganatos megbetegedés"
+42909,2022-02-17,Férfi,71,"cukorbetegség, magasvérnyomás-betegség"
+42908,2022-02-17,Nõ,93,"érelmeszesedés, magasvérnyomás-betegség, cukorbetegség , demencia"
+42907,2022-02-17,Nõ,86,"pangásos szívelégtelenség, Alzheimer-kór, idült iszkémiás szívbetegség, érelmeszesedés, pszichés zavar"
+42906,2022-02-17,Férfi,82,"magasvérnyomás, cukorbetegség"
+42905,2022-02-17,Férfi,67,"cukorbetegség, magasvérnyomás-betegség"
+42904,2022-02-17,Nõ,56,daganatos megbetegedés
+42903,2022-02-17,Férfi,77,"magasvérnyomás-betegség, stroke"
+42902,2022-02-17,Férfi,80,"magasvérnyomás-betegség, cukorbetegség, agyi infarktus, érelmeszesedés"
+42901,2022-02-17,Férfi,78,"magasvérnyomás-betegség, kóros elhízás, cukorbetegség"
+42900,2022-02-17,Férfi,41,"magasvérnyomás-betegség, krónikus veseelégtelenség"
+42899,2022-02-17,Férfi,81,"kóros elhízás, magasvérnyomás-betegség, iszkémiás szívbetegség, cukorbetegség, veseelégtelenség, szorongásos zavar"
+42898,2022-02-17,Férfi,76,"cukorbetegség, kóros elhízás"
+42897,2022-02-17,Férfi,67,"magasvérnyomás-betegség, sokízületi gyulladás"
+42896,2022-02-17,Nõ,64,"epilepszia, paranoid zavar"
+42895,2022-02-17,Nõ,81,szív- és érrendszeri betegség
+42894,2022-02-17,Nõ,87,"magasvérnyomás-betegség, daganatos megbetegedés"
+42893,2022-02-17,Nõ,51,"magas vérnyomás, cukorbetegség, elhízás"
+42892,2022-02-17,Nõ,77,magasvérnyomás-betegség
+42891,2022-02-17,Nõ,72,"depresszió, pikkelysömör"
+42890,2022-02-17,Férfi,70,daganatos megbetegedés
+42889,2022-02-17,Nõ,60,"szívbetegség, magasvérnyomás-betegség, cukorbetegség, asztma"
+42888,2022-02-17,Férfi,74,"cukorbetegség, kóros elhízás"
+42887,2022-02-17,Nõ,90,"érelmeszesedés, magasvérnyomás-betegség, agyi mûködés zavara"
+42886,2022-02-17,Férfi,95,"heveny veseelégtelenség, agyi sorvadás, demencia"
+42885,2022-02-17,Férfi,80,"magasvérnyomás-betegség, cukorbetegség, demencia"
+42884,2022-02-17,Férfi,96,"magasvérnyomás-betegség, mélyvénás trombózis"
+42883,2022-02-17,Nõ,72,"magasvérnyomás-betegség, pitvarfibrilláció, szívelégtelenség, pajzsmirgy-betegség, érszûkület"
+42882,2022-02-17,Nõ,79,magasvérnyomás-betegség
+42881,2022-02-17,Nõ,84,"érelmeszesedés, szívelégtelenség, vérszegénység"
+42880,2022-02-17,Nõ,88,"magasvérnyomás-betegség, idült iszkémiás szívbetegség"
+42879,2022-02-17,Nõ,87,"magasvérnyomás-betegség, iszkémiás szívbetegség, májbetegség"
+42878,2022-02-17,Férfi,71,"pitvarfibrilláció, magasvérnyomás-betegség, daganatos megbetegedés"
+42877,2022-02-17,Nõ,77,magasvérnyomás-betegség
+42876,2022-02-17,Nõ,87,magasvérnyomás-betegség
+42875,2022-02-17,Férfi,85,"prosztata megnagyobbodás, pikkelysömör, lágyéksérv"
+42874,2022-02-17,Nõ,91,"magasvérnyomás-betegség, cukorbetegség, pitvarfibrilláció"
+42873,2022-02-17,Nõ,83,"májbetegség, magasvérnyomás-betegség"
+42872,2022-02-17,Férfi,82,"magasvérnyomás-betegség, Alzheimer-kór, vérszegénység, agyi érelmeszesedés"
+42871,2022-02-17,Nõ,71,"krónikus obstruktív tüdõbetegség, magasvérnyomás-betegség, pajzsmirigy-betegség"
+42870,2022-02-17,Nõ,95,nem ismert alapbetegség
+42869,2022-02-17,Férfi,86,"érelmeszesedés, magasvérnyomás-betegség, idült iszkémiás szívbetegség, demencia,  krónikus veseelégtelenség, prosztata túltengés, pajzsmirigy-betegség"
+42868,2022-02-17,Nõ,73,"daganatos megbetegedés, krónikus obstruktív tüdõbetegség"
+42867,2022-02-17,Férfi,67,"magasvérnyomás-betegség, veseelégtelenség, vesetranszplantáció"
+42866,2022-02-17,Férfi,81,"magasvérnyomás-betegség, pajzsmirigy-betegség"
+42865,2022-02-17,Férfi,85,"szívelégtelenség,  iszkémiás szívbetegség, veseelégtelenség"
+42864,2022-02-17,Férfi,74,magasvérnyomás-betegség
+42863,2022-02-17,Nõ,78,daganatos megbetegedés
+42862,2022-02-17,Nõ,66,"vérszegénység, magasvérnyomás-betegség, veseelégtelenség, májbetegség, reflux"
+42861,2022-02-17,Nõ,71,"magasvérnyomás-betegség, krónikus obstruktív tüdõbetegség, paranoid skizofrénia"
+42860,2022-02-17,Nõ,81,"magasvérnyomás-betegség, cukorbetegség, iszkémiás szívbetegség"
+42859,2022-02-17,Férfi,84,"Parkinson-kór, krónikus veseelégtelenség, iszkémiás szívbetegség, agyi infarktus"
+42858,2022-02-17,Férfi,86,"demencia, prosztata túltengés, cukorbetegség, magasvérnyomás-betegség"
+42857,2022-02-17,Férfi,82,"magasvérnyomás-betegség, iszkémiás szívbetegség, depresszió"
+42856,2022-02-17,Férfi,56,"magasvérnyomás-betegség, non-Hodgkin limfóma"
+42855,2022-02-17,Nõ,67,"Guillain-Barré szindróma, veseelégtelenség"
+42854,2022-02-17,Nõ,83,"magasvérnyomás-betegség, cukorbetegség,  pitvarfibrilláció"
+42853,2022-02-17,Férfi,53,"idült obstruktív tüdõbetegség, pszichés betegség, szívbetegség, epilepszia, cukorbetegség"
+42852,2022-02-17,Nõ,73,"daganatos megbetegedés, vérszegénység"
 42851,2022-02-16,Férfi,81,"szívizomelhalás, agyi infarktus, krónikus veseelégtelenség"
 42850,2022-02-16,Nõ,92,"magas vérnyomás, szívritmuszavar, demencia, paranoid zavar"
 42849,2022-02-16,Férfi,84,"cukorbetegség, magas vérnyomás, májkárosodás, prosztata megnagyobbodás, agyérelmeszesedés"
@@ -11178,8 +11293,8 @@ Sorszám,Dátum,Nem,Kor,Alapbetegségek
 31675,2021-11-11,Férfi,87,"prosztatatúltengés, iszkémiás szívbetegség, magas vérnyomás"
 31674,2021-11-11,Nõ,88,"magas vérnyomás, demencia"
 31673,2021-11-11,Férfi,71,"epilepszia, magas vérnyomás, cukorbetegség"
-31671,2021-11-11,Nõ,66,tüdõ rosszindulatú daganata
 31671,2021-11-11,Férfi,59,"magas vérnyomás, reflux"
+31671,2021-11-11,Nõ,66,tüdõ rosszindulatú daganata
 31670,2021-11-11,Nõ,76,"magasvérnyomás-betegség, cukorbetegség, krónikus veseelégtelenség"
 31669,2021-11-11,Nõ,76,"gerinccsatorna szûkület, magas vérnyomás"
 31668,2021-11-11,Nõ,75,"érelmeszesedés, magas vérnyomás"
