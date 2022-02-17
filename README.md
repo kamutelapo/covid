@@ -40,6 +40,7 @@
   - [Új fertőzés adatok](#új-fertőzés-adatok)
   - [Korreláció a harmadik oltásokkal](#korreláció-a-harmadik-oltásokkal)
 - [A járványkezelés áldozatai](#a-járványkezelés-áldozatai)
+- [Akik egyébként is meghaltak volna](#akik-egyébként-is-meghaltak-volna)
 - [Izraeli adatok](#izraeli-adatok)
   - [Eloszlás korcsoportok szerint](#eloszlás-korcsoportok-szerint)
   - [Teljes népesség](#teljes-népesség)
@@ -229,6 +230,11 @@ Onnan lehet megállapítani, hogy valaki a járványkezelésbe halt bele, hogy m
 
 ![Járványkezelés áldozatai](https://github.com/kamutelapo/covid/blob/master/egy%C3%A9b/COVID%C3%A9sJ%C3%A1rv%C3%A1nykezel%C3%A9sElhunytak.png?raw=true)
 
+# Akik egyébként is meghaltak volna
+
+Tudjuk, hogy a 2014-2019 időszakban hányan haltak meg egy adott héten. A következő ábra azt mutatja, hány olyan COVID halott van, akik egyébként is meghaltak volna, csak éppen elkapták a COVID-ot. Ők bár meghaltak, de a KSH-ban ez halálozási többletként nem jelenik meg.
+
+![Akik meghaltak volna](https://github.com/kamutelapo/covid/blob/master/egy%C3%A9b/COVIDHalottakAkikNincsenekAKSHban.png?raw=true)
 
 # Izraeli adatok
 
