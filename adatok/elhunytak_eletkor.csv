@@ -1071,6 +1071,7 @@ Sorszám,Nem,Kor,Alapbetegségek
 42377,Nõ,44,"szisztémás autoimmun betegség, tüdõfibrózis"
 42542,Nõ,44,kismedencei daganat
 42796,Férfi,44,"cukorbetegség, asztma, magasvérnyomás-betegség"
+43070,Férfi,44,epehólyag gyulladás
 1257,Férfi,45,"magas vérnyomás, cukorbetegség"
 1376,Nő,45,SARS CoV-2 fertőzés kapcsán kialakult többszervi elégtelenség
 2120,Nő,45,"magas vérnyomás, kóros elhízás"
@@ -1396,6 +1397,7 @@ Sorszám,Nem,Kor,Alapbetegségek
 42742,Férfi,46,kóros elhízás
 42768,Férfi,46,magasvérnyomás-betegség
 42832,Nõ,46,"daganatos megbetegedés, tüdõtranszplantáció utáni állapot, tüdõembólia"
+43156,Férfi,46,agyi érbetegség
 401,Nő,47,"mentális retardáció, epilepszia"
 540,Nő,47,"cukorbetegség, magas vérnyomás, krónikus vesegyulladás"
 720,Férfi,47,Az adat feltöltés alatt
@@ -1769,6 +1771,7 @@ Sorszám,Nem,Kor,Alapbetegségek
 42034,Nõ,48,krónikus veseelégtelenség
 42239,Férfi,48,"magasvérnyomás-betegség, cukorbetegség, daganatos megbetegedés"
 42418,Férfi,48,"kóros elhízás, cukorbetegség"
+43229,Nõ,48,nem inzulin dependens cukorbetegség
 53,Férfi,49,"magas vérnyomás, anyagcsere betegség"
 1156,Nő,49,"jóindulatú érdaganat, talpi sarkantyú miatti sugárkezelés, lumbalis gerincpanaszok, pajzsmirigy-alulműködés, krónikus alkoholizmus"
 1416,Nő,49,"magas vérnyomás, cukorbetegség, elhízás"
@@ -1971,6 +1974,7 @@ Sorszám,Nem,Kor,Alapbetegségek
 42096,Férfi,49,"magas vérnyomás, szívbetegség, májbetegség, érelmeszesedés"
 42162,Nõ,49,"magasvérnyomás-betegség, daganatos megbetegedés"
 42655,Férfi,49,nem ismert alapbetegség
+43161,Nõ,49,májbetegség
 597,Férfi,50,"tüdő rosszindulatú daganata,  tüdőtágulat, cachexia, carcinoma neuroendocrinicum"
 1110,Férfi,50,"szívelégtelenség, magas vérnyomás, cukorbetegség"
 1196,Férfi,50,"vírusos tüdőgyulladás, magasvérnyomás-betegség, szívbetegség, cukorbetegség"
@@ -2225,6 +2229,7 @@ Sorszám,Nem,Kor,Alapbetegségek
 42917,Férfi,50,"magasvérnyomás-betegség, köszvény, extrém elhízás"
 43006,Férfi,50,"magasvérnyomás-betegség, tüdõtágulat"
 43047,Nõ,50,"epevezeték-kövesség, koszorúér-megbetegedés"
+43252,Férfi,50,"skizofrénia, depresszió"
 421,Férfi,51,"magas vérnyomás, cukorbetegség, pitvarfibrilláció, krónikus veseelégtelenség, májzsugorodás, szívelégtelenség"
 457,Férfi,51,"hasnyálmirigy daganat, korábban leukémia miatt csontvelő transzplantáció"
 589,Férfi,51,magas vérnyomás
@@ -2485,6 +2490,7 @@ Sorszám,Nem,Kor,Alapbetegségek
 42661,Férfi,51,"krónikus veseelégtelenség, tüdõbetegség, cukorbetegség, hasnyálmirigy gyulladás, magasvérnyomás"
 42673,Nõ,51,"vastagbél rosszindulatú daganata, máj másodlagos rosszindulatú daganata"
 42893,Nõ,51,"magas vérnyomás, cukorbetegség, elhízás"
+43131,Férfi,51,daganatos megbetegedés
 325,Férfi,52,magas vérnyomás
 534,Nő,52,"Fábry-szindróma, asztma, magas vérnyomás, krónikus etilizmus, COPD tüdőbetegség, krónikus anémia"
 637,Férfi,52,"közepes fokú ált. érelmeszesedés, krónikus obstruktív tüdőbetegség, elhízás"
@@ -2754,6 +2760,7 @@ Sorszám,Nem,Kor,Alapbetegségek
 42720,Férfi,52,epilepszia
 42775,Nõ,52,"daganatos megbetegedés, epilepszia"
 43028,Férfi,52,"magasvérnyomás-betegség, pitvarfibrilláció"
+43167,Nõ,52,"magasvérnyomás-betegség, tüdõbetegség"
 8,Férfi,53,szív és érrendszeri
 142,Férfi,53,adat feltöltés alatt
 677,Nő,53,"Magas vérnyomás, cukorbetegség, Cushing kór, Thyreoiditis"
@@ -3096,6 +3103,7 @@ Sorszám,Nem,Kor,Alapbetegségek
 42853,Férfi,53,"idült obstruktív tüdõbetegség, pszichés betegség, szívbetegség, epilepszia, cukorbetegség"
 42928,Férfi,53,"magasvérnyomás-betegség, krónikus obstruktív tüdõbetegség"
 42970,Férfi,53,"iszkémiás szívbetegség, pangásos szívelégtelenség, szívizombántalom, szívmûködési zavar és pitvarlebegés"
+43283,Férfi,53,"magasvérnyomás-betegség, extrém elhízás, cukorbetegség"
 27,Nő,54,"krónikus légzőszervi betegség, szív- és érrendszeri betegség"
 319,Nő,54,"májzsugor, vérszegénység"
 687,Férfi,54,"magas vérnyomás, cukorbetegség"
@@ -3422,6 +3430,9 @@ Sorszám,Nem,Kor,Alapbetegségek
 42495,Férfi,54,"körzeti idegek degenerációja, vérszegénység"
 42528,Nõ,54,"magasvérnyomás-betegség, cukorbetegség"
 42968,Nõ,54,"cukorbetegség, daganatos megbetegedés"
+43097,Nõ,54,daganatos megbetegedés
+43134,Nõ,54,"magasvérnyomás-betegség, veseelégtelenség, elhízás"
+43241,Férfi,54,"magas vérnyomás, cukorbetegség, iszkémiás szívbetegség, krónikus obstruktív tüdõbetegség"
 604,Férfi,55,"magas vérnyomás, veseelégtelenség, cukorbetegség, iszkémiás szívbetegség, inkomplett patkóvese, jobb vese funkcionális károsodása, Bell-féle bénulás, elhízás"
 672,Férfi,55,"keringési-, légzési elégtelenség, tüdőgyulladás, máj és vesekárosodás, szívizom károsodás, agyvelőgyulladás"
 762,Nő,55,"magas vérnyomás, petefészek tumor"
@@ -3809,6 +3820,7 @@ Sorszám,Nem,Kor,Alapbetegségek
 42647,Férfi,55,"szívelégetelenség, májbetegség"
 42777,Férfi,55,leukémia
 42963,Férfi,55,nem ismert alapbetegség
+43118,Férfi,55,"szívbetegség, tüdõbetegség"
 290,Férfi,56,"extrém elhízás, magas vérnyomás, beszűkült vesefunkciók, jobbszívfél-elégtelenség"
 484,Nő,56,"Down-szindróma, epilepszia"
 575,Férfi,56,"toxikus májbetegség májzsugorral, májkóma, légzési elégtelenség, magas vérnyomás, iszkémiás szívbetegség"
@@ -4611,6 +4623,7 @@ Sorszám,Nem,Kor,Alapbetegségek
 42834,Férfi,57,"magas vérnyomás,  2-es típusú cukorbetegség"
 42927,Férfi,57,"magasvérnyomás-betegség, daganatos megbetegedés"
 42971,Nõ,57,"magasvérnyomás-betegség, cukorbetegség, szívelégtelenség"
+43084,Férfi,57,"magasvérnyomás-betegség, májbetegség, hasnyálmirigy-gyulladás"
 73,Férfi,58,"magas vérnyomás, daganatos betegség"
 268,Férfi,58,"iszkémiás szívbetegség, szívelégtelenség, krónikus veseelégtelenség"
 352,Férfi,58,gyermekkori agyi bénulás
@@ -5058,6 +5071,7 @@ Sorszám,Nem,Kor,Alapbetegségek
 42961,Férfi,58,"pajzsmirigy-betegség, magasvérnyomás-betegség"
 43020,Férfi,58,magasvérnyomás-betegség
 43023,Férfi,58,"tüdõdaganat, agyi infarktus"
+43242,Nõ,58,magas vérnyomás
 16,Nő,59,"Vesetranszplantált, cukorbeteg, COPD, ISZB, magas vérnyomás"
 85,Férfi,59,adatok feltöltés alatt
 176,Férfi,59,"magas vérnyomás, pacemaker, cukorbetegség"
@@ -5550,6 +5564,7 @@ Sorszám,Nem,Kor,Alapbetegségek
 42797,Férfi,59,"szívbetegség, általános érelmeszesedés"
 42830,Nõ,59,"demencia, magas vérnyomás, féloldali izombénulás"
 43055,Nõ,59,"agyi infarktus, pajzsmirigy csökkent mûködése"
+43202,Nõ,59,daganatos megbetegedés
 78,Férfi,60,"krónikus veseelégtelenség, cukorbetegség, magas vérnyomás, szívizom elégtelenség, krónikus keringési elégtelenség"
 208,Nő,60,az adat feltölés alatt
 241,Férfi,60,"veseelégtelenség, embólia, trombozis, vesegyulladás"
@@ -6136,6 +6151,9 @@ Sorszám,Nem,Kor,Alapbetegségek
 42789,Nõ,60,"magasvérnyomás-betegség, agyi érelmeszesedés"
 42889,Nõ,60,"szívbetegség, magasvérnyomás-betegség, cukorbetegség, asztma"
 42980,Férfi,60,"szívmegnagyobbodás, magasvérnyomás-betegség"
+43074,Férfi,60,"pajzsmirigy-betegség, magasvérnyomás-betegség"
+43223,Férfi,60,"cukorbetegség, magas vérnyomás"
+43230,Férfi,60,"daganatos megbetegedés, heveny veseelégtelenség"
 35,Férfi,61,"daganatos betegség, veleszületett genetikai rendellenesség, idegrendszeri betegség"
 39,Nő,61,"krónikus veseelégtelenség, anyagcsere és daganatos betegség"
 243,Férfi,61,májtályog
@@ -6762,6 +6780,10 @@ Sorszám,Nem,Kor,Alapbetegségek
 42569,Férfi,61,"agyvérzés, féloldali bénulás, magasvérnyomás-betegség"
 42699,Nõ,61,"magasvérnyomás-betegség, agybetegség"
 42999,Nõ,61,"magasvérnyomás, cukorbetegség, krónikus obstruktív tüdõbetegség"
+43171,Férfi,61,"magasvérnyomás-betegség, cukorbetegség"
+43253,Nõ,61,"magasvérnyomás-betegség, cukorbetegség"
+43254,Nõ,61,"depresszió, daganatos megbetegedés"
+43258,Nõ,61,"magasvérnyomás-betegség, cukorbetegség"
 81,Férfi,62,"HT, súlyos depresszió"
 370,Férfi,62,áttételes bőrdaganat
 509,Férfi,62,"magas vérnyomás, cukorbetegség, szívizom betegség"
@@ -7444,6 +7466,9 @@ cukorbetegség, érelmeszesedés"
 42930,Nõ,62,"izombetegség, érelmeszesedés, szív- és érrendszeri betegség, pszichiátriai gondozás"
 42989,Férfi,62,"csontritkulás, magasvérnyomás-betegség"
 43033,Férfi,62,"cukorbetegség, féloldali bénulás, magasvérnyomás, alsó végtagok mélyvénáinak gyulladása"
+43195,Férfi,62,"magas vérnyomás, magas vérzsírszint, aortasztenózis"
+43201,Nõ,62,"magas vérnyomás, daganatos megbetegedés"
+43209,Férfi,62,"idült obstruktív tüdõbetegség, krónikus veseelégtelenség, leukémia, cukorbetegség"
 111,Férfi,63,veseelégtelenség
 211,Nő,63,"magas vérnyomás, krónikus veseelégtelenség, krónikus obstruktív tüdőgyulladás, mellhártyagyulladás"
 276,Nő,63,"agyvérzés, vírusos tüdőgyulladás, cukorbetegség, féloldali bénulás, stroke"
@@ -8176,6 +8201,10 @@ cukorbetegség, érelmeszesedés"
 43019,Nõ,63,"magasvérnyomás, cukorbetegség"
 43024,Nõ,63,"májelégtelenség, magasvérnyomás-betegség"
 43031,Nõ,63,"cukorbetegség, krónikus obstruktív tüdõbetegség, iszkémiás szívbetegség, magasvérnyomás-betegség"
+43085,Nõ,63,nem ismert alapbetegség
+43145,Férfi,63,tüdõdaganat
+43187,Férfi,63,"magas vérnyomás, cukorbetegség, demencia, szívritmuszavar"
+43291,Nõ,63,"krónikus obstruktív tüdõbetegség, asztma, paranoid skizofrénia"
 70,Férfi,64,"krónikus obstruktív tüdőbetegség, magas vérnyomás"
 133,Nő,64,"magas vérnyomás, krónikus veseelégtelenség"
 226,Férfi,64,"magas vérnyomás, idült májelégtelenség,  pajzsmirigy alulműködés"
@@ -9073,6 +9102,7 @@ cukorbetegség, érelmeszesedés"
 42896,Nõ,64,"epilepszia, paranoid zavar"
 42919,Férfi,64,"daganatos megbetegedés, idült obstruktív tüdõbetegség"
 43063,Férfi,64,"reflux, prosztata megnagyobbodás"
+43079,Nõ,64,"szívbetegség, érszûkület, cukorbetegség, veseelégtelenség"
 2,Nő,65,rosszindulatú daganat
 43,Férfi,65,krónikus obstuktív tüdőbetegség
 71,Férfi,65,"magas vérnyomás, agyi érbetegség, anyagcsere rendellenesség, krónikus veseelégtelenség"
@@ -10111,6 +10141,12 @@ húgyhólyag- és vesemedence-gyulladás, polipózis"
 42658,Férfi,65,szívinfarktus
 42911,Nõ,65,idült obstruktív tüdõbetegség
 42940,Férfi,65,"daganatos megbetegedés, pitvarfibrilláció"
+43073,Nõ,65,magasvérnyomás-betegség
+43087,Nõ,65,pajzsmirigy-betegség
+43116,Férfi,65,"magasvérnyomás-betegség, agyi érbetegség, agyi infarktus"
+43176,Férfi,65,"daganatos megbetegedés, krónikus obstruktív tüdõbetegség"
+43207,Férfi,65,"magas vérnyomás, cukorbetegség, ütõészûkület, daganatos megbetegedés"
+43218,Nõ,65,"iszkémiás szívelégtelenség, cukorbetegség, magas vérnyomás"
 19,Férfi,66,"szív- és érrendszeri megbetegedés, idült reumás szívbetegség, degenaratív („kopásos”) gerincbetegség"
 68,Nő,66,szív és érrendszeri betegség
 100,Férfi,66,"krónikus veseelégtelenség, daganatos betegség"
@@ -11272,6 +11308,13 @@ húgyhólyag- és vesemedence-gyulladás, polipózis"
 42967,Nõ,66,"magasvérnyomás-betegség, cukorbetegség, agysorvadás, demencia"
 42982,Nõ,66,"magasvérnyomás-betegség, cukorbetegség, asztma, agyi infarktus"
 42995,Férfi,66,krónikus veseelégtelenség
+43120,Férfi,66,szívbetegség
+43130,Férfi,66,"elhízás, érbetegség"
+43154,Férfi,66,epilepszia
+43157,Férfi,66,"elhízás, cukorbetegség"
+43186,Férfi,66,"végstádiumú veseelégtelenség, krónikus obstruktív tüdõbetegség, szívelégtelenség"
+43205,Férfi,66,"cukorbetegség, magas vérnyomás, elhízás, krónikus veseelégtelenség"
+43289,Nõ,66,daganatos megbetegedés
 18,Nő,67,"ISZB, magas vérnyomás"
 40,Nő,67,"daganatos betegség, sclerosis multiplex, magas vérnyomás"
 50,Férfi,67,anyagcsere betegség
@@ -12350,6 +12393,10 @@ húgyhólyag- és vesemedence-gyulladás, polipózis"
 42991,Férfi,67,daganatos megbetegedés
 43027,Férfi,67,nem ismert alapbetegség
 43046,Férfi,67,dekompenzált májbetegség
+43122,Férfi,67,cukorbetegség
+43194,Férfi,67,"daganatos megbetegedés, magas vérnyomás, cukorbetegség"
+43200,Férfi,67,"asztma, krónikus obstruktív tüdõbetegség, magas vérnyomás, cukorbetegség, reflux, generalizált érbetegség"
+43297,Nõ,67,"elhízás, cukorbetegség, csökkent pajzsmirigymûködés, magasvérnyomás-betegség, érelmeszesedés"
 5,Férfi,68,szív és érrendszeri
 134,Férfi,68,"szív- és érrendszeri betegség, daganatos betegség"
 219,Férfi,68,"magas vérnyomás, köszvény"
@@ -13421,6 +13468,14 @@ húgyhólyag- és vesemedence-gyulladás, polipózis"
 42914,Nõ,68,"iszkémiás szívbetegség, magasvérnyomás-betegség, cukorbetegség, szívelégtelenség, krónikus veseelégtelenség"
 42923,Férfi,68,idült iszkémiás szívbetegség
 42993,Nõ,68,"magas vérnyomás, krónikus obstruktív tüdõbetegség"
+43091,Férfi,68,"magasvérnyomás-betegség, epilepszia"
+43104,Férfi,68,"tüdõbetegség, szívbetegség, daganatos megbetegedés"
+43141,Nõ,68,"cukorbetegség, magasvérnyomás-betegség, szívelégtelenség"
+43148,Férfi,68,"demencia, magasvérnyomás-betegség, izomsorvadás"
+43203,Férfi,68,"magas vérnyomás, szívelégtelenség, akut veseelégtelenség"
+43267,Férfi,68,nem ismert alapbetegség
+43280,Nõ,68,"magasvérnyomás-betegség, krónikus gyomurhurut"
+43286,Férfi,68,"magasvérnyomás-betegség, szívelégtelenség, általános érelmeszesedés, cukorbetegség"
 144,Nő,69,"Parkinson-kór, PEG táplálás, cachexia, magas vérnyomás, érelmeszesedés"
 233,Nő,69,"magas vérnyomás, pangásos szívelégtelenség"
 313,Férfi,69,"prosztatarák, többszörös csontáttét, hasi nyirokcsomó áttét, krónikus veseelégtelenség, demencia, combnyaktörés"
@@ -14503,6 +14558,13 @@ húgyhólyag- és vesemedence-gyulladás, polipózis"
 42966,Férfi,69,cukorbetegség
 43000,Férfi,69,"magasvérnyomás-betegség, agyi infarktus, porckorongsérv"
 43002,Nõ,69,"idült obstruktív tüdõbetegség, epilepszia, depresszió"
+43067,Nõ,69,"tüdõbetegség, pajzsmirigy-betegség, szívbetegség, daganatos megbetegedés"
+43096,Férfi,69,"cukorbetegség, magasvérnyomás-betegség, iszkémiás szívbetegség"
+43107,Nõ,69,pajzsmirigy-betegség
+43128,Férfi,69,tüdõdaganat
+43160,Nõ,69,"magasvérnyomás-betegség, cukorbetegség"
+43164,Nõ,69,"magasvérnyomás-betegség, érelmeszesedés, veseelégtelenség"
+43192,Férfi,69,daganatos megbetegedés
 21,Férfi,70,"Ischaemiás szívbetegség ( koszorúér-betegség), anyagcsere-betegség"
 94,Férfi,70,"tüdőrák, szívritmus zavar, iszkémiás szívbetegség, krónikus obstruktív tüdőbetegség, magas vérnyomás"
 165,Férfi,70,"általános érelmeszesedés, idegrendszeri betegség"
@@ -15707,6 +15769,11 @@ húgyhólyag- és vesemedence-gyulladás, polipózis"
 42984,Férfi,70,"magasvérnyomás-betegség, iszkémiás szívbetegség"
 43007,Férfi,70,"magasvérnyomás-betegség, daganatos megbetegedés"
 43008,Nõ,70,"krónikus obstruktív tüdõbetegség, extrém elhízás, veseelégtelenség"
+43098,Férfi,70,"szívbetegség, pajzsmirigy-betegség, cukorbetegség"
+43101,Nõ,70,"magasvérnyomás-betegség, cukorbetegség, agyi érbetegség, demecia"
+43199,Nõ,70,"daganatos megbetegedés, magas vérnyomás, krónikus obstruktív tüdõbetegség"
+43272,Férfi,70,"magasvérnyomás-betegség, krónikus obstruktív tüdõbetegség"
+43293,Nõ,70,"magasvérnyomás-betegség, cukorbetegség, daganatos megbetegedés"
 52,Férfi,71,"krónikus veseelégtelenség, anyagcsere betegség, magas vérnyomás"
 66,Nő,71,krónikus vesebetegség
 150,Férfi,71,"Parkinsor-kór, agyérelmeszesedés"
@@ -16908,6 +16975,11 @@ húgyhólyag- és vesemedence-gyulladás, polipózis"
 42972,Nõ,71,"agyi infarktus, rekeszsérv, agyburok daganat"
 42986,Férfi,71,pajzsmirigy csökkent mûködése
 43053,Férfi,71,"daganatos megbetegedés, szívmegnagyobbodás"
+43068,Nõ,71,"szívbetegség, pajzsmirigy-betegség, daganatos megbetegedés"
+43100,Nõ,71,pajzsmirigy-betegség
+43206,Férfi,71,"magas vérnyomás, cukorbetegség"
+43221,Férfi,71,"magas vérnyomás, cukorbetegség"
+43294,Nõ,71,"cukorbetegség, magasvérnyomás-betegség, pitvarfibrilláció, agyi infarktus"
 42,Férfi,72,"krónikus obstruktív tüdőbetegség, érelmeszesedés"
 183,Nő,72,"magas vérnyomás, stroke"
 185,Nő,72,"magas vérnyomás, cukorbetegség, dagantos megbetegedés"
@@ -18126,6 +18198,12 @@ húgyhólyag- és vesemedence-gyulladás, polipózis"
 42964,Férfi,72,"magasvérnyomás-betegség, cukorbetegség, agyi bénulás"
 42976,Férfi,72,"magasvérnyomás-betegség, veseelégtelenség, pitvarfibrilláció"
 42983,Nõ,72,"érelmeszesedés, vastagbéldaganat"
+43136,Férfi,72,"érelmeszesedés, magasvérnyomás-betegség, cukorbetegség, daganatos megbetegedés"
+43165,Férfi,72,"magasvérnyomás-betegség, szívelégtelenség, veseelégtelenség, cukorbetegség, agyi infarktus"
+43174,Férfi,72,"érszûkület, magas vérnyomás"
+43245,Nõ,72,magas vérnyomás
+43259,Nõ,72,"krónikus obstruktív tüdõbetegség, magasvérnyomás-betegség"
+43295,Nõ,72,"krónikus obstruktív tüdõbetegség, cukorbetegség, magasvérnyomás-betegség, elhízás"
 12,Férfi,73,"ISZB, encephalopathia, hepatopathia, érszűkület, hypothyreosis"
 37,Férfi,73,szív- és érrendszeri betegség
 56,Férfi,73,"magas vérnyomás, anyagcsere betegség"
@@ -19473,6 +19551,11 @@ húgyhólyag- és vesemedence-gyulladás, polipózis"
 43025,Férfi,73,"Parkinson-kór, daganatos megbetegedés"
 43034,Férfi,73,"magasvérnyomás-betegség, heveny iszkémiás szívbetegség, akut szívizomelhalás"
 43060,Nõ,73,"szívelégtelenség, magasvérnyomás-betegség, daganatos megbetegedés"
+43133,Nõ,73,nem ismert alapbetegség
+43181,Nõ,73,"daganatos megbetegedés, daganatos megbetegedés"
+43190,Férfi,73,"daganatos megbetegedés, paranoid szkizofrénia, májbetegség"
+43191,Nõ,73,"veseelégtelenség, cukorbetegség, magas vérnyomás, iszkémiás szívbetegség, nyombélfekély, májzsugor"
+43277,Férfi,73,"májbetegség, cukorbetegség, magasvérnyomás-betegség"
 3,Férfi,74,szív és érrendszeri
 48,Férfi,74,"magas vérnyomás betegség, szívbetegség"
 77,Nő,74,"magas vérnyomás, szívbetegség, immun betegség"
@@ -20680,6 +20763,15 @@ húgyhólyag- és vesemedence-gyulladás, polipózis"
 42997,Férfi,74,"magasvérnyomás-betegség, cukorbetegség, hólyagtumor"
 43051,Férfi,74,"daganatos betegség, demencia, magasvérnyomás-betegség"
 43054,Férfi,74,"daganatos betegség, iszkémiás szívbetegség, magasvérnyomás-betegség"
+43140,Férfi,74,"magasvérnyomás-betegség, cukorbetegség, érszûkület"
+43155,Férfi,74,tüdõbetegség
+43177,Férfi,74,"magas vérnyomás, melanóma"
+43178,Nõ,74,"Parkinson-kór, idült iszkémiás szívbetegség, általános érelmeszesedés"
+43188,Férfi,74,"magas vérnyomás, szívelégtelenség"
+43210,Férfi,74,"magas vérnyomás, demencia, májtályog, Mirizzi-szindróma, krónikus veseelégtelenség"
+43211,Férfi,74,magas vérnyomás
+43261,Férfi,74,daganatos megbetegedés
+43275,Férfi,74,"magasvérnyomás-betegség, pitvarfibrilláció"
 10,Férfi,75,magas vérnyomás
 105,Nő,75,"cukorbetegség, magas vérnyomás, idült obstruktív tüdőbetegség"
 109,Nő,75,adat feltöltés alatt
@@ -21889,6 +21981,10 @@ húgyhólyag- és vesemedence-gyulladás, polipózis"
 42803,Férfi,75,"cukorbetegség, krónikus veseelégtelenség, vaszkuláris demencia"
 42924,Férfi,75,"cukorbetegség, érelmeszesedés, daganatos megbetegedés"
 42929,Férfi,75,"cukorbetegség, krónikus obrstuktív tüdõbetegség, szívbetegség"
+43143,Férfi,75,"magasvérnyomás-betegség, cukorbetegség"
+43172,Férfi,75,"magasvérnyomás-betegség, szívbetegség"
+43216,Nõ,75,"magas vérnyomás, krónikus veseelégtelenség"
+43240,Férfi,75,"általános érelmeszesedés, magas vérnyomás, cukorbetegség"
 1,Nő,76,szív és érrendszeri
 60,Nő,76,adatok feltöltés alatt
 75,Férfi,76,"krónikus májbetegség, daganatos betegség, anyagcsere betegség"
@@ -23230,6 +23326,12 @@ húgyhólyag- és vesemedence-gyulladás, polipózis"
 42992,Nõ,76,"magasvérnyomás-betegség, pajzsmirigy csökkent mûködése, agyi infarktus, daganatos megbetegedés"
 43022,Nõ,76,"cukorbetegség, magasvérnyomás-betegség, iszkémiás szívbetegség, elhízás"
 43041,Férfi,76,"érelmeszesedés, veseelégtelenség"
+43127,Férfi,76,"magasvérnyomás-betegség, agyi infarktus"
+43147,Férfi,76,"epilepszia, agyi érelmeszesedés"
+43149,Férfi,76,"magasvérnyomás-betegség, iszkémiás szívbetegség"
+43265,Férfi,76,"magasvérnyomás-betegség, krónikus obstruktív tüdõbetegség"
+43285,Nõ,76,"magasvérnyomás-betegség, iszkémiás szívbetegség"
+43299,Férfi,76,"magasvérnyomás-betegség, elhízás"
 28,Nő,77,"magasvérnyomás-betegség, szív- és érrendszeri betegség, krónikus anyagcsere betegség"
 44,Nő,77,"magas vérnyomás,  szív- és érrendszeri betegség, nyirokrendszeri betegség, autoimmun betegség"
 62,Nő,77,"magas vérnyomás, krónikus veseelégtelenség, szív és érrendszeri betegség"
@@ -24597,6 +24699,18 @@ húgyhólyag- és vesemedence-gyulladás, polipózis"
 42975,Férfi,77,"cukorbetegség, magasvérnyomás-betegség, epevezeték gyulladása, vérzékenység"
 43016,Nõ,77,"magasvérnyomás-betegség, cukorbetegség, krónikus obstruktív tüdõbetegség"
 43039,Nõ,77,"demencia, cukorbetegség, krónikus veseelégtelenség"
+43076,Férfi,77,"agyi infarktus, tüdõbetegség, szívbetegség"
+43080,Férfi,77,"pajzsmirigy-betegség, daganatos megbetegedés, demencia"
+43086,Férfi,77,szívbetegség
+43146,Nõ,77,pajzsmirigy-betegség
+43158,Nõ,77,"agyi infarktus, elhízás"
+43183,Férfi,77,"magas vérnyomás, daganatos megbetegedés"
+43193,Férfi,77,volumenhiány
+43196,Nõ,77,"Parkinson-kór, magas vérnyomás, vérszegénység"
+43232,Férfi,77,"inzulin dependens cukorbetegség, daganatos megbetegedés"
+43233,Férfi,77,"magas vérnyomás, cukorbetegség, daganatos megbetegedés"
+43251,Férfi,77,"krónikus veseelégtelenség, magasvérnyomás-betegség, daganatos megbetegedés, asztma"
+43290,Nõ,77,"magasvérnyomás-betegség, daganatos megbetegedés, elhízás"
 31,Férfi,78,"magas vérnyomás, daganatos betegség, anyagcsere betegség"
 38,Férfi,78,"magas vérnyomás, krónikus légzőszervi betegség"
 51,Nő,78,"szív és érrendszeri megbetegedés, krónikus veseelégtelenség"
@@ -26045,6 +26159,11 @@ húgyhólyag- és vesemedence-gyulladás, polipózis"
 42996,Nõ,78,magasvérnyomás-betegség
 43064,Férfi,78,magasvérnyomás-betegség
 43066,Nõ,78,nem ismert alapbetegség
+43103,Férfi,78,"magasvérnyomás-betegség, agyi érelmeszesedés"
+43152,Férfi,78,daganatos megbetegedés
+43173,Nõ,78,"magas vérnyomás, demencia"
+43217,Nõ,78,iszkémiás szívelégtelenség
+43269,Férfi,78,"magasvérnyomás-betegség, iszkémiás szívbetegség, szívinfarktus, gyomorfekély"
 4,Férfi,79,szív és érrendszeri
 24,Férfi,79,"magas vérnyomás, COPD krónikus tüdőbetegség, érszűkület, veseelégtelenség, szív -és érrendszeri megbetegedés"
 49,Nő,79,"magas vérnyomás, cukorbetegség"
@@ -27475,6 +27594,14 @@ Kísérõbetegség: ISZB, M. hypertonicus, Mitr. et ao. insuff. valv., Hyperthyr
 43057,Nõ,79,"iszkémiás szívbetegség, demencia, magasvérnyomás-betegség, daganatos megbetegedés"
 43061,Férfi,79,nem ismert alapbetegség
 43065,Férfi,79,"szívinfarktus, érelmeszesedés, magasvérnyomás-betegség"
+43078,Férfi,79,"magasvérnyomás-betegség, daganatos megbetegedés"
+43108,Férfi,79,szívbetegség
+43110,Férfi,79,"magasvérnyomás-betegség, tüdõbetegség,  veseelégtelenség"
+43125,Nõ,79,"Parkinson-kór, veseelégtelenség, magasvérnyomás-betegség, agyi infarktus"
+43138,Nõ,79,"magasvérnyomás-betegség, cukorbetegség"
+43215,Férfi,79,"cukorbetegség, magas vérnyomás, daganatos megbetegedés"
+43271,Nõ,79,"demencia, Alzheimer-kór, magasvérnyomás-betegség, agyvérzés"
+43292,Nõ,79,"magasvérnyomás-betegség, pitvarfibrilláció, iszkémiás szívbetegség, veseelégtelenség"
 11,Férfi,80,nincs adat
 26,Férfi,80,"magas vérnyomás, szívelégtelenség, cukorbetegség"
 33,Férfi,80,daganatos betegség
@@ -28922,6 +29049,12 @@ Kísérõbetegség: ISZB, M. hypertonicus, Mitr. et ao. insuff. valv., Hyperthyr
 42979,Nõ,80,daganatos megbetegedés
 42988,Férfi,80,daganatos megbetegedés
 43003,Nõ,80,"érelmeszesedés, daganatos megbetegedés"
+43102,Nõ,80,"magasvérnyomás-betegség, szívbetegség, pajzsmirigy-betegség, demencia"
+43124,Nõ,80,"szívbetegség, magas vérnyomás, érelmeszesedés, daganatos megbetegedés"
+43179,Férfi,80,"általános érelmeszesedés, magas vérnyomás, Parkinson-kór"
+43197,Férfi,80,"pitvarfibrilláció, magas vérnyomás"
+43238,Nõ,80,"magas vérnyomás, iszkémiás szívbetegség, érelmeszesedés, stroke"
+43278,Férfi,80,"magasvérnyomás-betegség, emésztõrendszeri megbetegedés"
 23,Nő,81,"magas vérnyomás, agyi infarktus"
 83,Nő,81,"légzési elégtelenség, tüdőgyulladás, szív- és veseelégtelenség"
 125,Nő,81,"veseelégtelenség, cukorbetegség, szívelégtelenség"
@@ -30322,6 +30455,15 @@ Kísérõbetegség: ISZB, M. hypertonicus, Mitr. et ao. insuff. valv., Hyperthyr
 43040,Nõ,81,"cukorbetegség, iszkémiás szívbetegség"
 43052,Nõ,81,"magasvérnyomás-betegség, veseelégtelenség"
 43062,Férfi,81,"asztma, magasvérnyomás-betegség, pitvarfibrilláció, szívelégtelenség"
+43111,Nõ,81,"magasvérnyomás-betegség, cukorbetegség, szívbetegség, agyi infarktus"
+43113,Férfi,81,"Parkisnon-kór, pajzsmirigy-betegség"
+43114,Nõ,81,"szívbetegség, pajzsmirigy betegség, demencia"
+43115,Nõ,81,"magasvérnyomás-betegség, cukorbetegség, elhízás"
+43119,Férfi,81,tûdõbetegség
+43123,Nõ,81,"magasvérnyomás-betegség, agyi érelmeszesedés"
+43184,Férfi,81,"magas vérnyomás, reflux"
+43219,Férfi,81,"magas vérnyomás, iszkémiás szívelégtelenség, pitvarfibrilláció, krónikus veseelégtelenség, demencia"
+43255,Nõ,81,pitvarfibrilláció
 45,Férfi,82,"magas vérnyomás, combnyaktörés"
 58,Nő,82,adatok feltöltés alatt
 139,Férfi,82,"cukorbetegség, magas vérnyomás, érelmeszesedés, májelégtelenség,"
@@ -31646,6 +31788,13 @@ Kísérõbetegség: ISZB, M. hypertonicus, Mitr. et ao. insuff. valv., Hyperthyr
 42994,Nõ,82,"magasvérnyomás-betegség, pajzsmirigy csökkent mûködése"
 43011,Férfi,82,"szívelégtelenség, érelmeszesedés"
 43032,Nõ,82,"pitvarfibrilláció, magasvérnyomás-betegség, cukorbetegség, érelmeszesedés"
+43071,Nõ,82,"pajzsmirigy-betegség, veseelégtelenség, agyi érbetegség"
+43081,Férfi,82,"cukorbetegség, szív- és érrendszeri megbetegség, magasvérnyomás-betegség"
+43088,Nõ,82,"magasvérnyomás-betegség, cukorbetegség, demencia"
+43093,Férfi,82,"veseelégtelenség, Parkinson-kór, magasvérnyomás-betegség, demencia"
+43099,Nõ,82,"cukorbetegség, szívelégtelenség"
+43234,Nõ,82,"magas vérnyomás, asztma, pitvarfibrilláció, krónikus obstruktív tüdõbetegség, krónikus veseelégtelenség"
+43260,Férfi,82,"magasvérnyomás-betegség, cukorbetegség, pitvarfibrilláció, demencia, vérszegénység"
 104,Nő,83,"magas vérnyomás, szív-és érrendszeri betegség, dementia"
 145,Férfi,83,"krónikus veseelégtelenség, magas vérnyomás, légzési elégtelenség, agyérelmeszesedés, encephalopathia (agykárosodás)"
 181,Férfi,83,"magas vérnyomás, pitvarfibrilláció, daganatos megbetegedés, krónikus veseelégtelenség"
@@ -33005,6 +33154,14 @@ Krónikus veseelégtelenség
 42938,Nõ,83,"pajzsmirigy-betegség, magasvérnyomás-betegség, iszkémiás szívbetegség, agyi infarktus"
 43029,Nõ,83,"magasvérnyomás-betegség, érszûkület"
 43037,Nõ,83,"agyi infarktus, demencia, cukorbetegség, pangásos szívelégtelenség, magasvérnyomás-betegség"
+43069,Férfi,83,"magasvérnyomás-betegség, demencia, cukorbetegség"
+43072,Nõ,83,"szívbetegség, magasvérnyomás-betegség, demencia"
+43112,Nõ,83,"szívbetegség, magasvérnyomás, májzsugorodás, agyi infarktus"
+43121,Férfi,83,"magasvérnyomás-betegség, tüdõbetegség, érszûkület, szívbetegség, veseelégtelenség, agyi infarktus"
+43150,Férfi,83,"cukorbetegség, tûdõbetegség"
+43159,Férfi,83,"magasvérnyomás-betegség, daganatos megbetegedés"
+43220,Férfi,83,"magas vérnyomás, cukorbetegség, elhízás, általános érelmeszesedés"
+43257,Férfi,83,"cukorbetegség, Parkinson-kór, iszkémiás szívbetegség"
 29,Férfi,84,"daganatos betegség, érrendszeri betegség"
 41,Férfi,84,"magas vérnyomás, krónikus tüdőbetegség, krónikus veseelégtelenség"
 46,Férfi,84,"magas vérnyomás, traumás fejsérülés"
@@ -34296,6 +34453,16 @@ történt)"
 43018,Nõ,84,"szívelégtelenség, krónikus obstruktív tüdõbetegség"
 43026,Nõ,84,"demencia, csontritkulás"
 43036,Férfi,84,"magasvérnyomás-betegség, idült húgyvérûség, Parkinson-kór"
+43090,Férfi,84,szívritmuszavar
+43105,Nõ,84,"szívbetegség, magasvérnyomás-betegség, tüdõbetegség, veseelégtelenség"
+43117,Férfi,84,"pajzsmirigy-betegség, izomtónus gyengeség, agyi érbetegség"
+43129,Nõ,84,"magasvérnyomás-betegség, cukorbetegség"
+43144,Nõ,84,"agyi érelmeszesedés, demencia"
+43153,Nõ,84,"magasvérnyomás-betegség, szívbetegség"
+43208,Nõ,84,"magas vérnyomás, daganatos megbetegedés"
+43224,Férfi,84,"cukorbetegség, idült  obstruktív tüdõbetegség, iszkémiás szívbetegség"
+43239,Férfi,84,nem ismert alapbetegség
+43268,Nõ,84,"magasvérnyomás-betegség, agysorvadás, demencia, agyvelõbántalom, pitvarfibrilláció, iszkémiás szívbetegség"
 30,Nő,85,"magas vérnyomás, anyagcsere betegség"
 32,Férfi,85,szív- és érrendszeri betegség
 69,Férfi,85,"szív- és érrendszeri betegség, magas vérnyomás"
@@ -35566,6 +35733,13 @@ történt)"
 43013,Nõ,85,"cukorbetegség, magasvérnyomás-betegség, szívelégtelenség, iszkémiás agyi infarktus"
 43014,Férfi,85,"Alzheimer-kór, cukorbetegség, magasvérnyomás-betegség"
 43058,Nõ,85,"demencia, epilepszia"
+43094,Nõ,85,"magas vérnyomás, cukorbetegség, agyi infarktus"
+43126,Férfi,85,tüdõdaganat
+43139,Nõ,85,veseelégtelenség
+43151,Nõ,85,"agyi érelmeszesedés, demencia, pajzsmirigy-betegség"
+43182,Nõ,85,"magas vérnyomás, cukorbetegség"
+43249,Nõ,85,"pitvarfibrilláció, magasvérnyomás-betegség"
+43276,Nõ,85,"mentális retardáció, asztma"
 13,Nő,86,"TBC,LC,PE,HT,DM,diab. polyneuropathia,MVT,"
 17,Nő,86,magas vérnyomás
 25,Nő,86,"veseelégtelenség, magas vérnyomás"
@@ -36737,6 +36911,14 @@ történt)"
 42939,Nõ,86,"érelmeszesedés, magasvérnyomás-betegség, pitvarfibrilláció, asztma, cukorbetegség"
 43048,Férfi,86,"magasvérnyomás-betegség, pitvarfibrilláció, szívizombántalom, iszkémiás szívbetegség"
 43050,Férfi,86,"magasvérnyomás-betegség, cukorbetegség"
+43089,Nõ,86,"szívelégtelenség, daganatos megbetegedés"
+43092,Nõ,86,"érszûkület, magasvérnyomás-betegség, szívbetegség, cukorbetegség"
+43135,Nõ,86,pajzsmirigy-betegség
+43142,Nõ,86,"magasvérnyomás-betegség, szívbetegség"
+43189,Nõ,86,"magas vérnyomás, iszkémiás szívbetegség, demencia"
+43236,Férfi,86,"magas vérnyomás, általános érelmeszesedés, daganatos megbetegedés"
+43246,Nõ,86,"magasvérnyomás-betegség, vérszegénység, krónikus veseelégtelenség, cukorbetegség, demencia"
+43296,Nõ,86,"daganatos megbetegedés, magasvérnyomás-betegség, szívbetegség, stroke"
 177,Nő,87,"pitvarfibrilláció, iszkémiás szívbetegség"
 191,Nő,87,"magas vérnyomás, demencia"
 197,Férfi,87,általános  érelmeszesedés
@@ -37812,6 +37994,17 @@ történt)"
 42987,Nõ,87,"magasvérnyomás-betegség, cukorbetegség, demencia"
 43005,Férfi,87,"demencia, krónikus veseelégtelenség"
 43012,Férfi,87,"szívelégtelenség, magasvérnyomás-betegség, cukorbetegség, krónikus veseelégtelenség"
+43095,Nõ,87,"magasvérnyomás-betegség, cukorbetegség"
+43132,Nõ,87,"magasvérnyomás-betegség, agyi érelmeszesedés"
+43137,Nõ,87,"szívbetegség, demencia"
+43163,Férfi,87,epilepszia
+43228,Nõ,87,"magas vérnyomás, demencia"
+43247,Nõ,87,"pitvarfibrilláció, iszkémiás szívbetegség"
+43263,Nõ,87,"Heine-Medin-kór, agyvelõbántalom"
+43270,Nõ,87,"pangásos szívelégtelenség, magasvérnyomás-betegség"
+43279,Nõ,87,"magasvérnyomás-betegség, cukorbetegség, iszkémiás szívbetegség"
+43282,Férfi,87,"magasvérnyomás-betegség, iszkémiás szívbetegség, agyi érelmeszesedés"
+43288,Nõ,87,"pitvarfibrilláció, demencia"
 118,Nő,88,"szívizomelégtelenség, vese problémák"
 123,Nő,88,"magas vérnyomás, stroke"
 162,Nő,88,"művese kezelés, magas vérnyomás, cukorbetegség, pacemaker"
@@ -38795,6 +38988,14 @@ történt)"
 42925,Nõ,88,"magasvérnyomás-betegség, szívbetegség, szívelégtelenség szívizomgyulladás"
 43043,Nõ,88,"heveny iszkémiás szívbetegség, Parkinson-kór, tüdõtágulat, demencia"
 43056,Férfi,88,"magasvérnyomás-betegség, szívmegnagyobbodás, cukorbetegség, iszkémiás szívbetegség, pajzsmirigy csökkent mûködése"
+43083,Nõ,88,"pajzsmirigy-betegség, szívbetegség, demencia"
+43162,Férfi,88,"szívbetegség, magasvérnyomás-betegség, veseelégtelenség"
+43168,Férfi,88,"szívbetegség, érszûkület, demencia"
+43214,Férfi,88,"magas vérnyomás, krónikus obstruktív tüdõbetegség"
+43225,Nõ,88,"magas vérnyomás, cukorbetegség, Alzheimer-kór"
+43262,Nõ,88,"szívbetegség, epilepszia"
+43264,Nõ,88,"magasvérnyomás-betegség, cukorbetegség, iszkémiás szívbetegség"
+43287,Férfi,88,"magasvérnyomás-betegség, pitvarfibrilláció, érelmeszesedés, demencia, iszkémiás szívbetegség, daganatos megbetegedés"
 22,Férfi,89,"post TBC, mellhártya összenövés, prosztata-betegség"
 57,Férfi,89,"magas vérnyomás, agyi érbetegség"
 65,Férfi,89,"daganatos betegség, magas vérnyomás, krónikus veseelégtelenség"
@@ -39685,6 +39886,12 @@ történt)"
 43015,Nõ,89,"magasvérnyomás-betegség, refluxbetegség"
 43035,Nõ,89,"magasvérnyomás-betegség, cukorbetegség, veseelégtelenség, agyi infarktus"
 43049,Nõ,89,"magasvérnyomás-betegség, agykárosodás, koszorúér-megbetegedés, légzési elégtelenség"
+43204,Nõ,89,"cukorbetegség, magas vérnyomás, pikkelysömör, szívelégtelenség, végstádiumú veseelégtelenség"
+43212,Nõ,89,"magas vérnyomás, cukorbetegség, daganatos megbetegedés"
+43235,Nõ,89,"magas vérnyomás, pitvarfibrilláció, szívelégtelenség"
+43248,Nõ,89,"agysorvadás, arcidegzsába"
+43266,Nõ,89,magasvérnyomás-betegség
+43284,Nõ,89,"magasvérnyomás-betegség, iszkémiás szívbetegség, általános érelmeszesedés"
 9,Nő,90,"aorta stenosis, ISzB, magas vérnyomás, pitvarfibrilláció"
 84,Nő,90,"légzési elégtelenség, tüdőgyulladás, verőér elmeszesedés"
 96,Nő,90,"magas vérnyomás, krónikus obstruktív tüdőbetegség, kiterjedt érbetegség"
@@ -40480,6 +40687,8 @@ történt)"
 42912,Férfi,90,"Parkinson-kór, prosztata megnagyobbodás, érelmeszesedés, stroke, Alzheimer-kór, magasvérnyomás-betegség"
 42943,Nõ,90,"magasvérnyomás-betegség, érelmeszesedés"
 43044,Nõ,90,"magasvérnyomás-betegség, cukorbetegség"
+43222,Nõ,90,"általános érelmeszesedés, magas vérnyomás, iszkémiás szívbetegség, kóros elhízás"
+43226,Nõ,90,nem ismert alapbetegség
 20,Férfi,91,"szív- és érrendszeri megbetegedés, magas vérnyomás, idült reumás szívbetegség, agyi érbetegség"
 80,Nő,91,"magas vérnyomás, daganatos megbetegedés"
 153,Férfi,91,"magas vérnyomás, generalizált agyi, szív-és érrendszeri érelmeszesedés"
@@ -41130,6 +41339,9 @@ történt)"
 42921,Nõ,91,"daganatos megbetegedés, magasvérnyomás betegség, koszorúérgörcs, cukorbetegség"
 42981,Nõ,91,"pajzsmirigy alulmûködés, magasvérnyomás-betegség, pitvarfibrilláció"
 43010,Nõ,91,demencia
+43082,Nõ,91,"veseelégtelenség, cukorbetegség, pajzsmirigy-betegség, demencia"
+43109,Férfi,91,"magasvérnyomás-betegség, veseelégtelenség, szívbetegség"
+43169,Nõ,91,"agyi érelmeszesedés, magasvérnyomás-betegség, szívbetegség"
 14,Férfi,92,"Allergiás asthma, stroke, pacemaker"
 47,Férfi,92,"anyagcsere betegség, krónikus veseelégtelenség, daganatos betegség, szív- és érrendszeri betegség"
 99,Férfi,92,"krónikus obstuktív tüdőbetegség, magas vérnyomás, anyagcsere rendellenesség"
@@ -41643,6 +41855,12 @@ történt)"
 42829,Nõ,92,"magas vérnyomás, érszûkület"
 42850,Nõ,92,"magas vérnyomás, szívritmuszavar, demencia, paranoid zavar"
 43030,Nõ,92,"magasvérnyomás-betegség, cukorbetegség"
+43175,Férfi,92,szívelégtelenség
+43185,Nõ,92,"pajzsmirigy betegség, depresszió, veseelégtelenség"
+43213,Nõ,92,"magas vérnyomás, cukorbetegség, iszkémiás szívbetegség"
+43256,Férfi,92,"magasvérnyomás-betegség, cukorbetegség, iszkémiás szívbetegség"
+43273,Nõ,92,"magasvérnyomás-betegség, szívbetegség, epekövesség, demencia"
+43281,Nõ,92,"orbánc, magasvérnyomás-betegség"
 63,Nő,93,szív és érrendszeri betegség
 88,Férfi,93,"szívritmuszavar, pajzsmirigy alulműködés, magas vérnyomás, krónikus obstruktív tüdőbetegség"
 149,Nő,93,"magas vérnyomás, koszorúér-betegség, agyérelmeszedés, hólyagtumor"
@@ -42041,6 +42259,13 @@ történt)"
 42908,Nõ,93,"érelmeszesedés, magasvérnyomás-betegség, cukorbetegség , demencia"
 43042,Nõ,93,"magasvérnyomás-betegség, állományi vérzés a kisagyban"
 43059,Nõ,93,"magasvérnyomás-betegség, veseelégtelenség"
+43075,Nõ,93,"magasvérnyomás-betegség, érelmeszesedés, demencia"
+43077,Nõ,93,szívbetegség
+43166,Nõ,93,érszûkület
+43170,Férfi,93,"pajzsmirigy-betegség, veseelégtelenség"
+43243,Férfi,93,"magas vérnyomás, krónikus veseelégtelenség, iszkémiás szívbetegség, verõérelmeszesedés, demencia"
+43244,Nõ,93,"magas vérnyomás, asztma"
+43298,Nõ,93,"magasvérnyomás-betegség, cukorbetegség, demencia, pitvarfibrilláció, szivizomelhalás, krónikus szivelégtelenség, krónikus veseelégtelenség"
 15,Férfi,94,COPD
 36,Nő,94,"magas vérnyomás, szív- és érrendszeri betegség, krónikus veseelégtelenség"
 156,Nő,94,"magas vérnyomás, cukorbetegség, érszűkület, szívritmuszavar, pajzsmirigy elégtelenség"
@@ -42370,6 +42595,8 @@ történt)"
 42525,Nõ,94,"kóros elhízás, magasvérnyomás-betegség, gerincsérv, szívritmuszavar"
 42781,Nõ,94,"magasvérnyomás-betegség, érelmeszesedés"
 42799,Nõ,94,nem ismert alapbetegség
+43198,Férfi,94,"magas vérnyomás, érelmeszesedés, húgyvérûség"
+43231,Nõ,94,"szívelégtelenség, demencia"
 244,Nő,95,"magas vérnyomás, koleszterin, bőrdaganat"
 345,Férfi,95,"magas vérnyomás, cukorbetegség, veseelégtelenség"
 349,Nő,95,"veseelégtelenség, krónikus gyomorgyulladás, májbetegség, kóros soványság, vérszegénység"
@@ -42606,6 +42833,7 @@ történt)"
 42870,Nõ,95,nem ismert alapbetegség
 42886,Férfi,95,"heveny veseelégtelenség, agyi sorvadás, demencia"
 42916,Nõ,95,"iszkémiás szívbetegség, magasvérnyomás-betegség, érelmeszesedés, agyi mûködés zavara"
+43274,Nõ,95,"magasvérnyomás-betegség, iszkémiás szívbetegség, krónikus obstruktív tüdõbetegség"
 120,Férfi,96,"érszűkület, vese elégtelenség"
 218,Nő,96,magas vérnyomás
 288,Nő,96,"magas vérnyomás, idült hasnyálmirigy gyulladás, asztma, pitvarfibrilláció, gyomorfekély"
@@ -42898,6 +43126,9 @@ történt)"
 42590,Nõ,97,"szívelégtelenség, veseelégtelenség"
 42767,Férfi,97,"iszkémiás szívbetegség, cukorbetegség"
 42813,Férfi,97,"magasvérnyomás-betegség, gyomorfekély"
+43106,Nõ,97,"magasvérnyomás-betegség,cukorbetegség, elhízás, érszûkület"
+43227,Férfi,97,magas vérnyomás
+43250,Nõ,97,"cukorbetegség, magasvérnyomás-betegség, asztma"
 1175,Férfi,98,"magasvérnyomás-betegség, gyomorfekély"
 1790,Nő,98,"cukorbetegség, tüdődaganat, iszkémiás szívbetegség"
 1882,Férfi,98,"pitvar fibrilláció, beszűkült vesefunkció, alsó végtagi érelzáródás, vérszegénység"
@@ -42974,6 +43205,7 @@ történt)"
 42202,Férfi,98,"magasvérnyomás-betegség, krónikus obstruktív tüdõbetegség"
 42753,Férfi,98,daganatos megbetegedés
 42953,Nõ,98,magasvérnyomás-betegség
+43237,Nõ,98,"magas vérnyomás, demencia"
 227,Nő,99,"csontritkulás, demencia"
 1183,Nő,99,"magasvérnyomás-betegség, agyi erek betegsége, demencia"
 1793,Nő,99,"veseelégtelenség, magas vérnyomás, stroke, tüdődaganat"
@@ -43072,6 +43304,7 @@ történt)"
 35945,Nõ,101,magasvérnyomás-betegség
 36569,Nõ,101,"iszkémiás szívbetegség, magasvérnyomás-betegség, krónikus obstruktív tüdõbetegség"
 41133,Nõ,101,nem ismert alapbetegség
+43180,Férfi,101,magas vérnyomás
 4650,Nő,102,"magasvérnyomás-betegség, szívritmuszavar"
 27789,Nõ,102,"magasvérnyomás-betegség, tüdõbetegség"
 31213,Férfi,102,"magasvérnyomás-betegség, generalizált érbetegség, krónikus obstruktív tüdõbetegség"
